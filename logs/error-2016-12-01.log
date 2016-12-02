@@ -1,0 +1,15 @@
+[2016-12-01 08:52:42.359] [ERROR] error - { code: 500, message: 'ctx is not defined' }
+[2016-12-01 08:52:42.362] [ERROR] error - ReferenceError: ctx is not defined
+    at Object.findById (d:\workspace\NodeJS\sunrise\service\UserService.js:16:21)
+    at middleware (d:\workspace\NodeJS\sunrise\router\UserRouter.js:11:50)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:26:19
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:6:15)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:17:15
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)

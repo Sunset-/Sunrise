@@ -1,0 +1,575 @@
+[2016-11-30 11:42:52.105] [ERROR] error - { code: 500, message: 'a error' }
+[2016-11-30 11:42:52.108] [ERROR] error - InternalServerError: a error
+    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at middleware (d:\workspace\NodeJS\sunrise\router\UserRouter.js:10:26)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:17:15
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-30 11:45:41.468] [ERROR] error - { code: 500, message: 'a error' }
+[2016-11-30 11:45:41.468] [ERROR] error - InternalServerError: a error
+    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at middleware (d:\workspace\NodeJS\sunrise\router\UserRouter.js:10:26)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:17:15
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-30 12:27:10.765] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'cookies\' of undefined' }
+[2016-11-30 12:27:10.768] [ERROR] error - TypeError: Cannot read property 'cookies' of undefined
+    at MemorySession.getSessionId (d:\workspace\NodeJS\sunrise\components\session.js:36:28)
+    at MemorySession.refreshSessionId (d:\workspace\NodeJS\sunrise\components\session.js:43:49)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:18:17
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-30 12:27:49.156] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'cookies\' of undefined' }
+[2016-11-30 12:27:49.156] [ERROR] error - TypeError: Cannot read property 'cookies' of undefined
+    at MemorySession.getSessionId (d:\workspace\NodeJS\sunrise\components\session.js:36:28)
+    at MemorySession.refreshSessionId (d:\workspace\NodeJS\sunrise\components\session.js:43:49)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:18:17
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-30 12:27:50.931] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'cookies\' of undefined' }
+[2016-11-30 12:27:50.931] [ERROR] error - TypeError: Cannot read property 'cookies' of undefined
+    at MemorySession.getSessionId (d:\workspace\NodeJS\sunrise\components\session.js:36:28)
+    at MemorySession.refreshSessionId (d:\workspace\NodeJS\sunrise\components\session.js:43:49)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:18:17
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-30 12:27:56.929] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'cookies\' of undefined' }
+[2016-11-30 12:27:56.930] [ERROR] error - TypeError: Cannot read property 'cookies' of undefined
+    at MemorySession.getSessionId (d:\workspace\NodeJS\sunrise\components\session.js:36:28)
+    at MemorySession.refreshSessionId (d:\workspace\NodeJS\sunrise\components\session.js:43:49)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:18:17
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-30 12:28:07.222] [ERROR] error - { code: 500, message: 'connect ECONNREFUSED 127.0.0.1:3306' }
+[2016-11-30 12:28:07.227] [ERROR] error - { SequelizeBaseError: connect ECONNREFUSED 127.0.0.1:3306
+    at Handshake._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:79:20)
+    at Handshake.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Protocol.handleNetworkError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at Connection._handleNetworkError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:434:18)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1281:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'SequelizeConnectionRefusedError',
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  parent: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1022:11)
+       at exports._exceptionWithHostPort (util.js:1045:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at Connection.connect (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:136:18)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:74:16
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at ConnectionManager.connect (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:55:10)
+       at ConnectionManager.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:247:43)
+       at ConnectionManager.tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1022:11)
+       at exports._exceptionWithHostPort (util.js:1045:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at Connection.connect (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:136:18)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:74:16
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at ConnectionManager.connect (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:55:10)
+       at ConnectionManager.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:247:43)
+       at ConnectionManager.tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2016-11-30 12:28:26.810] [ERROR] error - { code: 500, message: 'connect ECONNREFUSED 127.0.0.1:3306' }
+[2016-11-30 12:28:26.810] [ERROR] error - { SequelizeBaseError: connect ECONNREFUSED 127.0.0.1:3306
+    at Handshake._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:79:20)
+    at Handshake.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Protocol.handleNetworkError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at Connection._handleNetworkError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:434:18)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1281:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'SequelizeConnectionRefusedError',
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  parent: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1022:11)
+       at exports._exceptionWithHostPort (util.js:1045:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at Connection.connect (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:136:18)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:74:16
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at ConnectionManager.connect (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:55:10)
+       at ConnectionManager.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:247:43)
+       at ConnectionManager.tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1022:11)
+       at exports._exceptionWithHostPort (util.js:1045:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at Connection.connect (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:136:18)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:74:16
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at ConnectionManager.connect (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:55:10)
+       at ConnectionManager.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:247:43)
+       at ConnectionManager.tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2016-11-30 12:29:02.114] [ERROR] error - { code: 500,
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'createdAt\' in \'field list\'' }
+[2016-11-30 12:29:02.116] [ERROR] error - { SequelizeBaseError: ER_BAD_FIELD_ERROR: Unknown column 'createdAt' in 'field list'
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread (net.js:551:20)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'createdAt\' in \'field list\'',
+  parent: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'createdAt' in 'field list'
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread (net.js:551:20)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at ConnectionManager.tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT `_index_`, `id`, `type`, `designation`, `picture`, `orgkey`, `openid`, `accid`, `createdAt`, `updatedAt` FROM `tb_acc_entity` AS `tb_acc_entity` WHERE `tb_acc_entity`.`_index_` = \'123\';' },
+  original: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'createdAt' in 'field list'
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread (net.js:551:20)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at ConnectionManager.tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT `_index_`, `id`, `type`, `designation`, `picture`, `orgkey`, `openid`, `accid`, `createdAt`, `updatedAt` FROM `tb_acc_entity` AS `tb_acc_entity` WHERE `tb_acc_entity`.`_index_` = \'123\';' },
+  sql: 'SELECT `_index_`, `id`, `type`, `designation`, `picture`, `orgkey`, `openid`, `accid`, `createdAt`, `updatedAt` FROM `tb_acc_entity` AS `tb_acc_entity` WHERE `tb_acc_entity`.`_index_` = \'123\';' }
+[2016-11-30 12:29:11.419] [ERROR] error - { code: 500,
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'createdAt\' in \'field list\'' }
+[2016-11-30 12:29:11.419] [ERROR] error - { SequelizeBaseError: ER_BAD_FIELD_ERROR: Unknown column 'createdAt' in 'field list'
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread (net.js:551:20)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'createdAt\' in \'field list\'',
+  parent: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'createdAt' in 'field list'
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread (net.js:551:20)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT `_index_`, `id`, `type`, `designation`, `picture`, `orgkey`, `openid`, `accid`, `createdAt`, `updatedAt` FROM `tb_acc_entity` AS `tb_acc_entity` WHERE `tb_acc_entity`.`_index_` = \'123\';' },
+  original: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'createdAt' in 'field list'
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread (net.js:551:20)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT `_index_`, `id`, `type`, `designation`, `picture`, `orgkey`, `openid`, `accid`, `createdAt`, `updatedAt` FROM `tb_acc_entity` AS `tb_acc_entity` WHERE `tb_acc_entity`.`_index_` = \'123\';' },
+  sql: 'SELECT `_index_`, `id`, `type`, `designation`, `picture`, `orgkey`, `openid`, `accid`, `createdAt`, `updatedAt` FROM `tb_acc_entity` AS `tb_acc_entity` WHERE `tb_acc_entity`.`_index_` = \'123\';' }
+[2016-11-30 12:32:08.402] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'cookies\' of undefined' }
+[2016-11-30 12:32:08.404] [ERROR] error - TypeError: Cannot read property 'cookies' of undefined
+    at MemorySession.getSessionId (d:\workspace\NodeJS\sunrise\components\session.js:36:28)
+    at MemorySession.refreshSessionId (d:\workspace\NodeJS\sunrise\components\session.js:43:49)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:18:17
+[2016-11-30 15:55:58.781] [ERROR] error - { code: 500, message: 'read ECONNRESET' }
+[2016-11-30 15:55:58.781] [ERROR] error - { SequelizeBaseError: read ECONNRESET
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Protocol.handleNetworkError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at Connection._handleNetworkError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:434:18)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1281:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'SequelizeDatabaseError',
+  message: 'read ECONNRESET',
+  parent: 
+   { Error: read ECONNRESET
+       at exports._errnoException (util.js:1022:11)
+       at TCP.onread (net.js:572:26)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+     code: 'ECONNRESET',
+     errno: 'ECONNRESET',
+     syscall: 'read',
+     fatal: true,
+     sql: 'SELECT `_index_`, `id`, `type`, `designation`, `picture`, `orgkey`, `openid`, `accid` FROM `tb_acc_entity` AS `tb_acc_entity` WHERE `tb_acc_entity`.`_index_` = \'123\';' },
+  original: 
+   { Error: read ECONNRESET
+       at exports._errnoException (util.js:1022:11)
+       at TCP.onread (net.js:572:26)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+     code: 'ECONNRESET',
+     errno: 'ECONNRESET',
+     syscall: 'read',
+     fatal: true,
+     sql: 'SELECT `_index_`, `id`, `type`, `designation`, `picture`, `orgkey`, `openid`, `accid` FROM `tb_acc_entity` AS `tb_acc_entity` WHERE `tb_acc_entity`.`_index_` = \'123\';' },
+  sql: 'SELECT `_index_`, `id`, `type`, `designation`, `picture`, `orgkey`, `openid`, `accid` FROM `tb_acc_entity` AS `tb_acc_entity` WHERE `tb_acc_entity`.`_index_` = \'123\';' }
+[2016-11-30 15:56:23.591] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'cookies\' of undefined' }
+[2016-11-30 15:56:23.591] [ERROR] error - TypeError: Cannot read property 'cookies' of undefined
+    at MemorySession.getSessionId (d:\workspace\NodeJS\sunrise\components\session.js:36:28)
+    at MemorySession.refreshSessionId (d:\workspace\NodeJS\sunrise\components\session.js:43:49)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:18:17
+[2016-11-30 15:56:46.908] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'cookies\' of undefined' }
+[2016-11-30 15:56:46.910] [ERROR] error - TypeError: Cannot read property 'cookies' of undefined
+    at MemorySession.getSessionId (d:\workspace\NodeJS\sunrise\components\session.js:36:28)
+    at MemorySession.refreshSessionId (d:\workspace\NodeJS\sunrise\components\session.js:43:49)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:18:17
+[2016-11-30 16:10:45.260] [ERROR] error - { code: 500, message: 'single error' }
+[2016-11-30 16:10:45.262] [ERROR] error - InternalServerError: single error
+    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at middleware (d:\workspace\NodeJS\sunrise\router\UserRouter.js:11:30)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:17:15
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:26:19
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:6:15)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at createGenerator (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-convert\1.2.0\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.serve (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-static\2.0.0\koa-static\index.js:43:14)
+[2016-11-30 16:17:10.484] [ERROR] error - { code: 500, message: 'single error' }
+[2016-11-30 16:17:10.487] [ERROR] error - InternalServerError: single error
+    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at middleware (d:\workspace\NodeJS\sunrise\router\UserRouter.js:11:30)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:17:15
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:26:19
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:6:15)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at createGenerator (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-convert\1.2.0\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.serve (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-static\2.0.0\koa-static\index.js:43:14)
+[2016-11-30 16:17:12.286] [ERROR] error - { code: 500, message: 'single error' }
+[2016-11-30 16:17:12.286] [ERROR] error - InternalServerError: single error
+    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at middleware (d:\workspace\NodeJS\sunrise\router\UserRouter.js:11:30)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:17:15
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:26:19
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:6:15)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at createGenerator (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-convert\1.2.0\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.serve (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-static\2.0.0\koa-static\index.js:43:14)
+[2016-11-30 16:20:28.408] [ERROR] error - { code: 500, message: 'single error' }
+[2016-11-30 16:20:28.413] [ERROR] error - InternalServerError: single error
+    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at middleware (d:\workspace\NodeJS\sunrise\router\UserRouter.js:11:30)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:26:19
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:6:15)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:17:15
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+[2016-11-30 16:20:34.000] [ERROR] error - { code: 500, message: 'single error' }
+[2016-11-30 16:20:34.000] [ERROR] error - InternalServerError: single error
+    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at middleware (d:\workspace\NodeJS\sunrise\router\UserRouter.js:11:30)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:26:19
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:6:15)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:17:15
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+[2016-11-30 16:20:34.770] [ERROR] error - { code: 500, message: 'single error' }
+[2016-11-30 16:20:34.770] [ERROR] error - InternalServerError: single error
+    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at middleware (d:\workspace\NodeJS\sunrise\router\UserRouter.js:11:30)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:26:19
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:6:15)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:17:15
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+[2016-11-30 16:20:35.380] [ERROR] error - { code: 500, message: 'single error' }
+[2016-11-30 16:20:35.381] [ERROR] error - InternalServerError: single error
+    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at middleware (d:\workspace\NodeJS\sunrise\router\UserRouter.js:11:30)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:26:19
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:6:15)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:17:15
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+[2016-11-30 16:26:22.629] [ERROR] error - { code: 500, message: 'UserService.findAll is not a function' }
+[2016-11-30 16:26:22.632] [ERROR] error - TypeError: UserService.findAll is not a function
+    at middleware (d:\workspace\NodeJS\sunrise\router\UserRouter.js:11:50)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:26:19
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:6:15)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\NodeJS\sunrise\middlewares\memorySession.js:17:15
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
