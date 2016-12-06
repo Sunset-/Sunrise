@@ -19,15 +19,19 @@ module.exports = class Session {
     }
     init(ctx) {
         this.ctx = ctx;
-        Object.defineProperty(ctx, 'session', {
-            get: () => this.getSessionContext(this.getSessionId(ctx)),
-            set: (newSession) => {
-                lang.warn('can not set session');
-            }
-        });
+    }
+    async getSession(ctx) {
+        let sessionContext = this.sessionContext || (this.sessionContext = await this.getSessionContext(this.getSessionId(ctx)));
+        return ctx.session = sessionContext;
     }
     getSessionContext(sessionId) {
         lang.warn('please extends session to override [method]getSessionContext !');
+    }
+    async storageSession(ctx) {
+        this.setSessionContext(this.getSessionId(ctx), await this.getSession(ctx));
+    }
+    setSessionContext(sessionId, context) {
+        lang.warn('please extends session to override [method]setSessionContext !');
     }
     getSessionId(ctx) {
         if (this.sessionId) {
@@ -47,8 +51,8 @@ module.exports = class Session {
     }
 }
 
-class RedisSession{
-    
+class RedisSession {
+
 }
 
 app => {

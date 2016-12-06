@@ -9,7 +9,7 @@ function wrapper(ctx, error) {
             code: error.code,
             message: error.message
         }
-    }else if (lang.isObject(res)||!res) {
+    }else{
         ctx.status = RESPONSE_CODE.SUCCESS;
         res = {
             code: RESPONSE_CODE.SUCCESS,

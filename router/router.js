@@ -1,6 +1,6 @@
 const lang = require('../common/lang');
 const Router = require('koa-router');
-const rs = ['./UserRouter'];
+const rs = ['./SignRouter','./StudentRouter','./OfficeRouter'];
 
 module.exports = (app) => {
     rs.forEach(rPath => {
@@ -9,19 +9,26 @@ module.exports = (app) => {
         let routes = r.routes;
         let middleware, method;
         r.prefix && router.prefix(r.prefix);
-        Object.keys(routes).forEach(path => {
-            middleware = routes[path];
-            method = 'all';
+        Object.keys(routes).forEach(methodAndPath => {
+            middleware = routes[methodAndPath];
+            let method = methodAndPath.substring(0,methodAndPath.indexOf('/')),
+                path = methodAndPath.substring(methodAndPath.indexOf('/'));
+            if(method){
+                method = method.split(',');
+            }else{
+                method = ['all'];
+            }
             if (lang.isObject(middleware) && middleware.middleware) {
-                method = (middleware.method || 'all').toLowerCase();
                 middleware = middleware.middleware;
             }
             if(lang.isFunction(middleware)){
                 middleware = [middleware];
             }
             middleware.unshift(path);
-            router[method].apply(router,middleware);
-        })
+            method.forEach(m=>{
+                router[m.toLowerCase()].apply(router,middleware);
+            });
+        });
         app.use(router.routes());
         app.use(router.allowedMethods());
     })

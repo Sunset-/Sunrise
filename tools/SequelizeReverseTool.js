@@ -2,7 +2,7 @@ const path = require('path');
 const SequelizeAuto = require('sequelize-auto');
 const databaseConfig = require('../config/databaseConfig');
 
-var auto = new SequelizeAuto('db_account', databaseConfig.username, databaseConfig.password, {
+var auto = new SequelizeAuto(databaseConfig.database, databaseConfig.username, databaseConfig.password, {
     host: databaseConfig.host,
     port: databaseConfig.port,
     dialect: 'mysql',
@@ -10,7 +10,7 @@ var auto = new SequelizeAuto('db_account', databaseConfig.username, databaseConf
     additional: {
         timestamps: false
     },
-    tables: ['tb_acc_entity','tb_account']
+    tables: ['tb_person']
 });
 
 auto.run(function (err) {
