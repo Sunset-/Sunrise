@@ -10,13 +10,6 @@ require('./components/errorCatch')(app);
 //路由
 require('./router/router')(app);
 
-// app.use(async ctx => {
-
-//     if (ctx.path == "/favicon.ico") {
-//         return;
-//     }
-
-// });
 
 app.listen(serverConfig.port, () => {
     console.log(`server is started , listen ${serverConfig.port}`);

@@ -9,11 +9,16 @@ function wrapper(ctx, error) {
             code: error.code,
             message: error.message
         }
-    }else{
-        ctx.status = RESPONSE_CODE.SUCCESS;
-        res = {
-            code: RESPONSE_CODE.SUCCESS,
-            data: res
+    } else {
+        if (ctx.status == RESPONSE_CODE.SUCCESS) {
+            res = {
+                code: RESPONSE_CODE.SUCCESS,
+                data: res
+            }
+        } else {
+            res = {
+                code: ctx.status
+            };
         }
     }
     return res;
@@ -26,13 +31,16 @@ module.exports = app => {
             await next();
         } catch (e) {
             error = {
-                code : e.status||RESPONSE_CODE.DEFAULT_ERROR_CODE,
-                message : e.message
+                code: e.status || RESPONSE_CODE.DEFAULT_ERROR_CODE,
+                message: e.message
             };
             logger.error(error);
             logger.error(e);
         } finally {
-            ctx.body = wrapper(ctx, error);
+            let wrap = wrapper(ctx, error);
+            if (wrap !== null) {
+                ctx.body = wrap;
+            }
         }
     });
 };
