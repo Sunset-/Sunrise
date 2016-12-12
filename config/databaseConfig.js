@@ -1,13 +1,13 @@
 
 module.exports = {
-    host : '127.0.0.1',
+    host : '192.168.0.148',
     username : 'root',
-    password : 'root',
-    database : 'sunset',
+    password : '',
+    database : 'db_referral',
     dialect : 'mysql',
     pool : {
         min : 1,
-        max : 10,
+        max : 20,
         idle : 10000
     }
 }

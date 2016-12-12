@@ -1,59 +1,96 @@
-const {sequelize,Sequelize} = require('../holder/SequelizeHolder');
+const {
+    sequelize,
+    Sequelize
+} = require('../holder/SequelizeHolder');
 
-module.exports = class BaseService{
-    constructor(tableName){
-        this.Model = require(`../model/${tableName}`)(sequelize, Sequelize);
+module.exports = class BaseService {
+    constructor(modelName,...modelNames) {
+        this.Model = require(`../model/${modelName}`)(sequelize, Sequelize);
+        modelNames&&modelNames.forEach(m=>{
+            require(`../model/${m}`)(sequelize, Sequelize);
+        });
     }
-    getConnection(){
+    getConnection() {
         return sequelize;
     }
-    getSequelize(){
+    getSequelize() {
         return Sequelize;
     }
-    getModel(){
-        return this.Model;
+    getModel(name) {
+        return name ? sequelize.model(name) : this.Model;
     }
-    add(model){
-        return this.getModel().create(model);
+    transaction(cb) {
+        return this.getConnection({
+            autocommit : false
+        }).transaction(function (t) {
+            return cb(t);
+        });
     }
-    update(model,primaryKey){
-        primaryKey = primaryKey||'id';
+    validate(model,ext,modelName) {
+        ext&&(Object.assign(model,ext));
+        let instance = this.getModel(modelName).build(model);
+        return instance.validate().then(err => {
+            if (err) {
+                throw new Error(err.errors[0].message);
+            } else {
+                return instance;
+            }
+        });
+    }
+    add(model) {
+        return this.validate(model).then(instance => {
+            return instance.save();
+        }).catch(e => {
+            throw new Error(e.message.substr(18));
+        });
+    }
+    update(model, primaryKey) {
+        primaryKey = primaryKey || 'id';
         let filter = {};
         filter[primaryKey] = model[primaryKey];
-        return this.getModel().update(model,{
-            where : filter
+        return this.getModel().update(model, {
+            where: filter
         });
     }
-    merge(model){
+    merge(model) {
         return this.getModel().upsert(model);
     }
-    removeById(id,colName){
+    removeById(id, colName) {
         let filter = {};
-        filter[colName||'id'] = id;
+        filter[colName || 'id'] = id;
         return this.getModel().destroy({
-            where : filter
+            where: filter
         });
     }
-    removeByIds(ids,colName){
-        if(ids&&ids.length==1){
-            return this.removeById(ids[0],colName);
+    removeByIds(ids, colName) {
+        if (ids && ids.length == 1) {
+            return this.removeById(ids[0], colName);
         }
         let filter = {};
-        filter[colName||'id'] = {
-            $in : ids||[]
+        filter[colName || 'id'] = {
+            $in: ids || []
         };
         return this.getModel().destroy({
-            where : filter
+            where: filter
         });
     }
-    findById(id,colName){
+    findById(id, colName) {
         let filter = {};
-        filter[colName||'id'] = id;
+        filter[colName || 'id'] = id;
         return this.getModel().findOne({
-            where : filter
+            where: filter
         });
     }
-    findPage(pageFilter){
+    findPage(pageFilter) {
         return this.getModel().findAndCountAll(pageFilter);
+    }
+    findAll(filter) {
+        return this.getModel().findAll(filter);
+    }
+    findOne(filter) {
+        return this.getModel().findOne(filter);
+    }
+    count(filter){
+         return this.getModel().count(filter);
     }
 }

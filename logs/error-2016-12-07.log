@@ -1,0 +1,395 @@
+[2016-12-07 11:00:43.458] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 11:00:43.460] [ERROR] error - Error: 保存出错
+    at OfficeService.test (d:\workspace\NodeJS\sunrise\service\OfficeService.js:16:15)
+[2016-12-07 11:01:07.835] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 11:01:07.836] [ERROR] error - Error: 保存出错
+    at OfficeService.test (d:\workspace\NodeJS\sunrise\service\OfficeService.js:16:15)
+[2016-12-07 11:41:15.744] [ERROR] error - { code: 500, message: 'undefined is not a promise' }
+[2016-12-07 11:41:15.747] [ERROR] error - TypeError: undefined is not a promise
+    at GET/test/:name (d:\workspace\NodeJS\sunrise\router\OfficeRouter.js:9:43)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:7:19)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+[2016-12-07 11:45:52.466] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 11:45:52.468] [ERROR] error - Error: 保存出错
+    at getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:26:27)
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2016-12-07 11:48:54.536] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 11:48:54.538] [ERROR] error - { Error: 保存出错
+    at getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:26:27)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2016-12-07 11:58:01.429] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 11:58:01.431] [ERROR] error - { Error: 保存出错
+    at getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:28:27)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2016-12-07 11:58:10.410] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 11:58:10.410] [ERROR] error - { Error: 保存出错
+    at getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:28:27)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2016-12-07 12:01:06.790] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:01:06.791] [ERROR] error - { Error: 保存出错
+    at getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:28:27)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2016-12-07 12:03:25.866] [ERROR] error - { code: 500,
+  message: 'rollback has been called on this transaction(b9e50ead-dbfa-4a5d-953f-6016ac428be2), you can no longer use it. (The rejected query is attached as the \'sql\' property of this error)' }
+[2016-12-07 12:03:25.868] [ERROR] error - { Error: rollback has been called on this transaction(b9e50ead-dbfa-4a5d-953f-6016ac428be2), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+    at Sequelize.query (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:823:17)
+    at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\model.js:2597:32
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) sql: 'UPDATE `tb_office` SET `name_`=\'3\' WHERE `id_` = 1' }
+[2016-12-07 12:04:25.236] [ERROR] error - { code: 500,
+  message: 'rollback has been called on this transaction(67ccfd0b-180a-4596-b21d-00c29bbccd68), you can no longer use it. (The rejected query is attached as the \'sql\' property of this error)' }
+[2016-12-07 12:04:25.238] [ERROR] error - { Error: rollback has been called on this transaction(67ccfd0b-180a-4596-b21d-00c29bbccd68), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+    at Sequelize.query (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:823:17)
+    at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\model.js:2597:32
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) sql: 'UPDATE `tb_office` SET `name_`=\'3\' WHERE `id_` = 1' }
+[2016-12-07 12:05:02.324] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:05:02.326] [ERROR] error - { Error: 保存出错
+    at getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:28:27)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': { transaction: null } }
+[2016-12-07 12:06:08.798] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:06:08.799] [ERROR] error - { Error: 保存出错
+    at getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:28:27)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': { transaction: null } }
+[2016-12-07 12:07:50.657] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:07:50.659] [ERROR] error - { Error: 保存出错
+    at getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:28:27)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': { transaction: null } }
+[2016-12-07 12:11:08.078] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:11:08.080] [ERROR] error - { Error: 保存出错
+    at getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:28:27)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': { transaction: null } }
+[2016-12-07 12:12:16.000] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:12:16.002] [ERROR] error - { Error: 保存出错
+    at getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:28:27)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': { transaction: null } }
+[2016-12-07 12:17:36.377] [ERROR] error - { code: 500, message: 't1 is not defined' }
+[2016-12-07 12:17:36.381] [ERROR] error - { ReferenceError: t1 is not defined
+    at d:\workspace\NodeJS\sunrise\service\BaseService.js:22:81
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at ConnectionManager.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:1289:22)
+    at ConnectionManager.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17)
+    at ConnectionManager.tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': { transaction: null } }
+[2016-12-07 12:18:21.143] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:18:21.145] [ERROR] error - { Error: 保存出错
+    at getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:28:27)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': { transaction: null } }
+[2016-12-07 12:18:46.086] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:18:46.087] [ERROR] error - { Error: 保存出错
+    at getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:28:27)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': { transaction: null } }
+[2016-12-07 12:19:16.515] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:19:16.517] [ERROR] error - { Error: 保存出错
+    at getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:28:27)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': { transaction: null } }
+[2016-12-07 12:22:33.192] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:22:33.194] [ERROR] error - Error: 保存出错
+    at transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:27:23)
+[2016-12-07 12:22:36.616] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:22:36.616] [ERROR] error - Error: 保存出错
+    at transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:27:23)
+[2016-12-07 12:22:47.982] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:22:47.982] [ERROR] error - Error: 保存出错
+    at transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:27:23)
+[2016-12-07 12:23:58.342] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:23:58.344] [ERROR] error - Error: 保存出错
+    at transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:27:23)
+[2016-12-07 12:26:59.978] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:26:59.980] [ERROR] error - Error: 保存出错
+    at transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:27:23)
+[2016-12-07 12:29:19.098] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 12:29:19.100] [ERROR] error - Error: 保存出错
+    at test.name.transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:27:23)
+[2016-12-07 13:32:43.900] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 13:32:43.903] [ERROR] error - Error: 保存出错
+    at test.name.transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:27:23)
+[2016-12-07 13:33:46.356] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 13:33:46.356] [ERROR] error - Error: 保存出错
+    at test.name.transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:27:23)
+[2016-12-07 13:37:24.925] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 13:37:24.929] [ERROR] error - Error: 保存出错
+    at test.name.transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:27:23)
+[2016-12-07 13:38:27.294] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 13:38:27.297] [ERROR] error - Error: 保存出错
+    at test.name.transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:27:23)
+[2016-12-07 13:39:29.423] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 13:39:29.426] [ERROR] error - Error: 保存出错
+    at test.name.transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:25:23)
+[2016-12-07 13:44:57.896] [ERROR] error - { code: 500,
+  message: 'this.getConnection(...).transaction(...) is not a function' }
+[2016-12-07 13:44:57.899] [ERROR] error - TypeError: this.getConnection(...).transaction(...) is not a function
+    at OfficeService.transaction (d:\workspace\NodeJS\sunrise\service\BaseService.js:20:50)
+    at GET/test/:name (d:\workspace\NodeJS\sunrise\router\OfficeRouter.js:9:43)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:7:19)
+[2016-12-07 13:45:27.907] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 13:45:27.909] [ERROR] error - Error: 保存出错
+    at test.name.transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:25:23)
+[2016-12-07 13:46:49.668] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 13:46:49.669] [ERROR] error - Error: 保存出错
+    at test.name.transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:25:23)
+[2016-12-07 14:00:38.741] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 14:00:38.743] [ERROR] error - { Error: 保存出错
+    at test.name.transaction.getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:26:27)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': { transaction: null } }
+[2016-12-07 14:02:45.614] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 14:02:45.617] [ERROR] error - Error: 保存出错
+    at test.name.transaction.getModel.update.then.then (d:\workspace\NodeJS\sunrise\service\OfficeService.js:26:27)
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2016-12-07 14:20:44.237] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'getNamespace\' of undefined' }
+[2016-12-07 14:20:44.240] [ERROR] error - TypeError: Cannot read property 'getNamespace' of undefined
+    at test.name.transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:10:65)
+    at ConnectionManager.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:1289:22)
+    at ConnectionManager.tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2016-12-07 14:21:38.604] [ERROR] error - { code: 500,
+  message: 'this.getSequelize(...).cls.getNamespace is not a function' }
+[2016-12-07 14:21:38.606] [ERROR] error - TypeError: this.getSequelize(...).cls.getNamespace is not a function
+    at test.name.transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:10:66)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at ConnectionManager.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:1289:22)
+    at ConnectionManager.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17)
+    at ConnectionManager.tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2016-12-07 14:24:49.276] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'id\' of undefined' }
+[2016-12-07 14:24:49.279] [ERROR] error - TypeError: Cannot read property 'id' of undefined
+    at test.name.transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:19:84)
+[2016-12-07 14:27:05.195] [ERROR] error - { code: 500, message: '保存出错' }
+[2016-12-07 14:27:05.198] [ERROR] error - Error: 保存出错
+    at test.name.transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:28:23)
+[2016-12-07 14:29:47.741] [ERROR] error - { code: 500,
+  message: 'Promise resolver undefined is not a function' }
+[2016-12-07 14:29:47.744] [ERROR] error - TypeError: Promise resolver undefined is not a function
+    at new wrappedPromise (d:\workspace\NodeJS\sunrise\node_modules\async-listener\index.js:364:14)
+    at test.name.transaction (d:\workspace\NodeJS\sunrise\service\OfficeService.js:10:21)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at ConnectionManager.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:1289:22)
+    at ConnectionManager.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17)
+    at ConnectionManager.tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)

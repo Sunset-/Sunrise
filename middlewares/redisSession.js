@@ -1,16 +1,20 @@
 const Session = require('../components/session');
 const redis = require('promise-redis')();
 const redisConfig = require('../config/redisConfig');
-const logger = require('../components/logger')('error');
+const logger = require('../components/logger');
 
 const client = redis.createClient(redisConfig.port,redisConfig.host,{});  
-
+if(redisConfig.auth){
+    client.auth(redisConfig.auth, function(){
+    logger.info('Redis auth pass!');
+});
+}
 client.on("connect", function(){
-    console.log('Redis connecting!');
+    logger.info('Redis connecting!');
 });
 client.on("error", function(e){
-    logger.error('Redis connect error!');
-    logger.error(e);
+    logger.fatal('Redis connect error!');
+    logger.fatal(e);
 });
 
 class RedisSession extends Session{

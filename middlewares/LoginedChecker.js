@@ -3,6 +3,12 @@ const sessionConfig = require('../config/sessionConfig');
 
 module.exports = app => {
     app.use(async(ctx, next) => {
+        // ctx.session.currentUser = {
+        //     id : '21',
+        //     hospital : {
+        //         id : '7'
+        //     }
+        // };
         if(!sessionConfig.auth||ctx.session.currentUser){
             await next();
         }else{

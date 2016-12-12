@@ -1,13 +1,13 @@
-module.exports = Service => ({
+module.exports = (Service,hooks={}) => ({
     'POST/': {
         middleware: async function (ctx, next) {
-            let model = ctx.request.body.fields;
+            let model = ctx.request.body;
             ctx.body = await Service.add(model);
         }
     },
     'PUT/': {
         middleware: async function (ctx, next) {
-            let model = ctx.request.body.fields;
+            let model = ctx.request.body;
             await Service.update(model);
             ctx.body = true;
         }
@@ -34,11 +34,16 @@ module.exports = Service => ({
                 pageNumber,
                 pageSize
             } = ctx.query;
-            let list = await Service.findPage({
-                offset: pageNumber * pageSize,
+            isNaN(pageNumber)&&(pageNumber=1);
+            isNaN(pageSize)&&(pageSize=10000);
+            let filter = hooks.pageFilter&&hooks.pageFilter(ctx)||{};
+            let list = await Service.findPage(Object.assign(filter,{
+                offset: (pageNumber-1) * pageSize,
                 limit: +pageSize
-            });
+            }));
             ctx.body = list;
         }
+    },
+    hooks : {
     }
 });

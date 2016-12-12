@@ -1,0 +1,784 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "妇产三级转诊平台",
+        "description": "妇产转诊平台 API",
+        "version": "1.0.0"
+    },
+    "host": "localhost:8080",
+    "schemes": [
+        "http"
+    ],
+    "basePath": "/",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/sign/login": {
+            "post": {
+                "summary": "医院账号登录",
+                "description": "登录，目前仅支持医院账号登录.\n",
+                "parameters": [
+                    {
+                        "name": "username",
+                        "in": "formData",
+                        "description": "登录名",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "password",
+                        "in": "formData",
+                        "description": "密码",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "tags": [
+                    "Account"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "账号信息",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/referral/patient": {
+            "post": {
+                "summary": "创建患者档案",
+                "description": "新建患者档案，关联信息到当前登录医院中\n",
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "formData",
+                        "description": "病人姓名",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "idCardNumber",
+                        "in": "formData",
+                        "description": "身份证号",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "birthday",
+                        "in": "formData",
+                        "description": "生日",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "weightBeforePregnant",
+                        "in": "formData",
+                        "description": "孕前体重",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "height",
+                        "in": "formData",
+                        "description": "身高",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "bloodType",
+                        "in": "formData",
+                        "description": "血型（字典：BloodType）",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "lastMenstruTime",
+                        "in": "formData",
+                        "description": "末次月经时间",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "degree",
+                        "in": "formData",
+                        "description": "文化程度（字典DegreeLevel）",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "phone",
+                        "in": "formData",
+                        "description": "电话",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "address",
+                        "in": "formData",
+                        "description": "家庭住址",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "tags": [
+                    "Patient"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "返回成功标志",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            },
+            "get": {
+                "summary": "分页查询患者档案",
+                "description": "分页查询本院患者档案\n",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "关键字，模糊匹配患者姓名/身份证号",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "pageNumber",
+                        "in": "query",
+                        "description": "分页页码（从1开始）",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "query",
+                        "description": "分页大小",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "tags": [
+                    "Patient"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "患者档案分页数据",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/referral/assessmentCase/use/all": {
+            "get": {
+                "summary": "获取测评题",
+                "description": "获取所有已启用的测评题\n",
+                "tags": [
+                    "Examine"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "测评题集合",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/referral/examine": {
+            "post": {
+                "summary": "创建测评信息",
+                "description": "保存测评信息\n",
+                "parameters": [
+                    {
+                        "name": "patientId",
+                        "in": "formData",
+                        "description": "患者Id",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "totalScore",
+                        "in": "formData",
+                        "description": "测评总分",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "dangerFactor",
+                        "in": "formData",
+                        "description": "高危因素",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "examineItems",
+                        "in": "formData",
+                        "description": "测评项JSON（例：[{assessmentId:1,accessories:'',examineValue:'',score:5},...]）",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "tags": [
+                    "Examine"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "成功标志",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/referral/examine/{patientId}": {
+            "get": {
+                "summary": "查询患者测评信息",
+                "description": "查询患者测评信息\n",
+                "parameters": [
+                    {
+                        "name": "patientId",
+                        "in": "path",
+                        "description": "患者Id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "tags": [
+                    "Examine"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "获取患者在该院中的所有测评信息",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/referral/examine/detail/{examineId}": {
+            "get": {
+                "summary": "查询测评信息详情",
+                "description": "查询某次测评信息详情\n",
+                "parameters": [
+                    {
+                        "name": "examineId",
+                        "in": "path",
+                        "description": "测评Id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "tags": [
+                    "Examine"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "获取测评项信息集合",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/hospital": {
+            "get": {
+                "summary": "分页查询医院列表",
+                "description": "分页查询医院列表\n",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "关键字，模糊匹配医院名称",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "pageNumber",
+                        "in": "query",
+                        "description": "分页页码（从1开始）",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "query",
+                        "description": "分页大小",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "tags": [
+                    "Hospital"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "医院信息集合",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/referral/request/apply": {
+            "post": {
+                "summary": "发起转诊申请",
+                "description": "可向多家医院同时发起转诊申请任务\n",
+                "parameters": [
+                    {
+                        "name": "toHospitalIds",
+                        "in": "formData",
+                        "description": "目标医院Id",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "patientId",
+                        "in": "formData",
+                        "description": "患者Id",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "referralReason",
+                        "in": "formData",
+                        "description": "转诊原因",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "referralTime",
+                        "in": "formData",
+                        "description": "预约转诊日期",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "dangerFactor",
+                        "in": "formData",
+                        "description": "高危因素",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "chargeDoctor",
+                        "in": "formData",
+                        "description": "责任医生",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "chargeDoctorPhone",
+                        "in": "formData",
+                        "description": "责任医生电话",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "tags": [
+                    "Referral"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "成功标志",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            },
+            "get": {
+                "summary": "查询转诊申请",
+                "description": "查询本院的转诊申请\n",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "formData",
+                        "description": "模糊匹配患者姓名/身份证",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "status",
+                        "in": "formData",
+                        "description": "转诊状态（字典:ReferralStatus）",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "pageNumber",
+                        "in": "query",
+                        "description": "分页页码（从1开始）",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "query",
+                        "description": "分页大小",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "tags": [
+                    "Referral"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "转诊患者信息列表",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/referral/request/reply": {
+            "get": {
+                "summary": "查询接诊列表",
+                "description": "查询本院的接诊列表\n",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "formData",
+                        "description": "模糊匹配患者姓名/身份证",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "status",
+                        "in": "formData",
+                        "description": "转诊状态（字典:ReferralStatus）",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "pageNumber",
+                        "in": "query",
+                        "description": "分页页码（从1开始）",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "query",
+                        "description": "分页大小",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "tags": [
+                    "Referral"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "接诊患者信息列表",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/referral/request/consent/{formId}/{taskId}": {
+            "post": {
+                "summary": "同意转诊",
+                "description": "上级医院同意转诊，并反馈信息\n",
+                "parameters": [
+                    {
+                        "name": "formId",
+                        "in": "path",
+                        "description": "转诊申请Id",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "taskId",
+                        "in": "path",
+                        "description": "转诊任务Id",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "suggest",
+                        "in": "formData",
+                        "description": "反馈信息",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "tags": [
+                    "Referral"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "成功标志",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/referral/request/reject/{formId}/{taskId}": {
+            "post": {
+                "summary": "拒绝转诊",
+                "description": "上级医院拒绝转诊，并反馈信息\n",
+                "parameters": [
+                    {
+                        "name": "formId",
+                        "in": "path",
+                        "description": "转诊申请Id",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "taskId",
+                        "in": "path",
+                        "description": "转诊任务Id",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "suggest",
+                        "in": "formData",
+                        "description": "反馈信息",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "tags": [
+                    "Referral"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "成功标志",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/referral/request/abondon/{formId}": {
+            "get": {
+                "summary": "放弃转诊",
+                "description": "下级医院放弃转诊申请\n",
+                "parameters": [
+                    {
+                        "name": "formId",
+                        "in": "path",
+                        "description": "转诊申请Id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "tags": [
+                    "Referral"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "成功标志",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/referral/referralOut/{formId}": {
+            "get": {
+                "summary": "转出患者",
+                "description": "患者从下级医院转出\n",
+                "parameters": [
+                    {
+                        "name": "formId",
+                        "in": "path",
+                        "description": "转诊申请Id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "tags": [
+                    "Referral"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "成功标志",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/referral/referralIn/{formId}/{taskId}": {
+            "get": {
+                "summary": "转入患者",
+                "description": "患者转入上级医院，患者档案与上级医院关联\n",
+                "parameters": [
+                    {
+                        "name": "formId",
+                        "in": "path",
+                        "description": "转诊申请Id",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "taskId",
+                        "in": "path",
+                        "description": "转诊任务Id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "tags": [
+                    "Referral"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "成功标志",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Result": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "data": {
+                    "type": "object"
+                }
+            }
+        },
+        "Error": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "message": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

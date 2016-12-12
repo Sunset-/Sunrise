@@ -8,7 +8,9 @@ module.exports = app => {
         formidable: {
             uploadDir: uploadConfig.uploadDir,
             onFileBegin(name, file) {
-                file.path = file.path.replace(/\w+$/, random.uuid() + file.name.substring(file.name.lastIndexOf('.')));
+                let storeName = random.uuid() + file.name.substring(file.name.lastIndexOf('.'));
+                file.storeName = storeName;
+                file.path = file.path.replace(/\w+$/, storeName);
             }
         }
     }));

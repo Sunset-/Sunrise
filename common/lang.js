@@ -12,6 +12,15 @@ module.exports = {
         let str = originToString(o);
         return str == "[object Function]" || str == "[object AsyncFunction]";
     },
+    castPager(o) {
+        o = o || {};
+        let pageNumber = o.pageNumber || 1;
+        let pageSize = o.pageSize || 10000;
+        return {
+            offset: (pageNumber - 1) * pageSize,
+            limit: pageSize
+        }
+    },
     warn(msg) {
         console.warn(msg);
     }

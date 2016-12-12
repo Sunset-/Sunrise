@@ -9,12 +9,14 @@
   "scripts": {
     "test": "mocha",
     "initModels": "node tools/SequelizeReverseTool",
-    "initTables" : "node --harmony tools/SequelizeTableTool",
+    "initTables": "node --harmony tools/SequelizeTableTool",
+    "publish": "set NODE_ENV=production&& gulp publish",
     "sunset": "node sunset.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "continuation-local-storage": "^3.2.0",
     "koa": "^2.0.0",
     "koa-body": "^2.0.0",
     "koa-convert": "^1.2.0",

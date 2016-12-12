@@ -1,8 +1,10 @@
 const {sequelize,Sequelize} = require('../holder/SequelizeHolder');
-const force = false;
-const models = ['Student','Office'];
+const force = true;
+const models = ['DictionaryType','DictionaryItem','Account','Hospital','AssessmentCase'];
 
-models.forEach(modelName=>{
+const reTables = ['HospitalPatientRel','ManagerAccount','Patient','PatientExamine','PatientExamineAssessment','ReferralTask','ReferralForm'];
+
+(force?reTables:models).forEach(modelName=>{
     let total = models.length;
     let model = require(`../model/${modelName}`)(sequelize,Sequelize);
     model.sync({force:force}).then((a,b)=>{

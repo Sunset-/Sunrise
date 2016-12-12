@@ -1,0 +1,3 @@
+1.放弃转诊，无需taskId
+
+2.同意转诊，consentId从session中取

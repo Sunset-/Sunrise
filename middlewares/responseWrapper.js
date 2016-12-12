@@ -1,6 +1,6 @@
 const lang = require('../common/lang');
 const RESPONSE_CODE = require('../enum/responseCode');
-const logger = require('../components/logger')('error');
+const logger = require('../components/logger');
 
 function wrapper(ctx, error) {
     let res = ctx.body;
