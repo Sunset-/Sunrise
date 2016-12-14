@@ -1,4 +1,5 @@
 const ExamineService = require('../service/ExamineService');
+const lang = require('../common/lang');
 
 module.exports = {
     prefix: '/referral/examine',
@@ -6,7 +7,7 @@ module.exports = {
         //保存测评
         'POST/': async function (ctx) {
             let currentUser = ctx.session.currentUser,
-                now = new Date(),
+                now = lang.now(),
                 params = ctx.request.body,
                 examineItems;
             params.hospitalId = currentUser.hospital.id;
@@ -25,12 +26,18 @@ module.exports = {
             if (!hospital) {
                 ctx.throw('非法请求:非医院用户');
             }
-            ctx.body = await ExamineService.loadExamines(hospital.id, params.patientId, query);
+            ctx.body = await ExamineService.loadAllExamines(hospital.id, params.patientId, query);
         },
         //评测详情
         'GET/detail/:examineId': async function (ctx) {
             let params = ctx.params;
             ctx.body = await ExamineService.getExamineDetail(params.examineId);
+        },
+        //获取病人最后一次评测详情
+        'GET/last/:patientId': async function (ctx) {
+            console.log(lang.now().toLocaleString());
+            let params = ctx.params;
+            ctx.body = await ExamineService.getLastExamineDetail(ctx.session.currentUser.hospital.id,params.patientId);
         }
     }
 };

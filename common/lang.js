@@ -21,6 +21,9 @@ module.exports = {
             limit: pageSize
         }
     },
+    now(){
+        return new Date();
+    },
     warn(msg) {
         console.warn(msg);
     }

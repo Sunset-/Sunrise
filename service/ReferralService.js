@@ -8,6 +8,7 @@ const {
 const MODEL = 'ReferralForm';
 const TASK_MODEL = 'ReferralTask';
 const PATIENT_REL_MODEL = 'HospitalPatientRel';
+const HOSPITAL_MODEL = 'Hospital';
 
 class ReferralService extends BaseService {
     constructor() {
@@ -19,7 +20,7 @@ class ReferralService extends BaseService {
             throw new Error('非法请求：病人id为空');
         }
         return this.transaction(async t => {
-            let now = new Date();
+            let now = lang.now();
             //查询本院评测
             let examines = await ExamineService.loadAllExamines(fromHospitalId, referralForm.patientId);
             examines = examines || [];
@@ -71,6 +72,8 @@ class ReferralService extends BaseService {
                             tb_h.id_ AS lastHospitalId,
                             tb_h.name_ AS consentHospitalName,
                             tb_rf.suggest_count_ AS suggestCount,
+                            tb_rf.referral_time_ AS referralTime,
+                            tb_rf.referral_reason_ AS referralReason,
                             tb_rf.status_ AS status
                             FROM 
                             tb_patient tb_p 
@@ -78,8 +81,8 @@ class ReferralService extends BaseService {
                             LEFT JOIN tb_hospital tb_h ON tb_rf.consent_hospital_id_=tb_h.id_
                             WHERE 
                             tb_rf.src_hospital_id_='${hospitalId}'
-                            ${query.status?` AND tb_p.status_='${query.status}' `:''}
-                            ${query.keyword?` AND (tb_p.name_ LIKE '%${query.keyword}%' tb_p.id_card_number_ LIKE '%${query.keyword}%') `:''}
+                            ${query.status?` AND tb_rf.status_${this.generateInSql(query.status,Number)} `:''}
+                            ${query.keyword?` AND (tb_p.name_ LIKE '%${query.keyword}%' OR tb_p.id_card_number_ LIKE '%${query.keyword}%') `:''}
                             LIMIT ${pager.offset},${pager.limit}
                         `,  {
                             type: sequelize.QueryTypes.SELECT}),
@@ -88,8 +91,8 @@ class ReferralService extends BaseService {
                             FROM tb_patient tb_p JOIN tb_referral_form tb_rf ON tb_p.id_=tb_rf.patient_id_
                             WHERE 
                             tb_rf.src_hospital_id_='${hospitalId}'
-                            ${query.status?` AND tb_p.status_='${query.status}' `:''}
-                            ${query.keyword?` AND (tb_p.name_ LIKE '%${query.keyword}%' tb_p.id_card_number_ LIKE '%${query.keyword}%') `:''}
+                            ${query.status?` AND tb_rf.status_${this.generateInSql(query.status,Number)} `:''}
+                            ${query.keyword?` AND (tb_p.name_ LIKE '%${query.keyword}%' OR tb_p.id_card_number_ LIKE '%${query.keyword}%') `:''}
                         `, { type: sequelize.QueryTypes.SELECT })
         ]).then(res=>{
             return {
@@ -119,15 +122,18 @@ class ReferralService extends BaseService {
                             tb_h.id_ AS lastHospitalId,
                             tb_h.name_ AS fromHospitalName,
                             tb_rt.suggest_ AS suggest,
-                            tb_rt.status_ AS status
+                            tb_rt.status_ AS status,
+                            tb_rf.referral_time_ AS referralTime,
+                            tb_rf.referral_reason_ AS referralReason
                             FROM 
                             tb_patient tb_p 
                             JOIN tb_referral_task tb_rt ON tb_p.id_=tb_rt.patient_id_
+                            JOIN tb_referral_form tb_rf ON tb_rf.id_=tb_rt.referral_form_id_
                             LEFT JOIN tb_hospital tb_h ON tb_rt.src_hospital_id_=tb_h.id_
                             WHERE 
                             tb_rt.dest_hospital_id_='${hospitalId}'
-                            ${query.status?` AND tb_p.status_='${query.status}' `:''}
-                            ${query.keyword?` AND (tb_p.name_ LIKE '%${query.keyword}%' tb_p.id_card_number_ LIKE '%${query.keyword}%') `:''}
+                            ${query.status?` AND tb_rt.status_${this.generateInSql(query.status,Number)} `:''}
+                            ${query.keyword?` AND (tb_p.name_ LIKE '%${query.keyword}%' OR tb_p.id_card_number_ LIKE '%${query.keyword}%') `:''}
                             LIMIT ${pager.offset},${pager.limit}
                         `,  {
                             type: sequelize.QueryTypes.SELECT}),
@@ -136,8 +142,8 @@ class ReferralService extends BaseService {
                             FROM tb_patient tb_p JOIN tb_referral_task tb_rt ON tb_p.id_=tb_rt.patient_id_
                             WHERE 
                             tb_rt.dest_hospital_id_='${hospitalId}'
-                            ${query.status?` AND tb_p.status_='${query.status}' `:''}
-                            ${query.keyword?` AND (tb_p.name_ LIKE '%${query.keyword}%' tb_p.id_card_number_ LIKE '%${query.keyword}%') `:''}
+                            ${query.status?` AND tb_rt.status_${this.generateInSql(query.status,Number)} `:''}
+                            ${query.keyword?` AND (tb_p.name_ LIKE '%${query.keyword}%' OR tb_p.id_card_number_ LIKE '%${query.keyword}%') `:''}
                         `, { type: sequelize.QueryTypes.SELECT })
         ]).then(res=>{
             return {
@@ -148,11 +154,116 @@ class ReferralService extends BaseService {
             throw err;
         });
     }
+    async viewForm(formId){
+        let form = await this.findById(formId);
+        if(!form){
+            throw new Error('转诊申请不存在');
+        }
+        let lastExamineId = null;
+        if(form.examineIds){
+            lastExamineId = form.examineIds.substring(0,form.examineIds.indexOf(','));
+        }
+        let sequelize = this.getConnection();
+        let tasksAndPatienInfo = await Promise.all([
+            sequelize.query(`
+                        SELECT 
+                        tb_h.id_ AS hospitalId,
+                        tb_rt.id_ AS taskId,
+                        tb_h.name_ AS name,
+                        tb_h.level_ AS level,
+                        tb_h.picture_ AS picture,
+                        tb_h.contact_ AS contact,
+                        tb_h.contact_number_ AS contactNumber,
+                        tb_h.desk_tel_ AS deskTel,
+                        tb_h.has_blood_bank_ AS hasBloodBank,
+                        tb_h.address_ AS address,
+                        tb_rt.suggest_ AS suggest,
+                        tb_rt.status_ AS status,
+                        tb_rt.response_time_ AS responseTime
+                        FROM
+                        tb_referral_task tb_rt JOIN tb_hospital tb_h ON tb_rt.dest_hospital_id_=tb_h.id_
+                        WHERE tb_rt.referral_form_id_='${formId}'
+                    `, { type: sequelize.QueryTypes.SELECT }),
+            sequelize.query(`
+                        SELECT 
+                        tb_p.id_ AS patientId,
+                        tb_pe.id_ AS examineId,
+                        tb_p.name_ AS name,
+                        tb_p.id_card_number_ AS idCardNumber,
+                        tb_p.birthday_ AS birthday,
+                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,
+                        tb_p.height_ AS height,
+                        tb_p.blood_type_ AS bloodType,
+                        tb_p.last_menstru_time_ AS lastMenstruTime,
+                        tb_p.degree_ AS degree,
+                        tb_p.phone_ AS phone,
+                        tb_p.address_ AS address,
+                        tb_pe.total_score_ AS totalScore,
+                        tb_pe.danger_factor_ AS dangerFactor,
+                        tb_pe.create_time_ AS examineTime
+                        FROM
+                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_
+                        WHERE tb_p.id_='${form.patientId}' ${lastExamineId?` AND tb_pe.id_='${lastExamineId}'`:''}
+                    `, { type: sequelize.QueryTypes.SELECT })
+        ]);
+        return {
+            form : form,
+            tasks :  tasksAndPatienInfo[0],
+            patient : tasksAndPatienInfo[1]
+        };
+    }
+    async viewTask(formId,taskId){
+        let form = await this.findById(formId);
+        if(!form){
+            throw new Error('转诊申请不存在');
+        }
+        let lastExamineId = null;
+        if(form.examineIds){
+            lastExamineId = form.examineIds.substring(0,form.examineIds.indexOf(','));
+        }
+        let sequelize = this.getConnection();
+        let taskHospitalPatienInfo = await Promise.all([
+            this.getModel(TASK_MODEL).findById(taskId),
+            this.getModel(HOSPITAL_MODEL).findById(form.srcHospitalId),
+            sequelize.query(`
+                        SELECT 
+                        tb_p.id_ AS patientId,
+                        tb_p.name_ AS name,
+                        tb_p.id_card_number_ AS idCardNumber,
+                        tb_p.birthday_ AS birthday,
+                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,
+                        tb_p.height_ AS height,
+                        tb_p.blood_type_ AS bloodType,
+                        tb_p.last_menstru_time_ AS lastMenstruTime,
+                        tb_p.degree_ AS degree,
+                        tb_p.phone_ AS phone,
+                        tb_p.address_ AS address,
+                        tb_pe.total_score_ AS totalScore,
+                        tb_pe.danger_factor_ AS dangerFactor,
+                        tb_pe.create_time_ AS examineTime
+                        FROM
+                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_
+                        WHERE tb_p.id_='${form.patientId}' ${lastExamineId?` AND tb_pe.id_='${lastExamineId}'`:''}
+                    `, { type: sequelize.QueryTypes.SELECT })
+        ]);
+        return {
+            form : form,
+            task :  taskHospitalPatienInfo[0],
+            hospital : taskHospitalPatienInfo[1],
+            patient : taskHospitalPatienInfo[2]
+        };
+    }
     consentTask(formId,taskId,consentHospitalId,suggest){
-        let now = new Date();
+        let now = lang.now();
         return this.transaction(async t=>{
-            let form = await this.findById(formId);
-            if(form.consentHospitalId){
+            let form = await this.getModel().findById(formId,{
+                transaction : t,
+                lock : t.LOCK.UPDATE
+            });
+            if(!form){
+                throw new Error('转诊申请不存在');
+            }
+            if(form.status!=REFERRAL_STATUS.APPLY||form.consentHospitalId){
                 throw new Error('此转诊申请已失效');
             }
             return Promise.all([
@@ -182,9 +293,15 @@ class ReferralService extends BaseService {
         }).then(res=>true);
     }
     rejectTask(formId,taskId,suggest){
-        let now = new Date();
+        let now = lang.now();
         return this.transaction(async t=>{
             let form = await this.findById(formId);
+            if(!form){
+                throw new Error('转诊申请不存在');
+            }
+            if(form.status==REFERRAL_STATUS.ABANDON){
+                throw new Error('此转诊申请已失效');
+            }
             return Promise.all([
                 this.getModel().update({
                     suggestCount : ((form.suggestCount ||0)+1)
@@ -212,6 +329,12 @@ class ReferralService extends BaseService {
     confirmReferral(formId){
         return this.transaction(async t=>{
             let form = await this.findById(formId);
+            if(!form){
+                throw new Error('转诊申请不存在');
+            }
+            if(form.status!=REFERRAL_STATUS.CONSENT||!form.consentHospitalId){
+                throw new Error('暂无医院接诊');
+            }
             return Promise.all([
                 this.getModel().update({
                     status : REFERRAL_STATUS.REFERRALING
@@ -235,9 +358,12 @@ class ReferralService extends BaseService {
             ])
         }).then(res=>true);
     }
-    abondonReferral(formId,taskId){
+    abondonReferral(formId){
         return this.transaction(async t=>{
             let form = await this.findById(formId);
+            if(!form){
+                throw new Error('转诊申请不存在');
+            }
             return Promise.all([
                 this.getModel().update({
                     status : REFERRAL_STATUS.ABANDON
@@ -263,6 +389,12 @@ class ReferralService extends BaseService {
     referralOut(formId){
         return this.transaction(async t=>{
             let form = await this.findById(formId);
+            if(!form){
+                throw new Error('转诊申请不存在');
+            }
+            if(form.status!=REFERRAL_STATUS.REFERRALING){
+                throw new Error('未确认转诊，无法转出');
+            }
             return Promise.all([
                 this.getModel().update({
                     status : REFERRAL_STATUS.REFERRAL_OUT
@@ -297,9 +429,15 @@ class ReferralService extends BaseService {
         }).then(res=>true);
     }
     referralIn(formId,taskId){
-        let now = new Date();
+        let now = lang.now();
         return this.transaction(async t=>{
             let form = await this.findById(formId);
+            if(!form){
+                throw new Error('转诊申请不存在');
+            }
+            if(form.status!=REFERRAL_STATUS.REFERRALING){
+                throw new Error('未确认转诊，无法转入');
+            }
             return Promise.all([
                 this.getModel().update({
                     status : REFERRAL_STATUS.REFERRALED

@@ -4,3 +4,88 @@
 [2016-12-12 11:38:37.048] [INFO] info - INFO======>/favicon.ico耗时:0
 [2016-12-12 11:39:02.130] [INFO] info - Redis connecting!
 [2016-12-12 11:39:02.134] [INFO] info - Redis auth pass!
+[2016-12-12 12:06:18.096] [INFO] info - Redis connecting!
+[2016-12-12 12:06:18.099] [INFO] info - Redis auth pass!
+[2016-12-12 12:06:49.124] [INFO] info - INFO======>/swagger/index.html耗时:3
+[2016-12-12 12:06:49.144] [INFO] info - INFO======>/favicon.ico耗时:1
+[2016-12-12 12:07:01.393] [INFO] info - INFO======>/swagger-ui/swagger.json耗时:1
+[2016-12-12 12:07:28.909] [INFO] info - INFO======>/sign/login耗时:38
+[2016-12-12 12:18:23.814] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:2
+[2016-12-12 12:18:41.828] [INFO] info - INFO======>/sign/login耗时:9
+[2016-12-12 12:18:44.169] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:6
+[2016-12-12 12:18:55.583] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:1
+[2016-12-12 12:19:02.418] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:6
+[2016-12-12 12:19:11.514] [INFO] info - INFO======>/sign/login耗时:9
+[2016-12-12 12:19:13.918] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:3
+[2016-12-12 12:21:19.192] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:5
+[2016-12-12 12:21:19.702] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:3
+[2016-12-12 12:21:20.063] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:4
+[2016-12-12 12:21:20.526] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:3
+[2016-12-12 12:21:21.270] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:3
+[2016-12-12 12:21:21.581] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:2
+[2016-12-12 12:21:21.847] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:4
+[2016-12-12 12:21:22.119] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:3
+[2016-12-12 12:21:22.398] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:3
+[2016-12-12 12:21:27.946] [INFO] info - Redis connecting!
+[2016-12-12 12:21:27.950] [INFO] info - Redis auth pass!
+[2016-12-12 12:21:28.886] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:34
+[2016-12-12 12:21:29.401] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:4
+[2016-12-12 12:21:29.575] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:4
+[2016-12-12 12:21:29.753] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:4
+[2016-12-12 12:21:29.934] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:3
+[2016-12-12 12:21:30.123] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:8
+[2016-12-12 12:21:30.512] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:4
+[2016-12-12 12:21:55.070] [INFO] info - Redis connecting!
+[2016-12-12 12:21:55.075] [INFO] info - Redis auth pass!
+[2016-12-12 12:22:08.250] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:10399
+[2016-12-12 13:57:27.967] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:6
+[2016-12-12 13:57:41.830] [INFO] info - INFO======>/sign/login耗时:17
+[2016-12-12 13:57:44.686] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:5
+[2016-12-12 13:59:02.131] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:8
+[2016-12-12 13:59:05.326] [INFO] info - INFO======>/referral/patient?status=1&pageNumber=1&pageSize=10耗时:4
+[2016-12-12 13:59:09.271] [INFO] info - INFO======>/referral/patient?status=2&pageNumber=1&pageSize=10耗时:5
+[2016-12-12 13:59:38.000] [INFO] info - INFO======>/referral/patient?status=2&pageNumber=1&pageSize=10耗时:8198
+[2016-12-12 13:59:57.149] [INFO] info - INFO======>/referral/patient?status=2&pageNumber=1&pageSize=10耗时:5
+[2016-12-12 14:01:02.487] [INFO] info - INFO======>/referral/patient?status=2&pageNumber=1&pageSize=10耗时:4
+[2016-12-12 14:01:05.854] [INFO] info - INFO======>/referral/patient?status=1&pageNumber=1&pageSize=10耗时:4
+[2016-12-12 14:01:12.961] [INFO] info - INFO======>/referral/patient?keyword=123&status=1&pageNumber=1&pageSize=10耗时:8
+[2016-12-12 14:03:12.743] [INFO] info - Redis connecting!
+[2016-12-12 14:03:12.747] [INFO] info - Redis auth pass!
+[2016-12-12 14:03:16.042] [INFO] info - INFO======>/referral/patient?keyword=123&status=1&pageNumber=1&pageSize=10耗时:41
+[2016-12-12 14:03:17.836] [INFO] info - INFO======>/referral/patient?keyword=123&status=1&pageNumber=1&pageSize=10耗时:4
+[2016-12-12 14:03:38.272] [INFO] info - Redis connecting!
+[2016-12-12 14:03:38.276] [INFO] info - Redis auth pass!
+[2016-12-12 14:03:38.448] [INFO] info - INFO======>/referral/patient?keyword=123&status=1&pageNumber=1&pageSize=10耗时:37
+[2016-12-12 14:03:43.252] [INFO] info - INFO======>/referral/patient?status=1&pageNumber=1&pageSize=10耗时:3
+[2016-12-12 14:03:48.948] [INFO] info - INFO======>/referral/patient?keyword=22223&status=1&pageNumber=1&pageSize=10耗时:3
+[2016-12-12 14:03:52.180] [INFO] info - INFO======>/referral/patient?keyword=2222&status=1&pageNumber=1&pageSize=10耗时:4
+[2016-12-12 14:09:37.413] [INFO] info - Redis connecting!
+[2016-12-12 14:09:37.417] [INFO] info - Redis auth pass!
+[2016-12-12 14:09:43.701] [INFO] info - INFO======>/referral/patient?keyword=2222&status=1&pageNumber=1&pageSize=10耗时:29
+[2016-12-12 14:09:44.534] [INFO] info - INFO======>/referral/patient?keyword=2222&status=1&pageNumber=1&pageSize=10耗时:5
+[2016-12-12 14:09:47.254] [INFO] info - INFO======>/referral/patient?keyword=22221&status=1&pageNumber=1&pageSize=10耗时:5
+[2016-12-12 14:09:49.557] [INFO] info - INFO======>/referral/patient?keyword=2222&status=1&pageNumber=1&pageSize=10耗时:5
+[2016-12-12 14:33:05.655] [INFO] info - Redis connecting!
+[2016-12-12 14:33:05.661] [INFO] info - Redis auth pass!
+[2016-12-12 14:33:15.259] [INFO] info - INFO======>/referral/patient?keyword=2222&status=1&pageNumber=1&pageSize=10耗时:36
+[2016-12-12 14:33:46.273] [INFO] info - INFO======>/referral/patient?keyword=2222&status=1&pageNumber=1&pageSize=10耗时:8
+[2016-12-12 14:34:08.044] [INFO] info - Redis connecting!
+[2016-12-12 14:34:08.048] [INFO] info - Redis auth pass!
+[2016-12-12 14:34:08.197] [INFO] info - INFO======>/referral/patient?keyword=2222&status=1&pageNumber=1&pageSize=10耗时:30
+[2016-12-12 14:34:11.221] [INFO] info - INFO======>/referral/patient?keyword=2222&status=1&pageNumber=1&pageSize=10耗时:5
+[2016-12-12 14:35:01.574] [INFO] info - Redis connecting!
+[2016-12-12 14:35:01.577] [INFO] info - Redis auth pass!
+[2016-12-12 14:35:05.422] [INFO] info - Redis connecting!
+[2016-12-12 14:35:05.425] [INFO] info - Redis auth pass!
+[2016-12-12 14:35:08.326] [INFO] info - INFO======>/referral/patient?keyword=2222&status=1&pageNumber=1&pageSize=10耗时:30
+[2016-12-12 14:35:43.753] [INFO] info - INFO======>/sign/login耗时:19
+[2016-12-12 14:35:46.965] [INFO] info - INFO======>/referral/patient?keyword=2222&status=1&pageNumber=1&pageSize=10耗时:6
+[2016-12-12 14:37:14.689] [INFO] info - INFO======>/referral/examine/10耗时:10
+[2016-12-12 14:39:45.073] [INFO] info - Redis connecting!
+[2016-12-12 14:39:45.077] [INFO] info - Redis auth pass!
+[2016-12-12 14:39:48.533] [INFO] info - INFO======>/referral/examine/10耗时:37
+[2016-12-12 14:40:22.141] [INFO] info - INFO======>/referral/examine/detail/17耗时:5
+[2016-12-12 16:51:16.494] [INFO] info - Redis connecting!
+[2016-12-12 16:51:16.499] [INFO] info - Redis auth pass!
+[2016-12-12 16:51:23.160] [INFO] info - INFO======>/sign/login耗时:39
+[2016-12-12 16:51:27.462] [INFO] info - INFO======>/referral/examine/10耗时:5

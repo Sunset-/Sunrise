@@ -21,7 +21,7 @@ module.exports = {
                 if (accountModel) {
                     let json = accountModel.toJSON();
                     delete json.password;
-                    json.isManager = true;
+                    json.IS_MANAGER = true;
                     ctx.body = ctx.session.currentUser = json;
                 } else {
                     ctx.throw('用户名密码错误');

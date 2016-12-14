@@ -17,20 +17,30 @@ module.exports = {
         'GET/apply': async function (ctx) {
             let currentUser = ctx.session.currentUser,
                 query = ctx.query;
-            ctx.body = await ReferralService.findApplyTasks(currentUser.hospital.id , query);
+            ctx.body = await ReferralService.findApplyTasks(currentUser.hospital.id, query);
+        },
+        //查询转诊申请详情
+        'GET/apply/:formId': async function (ctx) {
+            let params = ctx.params;
+            ctx.body = await ReferralService.viewForm(params.formId);
         },
         //查询接诊列表
         'GET/reply': async function (ctx) {
             let currentUser = ctx.session.currentUser,
                 query = ctx.query;
-            ctx.body = await ReferralService.findReplyTasks(currentUser.hospital.id , query);
+            ctx.body = await ReferralService.findReplyTasks(currentUser.hospital.id, query);
+        },
+        //查询接诊详情
+        'GET/reply/:formId/:taskId': async function (ctx) {
+            let params = ctx.params;
+            ctx.body = await ReferralService.viewTask(params.formId,params.taskId);
         },
         //同意转诊
         'POST/consent/:formId/:taskId': async function (ctx) {
             let currentUser = ctx.session.currentUser,
                 params = ctx.params,
                 data = ctx.request.body;
-            ctx.body = await ReferralService.consentTask(params.formId, params.taskId,currentUser.hospital.id, data.suggest);
+            ctx.body = await ReferralService.consentTask(params.formId, params.taskId, currentUser.hospital.id, data.suggest);
         },
         //拒绝转诊
         'POST/reject/:formId/:taskId': async function (ctx) {
@@ -46,10 +56,10 @@ module.exports = {
             ctx.body = await ReferralService.confirmReferral(params.formId);
         },
         //放弃转诊
-        'GET/abondon/:formId/:taskId': async function (ctx) {
+        'GET/abondon/:formId': async function (ctx) {
             let currentUser = ctx.session.currentUser,
                 params = ctx.params;
-            ctx.body = await ReferralService.abondonReferral(params.formId, params.taskId);
+            ctx.body = await ReferralService.abondonReferral(params.formId);
         },
         //转出
         'GET/referralOut/:formId': async function (ctx) {

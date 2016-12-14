@@ -1,12 +1,14 @@
+const EventEmitter = require('events').EventEmitter;
 const {
     sequelize,
     Sequelize
 } = require('../holder/SequelizeHolder');
 
-module.exports = class BaseService {
-    constructor(modelName,...modelNames) {
+module.exports = class BaseService extends EventEmitter {
+    constructor(modelName, ...modelNames) {
+        super();
         this.Model = require(`../model/${modelName}`)(sequelize, Sequelize);
-        modelNames&&modelNames.forEach(m=>{
+        modelNames && modelNames.forEach(m => {
             require(`../model/${m}`)(sequelize, Sequelize);
         });
     }
@@ -21,13 +23,13 @@ module.exports = class BaseService {
     }
     transaction(cb) {
         return this.getConnection({
-            autocommit : false
+            autocommit: false
         }).transaction(function (t) {
             return cb(t);
         });
     }
-    validate(model,ext,modelName) {
-        ext&&(Object.assign(model,ext));
+    validate(model, ext, modelName) {
+        ext && (Object.assign(model, ext));
         let instance = this.getModel(modelName).build(model);
         return instance.validate().then(err => {
             if (err) {
@@ -38,31 +40,40 @@ module.exports = class BaseService {
         });
     }
     add(model) {
-        return this.validate(model).then(instance => {
-            return instance.save();
+        return this.validate(model).then(async instance => {
+            let res = await instance.save();
+            this.emit('afterAdd', res);
+            this.emit('afterChange');
+            return res
         }).catch(e => {
             throw new Error(e.message.substr(18));
         });
     }
-    update(model, primaryKey) {
+    async update(model, primaryKey) {
         primaryKey = primaryKey || 'id';
         let filter = {};
         filter[primaryKey] = model[primaryKey];
-        return this.getModel().update(model, {
+        let res = await this.getModel().update(model, {
             where: filter
         });
+        this.emit('afterChange');
+        return res;
     }
-    merge(model) {
-        return this.getModel().upsert(model);
+    async merge(model) {
+        let res = await this.getModel().upsert(model);
+        this.emit('afterChange');
+        return res;
     }
-    removeById(id, colName) {
+    async removeById(id, colName) {
         let filter = {};
         filter[colName || 'id'] = id;
-        return this.getModel().destroy({
+        let res = await this.getModel().destroy({
             where: filter
         });
+        this.emit('afterChange');
+        return res;
     }
-    removeByIds(ids, colName) {
+    async removeByIds(ids, colName) {
         if (ids && ids.length == 1) {
             return this.removeById(ids[0], colName);
         }
@@ -70,9 +81,11 @@ module.exports = class BaseService {
         filter[colName || 'id'] = {
             $in: ids || []
         };
-        return this.getModel().destroy({
+        let res = await this.getModel().destroy({
             where: filter
         });
+        this.emit('afterChange');
+        return res;
     }
     findById(id, colName) {
         let filter = {};
@@ -90,7 +103,22 @@ module.exports = class BaseService {
     findOne(filter) {
         return this.getModel().findOne(filter);
     }
-    count(filter){
-         return this.getModel().count(filter);
+    count(filter) {
+        return this.getModel().count(filter);
+    }
+    generateInSql(args, type) {
+        if (!args || !args.trim()) {
+            return '';
+        }
+        args = args.split(',');
+        if (args.length == 1) {
+            return type === Number ? `=${args[0]}` : `='${args[0]}'`;
+        } else {
+            let sql = [];
+            args.forEach(arg => {
+                sql.push(type === Number ? `${arg}` : `'${arg}'`);
+            });
+            return ` IN (${sql.join(',')})`;
+        }
     }
 }

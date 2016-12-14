@@ -2,6 +2,7 @@ const Session = require('../components/session');
 const redis = require('promise-redis')();
 const redisConfig = require('../config/redisConfig');
 const logger = require('../components/logger');
+const sessionConfig = require('../config/sessionConfig');
 
 const client = redis.createClient(redisConfig.port,redisConfig.host,{});  
 if(redisConfig.auth){
@@ -36,6 +37,7 @@ class RedisSession extends Session{
     }
     setSessionContext(sessionId,context){
         client.set(sessionId,JSON.stringify(context));
+        client.expire(sessionId, sessionConfig.maxAge);
     }
 }
 

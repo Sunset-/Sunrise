@@ -27,6 +27,11 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING(2),
             allowNull: false
         },
+        region: {
+            field: 'region_',
+            type: DataTypes.STRING(100),
+            allowNull: true
+        },
         address: {
             field: 'address_',
             type: DataTypes.STRING(100),

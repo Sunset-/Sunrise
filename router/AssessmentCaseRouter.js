@@ -1,7 +1,5 @@
 const AssessmentCaseService = require('../service/AssessmentCaseService');
-const {
-    TRUE_FALSE
-} = require('../enum/COMMON_ENUM');
+const MemoryCache = require('../components/MemoryCache');
 const BaseRouter = require('./BaseRouter')(AssessmentCaseService, {
     pageFilter(ctx) {
         let keyword = ctx.query.keyword;
@@ -19,11 +17,7 @@ module.exports = {
     prefix: '/referral/assessmentCase',
     routes: Object.assign(BaseRouter, {
         'GET/use/all': async function (ctx) {
-            ctx.body = await AssessmentCaseService.findAll({
-                where: {
-                    status: TRUE_FALSE.TRUE
-                }
-            });
+            ctx.body = await MemoryCache.get('ASSESSMENT_CASE_USE_ALL');
         }
     })
 };

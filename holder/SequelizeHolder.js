@@ -7,7 +7,8 @@ var sequelize = new Sequelize(databaseConfig.database, databaseConfig.username, 
     host: databaseConfig.host,
     port: databaseConfig.port,
     dialect: databaseConfig.dialect,
-    pool: databaseConfig.pool
+    pool: databaseConfig.pool,
+    timezone : '+08:00'
 });
 
 module.exports = {

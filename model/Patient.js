@@ -68,6 +68,11 @@ module.exports = (sequelize,DataTypes)=>{
             type : DataTypes.STRING(200),
             allowNull : true
         },
+        status : {
+            field : 'status_',
+            type : DataTypes.INTEGER(1),
+            allowNull : true
+        },
         createTime : {
             field : 'create_time_',
             type : DataTypes.DATE,

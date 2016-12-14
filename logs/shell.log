@@ -1,75 +1,77 @@
-Last login: Mon Dec 12 11:55:54 2016 from 192.168.0.109
-cd /home/referral/servertest
-unzip -o build-20161212-1200.zip
-rm -rf build-20161212-1200.zip
+Last login: Wed Dec 14 16:35:16 2016 from 192.168.0.109
+cd /home/referral/server
+unzip -o build-20161214-1640.zip
+rm -rf build-20161214-1640.zip
+pm2 restart 0
 exit
-[root@opc ~]# cd /home/referral/servertest
-[root@opc servertest]# unzip -o build-20161212-1200.zip
-Archive:  build-20161212-1200.zip
+[root@opc ~]# cd /home/referral/server
+[root@opc server]# unzip -o build-20161214-1640.zip
+Archive:  build-20161214-1640.zip
   inflating: assets/img/gamersky_01origin_01_2016917225273D.jpg  
   inflating: assets/img/gamersky_03origin_05_201684171564.jpg  
   inflating: assets/img/gamersky_08origin_15_201611122046828.jpg  
   inflating: assets/img/GTA_V_26.jpg  
-  inflating: assets/swagger-ui/bugs.txt  
-  inflating: assets/swagger-ui/index.html  
-  inflating: assets/swagger-ui/o2c.html  
-  inflating: assets/swagger-ui/swagger-ui.js  
-  inflating: assets/swagger-ui/swagger-ui.min.js  
-  inflating: assets/swagger-ui/swagger.json  
-  inflating: assets/swagger-ui/css/print.css  
-  inflating: assets/swagger-ui/css/reset.css  
-  inflating: assets/swagger-ui/css/screen.css  
-  inflating: assets/swagger-ui/css/style.css  
-  inflating: assets/swagger-ui/css/typography.css  
-  inflating: assets/swagger-ui/fonts/DroidSans-Bold.ttf  
-  inflating: assets/swagger-ui/fonts/DroidSans.ttf  
-  inflating: assets/swagger-ui/images/collapse.gif  
-  inflating: assets/swagger-ui/images/expand.gif  
-  inflating: assets/swagger-ui/images/explorer_icons.png  
-  inflating: assets/swagger-ui/images/favicon-16x16.png  
-  inflating: assets/swagger-ui/images/favicon-32x32.png  
-  inflating: assets/swagger-ui/images/favicon.ico  
-  inflating: assets/swagger-ui/images/logo_small.png  
-  inflating: assets/swagger-ui/images/pet_store_api.png  
-  inflating: assets/swagger-ui/images/throbber.gif  
-  inflating: assets/swagger-ui/images/wordnik_api.png  
-  inflating: assets/swagger-ui/lang/ca.js  
-  inflating: assets/swagger-ui/lang/el.js  
-  inflating: assets/swagger-ui/lang/en.js  
-  inflating: assets/swagger-ui/lang/es.js  
-  inflating: assets/swagger-ui/lang/fr.js  
-  inflating: assets/swagger-ui/lang/geo.js  
-  inflating: assets/swagger-ui/lang/it.js  
-  inflating: assets/swagger-ui/lang/ja.js  
-  inflating: assets/swagger-ui/lang/ko-kr.js  
-  inflating: assets/swagger-ui/lang/pl.js  
-  inflating: assets/swagger-ui/lang/pt.js  
-  inflating: assets/swagger-ui/lang/ru.js  
-  inflating: assets/swagger-ui/lang/tr.js  
-  inflating: assets/swagger-ui/lang/translator.js  
-  inflating: assets/swagger-ui/lang/zh-cn.js  
-  inflating: assets/swagger-ui/lib/backbone-min.js  
-  inflating: assets/swagger-ui/lib/es5-shim.js  
-  inflating: assets/swagger-ui/lib/handlebars-4.0.5.js  
-  inflating: assets/swagger-ui/lib/highlight.9.1.0.pack.js  
-  inflating: assets/swagger-ui/lib/highlight.9.1.0.pack_extended.js  
-  inflating: assets/swagger-ui/lib/jquery-1.8.0.min.js  
-  inflating: assets/swagger-ui/lib/jquery.ba-bbq.min.js  
-  inflating: assets/swagger-ui/lib/jquery.slideto.min.js  
-  inflating: assets/swagger-ui/lib/jquery.wiggle.min.js  
-  inflating: assets/swagger-ui/lib/js-yaml.min.js  
-  inflating: assets/swagger-ui/lib/jsoneditor.min.js  
-  inflating: assets/swagger-ui/lib/lodash.min.js  
-  inflating: assets/swagger-ui/lib/marked.js  
-  inflating: assets/swagger-ui/lib/object-assign-pollyfill.js  
-  inflating: assets/swagger-ui/lib/sanitize-html.min.js  
-  inflating: assets/swagger-ui/lib/swagger-oauth.js  
+  inflating: assets/swagger/bugs.txt  
+  inflating: assets/swagger/index.html  
+  inflating: assets/swagger/o2c.html  
+  inflating: assets/swagger/swagger-ui.js  
+  inflating: assets/swagger/swagger-ui.min.js  
+  inflating: assets/swagger/swagger.json  
+  inflating: assets/swagger/css/print.css  
+  inflating: assets/swagger/css/reset.css  
+  inflating: assets/swagger/css/screen.css  
+  inflating: assets/swagger/css/style.css  
+  inflating: assets/swagger/css/typography.css  
+  inflating: assets/swagger/fonts/DroidSans-Bold.ttf  
+  inflating: assets/swagger/fonts/DroidSans.ttf  
+  inflating: assets/swagger/images/collapse.gif  
+  inflating: assets/swagger/images/expand.gif  
+  inflating: assets/swagger/images/explorer_icons.png  
+  inflating: assets/swagger/images/favicon-16x16.png  
+  inflating: assets/swagger/images/favicon-32x32.png  
+  inflating: assets/swagger/images/favicon.ico  
+  inflating: assets/swagger/images/logo_small.png  
+  inflating: assets/swagger/images/pet_store_api.png  
+  inflating: assets/swagger/images/throbber.gif  
+  inflating: assets/swagger/images/wordnik_api.png  
+  inflating: assets/swagger/lang/ca.js  
+  inflating: assets/swagger/lang/el.js  
+  inflating: assets/swagger/lang/en.js  
+  inflating: assets/swagger/lang/es.js  
+  inflating: assets/swagger/lang/fr.js  
+  inflating: assets/swagger/lang/geo.js  
+  inflating: assets/swagger/lang/it.js  
+  inflating: assets/swagger/lang/ja.js  
+  inflating: assets/swagger/lang/ko-kr.js  
+  inflating: assets/swagger/lang/pl.js  
+  inflating: assets/swagger/lang/pt.js  
+  inflating: assets/swagger/lang/ru.js  
+  inflating: assets/swagger/lang/tr.js  
+  inflating: assets/swagger/lang/translator.js  
+  inflating: assets/swagger/lang/zh-cn.js  
+  inflating: assets/swagger/lib/backbone-min.js  
+  inflating: assets/swagger/lib/es5-shim.js  
+  inflating: assets/swagger/lib/handlebars-4.0.5.js  
+  inflating: assets/swagger/lib/highlight.9.1.0.pack.js  
+  inflating: assets/swagger/lib/highlight.9.1.0.pack_extended.js  
+  inflating: assets/swagger/lib/jquery-1.8.0.min.js  
+  inflating: assets/swagger/lib/jquery.ba-bbq.min.js  
+  inflating: assets/swagger/lib/jquery.slideto.min.js  
+  inflating: assets/swagger/lib/jquery.wiggle.min.js  
+  inflating: assets/swagger/lib/js-yaml.min.js  
+  inflating: assets/swagger/lib/jsoneditor.min.js  
+  inflating: assets/swagger/lib/lodash.min.js  
+  inflating: assets/swagger/lib/marked.js  
+  inflating: assets/swagger/lib/object-assign-pollyfill.js  
+  inflating: assets/swagger/lib/sanitize-html.min.js  
+  inflating: assets/swagger/lib/swagger-oauth.js  
   inflating: common/lang.js          
   inflating: common/random.js        
   inflating: common/salt.js          
   inflating: common/sign.js          
   inflating: components/errorCatch.js  
   inflating: components/logger.js    
+  inflating: components/MemoryCache.js  
   inflating: components/session.js   
   inflating: config/databaseConfig.js  
   inflating: config/log4jsConfig.js  
@@ -95,6 +97,7 @@ Archive:  build-20161212-1200.zip
   inflating: model/DictionaryItem.js  
   inflating: model/DictionaryType.js  
   inflating: model/Hospital.js       
+  inflating: model/HospitalAdapt.js  
   inflating: model/HospitalPatientRel.js  
   inflating: model/ManagerAccount.js  
   inflating: model/Patient.js        
@@ -115,6 +118,7 @@ Archive:  build-20161212-1200.zip
   inflating: router/ReferralRouter.js  
   inflating: router/router.js        
   inflating: router/SignRouter.js    
+  inflating: router/swagger.json     
   inflating: service/AccountService.js  
   inflating: service/AssessmentCaseService.js  
   inflating: service/BaseService.js  
@@ -128,6 +132,17 @@ Archive:  build-20161212-1200.zip
   inflating: service/PatienService.js  
   inflating: service/ReferralService.js  
   inflating: app.js                  
-[root@opc servertest]# rm -rf build-20161212-1200.zip
-[root@opc servertest]# exit
+[root@opc server]# rm -rf build-20161214-1640.zip
+[root@opc server]# pm2 restart 0
+[2mRestarts are now immutable, to update environment or conf use --update-env[22m
+[32m[PM2] [39mApplying action restartProcessId on app [0](ids: 0)
+[32m[PM2] [39m[Referral](0) ✓
+[90m┌────────────────────┬────┬──────┬───────┬─────────┬─────────┬────────┬─────┬──────────┬──────────┐[39m
+[90m│[39m[1m[36m App name           [39m[22m[90m│[39m[1m[36m id [39m[22m[90m│[39m[1m[36m mode [39m[22m[90m│[39m[1m[36m pid   [39m[22m[90m│[39m[1m[36m status  [39m[22m[90m│[39m[1m[36m restart [39m[22m[90m│[39m[1m[36m uptime [39m[22m[90m│[39m[1m[36m cpu [39m[22m[90m│[39m[1m[36m mem      [39m[22m[90m│[39m[1m[36m watching [39m[22m[90m│[39m
+[90m├────────────────────┼────┼──────┼───────┼─────────┼─────────┼────────┼─────┼──────────┼──────────┤[39m
+[90m│[39m[1m[36m [1m[36mReferral[36m[1m           [39m[22m[90m│[39m 0  [90m│[39m [7m[1mfork[22m[27m [90m│[39m 28960 [90m│[39m [32m[1monline[22m[39m  [90m│[39m 361     [90m│[39m 0s     [90m│[39m 0%  [90m│[39m 4.3 MB   [90m│[39m [90mdisabled[39m [90m│[39m
+[90m│[39m[1m[36m [1m[36mpm2-http-interface[36m[1m [39m[22m[90m│[39m 1  [90m│[39m [7m[1mfork[22m[27m [90m│[39m 0     [90m│[39m [31m[1mstopped[22m[39m [90m│[39m 0       [90m│[39m 0      [90m│[39m 0%  [90m│[39m 0 B      [90m│[39m [90mdisabled[39m [90m│[39m
+[90m└────────────────────┴────┴──────┴───────┴─────────┴─────────┴────────┴─────┴──────────┴──────────┘[39m
+[37m[3m Use `pm2 show <id|name>` to get more details about an app[23m[39m
+[root@opc server]# exit
 logout

@@ -1,4 +1,4 @@
-const mws = ['./static','./requestBody','./redisSession','./logger','./responseWrapper','./LoginedChecker']
+const mws = ['./static','./redisSession','./logger','./responseWrapper','./LoginedChecker','./requestBody']
 
 module.exports = (app) => {
     mws.forEach(mv => {

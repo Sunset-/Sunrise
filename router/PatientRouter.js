@@ -1,4 +1,5 @@
 const PatientService = require('../service/PatienService');
+const lang = require('../common/lang');
 
 module.exports = {
     prefix: '/referral/patient',
@@ -6,7 +7,7 @@ module.exports = {
         //新建档案
         'POST/': async function (ctx) {
             let currentUser = ctx.session.currentUser,
-                now = new Date(),
+                now = lang.now(),
                 params = ctx.request.body;
             ctx.body = await PatientService.createPatient(params, currentUser.hospital.id, currentUser.id);
         },
@@ -18,11 +19,11 @@ module.exports = {
             }
             ctx.body = await PatientService.findHospitalPatients(hospital.id, ctx.query);
         },
-        //病人转入院
-        'POST/admittedToHospital/:patientId/:fromHospitalId': async function (ctx) {
+        //病人分娩
+        'PUT/delivery/:patientId': async function (ctx) {
             let params = ctx.params,
                 currentUser = ctx.session.currentUser;
-            ctx.body = await PatientService.admittedToHospital(params.patientId, params.fromHospitalId, currentUser.hospital.id);
+            ctx.body = await PatientService.delivery(currentUser.id,currentUser.hospital.id,params.patientId);
         }
     }
 };

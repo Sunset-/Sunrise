@@ -8,7 +8,7 @@ class PatientExamineService extends BaseService {
         super(MODEL);
     }
     createExamine(examine, examineItems) {
-        let now = new Date();
+        let now = lang.now();
         return this.transaction(async t => {
             let examineInstance = await this.validate(examine, {
                 createTime: now
@@ -43,15 +43,47 @@ class PatientExamineService extends BaseService {
             where: {
                 hospitalId,
                 patientId
-            }
+            },
+            order: 'createTime DESC'
         });
     }
-    getExamineDetail(examineId) {
-        return ExamineAssessmentService.getModel().findAll({
+    async getLastExamineDetail(hospitalId, patientId) {
+        let examine = await this.getModel().findOne({
             where: {
-                examineId
+                hospitalId,
+                patientId
+            },
+            order: 'createTime DESC'
+        });
+        if (examine) {
+            let items = await ExamineAssessmentService.getModel().findAll({
+                where: {
+                    examineId : examine.id
+                }
+            });
+            return {
+                examine : examine,
+                examineItems : items
             }
-        })
+        } else {
+            return null;
+        }
+    }
+    async getExamineDetail(examineId) {
+        let examine = await this.getModel().findById(examineId);
+        if (examine) {
+            let items = await ExamineAssessmentService.getModel().findAll({
+                where: {
+                    examineId : examine.id
+                }
+            });
+            return {
+                examine : examine,
+                examineItems : items
+            }
+        } else {
+            return null;
+        }
     }
 }
 

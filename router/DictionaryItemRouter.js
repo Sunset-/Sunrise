@@ -1,5 +1,6 @@
 const DictionaryItemService = require('../service/DictionaryItemService');
 const BaseRouter = require('./BaseRouter')(DictionaryItemService);
+const MemoryCache = require('../components/MemoryCache');
 
 
 module.exports = {
@@ -11,6 +12,9 @@ module.exports = {
                     type : ctx.params.type
                 }
             })
+        },
+        'GET/use/all' : async function(ctx){
+            ctx.body = await MemoryCache.get('DICTIONARY_ITEM_USE_ALL');
         }
     })
 };

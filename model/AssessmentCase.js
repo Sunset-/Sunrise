@@ -18,6 +18,16 @@ module.exports = (sequelize,DataTypes)=>{
             type : DataTypes.INTEGER(1),
             allowNull : false
         },
+        category : {
+            field : 'category_',
+            type : DataTypes.INTEGER(1),
+            allowNull : false
+        },
+        dangerFactorTemplate : {
+            field : 'danger_factor_template_',
+            type : DataTypes.STRING(100),
+            allowNull : true
+        },
         rules : {
             field : 'rules_',
             type : DataTypes.STRING(500),

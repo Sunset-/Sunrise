@@ -1,0 +1,506 @@
+[2016-12-14 09:15:45.980] [INFO] info - Redis connecting!
+[2016-12-14 09:15:45.985] [INFO] info - Redis auth pass!
+[2016-12-14 09:17:09.760] [INFO] info - INFO======>/sign/currentUser耗时:7
+[2016-12-14 09:23:19.316] [INFO] info - Redis connecting!
+[2016-12-14 09:23:19.320] [INFO] info - Redis auth pass!
+[2016-12-14 09:23:26.027] [INFO] info - INFO======>/sign/currentUser耗时:6
+[2016-12-14 09:23:37.498] [INFO] info - INFO======>/sign/login耗时:38
+[2016-12-14 09:23:39.230] [INFO] info - INFO======>/sign/currentUser耗时:2
+[2016-12-14 09:24:21.190] [INFO] info - INFO======>/referral/request/apply?pageNumber=1&pageSize=10耗时:11
+[2016-12-14 09:36:35.133] [INFO] info - Redis connecting!
+[2016-12-14 09:36:35.137] [INFO] info - Redis auth pass!
+[2016-12-14 09:36:42.470] [INFO] info - INFO======>/sign/currentUser耗时:2
+[2016-12-14 09:36:53.515] [INFO] info - INFO======>/referral/request/apply?pageNumber=1&pageSize=10耗时:31
+[2016-12-14 09:37:03.671] [INFO] info - INFO======>/referral/request/apply?pageNumber=1&pageSize=10耗时:7
+[2016-12-14 09:37:11.562] [INFO] info - INFO======>/referral/request/apply?pageNumber=1&pageSize=10耗时:7
+[2016-12-14 09:37:20.160] [INFO] info - INFO======>/referral/request/apply?pageNumber=1&pageSize=10耗时:6
+[2016-12-14 09:37:31.262] [INFO] info - INFO======>/referral/request/apply?pageNumber=1&pageSize=10耗时:9
+[2016-12-14 09:37:35.018] [INFO] info - INFO======>/referral/request/apply?pageNumber=1&pageSize=10耗时:6
+[2016-12-14 09:38:02.655] [INFO] info - INFO======>/referral/request/apply?pageNumber=1&pageSize=10耗时:8295
+[2016-12-14 09:38:33.042] [INFO] info - INFO======>/referral/request/apply?pageNumber=1&pageSize=10耗时:11
+[2016-12-14 09:38:38.441] [INFO] info - INFO======>/referral/request/apply?pageNumber=1&pageSize=10耗时:5
+[2016-12-14 09:38:43.025] [INFO] info - INFO======>/referral/request/apply?status=1&pageNumber=1&pageSize=10耗时:7
+[2016-12-14 09:39:04.182] [INFO] info - Redis connecting!
+[2016-12-14 09:39:04.185] [INFO] info - Redis auth pass!
+[2016-12-14 09:39:06.784] [INFO] info - INFO======>/referral/request/apply?status=1&pageNumber=1&pageSize=10耗时:43
+[2016-12-14 09:39:38.829] [INFO] info - Redis connecting!
+[2016-12-14 09:39:38.833] [INFO] info - Redis auth pass!
+[2016-12-14 09:39:41.339] [INFO] info - INFO======>/referral/request/apply?status=1&pageNumber=1&pageSize=10耗时:32
+[2016-12-14 09:40:07.915] [INFO] info - INFO======>/referral/request/apply?status=1&pageNumber=1&pageSize=10耗时:6
+[2016-12-14 09:41:00.803] [INFO] info - Redis connecting!
+[2016-12-14 09:41:00.806] [INFO] info - Redis auth pass!
+[2016-12-14 09:41:03.634] [INFO] info - INFO======>/referral/request/apply?status=1&pageNumber=1&pageSize=10耗时:31
+[2016-12-14 09:41:11.647] [INFO] info - INFO======>/referral/request/apply?status=6&pageNumber=1&pageSize=10耗时:4
+[2016-12-14 09:41:17.304] [INFO] info - INFO======>/referral/request/apply?status=1%2C6&pageNumber=1&pageSize=10耗时:6
+[2016-12-14 09:41:34.249] [INFO] info - INFO======>/sign/login耗时:18
+[2016-12-14 09:41:47.794] [INFO] info - INFO======>/referral/request/reply?pageNumber=1&pageSize=10耗时:7
+[2016-12-14 09:41:56.202] [INFO] info - INFO======>/referral/request/reply?status=1&pageNumber=1&pageSize=10耗时:7
+[2016-12-14 09:42:01.767] [INFO] info - INFO======>/referral/request/reply?status=6&pageNumber=1&pageSize=10耗时:5
+[2016-12-14 09:42:06.685] [INFO] info - INFO======>/referral/request/reply?keyword=333&status=6&pageNumber=1&pageSize=10耗时:11
+[2016-12-14 09:42:41.327] [INFO] info - Redis connecting!
+[2016-12-14 09:42:41.330] [INFO] info - Redis auth pass!
+[2016-12-14 09:42:43.331] [INFO] info - INFO======>/referral/request/reply?keyword=333&status=6&pageNumber=1&pageSize=10耗时:33
+[2016-12-14 09:42:45.838] [INFO] info - INFO======>/referral/request/reply?status=6&pageNumber=1&pageSize=10耗时:5
+[2016-12-14 09:42:47.165] [INFO] info - INFO======>/referral/request/reply?keyword=1&status=6&pageNumber=1&pageSize=10耗时:5
+[2016-12-14 09:42:51.528] [INFO] info - INFO======>/referral/request/reply?keyword=2223&status=6&pageNumber=1&pageSize=10耗时:7
+[2016-12-14 09:42:54.134] [INFO] info - INFO======>/referral/request/reply?keyword=222&status=6&pageNumber=1&pageSize=10耗时:5
+[2016-12-14 09:42:58.791] [INFO] info - INFO======>/referral/request/reply?keyword=222&status=6%2C1&pageNumber=1&pageSize=10耗时:6
+[2016-12-14 09:46:22.090] [INFO] info - Redis connecting!
+[2016-12-14 09:46:22.093] [INFO] info - Redis auth pass!
+[2016-12-14 09:46:30.237] [INFO] info - INFO======>/sign/currentUser耗时:3
+[2016-12-14 09:46:35.008] [INFO] info - INFO======>/referral/patient?status=1&pageNumber=1&pageSize=10耗时:30
+[2016-12-14 09:51:27.192] [INFO] info - Redis connecting!
+[2016-12-14 09:51:27.194] [INFO] info - Redis auth pass!
+[2016-12-14 09:52:26.266] [INFO] info - INFO======>/sign/currentUser耗时:3
+[2016-12-14 09:52:37.692] [INFO] info - INFO======>/referral/patient?status=1&pageNumber=1&pageSize=10耗时:122
+[2016-12-14 09:53:12.131] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:6
+[2016-12-14 09:54:28.323] [INFO] info - Redis connecting!
+[2016-12-14 09:54:28.326] [INFO] info - Redis auth pass!
+[2016-12-14 10:05:01.346] [INFO] info - INFO======>/sign/currentUser耗时:3
+[2016-12-14 10:05:14.623] [INFO] info - INFO======>/sign/currentUser耗时:6
+[2016-12-14 10:05:28.810] [INFO] info - INFO======>/sign/login耗时:44
+[2016-12-14 10:05:32.548] [INFO] info - INFO======>/sign/currentUser耗时:1
+[2016-12-14 10:05:34.676] [INFO] info - INFO======>/sign/currentUser耗时:2
+[2016-12-14 10:07:08.210] [INFO] info - Redis connecting!
+[2016-12-14 10:07:08.213] [INFO] info - Redis auth pass!
+[2016-12-14 10:07:42.291] [INFO] info - INFO======>/referral/request/consent/6/12耗时:30949
+[2016-12-14 10:08:10.258] [INFO] info - INFO======>/referral/request/consent/6/12耗时:27992
+[2016-12-14 10:08:33.903] [INFO] info - Redis connecting!
+[2016-12-14 10:08:33.906] [INFO] info - Redis auth pass!
+[2016-12-14 10:09:14.390] [INFO] info - INFO======>/referral/request/consent/6/12耗时:14279
+[2016-12-14 10:09:27.425] [INFO] info - INFO======>/referral/request/consent/6/12耗时:13030
+[2016-12-14 10:12:42.283] [INFO] info - Redis connecting!
+[2016-12-14 10:12:42.286] [INFO] info - Redis auth pass!
+[2016-12-14 10:13:23.725] [INFO] info - INFO======>/referral/request/consent/6/12耗时:4281
+[2016-12-14 10:13:38.175] [INFO] info - Redis connecting!
+[2016-12-14 10:13:38.178] [INFO] info - Redis auth pass!
+[2016-12-14 10:13:59.439] [INFO] info - INFO======>/referral/request/consent/6/13耗时:2081
+[2016-12-14 10:14:01.380] [INFO] info - INFO======>/referral/request/consent/6/12耗时:5062
+[2016-12-14 10:15:13.483] [INFO] info - Redis connecting!
+[2016-12-14 10:15:13.486] [INFO] info - Redis auth pass!
+[2016-12-14 10:15:23.284] [INFO] info - INFO======>/referral/request/consent/6/13耗时:4079
+[2016-12-14 10:15:23.340] [INFO] info - INFO======>/referral/request/consent/6/12耗时:5121
+[2016-12-14 10:16:37.782] [INFO] info - Redis connecting!
+[2016-12-14 10:16:37.785] [INFO] info - Redis auth pass!
+[2016-12-14 10:17:02.870] [INFO] info - INFO======>/referral/request/consent/6/13耗时:2026
+[2016-12-14 10:17:08.678] [INFO] info - INFO======>/referral/request/consent/6/12耗时:8853
+[2016-12-14 10:18:02.858] [INFO] info - Redis connecting!
+[2016-12-14 10:18:02.861] [INFO] info - Redis auth pass!
+[2016-12-14 10:18:43.775] [INFO] info - INFO======>/referral/request/consent/6/13耗时:7109
+[2016-12-14 10:18:43.792] [INFO] info - INFO======>/referral/request/consent/6/12耗时:8102
+[2016-12-14 10:55:08.534] [INFO] info - Redis connecting!
+[2016-12-14 10:55:08.537] [INFO] info - Redis auth pass!
+[2016-12-14 10:56:55.174] [INFO] info - Redis connecting!
+[2016-12-14 10:56:55.177] [INFO] info - Redis auth pass!
+[2016-12-14 10:57:58.469] [INFO] info - Redis connecting!
+[2016-12-14 10:57:58.472] [INFO] info - Redis auth pass!
+[2016-12-14 10:59:23.295] [INFO] info - INFO======>/sign/currentUser耗时:3
+[2016-12-14 10:59:33.839] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:30
+[2016-12-14 10:59:40.052] [INFO] info - INFO======>/referral/patient?status=1&pageNumber=1&pageSize=10耗时:5
+[2016-12-14 10:59:42.908] [INFO] info - INFO======>/referral/patient?status=2&pageNumber=1&pageSize=10耗时:5
+[2016-12-14 10:59:56.973] [INFO] info - INFO======>/sign/login耗时:19
+[2016-12-14 11:00:00.648] [INFO] info - INFO======>/referral/patient?status=2&pageNumber=1&pageSize=10耗时:8
+[2016-12-14 11:00:03.430] [INFO] info - INFO======>/referral/patient?pageNumber=1&pageSize=10耗时:6
+[2016-12-14 11:00:07.795] [INFO] info - INFO======>/referral/patient?status=1&pageNumber=1&pageSize=10耗时:4
+[2016-12-14 11:00:10.789] [INFO] info - INFO======>/referral/patient?status=1&pageNumber=1&pageSize=10耗时:5
+[2016-12-14 11:00:19.988] [INFO] info - INFO======>/referral/patient?status=2&pageNumber=1&pageSize=10耗时:3
+[2016-12-14 11:00:25.878] [INFO] info - INFO======>/referral/patient?keyword=123&status=2&pageNumber=1&pageSize=10耗时:4
+[2016-12-14 11:00:33.323] [INFO] info - INFO======>/referral/patient?keyword=123&status=2&pageNumber=1&pageSize=10耗时:4
+[2016-12-14 11:00:39.073] [INFO] info - INFO======>/referral/patient?status=2&pageNumber=1&pageSize=10耗时:2
+[2016-12-14 11:00:57.666] [INFO] info - INFO======>/referral/patient/delivery/10耗时:18
+[2016-12-14 11:05:01.368] [INFO] info - INFO======>/referral/patient/delivery/10耗时:7663
+[2016-12-14 11:05:25.053] [INFO] info - Redis connecting!
+[2016-12-14 11:05:25.056] [INFO] info - Redis auth pass!
+[2016-12-14 11:05:44.833] [INFO] info - INFO======>/referral/patient/delivery/10耗时:19270
+[2016-12-14 11:05:56.994] [INFO] info - Redis connecting!
+[2016-12-14 11:05:56.997] [INFO] info - Redis auth pass!
+[2016-12-14 11:06:08.137] [INFO] info - INFO======>/referral/patient/delivery/10耗时:9720
+[2016-12-14 11:06:26.359] [INFO] info - Redis connecting!
+[2016-12-14 11:06:26.362] [INFO] info - Redis auth pass!
+[2016-12-14 11:06:29.357] [INFO] info - INFO======>/referral/patient/delivery/10耗时:60
+[2016-12-14 11:06:30.116] [INFO] info - INFO======>/referral/patient/delivery/10耗时:14
+[2016-12-14 11:06:37.625] [INFO] info - INFO======>/referral/patient?status=2&pageNumber=1&pageSize=10耗时:7
+[2016-12-14 11:06:49.391] [INFO] info - INFO======>/sign/login耗时:15
+[2016-12-14 11:06:54.395] [INFO] info - INFO======>/referral/patient?status=2&pageNumber=1&pageSize=10耗时:7
+[2016-12-14 11:06:56.155] [INFO] info - INFO======>/referral/patient?status=1&pageNumber=1&pageSize=10耗时:4
+[2016-12-14 11:06:59.138] [INFO] info - INFO======>/referral/patient?status=2&pageNumber=1&pageSize=10耗时:4
+[2016-12-14 11:07:01.060] [INFO] info - INFO======>/referral/patient?status=1&pageNumber=1&pageSize=10耗时:4
+[2016-12-14 11:07:05.142] [INFO] info - INFO======>/referral/patient/delivery/10耗时:16
+[2016-12-14 11:07:09.410] [INFO] info - INFO======>/referral/patient/delivery/10耗时:11
+[2016-12-14 11:07:18.133] [INFO] info - INFO======>/referral/patient?status=1&pageNumber=1&pageSize=10耗时:6
+[2016-12-14 11:07:42.426] [INFO] info - INFO======>/referral/patient/delivery/10耗时:15114
+[2016-12-14 11:09:13.781] [INFO] info - Redis connecting!
+[2016-12-14 11:09:13.784] [INFO] info - Redis auth pass!
+[2016-12-14 11:09:21.832] [INFO] info - INFO======>/referral/patient/delivery/10耗时:6916
+[2016-12-14 11:09:32.796] [INFO] info - INFO======>/referral/patient?status=1&pageNumber=1&pageSize=10耗时:7
+[2016-12-14 11:09:35.428] [INFO] info - INFO======>/referral/patient?status=2&pageNumber=1&pageSize=10耗时:5
+[2016-12-14 12:05:21.362] [INFO] info - Redis connecting!
+[2016-12-14 12:05:21.365] [INFO] info - Redis auth pass!
+[2016-12-14 12:06:47.061] [INFO] info - INFO======>/system/dictionaryItem耗时:13
+[2016-12-14 12:06:47.171] [INFO] info - INFO======>/manage/sign/currentUser耗时:3
+[2016-12-14 12:06:51.929] [INFO] info - INFO======>/manage/sign/login耗时:35
+[2016-12-14 12:07:04.522] [INFO] info - INFO======>/manage/sign/login耗时:4
+[2016-12-14 12:07:10.252] [INFO] info - INFO======>/system/dictionaryItem耗时:10
+[2016-12-14 12:07:16.429] [INFO] info - INFO======>/manage/sign/login耗时:5
+[2016-12-14 12:07:16.444] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 12:07:22.140] [INFO] info - INFO======>/system/dictionaryItem耗时:8
+[2016-12-14 12:07:22.190] [INFO] info - INFO======>/manage/sign/currentUser耗时:1
+[2016-12-14 12:07:25.046] [INFO] info - INFO======>/manage/account?pageNumber=1&pageSize=10耗时:6
+[2016-12-14 12:07:25.613] [INFO] info - INFO======>/system/dictionaryType?pageNumber=1&pageSize=10耗时:7
+[2016-12-14 12:07:28.054] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:6
+[2016-12-14 12:07:34.112] [INFO] info - INFO======>/system/dictionaryType耗时:6
+[2016-12-14 12:08:58.055] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:7
+[2016-12-14 12:09:19.021] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:7
+[2016-12-14 12:09:20.697] [INFO] info - INFO======>/system/dictionaryItem耗时:7
+[2016-12-14 12:09:21.051] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 12:09:21.176] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:4
+[2016-12-14 12:09:23.687] [INFO] info - INFO======>/system/dictionaryType耗时:7
+[2016-12-14 12:10:20.841] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:6
+[2016-12-14 12:10:21.036] [INFO] info - INFO======>/system/dictionaryType耗时:4
+[2016-12-14 12:10:23.148] [INFO] info - INFO======>/system/dictionaryItem耗时:4
+[2016-12-14 12:10:23.522] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 12:10:23.656] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:5
+[2016-12-14 12:10:26.303] [INFO] info - INFO======>/system/dictionaryType耗时:4
+[2016-12-14 12:13:52.112] [INFO] info - INFO======>/system/dictionaryType耗时:4
+[2016-12-14 12:13:59.843] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:4
+[2016-12-14 12:14:00.224] [INFO] info - INFO======>/system/dictionaryType耗时:10
+[2016-12-14 12:14:06.264] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:3
+[2016-12-14 12:14:06.682] [INFO] info - INFO======>/system/dictionaryType耗时:4
+[2016-12-14 12:14:11.918] [INFO] info - INFO======>/system/dictionaryItem耗时:6
+[2016-12-14 12:14:12.273] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 12:14:12.392] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:3
+[2016-12-14 12:14:14.523] [INFO] info - INFO======>/system/dictionaryType耗时:5
+[2016-12-14 12:14:52.158] [INFO] info - INFO======>/system/dictionaryItem耗时:4
+[2016-12-14 12:14:52.202] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 12:14:52.574] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:4
+[2016-12-14 12:14:54.379] [INFO] info - INFO======>/system/dictionaryType耗时:4
+[2016-12-14 12:15:20.066] [INFO] info - INFO======>/system/dictionaryItem耗时:8
+[2016-12-14 12:15:20.120] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 12:15:20.447] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:5
+[2016-12-14 12:15:23.071] [INFO] info - INFO======>/system/dictionaryType耗时:5
+[2016-12-14 12:16:20.371] [INFO] info - INFO======>/system/dictionaryItem耗时:6
+[2016-12-14 12:16:20.419] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 12:16:20.766] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:4
+[2016-12-14 12:16:23.459] [INFO] info - INFO======>/system/dictionaryType耗时:4
+[2016-12-14 12:17:07.129] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:5
+[2016-12-14 12:17:07.507] [INFO] info - INFO======>/system/dictionaryType耗时:4
+[2016-12-14 12:17:10.643] [INFO] info - INFO======>/system/dictionaryItem耗时:4
+[2016-12-14 12:17:11.010] [INFO] info - INFO======>/manage/sign/currentUser耗时:1
+[2016-12-14 12:17:11.138] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:4
+[2016-12-14 12:17:39.668] [INFO] info - INFO======>/system/dictionaryItem耗时:6
+[2016-12-14 12:17:40.036] [INFO] info - INFO======>/manage/sign/currentUser耗时:1
+[2016-12-14 12:17:40.239] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:4
+[2016-12-14 12:17:48.923] [INFO] info - INFO======>/system/dictionaryItem耗时:5
+[2016-12-14 12:17:48.979] [INFO] info - INFO======>/manage/sign/currentUser耗时:1
+[2016-12-14 12:17:49.132] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:7
+[2016-12-14 12:17:55.743] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:5
+[2016-12-14 12:18:15.842] [INFO] info - INFO======>/system/dictionaryItem耗时:6
+[2016-12-14 12:18:15.909] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 12:18:16.223] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:4
+[2016-12-14 12:18:17.967] [INFO] info - INFO======>/system/dictionaryType耗时:4
+[2016-12-14 12:18:27.863] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:8
+[2016-12-14 12:18:27.864] [INFO] info - INFO======>/system/dictionaryType耗时:8
+[2016-12-14 12:18:30.674] [INFO] info - INFO======>/system/dictionaryItem耗时:5
+[2016-12-14 12:18:30.718] [INFO] info - INFO======>/manage/sign/currentUser耗时:1
+[2016-12-14 12:18:31.056] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:4
+[2016-12-14 12:18:39.211] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:4
+[2016-12-14 12:18:39.821] [INFO] info - INFO======>/system/dictionaryItem耗时:5
+[2016-12-14 12:18:39.880] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 12:18:40.103] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:5
+[2016-12-14 12:18:51.614] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:6
+[2016-12-14 12:18:52.358] [INFO] info - INFO======>/system/dictionaryItem耗时:5
+[2016-12-14 12:18:52.711] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 12:18:52.956] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:4
+[2016-12-14 12:20:57.539] [INFO] info - INFO======>/system/dictionaryItem耗时:8
+[2016-12-14 12:20:57.891] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 12:20:58.026] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:7
+[2016-12-14 12:21:07.226] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:6
+[2016-12-14 12:21:51.639] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:4
+[2016-12-14 12:21:52.983] [INFO] info - INFO======>/system/dictionaryItem耗时:6
+[2016-12-14 12:21:53.325] [INFO] info - INFO======>/manage/sign/currentUser耗时:1
+[2016-12-14 12:21:53.474] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:3
+[2016-12-14 12:22:19.211] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:5
+[2016-12-14 12:22:29.898] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:6
+[2016-12-14 12:22:39.098] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:5
+[2016-12-14 12:22:42.540] [INFO] info - INFO======>/system/dictionaryItem耗时:10
+[2016-12-14 12:22:42.589] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 12:22:42.917] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:4
+[2016-12-14 12:23:07.208] [INFO] info - INFO======>/referral/assessmentCase耗时:30
+[2016-12-14 12:23:07.538] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:5
+[2016-12-14 12:23:09.764] [INFO] info - INFO======>/system/dictionaryItem耗时:8
+[2016-12-14 12:23:10.108] [INFO] info - INFO======>/manage/sign/currentUser耗时:1
+[2016-12-14 12:23:10.232] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:5
+[2016-12-14 13:27:56.970] [INFO] info - Redis connecting!
+[2016-12-14 13:27:56.976] [INFO] info - Redis auth pass!
+[2016-12-14 13:28:24.310] [INFO] info - Redis connecting!
+[2016-12-14 13:28:24.316] [INFO] info - Redis auth pass!
+[2016-12-14 13:29:03.662] [INFO] info - Redis connecting!
+[2016-12-14 13:29:03.665] [INFO] info - Redis auth pass!
+[2016-12-14 13:29:41.872] [INFO] info - Redis connecting!
+[2016-12-14 13:29:41.875] [INFO] info - Redis auth pass!
+[2016-12-14 13:29:59.902] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:2
+[2016-12-14 13:33:33.213] [INFO] info - Redis connecting!
+[2016-12-14 13:33:33.216] [INFO] info - Redis auth pass!
+[2016-12-14 13:33:36.779] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:4
+[2016-12-14 13:33:40.551] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:0
+[2016-12-14 13:33:40.895] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:0
+[2016-12-14 13:33:41.048] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:1
+[2016-12-14 13:34:08.078] [INFO] info - Redis connecting!
+[2016-12-14 13:34:08.082] [INFO] info - Redis auth pass!
+[2016-12-14 13:34:18.357] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:2
+[2016-12-14 13:34:27.096] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:2
+[2016-12-14 13:41:20.974] [INFO] info - Redis connecting!
+[2016-12-14 13:41:20.978] [INFO] info - Redis auth pass!
+[2016-12-14 13:41:34.546] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:2
+[2016-12-14 13:41:35.784] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:1
+[2016-12-14 13:42:04.148] [INFO] info - INFO======>/system/dictionaryItem耗时:5
+[2016-12-14 13:42:04.234] [INFO] info - INFO======>/manage/sign/currentUser耗时:1
+[2016-12-14 13:42:04.921] [INFO] info - INFO======>/system/dictionaryItem耗时:2
+[2016-12-14 13:42:04.979] [INFO] info - INFO======>/manage/sign/currentUser耗时:1
+[2016-12-14 13:42:10.034] [INFO] info - INFO======>/manage/sign/login耗时:8
+[2016-12-14 13:42:18.589] [INFO] info - INFO======>/manage/sign/login耗时:5
+[2016-12-14 13:42:19.180] [INFO] info - INFO======>/manage/sign/login耗时:4
+[2016-12-14 13:42:19.557] [INFO] info - INFO======>/manage/sign/login耗时:4
+[2016-12-14 13:42:20.044] [INFO] info - INFO======>/manage/sign/login耗时:4
+[2016-12-14 13:42:20.227] [INFO] info - INFO======>/manage/sign/login耗时:4
+[2016-12-14 13:42:20.293] [INFO] info - INFO======>/manage/sign/login耗时:4
+[2016-12-14 13:42:20.371] [INFO] info - INFO======>/manage/sign/login耗时:4
+[2016-12-14 13:43:46.057] [INFO] info - INFO======>/system/dictionaryItem耗时:12
+[2016-12-14 13:43:48.863] [INFO] info - INFO======>/system/dictionaryItem耗时:7
+[2016-12-14 13:44:37.056] [INFO] info - INFO======>/system/dictionaryItem耗时:7
+[2016-12-14 13:44:41.945] [INFO] info - INFO======>/system/dictionaryItem耗时:5
+[2016-12-14 13:45:05.609] [INFO] info - INFO======>/system/dictionaryItem耗时:9
+[2016-12-14 13:45:09.715] [INFO] info - INFO======>/manage/sign/login耗时:3
+[2016-12-14 13:45:10.713] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 13:45:16.048] [INFO] info - INFO======>/manage/sign/logout耗时:1
+[2016-12-14 13:45:17.733] [INFO] info - INFO======>/system/dictionaryItem耗时:1
+[2016-12-14 13:45:21.645] [INFO] info - INFO======>/manage/sign/login耗时:3
+[2016-12-14 13:45:22.739] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 13:45:27.567] [INFO] info - INFO======>/manage/sign/logout耗时:0
+[2016-12-14 13:45:29.159] [INFO] info - INFO======>/system/dictionaryItem耗时:2
+[2016-12-14 13:45:30.111] [INFO] info - INFO======>/system/dictionaryItem耗时:0
+[2016-12-14 13:45:33.981] [INFO] info - INFO======>/manage/sign/login耗时:4
+[2016-12-14 13:45:33.995] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 13:45:38.191] [INFO] info - INFO======>/system/dictionaryItem耗时:6
+[2016-12-14 13:45:38.540] [INFO] info - INFO======>/manage/sign/currentUser耗时:0
+[2016-12-14 13:45:46.636] [INFO] info - INFO======>/system/dictionaryType?pageNumber=1&pageSize=10耗时:4
+[2016-12-14 13:45:52.358] [INFO] info - INFO======>/system/dictionaryItem/getByType/HospitalLevel耗时:3
+[2016-12-14 13:46:11.775] [INFO] info - INFO======>/system/dictionaryItem耗时:38
+[2016-12-14 13:46:11.987] [INFO] info - INFO======>/system/dictionaryItem/getByType/HospitalLevel耗时:3
+[2016-12-14 13:46:21.601] [INFO] info - INFO======>/system/dictionaryItem耗时:24
+[2016-12-14 13:46:21.925] [INFO] info - INFO======>/system/dictionaryItem/getByType/HospitalLevel耗时:3
+[2016-12-14 13:46:47.565] [INFO] info - Redis connecting!
+[2016-12-14 13:46:47.568] [INFO] info - Redis auth pass!
+[2016-12-14 13:46:51.137] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:3
+[2016-12-14 13:47:03.163] [INFO] info - INFO======>/system/dictionaryItem耗时:53
+[2016-12-14 13:47:03.361] [INFO] info - INFO======>/system/dictionaryItem/getByType/HospitalLevel耗时:7
+[2016-12-14 13:47:32.560] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:1
+[2016-12-14 13:47:46.311] [INFO] info - INFO======>/system/dictionaryItem耗时:40
+[2016-12-14 13:47:46.519] [INFO] info - INFO======>/system/dictionaryItem/getByType/HospitalLevel耗时:7
+[2016-12-14 13:47:54.935] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:1
+[2016-12-14 13:49:40.638] [INFO] info - Redis connecting!
+[2016-12-14 13:49:40.641] [INFO] info - Redis auth pass!
+[2016-12-14 13:49:45.417] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:3
+[2016-12-14 13:49:56.629] [INFO] info - INFO======>/system/dictionaryItem耗时:38
+[2016-12-14 13:49:56.822] [INFO] info - INFO======>/system/dictionaryItem/getByType/HospitalLevel耗时:6
+[2016-12-14 13:50:16.820] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:1
+[2016-12-14 13:50:33.082] [INFO] info - INFO======>/system/dictionaryItem耗时:28
+[2016-12-14 13:50:33.307] [INFO] info - INFO======>/system/dictionaryItem/getByType/HospitalLevel耗时:3
+[2016-12-14 13:50:41.176] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:1
+[2016-12-14 13:50:55.351] [INFO] info - INFO======>/system/dictionaryItem耗时:25
+[2016-12-14 13:50:55.579] [INFO] info - INFO======>/system/dictionaryItem/getByType/HospitalLevel耗时:3
+[2016-12-14 13:50:59.552] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:1
+[2016-12-14 13:54:54.968] [INFO] info - Redis connecting!
+[2016-12-14 13:54:54.971] [INFO] info - Redis auth pass!
+[2016-12-14 13:55:43.647] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 13:55:43.653] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 13:55:43.751] [INFO] info - Redis connecting!
+[2016-12-14 13:55:43.753] [INFO] info - Redis auth pass!
+[2016-12-14 13:55:51.153] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:3
+[2016-12-14 13:55:54.055] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:0
+[2016-12-14 13:55:54.542] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:0
+[2016-12-14 13:55:54.895] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:1
+[2016-12-14 13:56:07.094] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 13:56:07.102] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 13:56:07.203] [INFO] info - Redis connecting!
+[2016-12-14 13:56:07.206] [INFO] info - Redis auth pass!
+[2016-12-14 13:56:11.145] [INFO] info - INFO======>/system/dictionaryItem/use/all耗时:3
+[2016-12-14 13:56:18.529] [INFO] info - INFO======>/referral/assessmentCase/use/all耗时:2
+[2016-12-14 13:56:25.093] [INFO] info - INFO======>/system/dictionaryItem耗时:11
+[2016-12-14 13:56:25.139] [INFO] info - INFO======>/manage/sign/currentUser耗时:1
+[2016-12-14 13:56:25.465] [INFO] info - INFO======>/system/dictionaryType?pageNumber=1&pageSize=10耗时:6
+[2016-12-14 13:56:28.896] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:9
+[2016-12-14 13:56:43.361] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 13:56:43.363] [INFO] info - INFO======>/referral/assessmentCase耗时:61
+[2016-12-14 13:56:43.542] [INFO] info - INFO======>/referral/assessmentCase?pageNumber=1&pageSize=10耗时:5
+[2016-12-14 13:56:58.727] [INFO] info - INFO======>/referral/assessmentCase/use/all耗时:0
+[2016-12-14 13:58:09.508] [INFO] info - INFO======>/system/file/upload耗时:7
+[2016-12-14 13:59:12.227] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 13:59:12.234] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 13:59:12.332] [INFO] info - Redis connecting!
+[2016-12-14 13:59:12.335] [INFO] info - Redis auth pass!
+[2016-12-14 13:59:23.444] [INFO] info - INFO======>/system/file/upload耗时:7
+[2016-12-14 13:59:29.481] [INFO] info - INFO======>/system/file/upload耗时:1
+[2016-12-14 13:59:30.366] [INFO] info - INFO======>/system/file/upload耗时:1
+[2016-12-14 13:59:30.842] [INFO] info - INFO======>/system/file/upload耗时:2
+[2016-12-14 13:59:45.862] [INFO] info - INFO======>/sign/login耗时:31
+[2016-12-14 13:59:52.385] [INFO] info - INFO======>/system/file/upload耗时:10
+[2016-12-14 14:01:16.692] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 14:01:16.699] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 14:01:16.797] [INFO] info - Redis connecting!
+[2016-12-14 14:01:16.801] [INFO] info - Redis auth pass!
+[2016-12-14 14:01:29.545] [INFO] info - REQUEST=======>[GET]/sign/currentUser耗时:4
+[2016-12-14 14:06:14.266] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 14:06:14.271] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 14:06:14.371] [INFO] info - Redis connecting!
+[2016-12-14 14:06:14.373] [INFO] info - Redis auth pass!
+[2016-12-14 14:06:24.209] [INFO] info - REQUEST=======>[GET]/manage/sign/logout，耗时:3ms
+[2016-12-14 14:06:28.150] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:22ms
+[2016-12-14 14:06:30.904] [INFO] info - REQUEST=======>[GET]/manage/sign/logout，耗时:1ms
+[2016-12-14 14:06:33.343] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:6ms
+[2016-12-14 14:06:37.284] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:5ms
+[2016-12-14 14:06:37.299] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:0ms
+[2016-12-14 14:06:42.253] [INFO] info - REQUEST=======>[GET]/manage/sign/logout，耗时:1ms
+[2016-12-14 14:06:45.678] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:3ms
+[2016-12-14 14:06:50.052] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:5ms
+[2016-12-14 14:06:50.065] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:0ms
+[2016-12-14 14:07:28.289] [INFO] info - REQUEST=======>[GET]/manage/sign/logout，耗时:1ms
+[2016-12-14 14:07:32.677] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:1ms
+[2016-12-14 14:07:32.743] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:1ms
+[2016-12-14 14:07:37.211] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:4ms
+[2016-12-14 14:09:02.018] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:11ms
+[2016-12-14 14:09:06.758] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:8ms
+[2016-12-14 14:09:08.127] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:1ms
+[2016-12-14 14:09:10.142] [INFO] info - REQUEST=======>[GET]/manage/sign/logout，耗时:1ms
+[2016-12-14 14:09:14.806] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:1ms
+[2016-12-14 14:09:16.092] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:2ms
+[2016-12-14 14:09:28.399] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:6ms
+[2016-12-14 14:09:44.476] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:3ms
+[2016-12-14 14:10:02.182] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:7ms
+[2016-12-14 14:10:14.627] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:3ms
+[2016-12-14 14:10:16.021] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:1ms
+[2016-12-14 14:10:37.356] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:7ms
+[2016-12-14 14:10:38.845] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:1ms
+[2016-12-14 14:10:40.632] [INFO] info - REQUEST=======>[GET]/manage/sign/logout，耗时:1ms
+[2016-12-14 14:10:45.499] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:1ms
+[2016-12-14 14:10:47.305] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:1ms
+[2016-12-14 14:10:52.978] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:2ms
+[2016-12-14 14:11:02.572] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:1ms
+[2016-12-14 14:11:11.626] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:3ms
+[2016-12-14 14:11:12.672] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:0ms
+[2016-12-14 14:11:14.920] [INFO] info - REQUEST=======>[GET]/manage/sign/logout，耗时:0ms
+[2016-12-14 14:11:18.681] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:2ms
+[2016-12-14 14:11:19.657] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:0ms
+[2016-12-14 14:11:23.749] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:5ms
+[2016-12-14 14:11:26.243] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:4ms
+[2016-12-14 14:11:33.345] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:8ms
+[2016-12-14 14:11:37.951] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:8ms
+[2016-12-14 14:11:39.063] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:0ms
+[2016-12-14 14:11:41.080] [INFO] info - REQUEST=======>[GET]/manage/sign/logout，耗时:0ms
+[2016-12-14 14:11:44.833] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:1ms
+[2016-12-14 14:11:45.769] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:2ms
+[2016-12-14 14:11:51.179] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:4ms
+[2016-12-14 14:11:58.162] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:3ms
+[2016-12-14 14:12:14.258] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:3ms
+[2016-12-14 14:12:29.783] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:3ms
+[2016-12-14 14:13:44.179] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:6ms
+[2016-12-14 14:13:52.849] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:5ms
+[2016-12-14 14:13:53.879] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:0ms
+[2016-12-14 14:13:55.696] [INFO] info - REQUEST=======>[GET]/manage/sign/logout，耗时:0ms
+[2016-12-14 14:13:59.490] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:0ms
+[2016-12-14 14:14:00.547] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:1ms
+[2016-12-14 14:14:05.835] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:3ms
+[2016-12-14 14:14:11.662] [INFO] info - REQUEST=======>[GET]/manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2016-12-14 14:14:27.595] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:7ms
+[2016-12-14 14:14:29.742] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:0ms
+[2016-12-14 14:14:29.863] [INFO] info - REQUEST=======>[GET]/manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2016-12-14 14:14:37.776] [INFO] info - REQUEST=======>[GET]/manage/sign/logout，耗时:0ms
+[2016-12-14 14:14:41.778] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:1ms
+[2016-12-14 14:14:42.552] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:1ms
+[2016-12-14 14:14:47.595] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:3ms
+[2016-12-14 14:14:57.976] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:7ms
+[2016-12-14 14:14:58.036] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:1ms
+[2016-12-14 14:14:59.810] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:4ms
+[2016-12-14 14:14:59.914] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:0ms
+[2016-12-14 14:15:01.448] [INFO] info - REQUEST=======>[GET]/manage/sign/logout，耗时:0ms
+[2016-12-14 14:15:04.699] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:3ms
+[2016-12-14 14:15:06.216] [INFO] info - REQUEST=======>[GET]/manage/sign/logout，耗时:1ms
+[2016-12-14 14:15:08.694] [INFO] info - REQUEST=======>[GET]/system/dictionaryItem，耗时:1ms
+[2016-12-14 14:15:08.749] [INFO] info - REQUEST=======>[GET]/manage/sign/currentUser，耗时:1ms
+[2016-12-14 14:15:12.065] [INFO] info - REQUEST=======>[POST]/manage/sign/login，耗时:3ms
+[2016-12-14 16:11:07.303] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 16:11:07.319] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 16:11:07.960] [INFO] info - Redis connecting!
+[2016-12-14 16:11:07.963] [INFO] info - Redis auth pass!
+[2016-12-14 16:12:34.838] [INFO] info - REQUEST=======>[GET]/sign/currentUser，耗时:6ms
+[2016-12-14 16:12:47.886] [INFO] info - REQUEST=======>[POST]/sign/login，耗时:128ms
+[2016-12-14 16:12:51.901] [INFO] info - REQUEST=======>[GET]/sign/currentUser，耗时:2ms
+[2016-12-14 16:13:07.133] [INFO] info - REQUEST=======>[GET]/referral/examine/last/0，耗时:4810ms
+[2016-12-14 16:13:32.881] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 16:13:32.888] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 16:13:32.990] [INFO] info - Redis connecting!
+[2016-12-14 16:13:32.992] [INFO] info - Redis auth pass!
+[2016-12-14 16:13:36.236] [INFO] info - REQUEST=======>[GET]/referral/examine/last/0，耗时:2353ms
+[2016-12-14 16:15:02.920] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 16:15:02.926] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 16:15:03.021] [INFO] info - Redis connecting!
+[2016-12-14 16:15:03.024] [INFO] info - Redis auth pass!
+[2016-12-14 16:15:04.544] [INFO] info - REQUEST=======>[GET]/referral/examine/last/0，耗时:13ms
+[2016-12-14 16:15:20.547] [INFO] info - REQUEST=======>[GET]/referral/examine/last/0，耗时:8ms
+[2016-12-14 16:16:52.069] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 16:16:52.076] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 16:16:52.173] [INFO] info - Redis connecting!
+[2016-12-14 16:16:52.176] [INFO] info - Redis auth pass!
+[2016-12-14 16:16:55.476] [INFO] info - REQUEST=======>[GET]/referral/examine/last/0，耗时:3176ms
+[2016-12-14 16:18:16.755] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 16:18:16.763] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 16:18:16.862] [INFO] info - Redis connecting!
+[2016-12-14 16:18:16.865] [INFO] info - Redis auth pass!
+[2016-12-14 16:18:23.524] [INFO] info - REQUEST=======>[GET]/referral/examine/last/0，耗时:16ms
+[2016-12-14 16:26:17.713] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 16:26:17.720] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 16:26:17.825] [INFO] info - Redis connecting!
+[2016-12-14 16:26:17.829] [INFO] info - Redis auth pass!
+[2016-12-14 16:26:24.162] [INFO] info - REQUEST=======>Wed Dec 14 2016 16:26:21 GMT+0800 (中国标准时间) [GET]/referral/examine/last/0，耗时:2183ms
+[2016-12-14 16:26:58.280] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 16:26:58.287] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 16:26:58.387] [INFO] info - Redis connecting!
+[2016-12-14 16:26:58.390] [INFO] info - Redis auth pass!
+[2016-12-14 16:27:21.341] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 16:27:21.346] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 16:27:21.441] [INFO] info - Redis connecting!
+[2016-12-14 16:27:21.443] [INFO] info - Redis auth pass!
+[2016-12-14 16:27:21.850] [INFO] info - REQUEST=======>2016-12-14 16:27:21 [GET]/referral/examine/last/0，耗时:16ms
+[2016-12-14 16:27:49.450] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 16:27:49.456] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 16:27:49.557] [INFO] info - Redis connecting!
+[2016-12-14 16:27:49.561] [INFO] info - Redis auth pass!
+[2016-12-14 16:27:49.615] [INFO] info - REQUEST =======> 2016-12-14 16:27:49[GET]/referral/examine/last/0，耗时:44ms
+[2016-12-14 16:30:10.691] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 16:30:10.698] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 16:30:10.800] [INFO] info - Redis connecting!
+[2016-12-14 16:30:10.802] [INFO] info - Redis auth pass!
+[2016-12-14 16:30:14.409] [INFO] info - REQUEST=======> Wed Dec 14 2016 16:30:14 GMT+0800 (中国标准时间) [GET] /referral/examine/last/0，耗时:272ms
+[2016-12-14 16:30:39.339] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 16:30:39.346] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 16:30:39.438] [INFO] info - Redis connecting!
+[2016-12-14 16:30:39.440] [INFO] info - Redis auth pass!
+[2016-12-14 16:30:41.138] [INFO] info - REQUEST=======> 2016-12-14 16:30:41 [GET] /referral/examine/last/0，耗时:16ms
+[2016-12-14 16:34:13.903] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 16:34:13.913] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 16:34:14.099] [INFO] info - Redis connecting!
+[2016-12-14 16:34:14.101] [INFO] info - Redis auth pass!
+[2016-12-14 16:34:19.505] [INFO] info - REQUEST=======> 2016-12-14 16:34:19 [GET] /referral/examine/last/0，耗时:15ms
+[2016-12-14 16:36:19.231] [INFO] info - REQUEST=======> 2016-12-14 16:36:19 [GET] /referral/patient?status=1&pageNumber=1&pageSize=10，耗时:10ms
+[2016-12-14 16:36:53.819] [INFO] info - REQUEST=======> 2016-12-14 16:36:53 [GET] /sign/currentUser，耗时:1ms
+[2016-12-14 16:37:12.241] [INFO] info - REQUEST=======> 2016-12-14 16:37:12 [POST] /referral/request/apply，耗时:64ms
+[2016-12-14 16:37:56.406] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 16:37:56.412] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 16:37:56.515] [INFO] info - Redis connecting!
+[2016-12-14 16:37:56.518] [INFO] info - Redis auth pass!
+[2016-12-14 16:37:59.948] [INFO] info - REQUEST=======> 2016-12-14 16:37:59 [POST] /referral/request/apply，耗时:71ms
+[2016-12-14 16:40:19.075] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2016-12-14 16:40:19.086] [INFO] info - 刷新缓存：ASSESSMENT_CASE_USE_ALL
+[2016-12-14 16:40:19.191] [INFO] info - Redis connecting!
+[2016-12-14 16:40:19.194] [INFO] info - Redis auth pass!
+[2016-12-14 16:40:38.940] [INFO] info - REQUEST=======> 2016-12-14 16:40:38 [GET] /referral/examine/detail/32，耗时:14ms

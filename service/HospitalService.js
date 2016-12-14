@@ -1,3 +1,4 @@
+const lang = require('../common/lang');
 const BaseService = require('./BaseService');
 const sign = require('../common/sign');
 const ACCOUNT_TYPE = require('../enum/ACCOUNT_TYPE');
@@ -6,14 +7,15 @@ const {
 } = require('../common/salt');
 const MODEL = 'Hospital';
 const ACCOUNT_MODEL = 'Account';
+const HOSPITAL_ADAPT_MODEL = 'HospitalAdapt';
 
 class HospitalService extends BaseService {
     constructor() {
-        super(MODEL);
+        super(MODEL, HOSPITAL_ADAPT_MODEL);
     }
     saveWithAccount(hospital, account) {
         return this.transaction(async t => {
-            let now = new Date();
+            let now = lang.now();
             let hospitalInstance = await this.validate(hospital, {
                 accountId: 'EMPTY',
                 updateTime: now
@@ -39,18 +41,82 @@ class HospitalService extends BaseService {
                 });
             } else {
                 let allFields = Object.keys(this.getModel().attributes);
-                await this.getModel().update(hospitalInstance.toJSON(),{
+                await this.getModel().update(hospitalInstance.toJSON(), {
                     transaction: t,
-                    fields : allFields.filter(f=>!~['createTime','accountId'].indexOf(f)),
-                    where : {
-                        id : hospital.id
+                    fields: allFields.filter(f => !~['createTime', 'accountId'].indexOf(f)),
+                    where: {
+                        id: hospital.id
                     }
                 });
             }
-            return true;
+            return hospitalInstance.toJSON();
         }).catch(err => {
             throw err;
         });
+    }
+    async updateHospital(hospitalId, params) {
+        let canModifyFields = ["feature", "deskTel", "contact", "contactNumber", "region", "address", "intro"];
+        let data = {};
+        canModifyFields.forEach(f => {
+            data[f] = params[f];
+        });
+        data.updateTime = lang.now();
+        canModifyFields.push('updateTime');
+        await this.getModel().update(data, {
+            fields: canModifyFields,
+            where: {
+                id: hospitalId
+            }
+        });
+        return await this.findById(hospitalId);
+    }
+    async loadAdapt(hospitalId) {
+        let sequenlize = this.getConnection();
+        return await sequenlize.query(`
+            SELECT
+            tb_h.id_ AS id,
+            tb_h.name_ AS name,
+            tb_h.picture_ AS picture,
+            tb_h.level_ AS level,
+            tb_h.address_ AS address,
+            tb_h.desk_tel_ AS deskTel,
+            tb_h.has_blood_bank_ AS hasBloodBank,
+            tb_h.contact_ AS contact,
+            tb_h.contact_number_ AS contactNumber,
+            tb_h.feature_ AS feature,
+            tb_h.intro_ AS intro
+            FROM
+            tb_hospital_adapt tb_ha JOIN tb_hospital tb_h ON tb_ha.adapt_hospital_id_=tb_h.id_
+            WHERE tb_ha.hospital_id_='${hospitalId}'
+        `, {
+            type: sequenlize.QueryTypes.SELECT
+        });
+    }
+    async addAdapt(hospitalId, adaptHospitalId) {
+        let rel = await this.getModel(HOSPITAL_ADAPT_MODEL).findOne({
+            where: {
+                hospitalId: hospitalId,
+                adaptHospitalId: adaptHospitalId
+            }
+        });
+        if (!rel) {
+            rel = await this.validate({
+                hospitalId,
+                adaptHospitalId,
+                createTime: lang.now()
+            }, null, HOSPITAL_ADAPT_MODEL);
+            await rel.save();
+        }
+        return true;
+    }
+    async removeAdapt(hospitalId, adaptHospitalId) {
+        await this.getModel(HOSPITAL_ADAPT_MODEL).destroy({
+            where: {
+                hospitalId: hospitalId,
+                adaptHospitalId: adaptHospitalId
+            }
+        })
+        return true;
     }
 }
 

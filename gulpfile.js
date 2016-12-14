@@ -52,7 +52,7 @@ gulp.task('unzip', ['upload'], function() {
 			password: config.sftp.pass
 		}
 	});
-	SSH.shell(['cd ' + config.sftp.remotePath, 'unzip -o ' + publishFileName, 'rm -rf ' + publishFileName], {
+	SSH.shell(['cd ' + config.sftp.remotePath, 'unzip -o ' + publishFileName, 'rm -rf ' + publishFileName,'pm2 restart 0'], {
 			filePath: 'shell.log'
 		})
 		.pipe(gulp.dest('logs'));

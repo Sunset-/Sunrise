@@ -47,6 +47,13 @@ module.exports = {
                 delete ctx.session.currentUser;
                 ctx.body = true;
             }
+        },
+        'PUT/changePassword': async function (ctx) {
+            let params = ctx.request.body;
+            if (!params.newPassword.trim()) {
+                ctx.throw('新密码不能为空');
+            }
+            ctx.body = await AccountService.changePassword(ctx.session.currentUser.id, params.oldPassword, params.newPassword);
         }
     }
 };

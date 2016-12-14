@@ -1,0 +1,643 @@
+[2016-12-13 11:42:00.768] [ERROR] error - { code: 500, message: 'sequelize is not defined' }
+[2016-12-13 11:42:00.770] [ERROR] error - ReferenceError: sequelize is not defined
+    at ReferralService.viewForm (d:\workspace\JS\git\referral-server\service\ReferralService.js:178:32)
+[2016-12-13 11:42:36.863] [ERROR] error - { code: 500,
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'17\' \'\' at line 15' }
+[2016-12-13 11:42:36.865] [ERROR] error - { SequelizeBaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '17' '' at line 15
+    at Query.formatError (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'17\' \'\' at line 15',
+  parent: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '17' '' at line 15
+       at Query.Sequence._packetToError (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:214:25)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at Query.run (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:510:31)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10  AND tb_pe.id_=\'17\' \'' },
+  original: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '17' '' at line 15
+       at Query.Sequence._packetToError (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:214:25)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at Query.run (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:510:31)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10  AND tb_pe.id_=\'17\' \'' },
+  sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10  AND tb_pe.id_=\'17\' \'' }
+[2016-12-13 11:42:40.007] [ERROR] error - { code: 500,
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'17\' \'\' at line 15' }
+[2016-12-13 11:42:40.007] [ERROR] error - { SequelizeBaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '17' '' at line 15
+    at Query.formatError (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'17\' \'\' at line 15',
+  parent: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '17' '' at line 15
+       at Query.Sequence._packetToError (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:214:25)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at Query.run (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:510:31)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10  AND tb_pe.id_=\'17\' \'' },
+  original: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '17' '' at line 15
+       at Query.Sequence._packetToError (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:214:25)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at Query.run (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:510:31)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10  AND tb_pe.id_=\'17\' \'' },
+  sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10  AND tb_pe.id_=\'17\' \'' }
+[2016-12-13 11:42:45.396] [ERROR] error - { code: 500,
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'17\' \'\' at line 15' }
+[2016-12-13 11:42:45.396] [ERROR] error - { SequelizeBaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '17' '' at line 15
+    at Query.formatError (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'17\' \'\' at line 15',
+  parent: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '17' '' at line 15
+       at Query.Sequence._packetToError (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:214:25)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at Query.run (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:510:31)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10  AND tb_pe.id_=\'17\' \'' },
+  original: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '17' '' at line 15
+       at Query.Sequence._packetToError (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:214:25)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at Query.run (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:510:31)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10  AND tb_pe.id_=\'17\' \'' },
+  sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10  AND tb_pe.id_=\'17\' \'' }
+[2016-12-13 11:43:33.625] [ERROR] error - { code: 500,
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'\' at line 15' }
+[2016-12-13 11:43:33.627] [ERROR] error - { SequelizeBaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 15
+    at Query.formatError (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'\' at line 15',
+  parent: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 15
+       at Query.Sequence._packetToError (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:214:25)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at Query.run (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:510:31)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10\'  AND tb_pe.id_=\'17\' \'' },
+  original: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 15
+       at Query.Sequence._packetToError (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:214:25)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at Query.run (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:510:31)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10\'  AND tb_pe.id_=\'17\' \'' },
+  sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10\'  AND tb_pe.id_=\'17\' \'' }
+[2016-12-13 11:44:22.296] [ERROR] error - { code: 500,
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'tb_pe.totalScore\' in \'field list\'' }
+[2016-12-13 11:44:22.298] [ERROR] error - { SequelizeBaseError: ER_BAD_FIELD_ERROR: Unknown column 'tb_pe.totalScore' in 'field list'
+    at Query.formatError (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'tb_pe.totalScore\' in \'field list\'',
+  parent: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'tb_pe.totalScore' in 'field list'
+       at Query.Sequence._packetToError (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:214:25)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at Query.run (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:510:31)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10\'  AND tb_pe.id_=\'17\'' },
+  original: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'tb_pe.totalScore' in 'field list'
+       at Query.Sequence._packetToError (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\referral-server\node_modules\.0.6.3@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\referral-server\node_modules\.2.12.0@mysql\lib\Connection.js:214:25)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at Query.run (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:481:18)
+       at new Promise (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (D:\workspace\JS\git\referral-server\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\referral-server\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\referral-server\node_modules\.3.4.6@bluebird\js\release\promise.js:510:31)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10\'  AND tb_pe.id_=\'17\'' },
+  sql: 'SELECT \n                        tb_p.id_ AS id,\n                        tb_p.name_ AS name,\n                        tb_p.id_card_number_ AS idCardNumber,\n                        tb_p.birthday_ AS birthday,\n                        tb_p.weight_before_pregnant_ AS weightBeforePregnant,\n                        tb_p.height_ AS height,\n                        tb_p.blood_type_ AS bloodType,\n                        tb_p.last_menstru_time_ AS lastMenstruTime,\n                        tb_p.degree_ AS degree,\n                        tb_p.phone_ AS phone,\n                        tb_p.address_ AS address,\n                        tb_pe.totalScore AS total_score_,\n                        tb_pe.danger_factor_ AS dangerFactor,\n                        tb_pe.create_time_ AS examineTime\n                        FROM\n                        tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_\n                        WHERE tb_p.id_=\'10\'  AND tb_pe.id_=\'17\'' }
+[2016-12-13 12:02:11.907] [ERROR] error - { code: 500, message: 'HOSPITAL_MODEL has not been defined' }
+[2016-12-13 12:02:11.908] [ERROR] error - Error: HOSPITAL_MODEL has not been defined
+    at Sequelize.model (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\sequelize.js:649:11)
+    at ReferralService.viewTask (d:\workspace\JS\git\referral-server\service\ReferralService.js:221:18)
+[2016-12-13 13:44:18.119] [ERROR] error - { code: 500, message: '用户名密码错误' }
+[2016-12-13 13:44:18.120] [ERROR] error - InternalServerError: 用户名密码错误
+    at Object.throw (D:\workspace\JS\git\referral-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\referral-server\router\SignRouter.js:36:30)
+[2016-12-13 13:51:12.728] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'hospital\' of undefined' }
+[2016-12-13 13:51:12.733] [ERROR] error - TypeError: Cannot read property 'hospital' of undefined
+    at GET/adapt/list (d:\workspace\JS\git\referral-server\router\HospitalRouter.js:43:71)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\referral-server\middlewares\LoginedChecker.js:13:19)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+[2016-12-13 13:51:30.895] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'hospital\' of undefined' }
+[2016-12-13 13:51:30.895] [ERROR] error - TypeError: Cannot read property 'hospital' of undefined
+    at GET/adapt/list (d:\workspace\JS\git\referral-server\router\HospitalRouter.js:43:71)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\referral-server\middlewares\LoginedChecker.js:13:19)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+[2016-12-13 13:52:30.857] [ERROR] error - { code: 500, message: 'HospitalAdapt has not been defined' }
+[2016-12-13 13:52:30.859] [ERROR] error - Error: HospitalAdapt has not been defined
+    at Sequelize.model (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\sequelize.js:649:11)
+    at HospitalService.validate (d:\workspace\JS\git\referral-server\service\BaseService.js:31:29)
+    at HospitalService.addAdapt (d:\workspace\JS\git\referral-server\service\HospitalService.js:80:30)
+    at POST/adapt/:hospitalId (d:\workspace\JS\git\referral-server\router\HospitalRouter.js:47:46)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:315:32)
+[2016-12-13 14:20:02.440] [ERROR] error - { code: 500, message: '旧密码错误' }
+[2016-12-13 14:20:02.442] [ERROR] error - Error: 旧密码错误
+    at AccountService.changePassword (d:\workspace\JS\git\referral-server\service\AccountService.js:18:19)
+[2016-12-13 14:20:04.299] [ERROR] error - { code: 500, message: '旧密码错误' }
+[2016-12-13 14:20:04.299] [ERROR] error - Error: 旧密码错误
+    at AccountService.changePassword (d:\workspace\JS\git\referral-server\service\AccountService.js:18:19)
+[2016-12-13 14:20:19.955] [ERROR] error - { code: 500, message: '用户名密码错误' }
+[2016-12-13 14:20:19.955] [ERROR] error - InternalServerError: 用户名密码错误
+    at Object.throw (D:\workspace\JS\git\referral-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\referral-server\router\SignRouter.js:36:30)
+[2016-12-13 14:20:35.921] [ERROR] error - { code: 500, message: '旧密码错误' }
+[2016-12-13 14:20:35.921] [ERROR] error - Error: 旧密码错误
+    at AccountService.changePassword (d:\workspace\JS\git\referral-server\service\AccountService.js:18:19)
+[2016-12-13 14:39:14.914] [ERROR] error - { code: 500,
+  message: 'Missing where attribute in the options parameter passed to update.' }
+[2016-12-13 14:39:14.915] [ERROR] error - Error: Missing where attribute in the options parameter passed to update.
+    at Model.update (D:\workspace\JS\git\referral-server\node_modules\.3.27.0@sequelize\lib\model.js:2432:11)
+    at HospitalService.updateHospital (d:\workspace\JS\git\referral-server\service\HospitalService.js:64:31)
+    at PUT/ (d:\workspace\JS\git\referral-server\router\HospitalRouter.js:38:46)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.7.0.1@koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+[2016-12-13 16:30:01.930] [ERROR] error - { code: 500, message: '用户未登录' }
+[2016-12-13 16:30:01.935] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\referral-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at module.exports.app.use (d:\workspace\JS\git\referral-server\middlewares\LoginedChecker.js:33:26)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\referral-server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-12-13 16:32:21.306] [ERROR] error - { code: 500, message: '用户未登录' }
+[2016-12-13 16:32:21.311] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\referral-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at module.exports.app.use (d:\workspace\JS\git\referral-server\middlewares\LoginedChecker.js:33:26)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\referral-server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-12-13 16:35:32.554] [ERROR] error - { code: 500, message: '用户未登录' }
+[2016-12-13 16:35:32.559] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\referral-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at module.exports.app.use (d:\workspace\JS\git\referral-server\middlewares\LoginedChecker.js:33:26)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\referral-server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-12-13 16:39:31.314] [ERROR] error - { code: 500, message: '用户未登录' }
+[2016-12-13 16:39:31.318] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\referral-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at module.exports.app.use (d:\workspace\JS\git\referral-server\middlewares\LoginedChecker.js:33:26)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\referral-server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-12-13 17:32:00.589] [ERROR] error - { code: 500, message: '用户未登录' }
+[2016-12-13 17:32:00.594] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\referral-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at module.exports.app.use (d:\workspace\JS\git\referral-server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\referral-server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-12-13 17:32:00.677] [ERROR] error - { code: 500, message: '用户未登录' }
+[2016-12-13 17:32:00.677] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\referral-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at module.exports.app.use (d:\workspace\JS\git\referral-server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\referral-server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-12-13 17:32:03.088] [ERROR] error - { code: 500, message: '用户未登录' }
+[2016-12-13 17:32:03.088] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\referral-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at module.exports.app.use (d:\workspace\JS\git\referral-server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\referral-server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-12-13 17:32:14.195] [ERROR] error - { code: 500, message: '用户未登录' }
+[2016-12-13 17:32:14.196] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\referral-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at module.exports.app.use (d:\workspace\JS\git\referral-server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\referral-server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-12-13 17:32:16.578] [ERROR] error - { code: 500, message: '用户未登录' }
+[2016-12-13 17:32:16.578] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\referral-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at module.exports.app.use (d:\workspace\JS\git\referral-server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\referral-server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\referral-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\referral-server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
