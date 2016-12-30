@@ -3,9 +3,13 @@ const BaseService = require('./BaseService');
 const HospitalPatientRelService = require('../service/HospitalPatientRelService');
 const {
     PATIENT_STATUS,
+    REFERRAL_STATUS,
     HOSPITAL_PATITENT_REL
 } = require('../enum/REFERRAL_ENUMS');
 const MODEL = 'Patient';
+const PATIENT_REL_MODEL = 'HospitalPatientRel';
+const REFERRAL_FORM_MODEL = 'ReferralForm';
+const REFERRAL_TASK_MODEL = 'ReferralTask';
 
 class PatientService extends BaseService {
     constructor() {
@@ -31,23 +35,19 @@ class PatientService extends BaseService {
                             tb_p.address_ AS address,
                             tb_h.id_ AS lastHospitalId,
                             tb_h.name_ AS hospitalName,
-                            view_examine.total_score_ AS totalScore,
-                            view_examine.create_time_ AS lastExamineTime
+                            tb_hpr.score_ AS totalScore,
+                            tb_hpr.last_examine_time_ AS lastExamineTime,
+                            tb_hpr.status_ AS relStatus,
+                            tb_p.status_ AS patientStatus
                             FROM 
-                            (
-                                select tb_pe_1.id_,tb_pe_1.patient_id_,tb_pe_1.create_time_,tb_pe_1.total_score_ from tb_patient_examine tb_pe_1 join
-                                (
-                                select tb_pe.patient_id_ as patient_id_,max(tb_pe.create_time_) as gcreate_time_ from tb_patient_examine tb_pe where tb_pe.hospital_id_=${hospitalId} group by tb_pe.patient_id_
-                                )x 
-                                on x.patient_id_=tb_pe_1.patient_id_ and tb_pe_1.create_time_=x.gcreate_time_
-                            ) view_examine
-                            RIGHT JOIN tb_patient tb_p ON view_examine.patient_id_=tb_p.id_
+                            tb_patient tb_p
                             JOIN tb_hospital_patient_rel tb_hpr ON tb_p.id_=tb_hpr.patient_id_
                             LEFT JOIN tb_hospital tb_h ON tb_hpr.last_hospital_id_=tb_h.id_
                             WHERE 
                             tb_hpr.hospital_id_='${hospitalId}'
                             ${query.status?` AND tb_hpr.status_=${query.status} `:''}
                             ${query.keyword?` AND (tb_p.name_ LIKE '%${query.keyword}%' OR tb_p.id_card_number_ LIKE '%${query.keyword}%')`:''}
+                            ORDER BY tb_hpr.last_examine_time_ DESC
                             LIMIT ${(query.pageNumber-1)*query.pageSize},${query.pageSize}
                         `,  {
                             type: sequelize.QueryTypes.SELECT}),
@@ -68,6 +68,69 @@ class PatientService extends BaseService {
             throw err;
         });
     }
+    async findPatient(hospitalId,patientId,query){
+        let p = await this.findById(patientId);
+        if(p){
+            p = p.toJSON();
+        }
+        if(p&&query&&(query.referralStatus===true||query.referralStatus==="true")){
+            p.canReferral = await this.canReferral(hospitalId,patientId);
+        }
+        return p;
+    }
+    async canReferral(hospitalId,patientId){
+        let canReferral = true;
+        let rel = await this.getModel(PATIENT_REL_MODEL).findOne({
+            where : {
+                hospitalId: hospitalId,
+                patientId: patientId,
+                status: HOSPITAL_PATITENT_REL.IN
+            }
+        });
+        if(!rel){
+            canReferral = false;
+        }else{
+            let referralintStatus = [
+                REFERRAL_STATUS.APPLY,
+                REFERRAL_STATUS.CONSENT,
+                REFERRAL_STATUS.REJECT,
+                REFERRAL_STATUS.REFERRALING,
+                REFERRAL_STATUS.REFERRAL_OUT
+            ];
+            let referralForm = await this.getModel(REFERRAL_FORM_MODEL).findOne({
+                where : {
+                    srcHospitalId: hospitalId,
+                    patientId: patientId,
+                    status: {
+                        $in :referralintStatus
+                    }
+                }
+            });
+            canReferral = !referralForm;
+        }
+        return canReferral;
+    }
+    async findPatientByIdCard(hospitalId,idCardNumber){
+        let patient = await this.findOne({
+            where : {
+                idCardNumber : idCardNumber
+            }
+        });
+        if(patient){
+            let rel = await HospitalPatientRelService.findOne({
+                    where : {
+                        hospitalId,
+                        patientId : patient.id
+                    }
+                });
+            if(rel){
+                patient = patient.toJSON();
+                patient.relStatus = rel.status;
+                return patient;
+            }
+        }
+        return null;
+    }
     async createPatient(patient,hospitalId,currentUserId){
             let now = lang.now();
             let patientInstance = await this.validate(patient,{
@@ -76,6 +139,7 @@ class PatientService extends BaseService {
             });
             if (!patient.id) {
                 patientInstance.set('createTime',now);
+                patientInstance.set('initSrcHospital',hospitalId);
                 patientInstance.set('status',PATIENT_STATUS.UN_DELIVERY);
                 return  this.transaction(async t => {
                     //新建病人
@@ -92,13 +156,17 @@ class PatientService extends BaseService {
                     await hospitalRel.save({
                         transaction: t
                     });
-                    return true;
+                    return patientInstance.toJSON();
                 });
             } else {
                 //更新病人
-                await PatientService.update(patientInstance.toJSON());
+                await this.getModel().update(patientInstance.toJSON(),{
+                    where :{
+                        id : patient.id
+                    }
+                });
             }
-            return patient.toJSON();
+            return patientInstance.toJSON();
     }
     delivery(updateAccId,hospitalId,patientId){
         return this.transaction(async t=>{
@@ -129,6 +197,26 @@ class PatientService extends BaseService {
                     status:HOSPITAL_PATITENT_REL.OUT
                 },{
                     transaction:t
+                }),
+                this.getModel(REFERRAL_FORM_MODEL).update({
+                    status : REFERRAL_STATUS.ABANDON
+                },{
+                    fields : ['status'],
+                    transaction : t,
+                    where : {
+                        patientId : patientId,
+                        srcHospitalId : hospitalId
+                    }
+                }),
+                this.getModel(REFERRAL_TASK_MODEL).update({
+                    status : REFERRAL_STATUS.ABANDON
+                },{
+                    fields : ['status'],
+                    transaction : t,
+                    where : {
+                        patientId : patientId,
+                        srcHospitalId : hospitalId
+                    }
                 })
             ])
         }).then(res=>true);

@@ -15,7 +15,8 @@ class AssessmentCaseService extends BaseService {
             return this.findAll({
                 where: {
                     status: TRUE_FALSE.TRUE
-                }
+                },
+                order : '`index` ASC'
             });
         }, false);
     }

@@ -3,5 +3,7 @@ module.exports = {
     "static": [{
         root: 'assets',
         maxAge:  60 * 60 * 1000
-    }]
+    }],
+    smsSwitch : false,
+    sms : ["YunPianSms"]
 };

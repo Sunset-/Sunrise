@@ -33,6 +33,16 @@ module.exports = (sequelize,DataTypes)=>{
             type : DataTypes.STRING(1000),
             allowNull : true
         },
+        score : {
+            field : 'score_',
+            type : DataTypes.INTEGER(4),
+            allowNull : true
+        },
+        lastExamineTime : {
+            field : 'last_examine_time_',
+            type : DataTypes.DATE,
+            allowNull : true
+        },
         createTime : {
             field : 'create_time_',
             type : DataTypes.DATE,

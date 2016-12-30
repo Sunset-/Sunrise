@@ -1,6 +1,10 @@
 const lang = require('../common/lang');
+const sms = require('../components/sms');
 const BaseService = require('./BaseService');
 const ExamineService = require('./ExamineService');
+const {
+    TRUE_FALSE
+} = require('../enum/COMMON_ENUM');
 const {
     REFERRAL_STATUS,
     HOSPITAL_PATITENT_REL
@@ -9,6 +13,7 @@ const MODEL = 'ReferralForm';
 const TASK_MODEL = 'ReferralTask';
 const PATIENT_REL_MODEL = 'HospitalPatientRel';
 const HOSPITAL_MODEL = 'Hospital';
+const PATIENT_MODEL = 'Patient';
 
 class ReferralService extends BaseService {
     constructor() {
@@ -22,21 +27,32 @@ class ReferralService extends BaseService {
         return this.transaction(async t => {
             let now = lang.now();
             //查询本院评测
-            let examines = await ExamineService.loadAllExamines(fromHospitalId, referralForm.patientId);
-            examines = examines || [];
+            let rel = await this.getModel(PATIENT_REL_MODEL).findOne({
+                where: {
+                    hospitalId: fromHospitalId,
+                    patientId: patientId,
+                    status: HOSPITAL_PATITENT_REL.IN
+                }
+            });
+            if (!rel) {
+                throw new Error("本院无此患者");
+            }
             //保存转诊申请
             let referralFormInstance = await this.validate(referralForm, {
                 srcHospitalId: fromHospitalId,
                 destHospitalIds: toHospitalIds.join(','),
-                examineIds: examines.map(e => e.id).join(','),
+                examineIds: rel.get("hasPatientExamineIds"),
+                score: rel.get("score"),
+                lastExamineTime: rel.get("lastExamineTime"),
                 status: REFERRAL_STATUS.APPLY,
+                treated: TRUE_FALSE.TRUE,
                 createTime: now
             });
             await referralFormInstance.save({
                 transaction: t
             });
             //创建转诊任务
-            return Promise.all(toHospitalIds.map(toHospitalId => {
+            await Promise.all(toHospitalIds.map(toHospitalId => {
                 return Promise.resolve().then(() => {
                     return this.validate({
                         referralFormId: referralFormInstance.id,
@@ -44,6 +60,7 @@ class ReferralService extends BaseService {
                         destHospitalId: toHospitalId,
                         patientId: patientId,
                         status: REFERRAL_STATUS.APPLY,
+                        treated: TRUE_FALSE.FALSE,
                         createTime: now
                     }, null, TASK_MODEL).then(instance => {
                         instance.save({
@@ -52,7 +69,59 @@ class ReferralService extends BaseService {
                     })
                 })
             }));
+            return {
+                fromHospitalId,
+                toHospitalIds,
+                score: rel.get("score") || 0
+            };
+        }).then(async res => {
+            let hospitalIds = [],
+                srcHospital = null,
+                targetHospitalTels = [];
+            hospitalIds.push(res.fromHospitalId);
+            hospitalIds = hospitalIds.concat(res.toHospitalIds);
+            let hospitals = await this.getModel(HOSPITAL_MODEL).findAll({
+                where: {
+                    id: {
+                        $in: hospitalIds
+                    }
+                }
+            });
+            hospitals && hospitals.forEach(h => {
+                if (h.id == res.fromHospitalId) {
+                    srcHospital = h;
+                } else if (h.contactNumber) {
+                    targetHospitalTels.push(h.contactNumber);
+                }
+            });
+            if (srcHospital && targetHospitalTels.length) {
+                //sms
+                sms.sendTemplateSms(targetHospitalTels.join(','), sms.TEMPLATES.RECEIVE_APPLY, {
+                    hospital: srcHospital.name,
+                    score: res.score
+                });
+            }
         }).then(res => true);
+    }
+    async untreated(hospitalId) {
+        let counts = await Promise.all([
+            this.getModel().count({
+                where: {
+                    srcHospitalId: hospitalId,
+                    treated: TRUE_FALSE.FALSE
+                }
+            }),
+            this.getModel(TASK_MODEL).count({
+                where: {
+                    destHospitalId: hospitalId,
+                    treated: TRUE_FALSE.FALSE
+                }
+            })
+        ]);
+        return {
+            applyUntreatedCount: counts[0],
+            replyUntreatedCount: counts[1]
+        };
     }
     findApplyTasks(hospitalId, query) {
             let pager = lang.castPager(query);
@@ -74,7 +143,8 @@ class ReferralService extends BaseService {
                             tb_rf.suggest_count_ AS suggestCount,
                             tb_rf.referral_time_ AS referralTime,
                             tb_rf.referral_reason_ AS referralReason,
-                            tb_rf.status_ AS status
+                            tb_rf.status_ AS status,
+                            tb_rf.danger_factor_ AS dangerFactor
                             FROM 
                             tb_patient tb_p 
                             JOIN tb_referral_form tb_rf ON tb_p.id_=tb_rf.patient_id_
@@ -83,6 +153,7 @@ class ReferralService extends BaseService {
                             tb_rf.src_hospital_id_='${hospitalId}'
                             ${query.status?` AND tb_rf.status_${this.generateInSql(query.status,Number)} `:''}
                             ${query.keyword?` AND (tb_p.name_ LIKE '%${query.keyword}%' OR tb_p.id_card_number_ LIKE '%${query.keyword}%') `:''}
+                            ORDER BY tb_rf.create_time_ DESC
                             LIMIT ${pager.offset},${pager.limit}
                         `,  {
                             type: sequelize.QueryTypes.SELECT}),
@@ -124,7 +195,8 @@ class ReferralService extends BaseService {
                             tb_rt.suggest_ AS suggest,
                             tb_rt.status_ AS status,
                             tb_rf.referral_time_ AS referralTime,
-                            tb_rf.referral_reason_ AS referralReason
+                            tb_rf.referral_reason_ AS referralReason,
+                            tb_rf.danger_factor_ AS dangerFactor
                             FROM 
                             tb_patient tb_p 
                             JOIN tb_referral_task tb_rt ON tb_p.id_=tb_rt.patient_id_
@@ -134,6 +206,7 @@ class ReferralService extends BaseService {
                             tb_rt.dest_hospital_id_='${hospitalId}'
                             ${query.status?` AND tb_rt.status_${this.generateInSql(query.status,Number)} `:''}
                             ${query.keyword?` AND (tb_p.name_ LIKE '%${query.keyword}%' OR tb_p.id_card_number_ LIKE '%${query.keyword}%') `:''}
+                            ORDER BY tb_rt.create_time_ DESC
                             LIMIT ${pager.offset},${pager.limit}
                         `,  {
                             type: sequelize.QueryTypes.SELECT}),
@@ -165,6 +238,9 @@ class ReferralService extends BaseService {
         }
         let sequelize = this.getConnection();
         let tasksAndPatienInfo = await Promise.all([
+            form.update({
+                treated: TRUE_FALSE.TRUE
+            }),
             sequelize.query(`
                         SELECT 
                         tb_h.id_ AS hospitalId,
@@ -204,12 +280,13 @@ class ReferralService extends BaseService {
                         FROM
                         tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_
                         WHERE tb_p.id_='${form.patientId}' ${lastExamineId?` AND tb_pe.id_='${lastExamineId}'`:''}
+                        LIMIT 1
                     `, { type: sequelize.QueryTypes.SELECT })
         ]);
         return {
             form : form,
-            tasks :  tasksAndPatienInfo[0],
-            patient : tasksAndPatienInfo[1]
+            tasks :  tasksAndPatienInfo[1],
+            patient : tasksAndPatienInfo[2][0]
         };
     }
     async viewTask(formId,taskId){
@@ -223,6 +300,14 @@ class ReferralService extends BaseService {
         }
         let sequelize = this.getConnection();
         let taskHospitalPatienInfo = await Promise.all([
+            this.getModel(TASK_MODEL).update({
+                treated: TRUE_FALSE.TRUE
+            },{
+                fields : ['treated'],
+                where : {
+                    id : taskId
+                }
+            }),
             this.getModel(TASK_MODEL).findById(taskId),
             this.getModel(HOSPITAL_MODEL).findById(form.srcHospitalId),
             sequelize.query(`
@@ -244,16 +329,17 @@ class ReferralService extends BaseService {
                         FROM
                         tb_patient tb_p LEFT JOIN tb_patient_examine tb_pe ON tb_p.id_=tb_pe.patient_id_
                         WHERE tb_p.id_='${form.patientId}' ${lastExamineId?` AND tb_pe.id_='${lastExamineId}'`:''}
+                        LIMIT 1
                     `, { type: sequelize.QueryTypes.SELECT })
         ]);
         return {
             form : form,
-            task :  taskHospitalPatienInfo[0],
-            hospital : taskHospitalPatienInfo[1],
-            patient : taskHospitalPatienInfo[2]
+            task :  taskHospitalPatienInfo[1],
+            hospital : taskHospitalPatienInfo[2],
+            patient : taskHospitalPatienInfo[3][0]
         };
     }
-    consentTask(formId,taskId,consentHospitalId,suggest){
+    consentTask(formId,taskId,consentHospitalId,suggest,hospital){
         let now = lang.now();
         return this.transaction(async t=>{
             let form = await this.getModel().findById(formId,{
@@ -266,13 +352,14 @@ class ReferralService extends BaseService {
             if(form.status!=REFERRAL_STATUS.APPLY||form.consentHospitalId){
                 throw new Error('此转诊申请已失效');
             }
-            return Promise.all([
+            await Promise.all([
                 this.getModel().update({
                     suggestCount : ((form.suggestCount ||0)+1),
                     consentHospitalId : consentHospitalId,
-                    status : REFERRAL_STATUS.CONSENT
+                    status : REFERRAL_STATUS.CONSENT,
+                    treated: TRUE_FALSE.FALSE
                 },{
-                    fields : ['suggestCount','consentHospitalId','status'],
+                    fields : ['suggestCount','consentHospitalId','status','treated'],
                     transaction : t,
                     where : {
                         id : formId
@@ -281,18 +368,34 @@ class ReferralService extends BaseService {
                 this.getModel(TASK_MODEL).update({
                     suggest : suggest,
                     status : REFERRAL_STATUS.CONSENT,
+                    treated: TRUE_FALSE.TRUE,
                     responseTime : now
                 },{
-                    fields : ['responseTime','suggest','status'],
+                    fields : ['responseTime','suggest','status','treated'],
                     transaction : t,
                     where : {
                         id : taskId
                     }
                 })
-            ])
+            ]);
+            return {
+                hospital,
+                srcHospitalId : form.srcHospitalId,
+                patientId : form.patientId
+            };
+        }).then(async res => {
+            let hospital_patient = await Promise.all([
+                this.getModel(HOSPITAL_MODEL).findById(res.srcHospitalId),
+                this.getModel(PATIENT_MODEL).findById(res.patientId)
+            ]);
+            //sms
+            sms.sendTemplateSms(hospital_patient[0].contactNumber, sms.TEMPLATES.CONSENT_REFERRAL, {
+                hospital: hospital.name,
+                patient: hospital_patient[1].name
+            });
         }).then(res=>true);
     }
-    rejectTask(formId,taskId,suggest){
+    rejectTask(formId,taskId,suggest,hospital){
         let now = lang.now();
         return this.transaction(async t=>{
             let form = await this.findById(formId);
@@ -302,11 +405,12 @@ class ReferralService extends BaseService {
             if(form.status==REFERRAL_STATUS.ABANDON){
                 throw new Error('此转诊申请已失效');
             }
-            return Promise.all([
+            await Promise.all([
                 this.getModel().update({
+                    treated: TRUE_FALSE.FALSE,
                     suggestCount : ((form.suggestCount ||0)+1)
                 },{
-                    fields : ['suggestCount'],
+                    fields : ['suggestCount','treated'],
                     transaction : t,
                     where : {
                         id : formId
@@ -315,15 +419,31 @@ class ReferralService extends BaseService {
                 this.getModel(TASK_MODEL).update({
                     suggest : suggest,
                     status : REFERRAL_STATUS.REJECT,
+                    treated: TRUE_FALSE.TRUE,
                     responseTime : now
                 },{
-                    fields : ['responseTime','suggest','status'],
+                    fields : ['responseTime','suggest','status','treated'],
                     transaction : t,
                     where : {
                         id : taskId
                     }
                 })
-            ])
+            ]);
+            return {
+                hospital : hospital,
+                srcHospitalId : form.srcHospitalId,
+                patientId : form.patientId
+            };
+        }).then(async res => {
+            let hospital_patient = await Promise.all([
+                this.getModel(HOSPITAL_MODEL).findById(res.srcHospitalId),
+                this.getModel(PATIENT_MODEL).findById(res.patientId)
+            ]);
+            //sms
+            sms.sendTemplateSms(hospital_patient[0].contactNumber, sms.TEMPLATES.REJECT_REFERRAL, {
+                hospital: hospital.name,
+                patient: hospital_patient[1].name
+            });
         }).then(res=>true);
     }
     confirmReferral(formId){
@@ -337,53 +457,98 @@ class ReferralService extends BaseService {
             }
             return Promise.all([
                 this.getModel().update({
-                    status : REFERRAL_STATUS.REFERRALING
+                    treated: TRUE_FALSE.TRUE,
+                    status : REFERRAL_STATUS.REFERRAL_OUT
                 },{
-                    fields : ['status'],
+                    fields : ['status','treated'], 
                     transaction : t,
                     where : {
                         id : formId
                     }
                 }),
                 this.getModel(TASK_MODEL).update({
-                    status : REFERRAL_STATUS.REFERRALING
+                    treated: TRUE_FALSE.FALSE,
+                    status : REFERRAL_STATUS.REFERRAL_OUT
                 },{
-                    fields : ['status'],
+                    fields : ['status','treated'],
                     transaction : t,
                     where : {
                         referralFormId : formId,
                         destHospitalId : form.consentHospitalId
                     }
+                }),
+                this.getModel(PATIENT_REL_MODEL).update({
+                    status : HOSPITAL_PATITENT_REL.OUT
+                },{
+                    fields : ['status'],
+                    transaction : t,
+                    where : {
+                        patientId : form.patientId,
+                        hospitalId : form.srcHospitalId
+                    }
                 })
             ])
         }).then(res=>true);
     }
-    abondonReferral(formId){
+    abondonReferral(formId,hospital){
         return this.transaction(async t=>{
             let form = await this.findById(formId);
             if(!form){
                 throw new Error('转诊申请不存在');
             }
-            return Promise.all([
+            await Promise.all([
                 this.getModel().update({
+                    treated: TRUE_FALSE.TRUE,
                     status : REFERRAL_STATUS.ABANDON
                 },{
-                    fields : ['status'],
+                    fields : ['status','treated'],
                     transaction : t,
                     where : {
                         id : formId
                     }
                 }),
                 this.getModel(TASK_MODEL).update({
+                    treated: TRUE_FALSE.TRUE,
                     status : REFERRAL_STATUS.ABANDON
                 },{
-                    fields : ['status'],
+                    fields : ['status','treated'],
                     transaction : t,
                     where : {
                         referralFormId : formId
                     }
                 })
-            ])
+            ]);
+            return {
+                hospital : hospital,
+                destHospitalIds : form.destHospitalIds,
+                patientId : form.patientId
+            };
+        }).then(async res => {
+            let hospitalIds = res.destHospitalIds.split(','),
+                targetHospitalTels = [];
+            let hospitals_patient = await Promise.all([
+                this.getModel(HOSPITAL_MODEL).findAll({
+                    where: {
+                        id: {
+                            $in: hospitalIds
+                        }
+                    }
+                }),
+                this.getModel(PATIENT_MODEL).findById(res.patientId)
+            ]);
+            let hospitals = hospitals_patient[0];
+            hospitals && hospitals.forEach(h => {
+                if (h.contactNumber) {
+                    targetHospitalTels.push(h.contactNumber);
+                }
+            });
+            if (targetHospitalTels.length) {
+                //sms
+                sms.sendTemplateSms(targetHospitalTels.join(','), sms.TEMPLATES.ABONDON_REFERRAL, {
+                    hospital: res.hospital.name,
+                    patient: hospitals_patient[1].name
+                });
+            }
         }).then(res=>true);
     }
     referralOut(formId){
@@ -435,7 +600,7 @@ class ReferralService extends BaseService {
             if(!form){
                 throw new Error('转诊申请不存在');
             }
-            if(form.status!=REFERRAL_STATUS.REFERRALING){
+            if(form.status!=REFERRAL_STATUS.REFERRAL_OUT){
                 throw new Error('未确认转诊，无法转入');
             }
             return Promise.all([
@@ -449,9 +614,10 @@ class ReferralService extends BaseService {
                     }
                 }),
                 this.getModel(TASK_MODEL).update({
+                    treated: TRUE_FALSE.TRUE,
                     status : REFERRAL_STATUS.REFERRALED
                 },{
-                    fields : ['status'],
+                    fields : ['status','treated'],
                     transaction : t,
                     where : {
                         id : taskId
@@ -461,6 +627,10 @@ class ReferralService extends BaseService {
                         hospitalId: form.consentHospitalId,
                         patientId: form.patientId,
                         status: HOSPITAL_PATITENT_REL.IN,
+                        hasPatientExamineIds : form.examineIds,
+                        lastHospitalId : form.srcHospitalId,
+                        score : form.score,
+                        lastExamineTime : form.lastExamineTime,
                         createTime: now
                 },{
                     transaction : t

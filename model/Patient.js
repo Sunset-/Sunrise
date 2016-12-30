@@ -16,12 +16,7 @@ module.exports = (sequelize,DataTypes)=>{
         idCardNumber : {
             field : 'id_card_number_',
             type : DataTypes.STRING(18),
-            allowNull : false,
-            validate : {
-                isInt : {
-                    msg : '身份证必须为整数'
-                }
-            }
+            allowNull : false
         },
         birthday : {
             field : 'birthday_',

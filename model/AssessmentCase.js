@@ -23,6 +23,11 @@ module.exports = (sequelize,DataTypes)=>{
             type : DataTypes.INTEGER(1),
             allowNull : false
         },
+        index : {
+            field : 'index_',
+            type : DataTypes.INTEGER(4),
+            allowNull : false
+        },
         dangerFactorTemplate : {
             field : 'danger_factor_template_',
             type : DataTypes.STRING(100),
@@ -30,8 +35,14 @@ module.exports = (sequelize,DataTypes)=>{
         },
         rules : {
             field : 'rules_',
-            type : DataTypes.STRING(500),
-            allowNull : false
+            type : DataTypes.STRING(1000),
+            allowNull : false,
+            validate : {
+                len : {
+                    args : [0,1000],
+                    msg : '规则长度不能超过1000'
+                }
+            }
         },
         status : {
             field : 'status_',

@@ -29,6 +29,7 @@ module.exports = app => {
         let error = null;
         try {
             await next();
+            ctx.status = RESPONSE_CODE.SUCCESS;
         } catch (e) {
             error = {
                 code: e.status || RESPONSE_CODE.DEFAULT_ERROR_CODE,

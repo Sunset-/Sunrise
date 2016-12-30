@@ -5,7 +5,7 @@
         "description": "妇产转诊平台 API",
         "version": "1.0.0"
     },
-    "host": "192.168.0.109:9090",
+    "host": "192.168.0.148:9090",
     "schemes": [
         "http"
     ],
@@ -324,6 +324,102 @@
                 }
             }
         },
+        "/referral/patient/{patientId}": {
+            "get": {
+                "summary": "通过id查询患者档案",
+                "description": "通过id查询患者档案\n",
+                "parameters": [{
+                    "name": "patientId",
+                    "in": "path",
+                    "description": "病人Id",
+                    "required": true,
+                    "type": "string"
+                },{
+                    "name": "referralStatus",
+                    "in": "query",
+                    "description": "获取能否转诊状态",
+                    "required": false,
+                    "type": "boolean"
+                }],
+                "tags": [
+                    "Patient"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "返回患者档案信息",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/referral/patient/canReferral/{patientId}": {
+            "get": {
+                "summary": "通过id查询患者能否发起转诊",
+                "description": "通过id查询患者能否发起转诊\n",
+                "parameters": [{
+                    "name": "patientId",
+                    "in": "path",
+                    "description": "病人Id",
+                    "required": true,
+                    "type": "string"
+                }],
+                "tags": [
+                    "Patient"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "返回患者档案信息",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/referral/patient/idcard/{idCardNumber}": {
+            "get": {
+                "summary": "通过idCardNumber查询患者档案",
+                "description": "通过idCardNumber查询患者档案\n",
+                "parameters": [{
+                    "name": "idCardNumber",
+                    "in": "path",
+                    "description": "病人idCardNumber",
+                    "required": true,
+                    "type": "string"
+                }],
+                "tags": [
+                    "Patient"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "返回患者档案信息",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
         "/referral/patient/delivery/{patientId}": {
             "put": {
                 "summary": "患者已分娩",
@@ -400,9 +496,21 @@
                     "required": false,
                     "type": "string"
                 }, {
+                    "name": "accessories",
+                    "in": "formData",
+                    "description": "附件",
+                    "required": false,
+                    "type": "string"
+                }, {
                     "name": "examineItems",
                     "in": "formData",
                     "description": "测评项JSON（例：[{assessmentId:1,accessories:'',examineValue:'',score:5},...]）",
+                    "required": true,
+                    "type": "string"
+                }, {
+                    "name": "examineDate",
+                    "in": "formData",
+                    "description": "测评孕周",
                     "required": true,
                     "type": "string"
                 }],
@@ -815,6 +923,30 @@
                 }
             }
         },
+        "/referral/request/untreated": {
+            "get": {
+                "summary": "查询未处理的接转诊数量统计",
+                "description": "查询未处理的接转诊数量统计\n",
+                "parameters": [],
+                "tags": [
+                    "Referral"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "未处理的接转诊数量统计",
+                        "schema": {
+                            "$ref": "#/definitions/Result"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
         "/referral/request/apply/{formId}": {
             "get": {
                 "summary": "查询转诊申请详情",
@@ -1043,9 +1175,9 @@
                 }
             }
         },
-        "/referral/request/referralOut/{formId}": {
+        "/referral/request/confirm/{formId}": {
             "get": {
-                "summary": "转出患者",
+                "summary": "确认转出患者",
                 "description": "患者从下级医院转出\n",
                 "parameters": [{
                     "name": "formId",

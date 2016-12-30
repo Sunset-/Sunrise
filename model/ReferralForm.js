@@ -53,6 +53,16 @@ module.exports = (sequelize,DataTypes)=>{
             type : DataTypes.STRING(1000),
             allowNull : true
         },
+        score : {
+            field : 'score_',
+            type : DataTypes.INTEGER(4),
+            allowNull : true
+        },
+        lastExamineTime : {
+            field : 'last_examine_time_',
+            type : DataTypes.DATE,
+            allowNull : true
+        },
         chargeDoctor : {
             field : 'charge_doctor_',
             type : DataTypes.STRING(32),
@@ -65,6 +75,11 @@ module.exports = (sequelize,DataTypes)=>{
         },
         status : {
             field : 'status_',
+            type : DataTypes.INTEGER(1),
+            allowNull : true
+        },
+        treated : {
+            field : 'treated_',
             type : DataTypes.INTEGER(1),
             allowNull : true
         },

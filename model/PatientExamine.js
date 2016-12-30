@@ -33,6 +33,16 @@ module.exports = (sequelize,DataTypes)=>{
             type : DataTypes.TEXT,
             allowNull : true
         },
+        accessories : {
+            field : 'accessories_',
+            type : DataTypes.STRING(1000),
+            allowNull : true
+        },
+        examineDate : {
+            field : 'examine_date_',
+            type : DataTypes.STRING(24),
+            allowNull : true
+        },
         createTime : {
             field : 'create_time_',
             type : DataTypes.DATE,

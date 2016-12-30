@@ -38,6 +38,11 @@ module.exports = (sequelize,DataTypes)=>{
             type : DataTypes.INTEGER(1),
             allowNull : true
         },
+        treated : {
+            field : 'treated_',
+            type : DataTypes.INTEGER(1),
+            allowNull : true
+        },
         createTime : {
             field : 'create_time_',
             type : DataTypes.DATE,
