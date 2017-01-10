@@ -1,0 +1,120 @@
+[2017-01-11 00:14:25.852] [ERROR] error - { code: 500, message: 'e null' }
+[2017-01-11 00:14:25.853] [ERROR] error - { Error: e null
+    at validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-11 00:15:21.126] [ERROR] error - { code: 500, message: 'accountId cannot be null' }
+[2017-01-11 00:15:21.132] [ERROR] error - { Error: accountId cannot be null
+    at module.exports.EventEmitter.add.model.validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-11 00:15:43.313] [ERROR] error - { code: 500, message: 'accountId cannot be null' }
+[2017-01-11 00:15:43.313] [ERROR] error - { Error: accountId cannot be null
+    at module.exports.EventEmitter.add.model.validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-11 00:16:03.174] [ERROR] error - { code: 500, message: 'orderNo cannot be null' }
+[2017-01-11 00:16:03.174] [ERROR] error - { Error: orderNo cannot be null
+    at module.exports.EventEmitter.add.model.validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-11 00:16:06.331] [ERROR] error - { code: 500, message: 'orderNo cannot be null' }
+[2017-01-11 00:16:06.331] [ERROR] error - { Error: orderNo cannot be null
+    at module.exports.EventEmitter.add.model.validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-11 00:16:23.102] [ERROR] error - { code: 500, message: 'orderNo cannot be null' }
+[2017-01-11 00:16:23.102] [ERROR] error - { Error: orderNo cannot be null
+    at module.exports.EventEmitter.add.model.validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-11 00:18:45.030] [ERROR] error - { code: 500, message: 'duration cannot be null' }
+[2017-01-11 00:18:45.030] [ERROR] error - { Error: duration cannot be null
+    at module.exports.EventEmitter.add.model.validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-11 00:18:57.344] [ERROR] error - { code: 500, message: 'createTime cannot be null' }
+[2017-01-11 00:18:57.345] [ERROR] error - { Error: createTime cannot be null
+    at module.exports.EventEmitter.add.model.validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }

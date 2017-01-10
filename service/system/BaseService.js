@@ -2,14 +2,14 @@ const EventEmitter = require('events').EventEmitter;
 const {
     sequelize,
     Sequelize
-} = require('../holder/SequelizeHolder');
+} = require('../../holder/SequelizeHolder');
 
 module.exports = class BaseService extends EventEmitter {
     constructor(modelName, ...modelNames) {
         super();
-        this.Model = require(`../model/${modelName}`)(sequelize, Sequelize);
+        this.Model = require(`../../model/${modelName}`)(sequelize, Sequelize);
         modelNames && modelNames.forEach(m => {
-            require(`../model/${m}`)(sequelize, Sequelize);
+            require(`../../model/${m}`)(sequelize, Sequelize);
         });
     }
     getConnection() {
@@ -46,7 +46,7 @@ module.exports = class BaseService extends EventEmitter {
             this.emit('afterChange');
             return res
         }).catch(e => {
-            throw new Error(e.message.substr(18));
+            throw new Error(e.message);
         });
     }
     async update(model, primaryKey) {

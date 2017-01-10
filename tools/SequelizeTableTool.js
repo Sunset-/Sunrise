@@ -1,8 +1,8 @@
 const {sequelize,Sequelize} = require('../holder/SequelizeHolder');
 const force = false;
-const models = ['DictionaryType','DictionaryItem','ManagerAccount'];
+const models = ['DictionaryType','DictionaryItem','ManagerAccount','WechatAccount','Payment'];
 
-const reTables = ['HospitalPatientRel','ManagerAccount','Patient','PatientExamine','PatientExamineAssessment','ReferralTask','ReferralForm'];
+const reTables = [];
 
 (force?reTables:models).forEach(modelName=>{
     let total = models.length;

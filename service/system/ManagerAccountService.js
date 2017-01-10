@@ -1,4 +1,4 @@
-const BaseService = require('../BaseService');
+const BaseService = require('./BaseService');
 const MODEL = 'ManagerAccount';
 
 class AccountService extends BaseService {

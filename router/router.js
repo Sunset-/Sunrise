@@ -5,7 +5,8 @@ const rs = [
     './system/ManagerSignRouter',
     './system/DictionaryTypeRouter',
     './system/DictionaryItemRouter',
-    './system/FileUploadRouter'
+    './system/FileUploadRouter',
+    './PaymentRouter'
 ];
 
 module.exports = (app) => {

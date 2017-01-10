@@ -1,0 +1,161 @@
+[2017-01-10 22:30:28.546] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-10 22:30:28.549] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-01-10 22:30:28.842] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-10 22:30:28.842] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-01-10 22:30:32.366] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-10 22:30:32.366] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-01-10 22:30:35.955] [ERROR] error - { code: 500, message: '用户名密码错误' }
+[2017-01-10 22:30:35.955] [ERROR] error - InternalServerError: 用户名密码错误
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at middleware (d:\workspace\maikaile\server\router\system\ManagerSignRouter.js:27:30)
+[2017-01-10 22:31:18.103] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'toJSON\' of null' }
+[2017-01-10 22:31:18.106] [ERROR] error - TypeError: Cannot read property 'toJSON' of null
+    at middleware (d:\workspace\maikaile\server\router\system\ManagerSignRouter.js:22:44)
+[2017-01-10 22:31:55.580] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-10 22:31:55.582] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-01-10 22:31:55.596] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-10 22:31:55.597] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-01-10 22:32:33.351] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-10 22:32:33.351] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-01-10 22:32:33.359] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-10 22:32:33.359] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-01-10 22:41:30.252] [ERROR] error - { code: 500, message: 'l' }
+[2017-01-10 22:41:30.254] [ERROR] error - { Error: l
+    at validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-10 22:42:05.072] [ERROR] error - { code: 500, message: 'l' }
+[2017-01-10 22:42:05.072] [ERROR] error - { Error: l
+    at validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-10 22:42:35.634] [ERROR] error - { code: 500, message: 'l' }
+[2017-01-10 22:42:35.638] [ERROR] error - { Error: l
+    at validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-10 22:43:18.956] [ERROR] error - { code: 500, message: 'l' }
+[2017-01-10 22:43:18.958] [ERROR] error - { Error: l
+    at validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-10 23:10:00.425] [ERROR] error - { code: 500, message: '用户名密码错误' }
+[2017-01-10 23:10:00.425] [ERROR] error - InternalServerError: 用户名密码错误
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at middleware (d:\workspace\maikaile\server\router\system\ManagerSignRouter.js:27:30)
+[2017-01-10 23:10:01.798] [ERROR] error - { code: 500, message: '用户名密码错误' }
+[2017-01-10 23:10:01.798] [ERROR] error - InternalServerError: 用户名密码错误
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at middleware (d:\workspace\maikaile\server\router\system\ManagerSignRouter.js:27:30)
+[2017-01-10 23:10:02.729] [ERROR] error - { code: 500, message: '用户名密码错误' }
+[2017-01-10 23:10:02.729] [ERROR] error - InternalServerError: 用户名密码错误
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at middleware (d:\workspace\maikaile\server\router\system\ManagerSignRouter.js:27:30)
+[2017-01-10 23:10:03.760] [ERROR] error - { code: 500, message: '用户名密码错误' }
+[2017-01-10 23:10:03.761] [ERROR] error - InternalServerError: 用户名密码错误
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at middleware (d:\workspace\maikaile\server\router\system\ManagerSignRouter.js:27:30)

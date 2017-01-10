@@ -1,15 +1,15 @@
 const DictionaryTypeService = require('../../service/system/DictionaryTypeService');
 const BaseRouter = require('./BaseRouter')(DictionaryTypeService,{
     pageFilter(ctx){
-        let keyword = ctx.query.keyword;
+        let keyword = ctx.query.keyword&&ctx.query.keyword.trim();
         return keyword&&{
             where : {
                 $or: { 
                     name  : {
-                        $like : keyword
+                        $like : `%${keyword}%`
                     },
                     type  : {
-                        $like : keyword
+                        $like : `%${keyword}%`
                     }
                 }
             }

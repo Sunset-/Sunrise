@@ -1,4 +1,4 @@
-const BaseService = require('../BaseService');
+const BaseService = require('./BaseService');
 const MemoryCache = require('../../components/MemoryCache');
 const MODEL = 'DictionaryItem';
 
