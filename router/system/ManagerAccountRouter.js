@@ -1,4 +1,4 @@
-const ManagerAccountService = require('../service/ManagerAccountService');
+const ManagerAccountService = require('../../service/system/ManagerAccountService');
 const BaseRouter = require('./BaseRouter')(ManagerAccountService);
 
 module.exports = {

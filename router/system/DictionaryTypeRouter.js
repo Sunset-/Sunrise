@@ -1,4 +1,4 @@
-const DictionaryTypeService = require('../service/DictionaryTypeService');
+const DictionaryTypeService = require('../../service/system/DictionaryTypeService');
 const BaseRouter = require('./BaseRouter')(DictionaryTypeService,{
     pageFilter(ctx){
         let keyword = ctx.query.keyword;

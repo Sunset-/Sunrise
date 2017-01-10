@@ -1,17 +1,11 @@
 const lang = require('../common/lang');
 const Router = require('koa-router');
 const rs = [
-    './ManagerAccountRouter',
-    './ManagerSignRouter',
-    './HospitalRouter',
-    './DictionaryTypeRouter',
-    './DictionaryItemRouter',
-    './AssessmentCaseRouter',
-    './FileUploadRouter',
-    './PatientRouter',
-    './ExamineRouter',
-    './ReferralRouter',
-    './SignRouter',
+    './system/ManagerAccountRouter',
+    './system/ManagerSignRouter',
+    './system/DictionaryTypeRouter',
+    './system/DictionaryItemRouter',
+    './system/FileUploadRouter'
 ];
 
 module.exports = (app) => {

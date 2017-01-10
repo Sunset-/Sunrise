@@ -1,6 +1,6 @@
 const {sequelize,Sequelize} = require('../holder/SequelizeHolder');
-const force = true;
-const models = ['DictionaryType','DictionaryItem','Account','Hospital','AssessmentCase'];
+const force = false;
+const models = ['DictionaryType','DictionaryItem','ManagerAccount'];
 
 const reTables = ['HospitalPatientRel','ManagerAccount','Patient','PatientExamine','PatientExamineAssessment','ReferralTask','ReferralForm'];
 

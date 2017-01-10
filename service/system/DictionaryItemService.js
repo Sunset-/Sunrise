@@ -1,5 +1,5 @@
-const BaseService = require('./BaseService');
-const MemoryCache = require('../components/MemoryCache');
+const BaseService = require('../BaseService');
+const MemoryCache = require('../../components/MemoryCache');
 const MODEL = 'DictionaryItem';
 
 class DictionaryItemService extends BaseService {

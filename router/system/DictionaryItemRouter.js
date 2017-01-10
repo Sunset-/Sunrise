@@ -1,6 +1,6 @@
-const DictionaryItemService = require('../service/DictionaryItemService');
+const DictionaryItemService = require('../../service/system/DictionaryItemService');
 const BaseRouter = require('./BaseRouter')(DictionaryItemService);
-const MemoryCache = require('../components/MemoryCache');
+const MemoryCache = require('../../components/MemoryCache');
 
 
 module.exports = {

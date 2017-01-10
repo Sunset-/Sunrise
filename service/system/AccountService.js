@@ -1,5 +1,5 @@
-const BaseService = require('./BaseService');
-const sign = require('../common/sign');
+const BaseService = require('../BaseService');
+const sign = require('../../common/sign');
 const {
     SIGN_SALT
 } = require('../common/salt');

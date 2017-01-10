@@ -1,8 +1,8 @@
-const ManagerAccountService = require('../service/ManagerAccountService');
-const sign = require('../common/sign');
+const ManagerAccountService = require('../../service/system/ManagerAccountService');
+const sign = require('../../common/sign');
 const {
     MANAGER_SIGN_SALT
-} = require('../common/salt');
+} = require('../../common/salt');
 
 module.exports = {
     prefix: '/manage/sign',
