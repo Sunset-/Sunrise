@@ -1,15 +1,20 @@
-Last login: Wed Jan 11 14:29:47 2017 from 113.139.194.19
+Last login: Wed Jan 11 23:13:28 2017 from 123.139.22.138
 
 Welcome to Alibaba Cloud Elastic Compute Service !
 
 [root@iZ94hd03swxZ ~]# cd /home/maikaile/server
-[root@iZ94hd03swxZ server]# unzip -o build-20170111-1430.zip
-Archive:  build-20170111-1430.zip
+[root@iZ94hd03swxZ server]# unzip -o build-20170111-2315.zip
+Archive:  build-20170111-2315.zip
+rm -rf build-20170111-2315.zip
+pm2 restart 0
+exit
   inflating: assets/img/gamersky_01origin_01_2016917225273D.jpg  
   inflating: assets/img/gamersky_03origin_05_201684171564.jpg  
   inflating: assets/img/gamersky_08origin_15_201611122046828.jpg  
   inflating: assets/img/GTA_V_26.jpg  
   inflating: assets/js/jquery.min.js  
+  inflating: assets/js/sunset-wechat.js  
+  inflating: assets/js/wx.js         
   inflating: assets/swagger/bugs.txt  
   inflating: assets/swagger/index.html  
   inflating: assets/swagger/o2c.html  
@@ -27,8 +32,6 @@ Archive:  build-20170111-1430.zip
   inflating: assets/swagger/css/screen.css  
   inflating: assets/swagger/css/style.css  
   inflating: assets/swagger/css/typography.css  
-  inflating: assets/swagger/fonts/DroidSans-Bold.ttf  
-  inflating: assets/swagger/fonts/DroidSans.ttf  
   inflating: assets/swagger/images/collapse.gif  
   inflating: assets/swagger/images/expand.gif  
   inflating: assets/swagger/images/explorer_icons.png  
@@ -39,21 +42,8 @@ Archive:  build-20170111-1430.zip
   inflating: assets/swagger/images/pet_store_api.png  
   inflating: assets/swagger/images/throbber.gif  
   inflating: assets/swagger/images/wordnik_api.png  
-  inflating: assets/swagger/lang/ca.js  
-  inflating: assets/swagger/lang/el.js  
-  inflating: assets/swagger/lang/en.js  
-  inflating: assets/swagger/lang/es.js  
-  inflating: assets/swagger/lang/fr.js  
-  inflating: assets/swagger/lang/geo.js  
-  inflating: assets/swagger/lang/it.js  
-  inflating: assets/swagger/lang/ja.js  
-  inflating: assets/swagger/lang/ko-kr.js  
-  inflating: assets/swagger/lang/pl.js  
-  inflating: assets/swagger/lang/pt.js  
-  inflating: assets/swagger/lang/ru.js  
-  inflating: assets/swagger/lang/tr.js  
-  inflating: assets/swagger/lang/translator.js  
-  inflating: assets/swagger/lang/zh-cn.js  
+  inflating: assets/swagger/fonts/DroidSans-Bold.ttf  
+  inflating: assets/swagger/fonts/DroidSans.ttf  
   inflating: assets/swagger/lib/backbone-min.js  
   inflating: assets/swagger/lib/es5-shim.js  
   inflating: assets/swagger/lib/handlebars-4.0.5.js  
@@ -70,11 +60,6 @@ Archive:  build-20170111-1430.zip
   inflating: assets/swagger/lib/object-assign-pollyfill.js  
   inflating: assets/swagger/lib/sanitize-html.min.js  
   inflating: assets/swagger/lib/swagger-oauth.js  
-  inflating: assets/swagger-ui/css/print.css  
-  inflating: assets/swagger-ui/css/reset.css  
-  inflating: assets/swagger-ui/css/screen.css  
-  inflating: assets/swagger-ui/css/style.css  
-  inflating: assets/swagger-ui/css/typography.css  
   inflating: assets/swagger-ui/fonts/DroidSans-Bold.ttf  
   inflating: assets/swagger-ui/fonts/DroidSans.ttf  
   inflating: assets/swagger-ui/images/collapse.gif  
@@ -87,6 +72,26 @@ Archive:  build-20170111-1430.zip
   inflating: assets/swagger-ui/images/pet_store_api.png  
   inflating: assets/swagger-ui/images/throbber.gif  
   inflating: assets/swagger-ui/images/wordnik_api.png  
+  inflating: assets/swagger-ui/css/print.css  
+  inflating: assets/swagger-ui/css/reset.css  
+  inflating: assets/swagger-ui/css/screen.css  
+  inflating: assets/swagger-ui/css/style.css  
+  inflating: assets/swagger-ui/css/typography.css  
+  inflating: assets/swagger/lang/ca.js  
+  inflating: assets/swagger/lang/el.js  
+  inflating: assets/swagger/lang/en.js  
+  inflating: assets/swagger/lang/es.js  
+  inflating: assets/swagger/lang/fr.js  
+  inflating: assets/swagger/lang/geo.js  
+  inflating: assets/swagger/lang/it.js  
+  inflating: assets/swagger/lang/ja.js  
+  inflating: assets/swagger/lang/ko-kr.js  
+  inflating: assets/swagger/lang/pl.js  
+  inflating: assets/swagger/lang/pt.js  
+  inflating: assets/swagger/lang/ru.js  
+  inflating: assets/swagger/lang/tr.js  
+  inflating: assets/swagger/lang/translator.js  
+  inflating: assets/swagger/lang/zh-cn.js  
   inflating: assets/swagger-ui/lang/ca.js  
   inflating: assets/swagger-ui/lang/el.js  
   inflating: assets/swagger-ui/lang/en.js  
@@ -119,6 +124,7 @@ Archive:  build-20170111-1430.zip
   inflating: assets/swagger-ui/lib/sanitize-html.min.js  
   inflating: assets/swagger-ui/lib/swagger-oauth.js  
   inflating: page/index.html         
+  inflating: page/pay.html           
   inflating: common/lang.js          
   inflating: common/random.js        
   inflating: common/salt.js          
@@ -171,35 +177,19 @@ Archive:  build-20170111-1430.zip
   inflating: wechat/api.js           
   inflating: wechat/test.js          
   inflating: wechat/WechatRouter.js  
+  inflating: wechat/utils/sign.js    
   inflating: wechat/sdk/AccessToken.js  
   inflating: wechat/sdk/menu.js      
   inflating: wechat/sdk/Oauth.js     
   inflating: wechat/sdk/Pay.js       
-  inflating: wechat/utils/sign.js    
-  inflating: logs/error-2016-11-30.log  
-  inflating: logs/error-2016-12-01.log  
-  inflating: logs/error-2016-12-06.log  
-  inflating: logs/error-2016-12-07.log  
-  inflating: logs/error-2016-12-12.log  
-  inflating: logs/error-2016-12-13.log  
-  inflating: logs/error-2016-12-14.log  
-  inflating: logs/error-2017-01-10.log  
   inflating: logs/error-2017-01-11.log  
-  inflating: logs/fatal-2016-12-12.log  
-  inflating: logs/fatal-2016-12-13.log  
-  inflating: logs/fatal-2016-12-14.log  
-  inflating: logs/fatal-2017-01-10.log  
   inflating: logs/fatal-2017-01-11.log  
-  inflating: logs/info-2016-12-12.log  
-  inflating: logs/info-2016-12-13.log  
-  inflating: logs/info-2016-12-14.log  
-  inflating: logs/info-2017-01-10.log  
   inflating: logs/info-2017-01-11.log  
   inflating: logs/shell.log          
   inflating: app.js                  
   inflating: package.json            
   inflating: process.json            
-[root@iZ94hd03swxZ server]# rm -rf build-20170111-1430.zip
+[root@iZ94hd03swxZ server]# rm -rf build-20170111-2315.zip
 [root@iZ94hd03swxZ server]# pm2 restart 0
 [2mRestarts are now immutable, to update environment or conf use --update-env[22m
 [32m[PM2] [39mApplying action restartProcessId on app [0](ids: 0)
@@ -207,7 +197,7 @@ Archive:  build-20170111-1430.zip
 [90m┌──────────┬──────┬────────┬─────┬─────┬──────────┐[39m
 [90m│[39m[1m[36m Name     [39m[22m[90m│[39m[1m[36m mode [39m[22m[90m│[39m[1m[36m status [39m[22m[90m│[39m[1m[36m ↺   [39m[22m[90m│[39m[1m[36m cpu [39m[22m[90m│[39m[1m[36m memory   [39m[22m[90m│[39m
 [90m├──────────┼──────┼────────┼─────┼─────┼──────────┤[39m
-[90m│[39m[1m[36m [1m[36mmaikaile[36m[1m [39m[22m[90m│[39m [7m[1mfork[22m[27m [90m│[39m [32m[1monline[22m[39m [90m│[39m 657 [90m│[39m 0%  [90m│[39m 6.9 MB   [90m│[39m
+[90m│[39m[1m[36m [1m[36mmaikaile[36m[1m [39m[22m[90m│[39m [7m[1mfork[22m[27m [90m│[39m [32m[1monline[22m[39m [90m│[39m 685 [90m│[39m 0%  [90m│[39m 4.1 MB   [90m│[39m
 [90m└──────────┴──────┴────────┴─────┴─────┴──────────┘[39m
 [37m[3m Use `pm2 show <id|name>` to get more details about an app[23m[39m
 [root@iZ94hd03swxZ server]# exit

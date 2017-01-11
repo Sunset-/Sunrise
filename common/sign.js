@@ -6,7 +6,7 @@ module.exports = {
         if (key) {
             return decipher.update(str).digest()
         }
-        return decipher.update(str).digest('hex');
+        return decipher.update(str,'utf8').digest('hex');
     },
     sha1(content,secrectKey){
         return crypto.createHmac('sha1', secrectKey).update(content).digest().toString('base64');

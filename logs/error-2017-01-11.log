@@ -1,867 +1,186 @@
-[2017-01-11 00:14:25.852] [ERROR] error - { code: 500, message: 'e null' }
-[2017-01-11 00:14:25.853] [ERROR] error - { Error: e null
-    at validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
-    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
-    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
-    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
-    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
-    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
-    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
-    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
-    at tryOnImmediate (timers.js:622:5)
-    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
-[2017-01-11 00:15:21.126] [ERROR] error - { code: 500, message: 'accountId cannot be null' }
-[2017-01-11 00:15:21.132] [ERROR] error - { Error: accountId cannot be null
-    at module.exports.EventEmitter.add.model.validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
-    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
-    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
-    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
-    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
-    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
-    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
-    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
-    at tryOnImmediate (timers.js:622:5)
-    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
-[2017-01-11 00:15:43.313] [ERROR] error - { code: 500, message: 'accountId cannot be null' }
-[2017-01-11 00:15:43.313] [ERROR] error - { Error: accountId cannot be null
-    at module.exports.EventEmitter.add.model.validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
-    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
-    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
-    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
-    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
-    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
-    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
-    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
-    at tryOnImmediate (timers.js:622:5)
-    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
-[2017-01-11 00:16:03.174] [ERROR] error - { code: 500, message: 'orderNo cannot be null' }
-[2017-01-11 00:16:03.174] [ERROR] error - { Error: orderNo cannot be null
-    at module.exports.EventEmitter.add.model.validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
-    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
-    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
-    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
-    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
-    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
-    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
-    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
-    at tryOnImmediate (timers.js:622:5)
-    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
-[2017-01-11 00:16:06.331] [ERROR] error - { code: 500, message: 'orderNo cannot be null' }
-[2017-01-11 00:16:06.331] [ERROR] error - { Error: orderNo cannot be null
-    at module.exports.EventEmitter.add.model.validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
-    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
-    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
-    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
-    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
-    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
-    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
-    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
-    at tryOnImmediate (timers.js:622:5)
-    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
-[2017-01-11 00:16:23.102] [ERROR] error - { code: 500, message: 'orderNo cannot be null' }
-[2017-01-11 00:16:23.102] [ERROR] error - { Error: orderNo cannot be null
-    at module.exports.EventEmitter.add.model.validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
-    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
-    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
-    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
-    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
-    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
-    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
-    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
-    at tryOnImmediate (timers.js:622:5)
-    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
-[2017-01-11 00:18:45.030] [ERROR] error - { code: 500, message: 'duration cannot be null' }
-[2017-01-11 00:18:45.030] [ERROR] error - { Error: duration cannot be null
-    at module.exports.EventEmitter.add.model.validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
-    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
-    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
-    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
-    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
-    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
-    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
-    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
-    at tryOnImmediate (timers.js:622:5)
-    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
-[2017-01-11 00:18:57.344] [ERROR] error - { code: 500, message: 'createTime cannot be null' }
-[2017-01-11 00:18:57.345] [ERROR] error - { Error: createTime cannot be null
-    at module.exports.EventEmitter.add.model.validate.then.catch.e (d:\workspace\maikaile\server\service\system\BaseService.js:49:19)
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at D:\workspace\maikaile\server\node_modules\.npminstall\continuation-local-storage\3.2.0\continuation-local-storage\context.js:84:17
-    at tryCatcher (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\util.js:16:23)
-    at Promise._settlePromiseFromHandler (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:510:31)
-    at Promise._settlePromise (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:567:18)
-    at Promise._settlePromise0 (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:612:10)
-    at Promise._settlePromises (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\promise.js:687:18)
-    at Async._drainQueue (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:133:16)
-    at Async._drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:143:10)
-    at Immediate.Async.drainQueues (D:\workspace\maikaile\server\node_modules\.npminstall\bluebird\3.4.7\bluebird\js\release\async.js:17:14)
-    at tryOnImmediate (timers.js:622:5)
-    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
-[2017-01-11 10:14:01.538] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:14:01.540] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:14:01.586] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:14:01.586] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:14:37.022] [ERROR] error - { code: 500,
-  message: 'Parameter "url" must be a string, not undefined' }
-[2017-01-11 10:14:37.024] [ERROR] error - TypeError: Parameter "url" must be a string, not undefined
-    at Url.parse (url.js:91:11)
-    at Object.urlParse [as parse] (url.js:85:5)
-    at request (d:\workspace\NodeJS\sunrise\components\httpkit.js:7:20)
-    at Object.get (d:\workspace\NodeJS\sunrise\components\httpkit.js:44:9)
-    at Object.localTokenService (d:\workspace\NodeJS\sunrise\config\wechatConfig.js:11:33)
-    at GET/getAccessToken (d:\workspace\NodeJS\sunrise\wechat\WechatRouter.js:14:29)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
-[2017-01-11 10:14:37.041] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:14:37.042] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:15:50.177] [ERROR] error - { code: 500, message: 'undefined is not a promise' }
-[2017-01-11 10:15:50.177] [ERROR] error - TypeError: undefined is not a promise
-    at request (d:\workspace\NodeJS\sunrise\components\httpkit.js:15:9)
-    at Object.get (d:\workspace\NodeJS\sunrise\components\httpkit.js:49:9)
-    at Object.localTokenService (d:\workspace\NodeJS\sunrise\config\wechatConfig.js:11:33)
-    at GET/getAccessToken (d:\workspace\NodeJS\sunrise\wechat\WechatRouter.js:14:29)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
-[2017-01-11 10:15:50.197] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:15:50.197] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:15:53.669] [ERROR] error - { code: 500, message: 'undefined is not a promise' }
-[2017-01-11 10:15:53.669] [ERROR] error - TypeError: undefined is not a promise
-    at request (d:\workspace\NodeJS\sunrise\components\httpkit.js:15:9)
-    at Object.get (d:\workspace\NodeJS\sunrise\components\httpkit.js:49:9)
-    at Object.localTokenService (d:\workspace\NodeJS\sunrise\config\wechatConfig.js:11:33)
-    at GET/getAccessToken (d:\workspace\NodeJS\sunrise\wechat\WechatRouter.js:14:29)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
-[2017-01-11 10:15:53.677] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:15:53.678] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:18:12.288] [ERROR] error - { code: 500, message: 'undefined is not a promise' }
-[2017-01-11 10:18:12.290] [ERROR] error - TypeError: undefined is not a promise
-    at request (d:\workspace\NodeJS\sunrise\components\httpkit.js:15:9)
-    at Object.get (d:\workspace\NodeJS\sunrise\components\httpkit.js:49:10)
-    at Object.localTokenService (d:\workspace\NodeJS\sunrise\config\wechatConfig.js:11:33)
-    at GET/getAccessToken (d:\workspace\NodeJS\sunrise\wechat\WechatRouter.js:14:29)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
-[2017-01-11 10:18:12.307] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:18:12.308] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:18:25.443] [ERROR] error - { code: 500, message: 'undefined is not a promise' }
-[2017-01-11 10:18:25.448] [ERROR] error - TypeError: undefined is not a promise
-    at request (d:\workspace\NodeJS\sunrise\components\httpkit.js:15:9)
-    at Object.get (d:\workspace\NodeJS\sunrise\components\httpkit.js:49:10)
-    at Object.localTokenService (d:\workspace\NodeJS\sunrise\config\wechatConfig.js:11:33)
-    at GET/getAccessToken (d:\workspace\NodeJS\sunrise\wechat\WechatRouter.js:14:29)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
-[2017-01-11 10:18:25.470] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:18:25.470] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:19:18.370] [ERROR] error - { code: 500, message: 'undefined is not a promise' }
-[2017-01-11 10:19:18.375] [ERROR] error - TypeError: undefined is not a promise
-    at request (d:\workspace\NodeJS\sunrise\components\httpkit.js:15:9)
-    at Object.get (d:\workspace\NodeJS\sunrise\components\httpkit.js:49:10)
-    at Object.localTokenService (d:\workspace\NodeJS\sunrise\config\wechatConfig.js:11:33)
-    at GET/getAccessToken (d:\workspace\NodeJS\sunrise\wechat\WechatRouter.js:14:29)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
-[2017-01-11 10:19:18.404] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:19:18.405] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:19:34.493] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:19:34.495] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:20:26.723] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:20:26.725] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:20:48.028] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:20:48.029] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:22:36.610] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:22:36.611] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:23:01.104] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:23:01.106] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:23:56.981] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:23:56.982] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:24:14.185] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:24:14.186] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:24:16.534] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:24:16.535] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:24:17.479] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:24:17.479] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:24:18.137] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:24:18.137] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:24:22.940] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:24:22.940] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:24:23.661] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:24:23.661] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:43:21.393] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:43:21.393] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 10:43:22.064] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 10:43:22.065] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:00:19.038] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:00:19.039] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:00:19.058] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:00:19.058] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:00:23.693] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:00:23.694] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:00:23.703] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:00:23.703] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:00:38.961] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:00:38.961] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:00:45.965] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:00:45.966] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:00:52.291] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:00:52.291] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:00:53.381] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:00:53.381] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:17.823] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:17.823] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:21.743] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:21.743] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:24.421] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:24.421] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:25.228] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:25.229] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:25.763] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:25.763] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:26.318] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:26.319] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:26.890] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:26.891] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:27.420] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:27.421] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:27.931] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:27.931] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:28.410] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:28.410] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:28.874] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:28.874] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:29.357] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:29.358] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:29.755] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:29.755] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:32.963] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:32.963] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:33.339] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:33.339] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:33.663] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:33.663] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:33.923] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:33.923] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:34.176] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:34.176] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:34.411] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:34.411] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:34.640] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:34.646] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:45.294] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:45.294] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:04:49.006] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:04:49.006] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:05:41.360] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:05:41.360] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:05:44.577] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:05:44.577] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:05:52.087] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:05:52.088] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:05:52.922] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:05:52.922] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:05:59.143] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:05:59.144] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
-[2017-01-11 12:06:55.694] [ERROR] error - { code: 500, message: '用户未登录' }
-[2017-01-11 12:06:55.695] [ERROR] error - InternalServerError: 用户未登录
-    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\LoginedChecker.js:34:26)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\responseWrapper.js:31:19
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at app.use (d:\workspace\NodeJS\sunrise\middlewares\logger.js:7:15)
-    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
-    at d:\workspace\NodeJS\sunrise\middlewares\redisSession.js:49:15
-    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-01-11 21:30:36.333] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 21:30:36.335] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15
+[2017-01-11 21:36:27.577] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 21:36:27.579] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15
+[2017-01-11 21:36:37.675] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 21:36:37.676] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15
+[2017-01-11 22:01:33.962] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 22:01:33.965] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15
+[2017-01-11 22:01:34.856] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 22:01:34.857] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15
+[2017-01-11 22:01:35.186] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 22:01:35.186] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15
+[2017-01-11 22:01:35.383] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 22:01:35.383] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15
+[2017-01-11 22:01:35.590] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 22:01:35.590] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15
+[2017-01-11 22:09:09.888] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 22:09:09.890] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15
+[2017-01-11 22:09:10.521] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 22:09:10.522] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15
+[2017-01-11 22:09:10.809] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 22:09:10.809] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15
+[2017-01-11 22:09:11.016] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 22:09:11.017] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15
+[2017-01-11 22:29:22.499] [ERROR] error - { code: 500, message: 'raw is not defined' }
+[2017-01-11 22:29:22.501] [ERROR] error - ReferenceError: raw is not defined
+    at getPrepayId (d:\workspace\maikaile\server\wechat\sdk\Pay.js:34:18)
+    at Object.getPayParams (d:\workspace\maikaile\server\wechat\sdk\Pay.js:97:26)
+    at POST/getPayParams (d:\workspace\maikaile\server\wechat\WechatRouter.js:24:28)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\maikaile\server\node_modules\.npminstall\koa-router\7.1.0\koa-router\lib\router.js:326:16
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-router\7.1.0\koa-router\lib\router.js:331:31)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\maikaile\server\node_modules\.npminstall\koa-router\7.1.0\koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-router\7.1.0\koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\maikaile\server\node_modules\.npminstall\koa-router\7.1.0\koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-router\7.1.0\koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+[2017-01-11 22:30:45.211] [ERROR] error - { code: 500, message: 'ret is not defined' }
+[2017-01-11 22:30:45.215] [ERROR] error - ReferenceError: ret is not defined
+    at getPrepayId (d:\workspace\maikaile\server\wechat\sdk\Pay.js:49:22)
+    at Object.getPayParams (d:\workspace\maikaile\server\wechat\sdk\Pay.js:112:26)
+    at POST/getPayParams (d:\workspace\maikaile\server\wechat\WechatRouter.js:24:28)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\maikaile\server\node_modules\.npminstall\koa-router\7.1.0\koa-router\lib\router.js:326:16
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-router\7.1.0\koa-router\lib\router.js:331:31)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\maikaile\server\node_modules\.npminstall\koa-router\7.1.0\koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-router\7.1.0\koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\maikaile\server\node_modules\.npminstall\koa-router\7.1.0\koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-router\7.1.0\koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+[2017-01-11 22:37:21.870] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 22:37:21.872] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15
+[2017-01-11 23:32:15.680] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 23:32:15.684] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15
+[2017-01-11 23:32:15.729] [ERROR] error - { code: 500, message: '用户未登录' }
+[2017-01-11 23:32:15.730] [ERROR] error - InternalServerError: 用户未登录
+    at Object.throw (D:\workspace\maikaile\server\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at app.use (d:\workspace\maikaile\server\middlewares\LoginedChecker.js:34:26)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\responseWrapper.js:31:19
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at app.use (d:\workspace\maikaile\server\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\maikaile\server\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at d:\workspace\maikaile\server\middlewares\memorySession.js:24:15

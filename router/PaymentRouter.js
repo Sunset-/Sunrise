@@ -25,6 +25,9 @@ const BaseRouter = require('./system/BaseRouter')(PaymentService, {
     }
 });
 
+const request = require('request');
+const businessConfig = require('../config/businessConfig');
+
 
 module.exports = {
     prefix: '/business/payment',
@@ -34,6 +37,30 @@ module.exports = {
                 let model = ctx.request.body;
                 ctx.body = await PaymentService.addPayment(model);
             }
+        },
+        'GET/request/plateNumber': async function (ctx, next) {
+            request({
+                url: businessConfig.requestPlateNumberUrl,
+                method: 'POST',
+                body: JSON.stringify({
+                    "biz_content": {
+                        "car_card_number": "",
+                        "car_license_number": "津AK9751",
+                        "need_picture": "0",
+                        "request_origin": "0"
+                    },
+                    "charset": "UTF-8",
+                    "command": "GET_CHARGE",
+                    "device_id": "01010101010101010101010101010101",
+                    "message_id": "20170106151406",
+                    "sign": "01010101010101010101010101010101",
+                    "sign_type": "MD5",
+                    "timestamp": "20170106151406"
+                })
+            }, function (err, response, body) {
+                debugger;
+            });
+            ctx.body = true;
         }
     })
 };

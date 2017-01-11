@@ -13,10 +13,10 @@
 // }
 
 module.exports = {
-    host : 'localhost',
-    username : 'root',
-    password : 'root',
-    database : 'sunset',
+    host : '120.24.63.151',
+    username : 'sangto',
+    password : 'sangto!@#',
+    database : 'heb',
     dialect : 'mysql',
     pool : {
         min : 1,

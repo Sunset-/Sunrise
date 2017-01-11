@@ -1,5 +1,6 @@
 const Wechat = require('./api.js'),
 	config = require('../config/wechatConfig'),
+	logger = require('../components/logger'),
 	DEFAULT_APPID = config.DEFAULT_APPID;
 
 module.exports = {

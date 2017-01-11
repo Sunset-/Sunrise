@@ -1,285 +1,193 @@
-[2017-01-11 00:00:10.393] [INFO] info - REQUEST=======> 2017-1-11 00:00:10 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:8ms
-[2017-01-11 00:01:30.734] [INFO] info - REQUEST=======> 2017-1-11 00:01:30 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:11ms
-[2017-01-11 00:01:30.911] [INFO] info - REQUEST=======> 2017-1-11 00:01:30 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:8ms
-[2017-01-11 00:01:35.662] [INFO] info - REQUEST=======> 2017-1-11 00:01:35 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:5ms
-[2017-01-11 00:01:35.841] [INFO] info - REQUEST=======> 2017-1-11 00:01:35 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:5ms
-[2017-01-11 00:01:36.351] [INFO] info - REQUEST=======> 2017-1-11 00:01:36 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
-[2017-01-11 00:01:40.241] [INFO] info - REQUEST=======> 2017-1-11 00:01:40 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
-[2017-01-11 00:01:40.658] [INFO] info - REQUEST=======> 2017-1-11 00:01:40 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:6ms
-[2017-01-11 00:01:40.905] [INFO] info - REQUEST=======> 2017-1-11 00:01:40 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
-[2017-01-11 00:01:40.997] [INFO] info - REQUEST=======> 2017-1-11 00:01:40 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:8ms
-[2017-01-11 00:04:17.335] [INFO] info - REQUEST=======> 2017-1-11 00:04:17 [GET] /system/dictionaryItem/use/all，耗时:1ms
-[2017-01-11 00:04:17.410] [INFO] info - REQUEST=======> 2017-1-11 00:04:17 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:04:17.723] [INFO] info - REQUEST=======> 2017-1-11 00:04:17 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:04:18.526] [INFO] info - REQUEST=======> 2017-1-11 00:04:18 [GET] /system/dictionaryItem/use/all，耗时:2ms
-[2017-01-11 00:04:18.607] [INFO] info - REQUEST=======> 2017-1-11 00:04:18 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:04:18.614] [INFO] info - REQUEST=======> 2017-1-11 00:04:18 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:04:18.896] [INFO] info - REQUEST=======> 2017-1-11 00:04:18 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
-[2017-01-11 00:05:54.292] [INFO] info - REQUEST=======> 2017-1-11 00:05:54 [GET] /system/dictionaryItem/use/all，耗时:3ms
-[2017-01-11 00:05:54.354] [INFO] info - REQUEST=======> 2017-1-11 00:05:54 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:05:54.662] [INFO] info - REQUEST=======> 2017-1-11 00:05:54 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:05:54.894] [INFO] info - REQUEST=======> 2017-1-11 00:05:54 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:5ms
-[2017-01-11 00:06:06.861] [INFO] info - REQUEST=======> 2017-1-11 00:06:06 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:5ms
-[2017-01-11 00:06:20.310] [INFO] info - REQUEST=======> 2017-1-11 00:06:20 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:4ms
-[2017-01-11 00:06:21.803] [INFO] info - REQUEST=======> 2017-1-11 00:06:21 [GET] /system/dictionaryItem/use/all，耗时:1ms
-[2017-01-11 00:06:22.187] [INFO] info - REQUEST=======> 2017-1-11 00:06:22 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:06:22.209] [INFO] info - REQUEST=======> 2017-1-11 00:06:22 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:06:22.435] [INFO] info - REQUEST=======> 2017-1-11 00:06:22 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:2ms
-[2017-01-11 00:06:31.126] [INFO] info - REQUEST=======> 2017-1-11 00:06:31 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:3ms
-[2017-01-11 00:07:55.361] [INFO] info - REQUEST=======> 2017-1-11 00:07:55 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:3ms
-[2017-01-11 00:07:57.962] [INFO] info - REQUEST=======> 2017-1-11 00:07:57 [GET] /system/dictionaryItem/use/all，耗时:1ms
-[2017-01-11 00:07:58.017] [INFO] info - REQUEST=======> 2017-1-11 00:07:58 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:07:58.336] [INFO] info - REQUEST=======> 2017-1-11 00:07:58 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:07:58.547] [INFO] info - REQUEST=======> 2017-1-11 00:07:58 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:1ms
-[2017-01-11 00:08:12.979] [INFO] info - REQUEST=======> 2017-1-11 00:08:12 [GET] /system/dictionaryItem/use/all，耗时:1ms
-[2017-01-11 00:08:13.032] [INFO] info - REQUEST=======> 2017-1-11 00:08:13 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:08:13.347] [INFO] info - REQUEST=======> 2017-1-11 00:08:13 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:08:13.537] [INFO] info - REQUEST=======> 2017-1-11 00:08:13 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:2ms
-[2017-01-11 00:08:26.815] [INFO] info - REQUEST=======> 2017-1-11 00:08:26 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:3ms
-[2017-01-11 00:08:32.554] [INFO] info - REQUEST=======> 2017-1-11 00:08:32 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:3ms
-[2017-01-11 00:08:34.417] [INFO] info - REQUEST=======> 2017-1-11 00:08:34 [GET] /system/dictionaryItem/use/all，耗时:1ms
-[2017-01-11 00:08:34.474] [INFO] info - REQUEST=======> 2017-1-11 00:08:34 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:08:34.790] [INFO] info - REQUEST=======> 2017-1-11 00:08:34 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:08:35.000] [INFO] info - REQUEST=======> 2017-1-11 00:08:34 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:3ms
-[2017-01-11 00:08:58.890] [INFO] info - REQUEST=======> 2017-1-11 00:08:58 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:2ms
-[2017-01-11 00:09:00.937] [INFO] info - REQUEST=======> 2017-1-11 00:09:00 [GET] /system/dictionaryItem/use/all，耗时:0ms
-[2017-01-11 00:09:01.287] [INFO] info - REQUEST=======> 2017-1-11 00:09:01 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:09:01.320] [INFO] info - REQUEST=======> 2017-1-11 00:09:01 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:09:01.559] [INFO] info - REQUEST=======> 2017-1-11 00:09:01 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:7ms
-[2017-01-11 00:09:30.904] [INFO] info - REQUEST=======> 2017-1-11 00:09:30 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:2ms
-[2017-01-11 00:09:48.462] [INFO] info - REQUEST=======> 2017-1-11 00:09:48 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:3ms
-[2017-01-11 00:09:49.624] [INFO] info - REQUEST=======> 2017-1-11 00:09:49 [GET] /system/dictionaryItem/use/all，耗时:1ms
-[2017-01-11 00:09:49.998] [INFO] info - REQUEST=======> 2017-1-11 00:09:49 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:09:50.032] [INFO] info - REQUEST=======> 2017-1-11 00:09:50 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:09:50.278] [INFO] info - REQUEST=======> 2017-1-11 00:09:50 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:9ms
-[2017-01-11 00:11:10.085] [INFO] info - REQUEST=======> 2017-1-11 00:11:10 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:2ms
-[2017-01-11 00:11:45.507] [INFO] info - REQUEST=======> 2017-1-11 00:11:45 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:2ms
-[2017-01-11 00:11:47.896] [INFO] info - REQUEST=======> 2017-1-11 00:11:47 [GET] /system/dictionaryItem/use/all，耗时:1ms
-[2017-01-11 00:11:48.252] [INFO] info - REQUEST=======> 2017-1-11 00:11:48 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:11:48.274] [INFO] info - REQUEST=======> 2017-1-11 00:11:48 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:11:48.507] [INFO] info - REQUEST=======> 2017-1-11 00:11:48 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:2ms
-[2017-01-11 00:12:03.528] [INFO] info - REQUEST=======> 2017-1-11 00:12:03 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:3ms
-[2017-01-11 00:12:05.645] [INFO] info - REQUEST=======> 2017-1-11 00:12:05 [GET] /system/dictionaryItem/use/all，耗时:1ms
-[2017-01-11 00:12:05.705] [INFO] info - REQUEST=======> 2017-1-11 00:12:05 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:12:06.021] [INFO] info - REQUEST=======> 2017-1-11 00:12:06 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:12:06.206] [INFO] info - REQUEST=======> 2017-1-11 00:12:06 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:2ms
-[2017-01-11 00:13:41.698] [INFO] info - REQUEST=======> 2017-1-11 00:13:41 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:3ms
-[2017-01-11 00:14:05.503] [INFO] info - REQUEST=======> 2017-1-11 00:14:05 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:4ms
-[2017-01-11 00:14:07.085] [INFO] info - REQUEST=======> 2017-1-11 00:14:07 [GET] /system/dictionaryItem/use/all，耗时:1ms
-[2017-01-11 00:14:07.462] [INFO] info - REQUEST=======> 2017-1-11 00:14:07 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:14:07.499] [INFO] info - REQUEST=======> 2017-1-11 00:14:07 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:14:07.721] [INFO] info - REQUEST=======> 2017-1-11 00:14:07 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:2ms
-[2017-01-11 00:14:25.857] [INFO] info - REQUEST=======> 2017-1-11 00:14:25 [POST] /business/payment，耗时:43ms
-[2017-01-11 00:15:15.480] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 00:15:15.697] [INFO] info - Redis connecting!
-[2017-01-11 00:15:21.144] [INFO] info - REQUEST=======> 2017-1-11 00:15:15 [POST] /business/payment，耗时:5426ms
-[2017-01-11 00:15:42.266] [INFO] info - REQUEST=======> 2017-1-11 00:15:42 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:18ms
-[2017-01-11 00:15:43.316] [INFO] info - REQUEST=======> 2017-1-11 00:15:43 [POST] /business/payment，耗时:14ms
-[2017-01-11 00:15:47.959] [INFO] info - REQUEST=======> 2017-1-11 00:15:47 [GET] /system/dictionaryItem/use/all，耗时:2ms
-[2017-01-11 00:15:48.013] [INFO] info - REQUEST=======> 2017-1-11 00:15:48 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:15:48.328] [INFO] info - REQUEST=======> 2017-1-11 00:15:48 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:15:48.521] [INFO] info - REQUEST=======> 2017-1-11 00:15:48 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:6ms
-[2017-01-11 00:16:03.177] [INFO] info - REQUEST=======> 2017-1-11 00:16:03 [POST] /business/payment，耗时:7ms
-[2017-01-11 00:16:06.332] [INFO] info - REQUEST=======> 2017-1-11 00:16:06 [POST] /business/payment，耗时:3ms
-[2017-01-11 00:16:22.435] [INFO] info - REQUEST=======> 2017-1-11 00:16:22 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:4ms
-[2017-01-11 00:16:23.104] [INFO] info - REQUEST=======> 2017-1-11 00:16:23 [POST] /business/payment，耗时:6ms
-[2017-01-11 00:16:25.801] [INFO] info - REQUEST=======> 2017-1-11 00:16:25 [GET] /system/dictionaryItem/use/all，耗时:2ms
-[2017-01-11 00:16:25.864] [INFO] info - REQUEST=======> 2017-1-11 00:16:25 [GET] /manage/sign/currentUser，耗时:2ms
-[2017-01-11 00:16:26.171] [INFO] info - REQUEST=======> 2017-1-11 00:16:26 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:16:26.364] [INFO] info - REQUEST=======> 2017-1-11 00:16:26 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:5ms
-[2017-01-11 00:17:06.796] [INFO] info - REQUEST=======> 2017-1-11 00:17:06 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:4ms
-[2017-01-11 00:17:08.061] [INFO] info - REQUEST=======> 2017-1-11 00:17:08 [GET] /system/dictionaryItem/use/all，耗时:1ms
-[2017-01-11 00:17:08.424] [INFO] info - REQUEST=======> 2017-1-11 00:17:08 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:17:08.461] [INFO] info - REQUEST=======> 2017-1-11 00:17:08 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:17:08.680] [INFO] info - REQUEST=======> 2017-1-11 00:17:08 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:4ms
-[2017-01-11 00:18:45.032] [INFO] info - REQUEST=======> 2017-1-11 00:18:45 [POST] /business/payment，耗时:6ms
-[2017-01-11 00:18:46.092] [INFO] info - REQUEST=======> 2017-1-11 00:18:46 [GET] /system/dictionaryItem/use/all，耗时:2ms
-[2017-01-11 00:18:46.170] [INFO] info - REQUEST=======> 2017-1-11 00:18:46 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:18:46.483] [INFO] info - REQUEST=======> 2017-1-11 00:18:46 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:18:46.760] [INFO] info - REQUEST=======> 2017-1-11 00:18:46 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:3ms
-[2017-01-11 00:18:57.347] [INFO] info - REQUEST=======> 2017-1-11 00:18:57 [POST] /business/payment，耗时:5ms
-[2017-01-11 00:20:21.355] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 00:20:21.580] [INFO] info - Redis connecting!
-[2017-01-11 00:20:22.589] [INFO] info - REQUEST=======> 2017-1-11 00:20:22 [POST] /business/payment，耗时:45ms
-[2017-01-11 00:20:22.773] [INFO] info - REQUEST=======> 2017-1-11 00:20:22 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:5ms
-[2017-01-11 00:21:11.814] [INFO] info - REQUEST=======> 2017-1-11 00:21:11 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:6ms
-[2017-01-11 00:21:17.466] [INFO] info - REQUEST=======> 2017-1-11 00:21:17 [GET] /system/dictionaryItem/use/all，耗时:2ms
-[2017-01-11 00:21:17.814] [INFO] info - REQUEST=======> 2017-1-11 00:21:17 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:21:17.838] [INFO] info - REQUEST=======> 2017-1-11 00:21:17 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:21:18.084] [INFO] info - REQUEST=======> 2017-1-11 00:21:18 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:8ms
-[2017-01-11 00:21:28.353] [INFO] info - REQUEST=======> 2017-1-11 00:21:28 [POST] /business/payment，耗时:2ms
-[2017-01-11 00:21:28.680] [INFO] info - REQUEST=======> 2017-1-11 00:21:28 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:4ms
-[2017-01-11 00:22:04.455] [INFO] info - REQUEST=======> 2017-1-11 00:22:04 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:11ms
-[2017-01-11 00:22:06.678] [INFO] info - REQUEST=======> 2017-1-11 00:22:06 [GET] /system/dictionaryItem/use/all，耗时:1ms
-[2017-01-11 00:22:07.033] [INFO] info - REQUEST=======> 2017-1-11 00:22:07 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:22:07.068] [INFO] info - REQUEST=======> 2017-1-11 00:22:07 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:22:07.300] [INFO] info - REQUEST=======> 2017-1-11 00:22:07 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:12ms
-[2017-01-11 00:22:48.114] [INFO] info - REQUEST=======> 2017-1-11 00:22:48 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:10ms
-[2017-01-11 00:22:50.061] [INFO] info - REQUEST=======> 2017-1-11 00:22:50 [GET] /system/dictionaryItem/use/all，耗时:1ms
-[2017-01-11 00:22:50.123] [INFO] info - REQUEST=======> 2017-1-11 00:22:50 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:22:50.430] [INFO] info - REQUEST=======> 2017-1-11 00:22:50 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:22:50.656] [INFO] info - REQUEST=======> 2017-1-11 00:22:50 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:10ms
-[2017-01-11 00:22:57.591] [INFO] info - REQUEST=======> 2017-1-11 00:22:57 [GET] /business/payment?date%5B%5D=&date%5B%5D=&plateNumber=1&pageNumber=1&pageSize=10，耗时:6ms
-[2017-01-11 00:22:58.599] [INFO] info - REQUEST=======> 2017-1-11 00:22:58 [GET] /business/payment?date%5B%5D=&date%5B%5D=&plateNumber=12&pageNumber=1&pageSize=10，耗时:8ms
-[2017-01-11 00:22:59.709] [INFO] info - REQUEST=======> 2017-1-11 00:22:59 [GET] /business/payment?date%5B%5D=&date%5B%5D=&plateNumber=122&pageNumber=1&pageSize=10，耗时:3ms
-[2017-01-11 00:23:00.229] [INFO] info - REQUEST=======> 2017-1-11 00:23:00 [GET] /business/payment?date%5B%5D=&date%5B%5D=&plateNumber=1222&pageNumber=1&pageSize=10，耗时:6ms
-[2017-01-11 00:23:23.075] [INFO] info - REQUEST=======> 2017-1-11 00:23:23 [GET] /business/payment?date%5B%5D=&date%5B%5D=&plateNumber=1222&pageNumber=1&pageSize=10，耗时:10ms
-[2017-01-11 00:26:23.655] [INFO] info - REQUEST=======> 2017-1-11 00:23:36 [GET] /business/payment?date%5B%5D=&date%5B%5D=&plateNumber=1222&pageNumber=1&pageSize=10，耗时:167471ms
-[2017-01-11 00:27:15.929] [INFO] info - REQUEST=======> 2017-1-11 00:27:00 [GET] /business/payment?date%5B%5D=&date%5B%5D=&plateNumber=1222&pageNumber=1&pageSize=10，耗时:15769ms
-[2017-01-11 00:28:00.557] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 00:28:00.811] [INFO] info - Redis connecting!
-[2017-01-11 00:28:07.711] [INFO] info - REQUEST=======> 2017-1-11 00:28:01 [GET] /business/payment?date%5B%5D=&date%5B%5D=&plateNumber=1222&pageNumber=1&pageSize=10，耗时:5899ms
-[2017-01-11 00:28:30.725] [INFO] info - REQUEST=======> 2017-1-11 00:28:30 [GET] /business/payment?date%5B%5D=&date%5B%5D=&plateNumber=&pageNumber=1&pageSize=10，耗时:10ms
-[2017-01-11 00:28:37.197] [INFO] info - REQUEST=======> 2017-1-11 00:28:37 [GET] /business/payment?date%5B%5D=&date%5B%5D=&plateNumber=12&pageNumber=1&pageSize=10，耗时:11ms
-[2017-01-11 00:28:47.784] [INFO] info - REQUEST=======> 2017-1-11 00:28:47 [GET] /business/payment?date%5B%5D=&date%5B%5D=&plateNumber=33&pageNumber=1&pageSize=10，耗时:3ms
-[2017-01-11 00:28:49.215] [INFO] info - REQUEST=======> 2017-1-11 00:28:49 [GET] /business/payment?date%5B%5D=&date%5B%5D=&plateNumber=312&pageNumber=1&pageSize=10，耗时:8ms
-[2017-01-11 00:29:15.036] [INFO] info - REQUEST=======> 2017-1-11 00:29:15 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:8ms
-[2017-01-11 00:29:16.427] [INFO] info - REQUEST=======> 2017-1-11 00:29:16 [GET] /system/dictionaryItem/use/all，耗时:2ms
-[2017-01-11 00:29:16.795] [INFO] info - REQUEST=======> 2017-1-11 00:29:16 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:29:16.827] [INFO] info - REQUEST=======> 2017-1-11 00:29:16 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:29:17.055] [INFO] info - REQUEST=======> 2017-1-11 00:29:17 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:5ms
-[2017-01-11 00:30:23.058] [INFO] info - REQUEST=======> 2017-1-11 00:30:23 [GET] /business/payment?date%5B0%5D=Sun%20Jan%2001%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&date%5B1%5D=Wed%20Feb%2008%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&plateNumber=123&pageNumber=1&pageSize=10，耗时:7ms
-[2017-01-11 00:30:23.957] [INFO] info - REQUEST=======> 2017-1-11 00:30:23 [GET] /system/dictionaryItem/use/all，耗时:1ms
-[2017-01-11 00:30:24.008] [INFO] info - REQUEST=======> 2017-1-11 00:30:24 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:30:24.316] [INFO] info - REQUEST=======> 2017-1-11 00:30:24 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:30:24.530] [INFO] info - REQUEST=======> 2017-1-11 00:30:24 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:9ms
-[2017-01-11 00:30:28.526] [INFO] info - REQUEST=======> 2017-1-11 00:30:28 [GET] /business/payment?startTime=Thu%20Jan%2005%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&endTime=Tue%20Feb%2014%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&pageNumber=1&pageSize=10，耗时:9ms
-[2017-01-11 00:30:34.437] [INFO] info - REQUEST=======> 2017-1-11 00:30:34 [GET] /business/payment?startTime=Thu%20Jan%2005%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&endTime=Tue%20Feb%2014%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&pageNumber=1&pageSize=10，耗时:8ms
-[2017-01-11 00:31:06.873] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 00:31:07.115] [INFO] info - Redis connecting!
-[2017-01-11 00:31:08.963] [INFO] info - REQUEST=======> 2017-1-11 00:31:08 [GET] /business/payment?startTime=Thu%20Jan%2005%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&endTime=Tue%20Feb%2014%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&pageNumber=1&pageSize=10，耗时:22ms
-[2017-01-11 00:31:17.443] [INFO] info - REQUEST=======> 2017-1-11 00:31:17 [GET] /business/payment?startTime=Thu%20Jan%2005%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&endTime=Tue%20Feb%2014%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&pageNumber=1&pageSize=10，耗时:7ms
-[2017-01-11 00:32:08.982] [INFO] info - REQUEST=======> 2017-1-11 00:32:08 [GET] /business/payment?startTime=Thu%20Jan%2026%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&endTime=Fri%20Jan%2027%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&pageNumber=1&pageSize=10，耗时:5ms
-[2017-01-11 00:32:14.337] [INFO] info - REQUEST=======> 2017-1-11 00:32:14 [GET] /business/payment?startTime=Thu%20Jan%2026%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&endTime=Fri%20Jan%2027%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&pageNumber=1&pageSize=10，耗时:8ms
-[2017-01-11 00:32:18.892] [INFO] info - REQUEST=======> 2017-1-11 00:32:18 [GET] /business/payment?startTime=Thu%20Jan%2005%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&endTime=Thu%20Jan%2005%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&pageNumber=1&pageSize=10，耗时:3ms
-[2017-01-11 00:33:41.410] [INFO] info - REQUEST=======> 2017-1-11 00:33:41 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:8ms
-[2017-01-11 00:33:43.748] [INFO] info - REQUEST=======> 2017-1-11 00:33:43 [GET] /system/dictionaryItem/use/all，耗时:0ms
-[2017-01-11 00:33:44.099] [INFO] info - REQUEST=======> 2017-1-11 00:33:44 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:33:44.128] [INFO] info - REQUEST=======> 2017-1-11 00:33:44 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:33:44.364] [INFO] info - REQUEST=======> 2017-1-11 00:33:44 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:8ms
-[2017-01-11 00:33:45.359] [INFO] info - REQUEST=======> 2017-1-11 00:33:45 [GET] /system/dictionaryItem/use/all，耗时:1ms
-[2017-01-11 00:33:45.413] [INFO] info - REQUEST=======> 2017-1-11 00:33:45 [GET] /manage/sign/currentUser，耗时:1ms
-[2017-01-11 00:33:45.421] [INFO] info - REQUEST=======> 2017-1-11 00:33:45 [GET] /manage/sign/currentUser，耗时:0ms
-[2017-01-11 00:33:45.685] [INFO] info - REQUEST=======> 2017-1-11 00:33:45 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:10ms
-[2017-01-11 00:33:57.235] [INFO] info - REQUEST=======> 2017-1-11 00:33:57 [GET] /business/payment?startTime=Wed%20Jan%2011%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&endTime=Wed%20Jan%2011%202017%2023%3A59%3A59%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&pageNumber=1&pageSize=10，耗时:7ms
-[2017-01-11 10:12:11.062] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 10:12:11.765] [INFO] info - Redis connecting!
-[2017-01-11 10:12:42.353] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 10:12:42.428] [INFO] info - Redis connecting!
-[2017-01-11 10:12:42.440] [INFO] info - Redis auth pass!
-[2017-01-11 10:13:38.351] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 10:13:38.430] [INFO] info - Redis connecting!
-[2017-01-11 10:13:38.436] [INFO] info - Redis auth pass!
-[2017-01-11 10:14:01.546] [INFO] info - REQUEST=======> 2017-1-11 10:14:01 [GET] /wechat/getAccessToken，耗时:9ms
-[2017-01-11 10:14:01.587] [INFO] info - REQUEST=======> 2017-1-11 10:14:01 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 10:14:30.443] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 10:14:30.527] [INFO] info - Redis connecting!
-[2017-01-11 10:14:30.533] [INFO] info - Redis auth pass!
-[2017-01-11 10:14:37.030] [INFO] info - REQUEST=======> 2017-1-11 10:14:37 [GET] /wechat/getAccessToken，耗时:12ms
-[2017-01-11 10:14:37.042] [INFO] info - REQUEST=======> 2017-1-11 10:14:37 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 10:15:49.315] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 10:15:49.395] [INFO] info - Redis connecting!
-[2017-01-11 10:15:49.398] [INFO] info - Redis auth pass!
-[2017-01-11 10:15:50.186] [INFO] info - REQUEST=======> 2017-1-11 10:15:50 [GET] /wechat/getAccessToken，耗时:12ms
-[2017-01-11 10:15:50.198] [INFO] info - REQUEST=======> 2017-1-11 10:15:50 [GET] /favicon.ico，耗时:2ms
-[2017-01-11 10:15:53.670] [INFO] info - REQUEST=======> 2017-1-11 10:15:53 [GET] /wechat/getAccessToken，耗时:3ms
-[2017-01-11 10:15:53.678] [INFO] info - REQUEST=======> 2017-1-11 10:15:53 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 10:18:09.127] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 10:18:09.211] [INFO] info - Redis connecting!
-[2017-01-11 10:18:09.214] [INFO] info - Redis auth pass!
-[2017-01-11 10:18:12.297] [INFO] info - REQUEST=======> 2017-1-11 10:18:12 [GET] /wechat/getAccessToken，耗时:13ms
-[2017-01-11 10:18:12.309] [INFO] info - REQUEST=======> 2017-1-11 10:18:12 [GET] /favicon.ico，耗时:2ms
-[2017-01-11 10:18:25.452] [INFO] info - REQUEST=======> 2017-1-11 10:18:22 [GET] /wechat/getAccessToken，耗时:2728ms
-[2017-01-11 10:18:25.471] [INFO] info - REQUEST=======> 2017-1-11 10:18:25 [GET] /favicon.ico，耗时:2ms
-[2017-01-11 10:19:08.490] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 10:19:08.596] [INFO] info - Redis connecting!
-[2017-01-11 10:19:08.604] [INFO] info - Redis auth pass!
-[2017-01-11 10:19:18.383] [INFO] info - REQUEST=======> 2017-1-11 10:19:11 [GET] /wechat/getAccessToken，耗时:6580ms
-[2017-01-11 10:19:18.406] [INFO] info - REQUEST=======> 2017-1-11 10:19:18 [GET] /favicon.ico，耗时:2ms
-[2017-01-11 10:19:31.728] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 10:19:31.804] [INFO] info - Redis connecting!
-[2017-01-11 10:19:31.807] [INFO] info - Redis auth pass!
-[2017-01-11 10:19:34.483] [INFO] info - REQUEST=======> 2017-1-11 10:19:34 [GET] /wechat/getAccessToken，耗时:168ms
-[2017-01-11 10:19:34.498] [INFO] info - REQUEST=======> 2017-1-11 10:19:34 [GET] /favicon.ico，耗时:6ms
-[2017-01-11 10:20:26.708] [INFO] info - REQUEST=======> 2017-1-11 10:20:15 [GET] /wechat/getAccessToken，耗时:11081ms
-[2017-01-11 10:20:26.728] [INFO] info - REQUEST=======> 2017-1-11 10:20:26 [GET] /favicon.ico，耗时:5ms
-[2017-01-11 10:20:48.016] [INFO] info - REQUEST=======> 2017-1-11 10:20:46 [GET] /wechat/getAccessToken，耗时:1897ms
-[2017-01-11 10:20:48.030] [INFO] info - REQUEST=======> 2017-1-11 10:20:48 [GET] /favicon.ico，耗时:2ms
-[2017-01-11 10:22:28.348] [INFO] info - REQUEST=======> 2017-1-11 10:21:39 [GET] /wechat/getAccessToken，耗时:48632ms
-[2017-01-11 10:22:36.615] [INFO] info - REQUEST=======> 2017-1-11 10:22:28 [GET] /favicon.ico，耗时:8248ms
-[2017-01-11 10:23:01.091] [INFO] info - REQUEST=======> 2017-1-11 10:22:47 [GET] /wechat/getAccessToken，耗时:13625ms
-[2017-01-11 10:23:01.108] [INFO] info - REQUEST=======> 2017-1-11 10:23:01 [GET] /favicon.ico，耗时:5ms
-[2017-01-11 10:23:56.971] [INFO] info - REQUEST=======> 2017-1-11 10:23:13 [GET] /wechat/getAccessToken，耗时:43542ms
-[2017-01-11 10:23:56.982] [INFO] info - REQUEST=======> 2017-1-11 10:23:56 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 10:24:13.688] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 10:24:13.756] [INFO] info - Redis connecting!
-[2017-01-11 10:24:13.772] [INFO] info - Redis auth pass!
-[2017-01-11 10:24:14.173] [INFO] info - REQUEST=======> 2017-1-11 10:24:14 [GET] /wechat/getAccessToken，耗时:115ms
-[2017-01-11 10:24:14.189] [INFO] info - REQUEST=======> 2017-1-11 10:24:14 [GET] /favicon.ico，耗时:5ms
-[2017-01-11 10:24:16.526] [INFO] info - REQUEST=======> 2017-1-11 10:24:16 [GET] /wechat/getAccessToken，耗时:91ms
-[2017-01-11 10:24:16.535] [INFO] info - REQUEST=======> 2017-1-11 10:24:16 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 10:24:17.470] [INFO] info - REQUEST=======> 2017-1-11 10:24:17 [GET] /wechat/getAccessToken，耗时:90ms
-[2017-01-11 10:24:17.480] [INFO] info - REQUEST=======> 2017-1-11 10:24:17 [GET] /favicon.ico，耗时:2ms
-[2017-01-11 10:24:18.125] [INFO] info - REQUEST=======> 2017-1-11 10:24:18 [GET] /wechat/getAccessToken，耗时:89ms
-[2017-01-11 10:24:18.138] [INFO] info - REQUEST=======> 2017-1-11 10:24:18 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 10:24:22.932] [INFO] info - REQUEST=======> 2017-1-11 10:24:22 [GET] /wechat/getAccessToken，耗时:93ms
-[2017-01-11 10:24:22.941] [INFO] info - REQUEST=======> 2017-1-11 10:24:22 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 10:24:23.651] [INFO] info - REQUEST=======> 2017-1-11 10:24:23 [GET] /wechat/getAccessToken，耗时:96ms
-[2017-01-11 10:24:23.662] [INFO] info - REQUEST=======> 2017-1-11 10:24:23 [GET] /favicon.ico，耗时:3ms
-[2017-01-11 10:43:21.382] [INFO] info - REQUEST=======> 2017-1-11 10:43:21 [GET] /wechat/getAccessToken，耗时:116ms
-[2017-01-11 10:43:21.394] [INFO] info - REQUEST=======> 2017-1-11 10:43:21 [GET] /favicon.ico，耗时:2ms
-[2017-01-11 10:43:22.055] [INFO] info - REQUEST=======> 2017-1-11 10:43:21 [GET] /wechat/getAccessToken，耗时:86ms
-[2017-01-11 10:43:22.065] [INFO] info - REQUEST=======> 2017-1-11 10:43:22 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 11:55:25.748] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 11:55:27.955] [INFO] info - Redis connecting!
-[2017-01-11 11:55:27.961] [INFO] info - Redis auth pass!
-[2017-01-11 11:56:25.756] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 11:56:54.426] [INFO] info - Redis connecting!
-[2017-01-11 11:56:54.426] [INFO] info - Redis auth pass!
-[2017-01-11 11:58:34.006] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 11:58:50.742] [INFO] info - Redis connecting!
-[2017-01-11 11:58:50.748] [INFO] info - Redis auth pass!
-[2017-01-11 11:59:42.134] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 11:59:44.480] [INFO] info - Redis connecting!
-[2017-01-11 11:59:44.484] [INFO] info - Redis auth pass!
-[2017-01-11 12:00:00.581] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
-[2017-01-11 12:00:00.656] [INFO] info - Redis connecting!
-[2017-01-11 12:00:00.658] [INFO] info - Redis auth pass!
-[2017-01-11 12:00:19.045] [INFO] info - REQUEST=======> 2017-1-11 12:00:19 [GET] /page/index.html，耗时:9ms
-[2017-01-11 12:00:19.059] [INFO] info - REQUEST=======> 2017-1-11 12:00:19 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:00:23.694] [INFO] info - REQUEST=======> 2017-1-11 12:00:23 [GET] /page/index.html，耗时:1ms
-[2017-01-11 12:00:23.704] [INFO] info - REQUEST=======> 2017-1-11 12:00:23 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:00:38.962] [INFO] info - REQUEST=======> 2017-1-11 12:00:38 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:00:45.966] [INFO] info - REQUEST=======> 2017-1-11 12:00:45 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:00:52.292] [INFO] info - REQUEST=======> 2017-1-11 12:00:52 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:00:53.382] [INFO] info - REQUEST=======> 2017-1-11 12:00:53 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:17.824] [INFO] info - REQUEST=======> 2017-1-11 12:04:17 [GET] /favicon.ico，耗时:2ms
-[2017-01-11 12:04:21.744] [INFO] info - REQUEST=======> 2017-1-11 12:04:21 [GET] /favicon.ico，耗时:2ms
-[2017-01-11 12:04:24.423] [INFO] info - REQUEST=======> 2017-1-11 12:04:24 [GET] /favicon.ico，耗时:2ms
-[2017-01-11 12:04:25.229] [INFO] info - REQUEST=======> 2017-1-11 12:04:25 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:25.764] [INFO] info - REQUEST=======> 2017-1-11 12:04:25 [GET] /favicon.ico，耗时:2ms
-[2017-01-11 12:04:26.319] [INFO] info - REQUEST=======> 2017-1-11 12:04:26 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:26.891] [INFO] info - REQUEST=======> 2017-1-11 12:04:26 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:27.421] [INFO] info - REQUEST=======> 2017-1-11 12:04:27 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:27.932] [INFO] info - REQUEST=======> 2017-1-11 12:04:27 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:28.411] [INFO] info - REQUEST=======> 2017-1-11 12:04:28 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:28.874] [INFO] info - REQUEST=======> 2017-1-11 12:04:28 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:29.358] [INFO] info - REQUEST=======> 2017-1-11 12:04:29 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:29.756] [INFO] info - REQUEST=======> 2017-1-11 12:04:29 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:32.964] [INFO] info - REQUEST=======> 2017-1-11 12:04:32 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:33.339] [INFO] info - REQUEST=======> 2017-1-11 12:04:33 [GET] /favicon.ico，耗时:0ms
-[2017-01-11 12:04:33.663] [INFO] info - REQUEST=======> 2017-1-11 12:04:33 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:33.924] [INFO] info - REQUEST=======> 2017-1-11 12:04:33 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:34.177] [INFO] info - REQUEST=======> 2017-1-11 12:04:34 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:34.412] [INFO] info - REQUEST=======> 2017-1-11 12:04:34 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:04:34.647] [INFO] info - REQUEST=======> 2017-1-11 12:04:34 [GET] /favicon.ico，耗时:7ms
-[2017-01-11 12:04:45.297] [INFO] info - REQUEST=======> 2017-1-11 12:04:45 [GET] /favicon.ico，耗时:3ms
-[2017-01-11 12:04:49.007] [INFO] info - REQUEST=======> 2017-1-11 12:04:49 [GET] /favicon.ico，耗时:2ms
-[2017-01-11 12:05:41.360] [INFO] info - REQUEST=======> 2017-1-11 12:05:41 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:05:44.578] [INFO] info - REQUEST=======> 2017-1-11 12:05:44 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:05:52.088] [INFO] info - REQUEST=======> 2017-1-11 12:05:52 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:05:52.923] [INFO] info - REQUEST=======> 2017-1-11 12:05:52 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:05:59.144] [INFO] info - REQUEST=======> 2017-1-11 12:05:59 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:06:55.695] [INFO] info - REQUEST=======> 2017-1-11 12:06:55 [GET] /favicon.ico，耗时:1ms
-[2017-01-11 12:06:55.800] [INFO] info - REQUEST=======> 2017-1-11 12:06:55 [GET] /wechat/getAccessToken，耗时:114ms
-[2017-01-11 12:27:27.840] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 21:27:57.618] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 21:30:36.345] [INFO] info - REQUEST=======> 2017-1-11 21:30:36 [GET] /favicon.ico，耗时:12ms
+[2017-01-11 21:30:36.425] [INFO] info - REQUEST=======> 2017-1-11 21:30:36 [GET] /wechat/getAccessToken，耗时:125ms
+[2017-01-11 21:30:36.477] [INFO] info - REQUEST=======> 2017-1-11 21:30:36 [GET] /wechat/getOAuthAccessToken?code=，耗时:168ms
+[2017-01-11 21:33:23.402] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 21:34:01.964] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 21:35:43.864] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 21:36:27.589] [INFO] info - REQUEST=======> 2017-1-11 21:36:27 [GET] /favicon.ico，耗时:12ms
+[2017-01-11 21:36:27.672] [INFO] info - REQUEST=======> 2017-1-11 21:36:27 [GET] /wechat/getAccessToken，耗时:118ms
+[2017-01-11 21:36:27.738] [INFO] info - REQUEST=======> 2017-1-11 21:36:27 [GET] /wechat/getOAuthAccessToken?code=，耗时:173ms
+[2017-01-11 21:36:37.677] [INFO] info - REQUEST=======> 2017-1-11 21:36:37 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 21:36:37.776] [INFO] info - REQUEST=======> 2017-1-11 21:36:37 [GET] /wechat/getAccessToken，耗时:106ms
+[2017-01-11 21:36:37.789] [INFO] info - REQUEST=======> 2017-1-11 21:36:37 [GET] /wechat/getOAuthAccessToken?code=，耗时:118ms
+[2017-01-11 21:37:31.102] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 21:38:38.497] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 21:40:20.754] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 21:43:03.959] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 21:43:46.921] [INFO] info - REQUEST=======> 2017-1-11 21:43:10 [POST] /wechat/getPayParams，耗时:36119ms
+[2017-01-11 21:47:03.094] [INFO] info - REQUEST=======> 2017-1-11 21:44:02 [POST] /wechat/getPayParams，耗时:180755ms
+[2017-01-11 21:47:03.126] [INFO] info - REQUEST=======> 2017-1-11 21:46:53 [POST] /wechat/getPayParams，耗时:10009ms
+[2017-01-11 21:51:07.046] [INFO] info - REQUEST=======> 2017-1-11 21:51:06 [POST] /wechat/getPayParams，耗时:269ms
+[2017-01-11 21:51:14.178] [INFO] info - REQUEST=======> 2017-1-11 21:51:13 [POST] /wechat/getPayParams，耗时:260ms
+[2017-01-11 21:51:15.073] [INFO] info - REQUEST=======> 2017-1-11 21:51:14 [POST] /wechat/getPayParams，耗时:293ms
+[2017-01-11 21:51:15.285] [INFO] info - REQUEST=======> 2017-1-11 21:51:15 [POST] /wechat/getPayParams，耗时:258ms
+[2017-01-11 21:51:15.575] [INFO] info - REQUEST=======> 2017-1-11 21:51:15 [POST] /wechat/getPayParams，耗时:298ms
+[2017-01-11 21:51:15.946] [INFO] info - REQUEST=======> 2017-1-11 21:51:15 [POST] /wechat/getPayParams，耗时:301ms
+[2017-01-11 21:51:16.429] [INFO] info - REQUEST=======> 2017-1-11 21:51:16 [POST] /wechat/getPayParams，耗时:277ms
+[2017-01-11 21:51:17.222] [INFO] info - REQUEST=======> 2017-1-11 21:51:16 [POST] /wechat/getPayParams，耗时:292ms
+[2017-01-11 21:55:57.345] [INFO] info - REQUEST=======> 2017-1-11 21:55:55 [POST] /wechat/getPayParams，耗时:1901ms
+[2017-01-11 21:55:57.649] [INFO] info - REQUEST=======> 2017-1-11 21:52:01 [POST] /wechat/getPayParams，耗时:236399ms
+[2017-01-11 21:56:09.358] [INFO] info - REQUEST=======> 2017-1-11 21:56:00 [POST] /wechat/getPayParams，耗时:8536ms
+[2017-01-11 21:56:22.867] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 21:56:30.041] [INFO] info - REQUEST=======> 2017-1-11 21:56:27 [POST] /wechat/getPayParams，耗时:2529ms
+[2017-01-11 21:57:12.810] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 21:57:19.805] [INFO] info - REQUEST=======> 2017-1-11 21:57:19 [POST] /wechat/getPayParams，耗时:355ms
+[2017-01-11 21:57:43.043] [INFO] info - REQUEST=======> 2017-1-11 21:57:31 [POST] /wechat/getPayParams，耗时:11455ms
+[2017-01-11 21:58:32.232] [INFO] info - REQUEST=======> 2017-1-11 21:57:49 [POST] /wechat/getPayParams，耗时:42336ms
+[2017-01-11 22:01:17.546] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 22:01:25.681] [INFO] info - REQUEST=======> 2017-1-11 22:01:22 [POST] /wechat/getPayParams，耗时:3133ms
+[2017-01-11 22:01:33.969] [INFO] info - REQUEST=======> 2017-1-11 22:01:33 [GET] /favicon.ico，耗时:8ms
+[2017-01-11 22:01:34.096] [INFO] info - REQUEST=======> 2017-1-11 22:01:33 [GET] /wechat/getAccessToken，耗时:148ms
+[2017-01-11 22:01:34.119] [INFO] info - REQUEST=======> 2017-1-11 22:01:33 [GET] /wechat/getOAuthAccessToken?code=，耗时:164ms
+[2017-01-11 22:01:34.858] [INFO] info - REQUEST=======> 2017-1-11 22:01:34 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 22:01:34.947] [INFO] info - REQUEST=======> 2017-1-11 22:01:34 [GET] /wechat/getAccessToken，耗时:96ms
+[2017-01-11 22:01:34.961] [INFO] info - REQUEST=======> 2017-1-11 22:01:34 [GET] /wechat/getOAuthAccessToken?code=，耗时:109ms
+[2017-01-11 22:01:35.187] [INFO] info - REQUEST=======> 2017-1-11 22:01:35 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 22:01:35.269] [INFO] info - REQUEST=======> 2017-1-11 22:01:35 [GET] /wechat/getAccessToken，耗时:92ms
+[2017-01-11 22:01:35.285] [INFO] info - REQUEST=======> 2017-1-11 22:01:35 [GET] /wechat/getOAuthAccessToken?code=，耗时:105ms
+[2017-01-11 22:01:35.384] [INFO] info - REQUEST=======> 2017-1-11 22:01:35 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 22:01:35.474] [INFO] info - REQUEST=======> 2017-1-11 22:01:35 [GET] /wechat/getAccessToken，耗时:99ms
+[2017-01-11 22:01:35.486] [INFO] info - REQUEST=======> 2017-1-11 22:01:35 [GET] /wechat/getOAuthAccessToken?code=，耗时:108ms
+[2017-01-11 22:01:35.591] [INFO] info - REQUEST=======> 2017-1-11 22:01:35 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 22:01:35.678] [INFO] info - REQUEST=======> 2017-1-11 22:01:35 [GET] /wechat/getAccessToken，耗时:98ms
+[2017-01-11 22:01:35.687] [INFO] info - REQUEST=======> 2017-1-11 22:01:35 [GET] /wechat/getOAuthAccessToken?code=，耗时:101ms
+[2017-01-11 22:01:40.784] [INFO] info - REQUEST=======> 2017-1-11 22:01:40 [POST] /wechat/getPayParams，耗时:305ms
+[2017-01-11 22:01:45.759] [INFO] info - REQUEST=======> 2017-1-11 22:01:45 [POST] /wechat/getPayParams，耗时:337ms
+[2017-01-11 22:04:17.095] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 22:04:22.733] [INFO] info - REQUEST=======> 2017-1-11 22:04:20 [POST] /wechat/getPayParams，耗时:2699ms
+[2017-01-11 22:04:50.008] [INFO] info - REQUEST=======> 2017-1-11 22:04:28 [POST] /wechat/getPayParams，耗时:21247ms
+[2017-01-11 22:05:35.785] [INFO] info - REQUEST=======> 2017-1-11 22:05:00 [POST] /wechat/getPayParams，耗时:35499ms
+[2017-01-11 22:08:26.283] [INFO] info - REQUEST=======> 2017-1-11 22:07:51 [POST] /wechat/getPayParams，耗时:34323ms
+[2017-01-11 22:09:09.893] [INFO] info - REQUEST=======> 2017-1-11 22:09:09 [GET] /favicon.ico，耗时:6ms
+[2017-01-11 22:09:10.012] [INFO] info - REQUEST=======> 2017-1-11 22:09:09 [GET] /wechat/getAccessToken，耗时:135ms
+[2017-01-11 22:09:10.040] [INFO] info - REQUEST=======> 2017-1-11 22:09:09 [GET] /wechat/getOAuthAccessToken?code=，耗时:158ms
+[2017-01-11 22:09:10.522] [INFO] info - REQUEST=======> 2017-1-11 22:09:10 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 22:09:10.609] [INFO] info - REQUEST=======> 2017-1-11 22:09:10 [GET] /wechat/getAccessToken，耗时:98ms
+[2017-01-11 22:09:10.620] [INFO] info - REQUEST=======> 2017-1-11 22:09:10 [GET] /wechat/getOAuthAccessToken?code=，耗时:107ms
+[2017-01-11 22:09:10.810] [INFO] info - REQUEST=======> 2017-1-11 22:09:10 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 22:09:10.914] [INFO] info - REQUEST=======> 2017-1-11 22:09:10 [GET] /wechat/getAccessToken，耗时:115ms
+[2017-01-11 22:09:10.921] [INFO] info - REQUEST=======> 2017-1-11 22:09:10 [GET] /wechat/getOAuthAccessToken?code=，耗时:119ms
+[2017-01-11 22:09:11.019] [INFO] info - REQUEST=======> 2017-1-11 22:09:11 [GET] /favicon.ico，耗时:3ms
+[2017-01-11 22:09:11.106] [INFO] info - REQUEST=======> 2017-1-11 22:09:11 [GET] /wechat/getAccessToken，耗时:95ms
+[2017-01-11 22:09:11.118] [INFO] info - REQUEST=======> 2017-1-11 22:09:11 [GET] /wechat/getOAuthAccessToken?code=，耗时:105ms
+[2017-01-11 22:09:22.918] [INFO] info - REQUEST=======> 2017-1-11 22:09:17 [POST] /wechat/getPayParams，耗时:5821ms
+[2017-01-11 22:11:00.016] [INFO] info - REQUEST=======> 2017-1-11 22:10:38 [POST] /wechat/getPayParams，耗时:21906ms
+[2017-01-11 22:13:09.511] [INFO] info - REQUEST=======> 2017-1-11 22:12:45 [POST] /wechat/getPayParams，耗时:24489ms
+[2017-01-11 22:29:16.102] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 22:29:22.510] [INFO] info - REQUEST=======> 2017-1-11 22:29:22 [POST] /wechat/getPayParams，耗时:53ms
+[2017-01-11 22:30:37.189] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 22:30:45.229] [INFO] info - REQUEST=======> 2017-1-11 22:30:45 [POST] /wechat/getPayParams，耗时:83ms
+[2017-01-11 22:31:00.893] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 22:32:08.071] [INFO] info - <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[签名错误]]></return_msg>
+</xml>
+[2017-01-11 22:32:08.092] [INFO] info - REQUEST=======> 2017-1-11 22:31:05 [POST] /wechat/getPayParams，耗时:62478ms
+[2017-01-11 22:32:54.077] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 22:33:04.768] [INFO] info - <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx27335df18c5a2b86]]></appid>
+<mch_id><![CDATA[1235237902]]></mch_id>
+<nonce_str><![CDATA[wEQlIE2Trhflyc25]]></nonce_str>
+<sign><![CDATA[E223066DF4A85825FA52A01D5253E443]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx2017011122330652d98c16180545732453]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+[2017-01-11 22:33:16.488] [INFO] info - REQUEST=======> 2017-1-11 22:33:00 [POST] /wechat/getPayParams，耗时:16040ms
+[2017-01-11 22:33:41.353] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 22:33:46.834] [INFO] info - <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[签名错误]]></return_msg>
+</xml>
+[2017-01-11 22:33:46.857] [INFO] info - REQUEST=======> 2017-1-11 22:33:46 [POST] /wechat/getPayParams，耗时:360ms
+[2017-01-11 22:34:23.173] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 22:34:27.504] [INFO] info - <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx27335df18c5a2b86]]></appid>
+<mch_id><![CDATA[1235237902]]></mch_id>
+<nonce_str><![CDATA[GtNjwQyfITaRzzhu]]></nonce_str>
+<sign><![CDATA[A718BACA6442D01DFD72435D42E79189]]></sign>
+<result_code><![CDATA[FAIL]]></result_code>
+<err_code><![CDATA[INVALID_REQUEST]]></err_code>
+<err_code_des><![CDATA[201 商户订单号重复]]></err_code_des>
+</xml>
+[2017-01-11 22:34:27.512] [INFO] info - REQUEST=======> 2017-1-11 22:34:27 [POST] /wechat/getPayParams，耗时:438ms
+[2017-01-11 22:34:42.978] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 22:34:48.639] [INFO] info - <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[签名错误]]></return_msg>
+</xml>
+[2017-01-11 22:34:48.648] [INFO] info - REQUEST=======> 2017-1-11 22:34:48 [POST] /wechat/getPayParams，耗时:407ms
+[2017-01-11 22:37:15.506] [INFO] info - <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[签名错误]]></return_msg>
+</xml>
+[2017-01-11 22:37:15.514] [INFO] info - REQUEST=======> 2017-1-11 22:36:53 [POST] /wechat/getPayParams，耗时:21556ms
+[2017-01-11 22:37:21.876] [INFO] info - REQUEST=======> 2017-1-11 22:37:21 [GET] /favicon.ico，耗时:7ms
+[2017-01-11 22:37:21.960] [INFO] info - REQUEST=======> 2017-1-11 22:37:21 [GET] /wechat/getAccessToken，耗时:122ms
+[2017-01-11 22:37:22.004] [INFO] info - REQUEST=======> 2017-1-11 22:37:21 [GET] /wechat/getOAuthAccessToken?code=，耗时:160ms
+[2017-01-11 22:39:11.046] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 22:39:23.503] [INFO] info - <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx27335df18c5a2b86]]></appid>
+<mch_id><![CDATA[1235237902]]></mch_id>
+<nonce_str><![CDATA[9QWVZvPSPggquk7r]]></nonce_str>
+<sign><![CDATA[0D51073162DBEC7CE472642045FD9AED]]></sign>
+<result_code><![CDATA[FAIL]]></result_code>
+<err_code><![CDATA[INVALID_REQUEST]]></err_code>
+<err_code_des><![CDATA[201 商户订单号重复]]></err_code_des>
+</xml>
+[2017-01-11 22:39:23.516] [INFO] info - REQUEST=======> 2017-1-11 22:39:18 [POST] /wechat/getPayParams，耗时:5214ms
+[2017-01-11 22:39:41.659] [INFO] info - <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid out_trade_no]]></return_msg>
+</xml>
+[2017-01-11 22:39:41.661] [INFO] info - REQUEST=======> 2017-1-11 22:39:41 [POST] /wechat/getPayParams，耗时:307ms
+[2017-01-11 22:39:53.490] [INFO] info - <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx27335df18c5a2b86]]></appid>
+<mch_id><![CDATA[1235237902]]></mch_id>
+<nonce_str><![CDATA[HJcFbk0UaqznQPLi]]></nonce_str>
+<sign><![CDATA[6F077E09DC1BAF9A2417E0DE87758E0C]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx2017011122395557ff5567dd0072395382]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+[2017-01-11 22:39:53.491] [INFO] info - REQUEST=======> 2017-1-11 22:39:53 [POST] /wechat/getPayParams，耗时:342ms
+[2017-01-11 22:42:16.394] [INFO] info - <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx27335df18c5a2b86]]></appid>
+<mch_id><![CDATA[1235237902]]></mch_id>
+<nonce_str><![CDATA[pHNjR62G5SK1Pymy]]></nonce_str>
+<sign><![CDATA[D1355E709599D40A164E64A4CC59B9EC]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201701112242180342575d290259182534]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+[2017-01-11 22:42:16.395] [INFO] info - REQUEST=======> 2017-1-11 22:42:16 [POST] /wechat/getPayParams，耗时:354ms
+[2017-01-11 23:23:40.124] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 23:31:59.978] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 23:32:15.697] [INFO] info - REQUEST=======> 2017-1-11 23:32:15 [GET] /payment/request，耗时:19ms
+[2017-01-11 23:32:15.731] [INFO] info - REQUEST=======> 2017-1-11 23:32:15 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 23:32:32.643] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 23:32:39.110] [INFO] info - REQUEST=======> 2017-1-11 23:32:39 [GET] /payment/request，耗时:12ms
+[2017-01-11 23:32:39.133] [INFO] info - REQUEST=======> 2017-1-11 23:32:39 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 23:32:47.917] [INFO] info - REQUEST=======> 2017-1-11 23:32:47 [GET] /payment/plateNumber，耗时:1ms
+[2017-01-11 23:32:47.987] [INFO] info - REQUEST=======> 2017-1-11 23:32:47 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 23:32:56.455] [INFO] info - REQUEST=======> 2017-1-11 23:32:56 [GET] /business/payment/plateNumber，耗时:65ms
+[2017-01-11 23:32:56.486] [INFO] info - REQUEST=======> 2017-1-11 23:32:56 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 23:33:05.641] [INFO] info - REQUEST=======> 2017-1-11 23:33:05 [GET] /business/payment/plateNumber，耗时:94ms
+[2017-01-11 23:33:05.677] [INFO] info - REQUEST=======> 2017-1-11 23:33:05 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 23:33:08.221] [INFO] info - REQUEST=======> 2017-1-11 23:33:08 [GET] /business/payment/plateNumber，耗时:52ms
+[2017-01-11 23:33:08.254] [INFO] info - REQUEST=======> 2017-1-11 23:33:08 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 23:33:29.250] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 23:33:41.416] [INFO] info - REQUEST=======> 2017-1-11 23:33:41 [GET] /business/payment/plateNumber，耗时:60ms
+[2017-01-11 23:33:41.431] [INFO] info - REQUEST=======> 2017-1-11 23:33:41 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 23:34:10.081] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 23:34:13.655] [INFO] info - REQUEST=======> 2017-1-11 23:34:13 [GET] /business/payment/plateNumber，耗时:79ms
+[2017-01-11 23:34:13.685] [INFO] info - REQUEST=======> 2017-1-11 23:34:13 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 23:34:33.280] [INFO] info - REQUEST=======> 2017-1-11 23:34:19 [GET] /business/payment/request/plateNumber，耗时:13485ms
+[2017-01-11 23:35:32.183] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 23:35:34.916] [INFO] info - REQUEST=======> 2017-1-11 23:35:34 [GET] /business/payment/request/plateNumber，耗时:19ms
+[2017-01-11 23:35:34.937] [INFO] info - REQUEST=======> 2017-1-11 23:35:34 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 23:55:44.736] [INFO] info - REQUEST=======> 2017-1-11 23:55:44 [GET] /business/payment/request/iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4AQAAAAARHwt/AAACn0lEQVR42pXVMdIlERAAYJOMK5BwNZOMK4yEkYwreAlXI+EKJKz/JVv/61e1tbJvyhS6W0Pz90D/ckKaB8395tHJEAau47ANh4vg2YOpwGVXxXhBTG+aCfnFMr78qZU/efhq4+X0CM8Hf3MdYrtp0/RWQb/X/+2Ezr/jvf/fnrOv1ZhWcSD5Pv9vp33rjTC0C9q2VwSes8hH5SJjfsg2oW8mbc/TZc/ojNCxqRld2eptqq3AvVzYvpwn2hS9Y+BZw1Zkf3aCExHQRax4SH9pQXgjHLjaXFY2G+5eJeqAe+C3oPF14zxOFYFnfGQSvPGVD5sw8LgIuvBaKWl14wrNEzN+7dYmOW8DXINKl3HdDvmcggPntc7L1nCM/fB4AtdAXZN2tq2xS0HPmBjb1tcZ9Oage6Orjq3tN/W7+WJrw0XtQ2PBDXHggrZYtEAq/8TMAU+XyEV2zXvCrkKn87y0ZqdAsu2nAW6y9kSDRnQFbMX70/3e4oMHUsnEtEM3fPNV8avWmkpEAs/AX70J9TA8aJzAvReC+IOr3xFb8z89yJEHn/aVLlXkhOZDGI+HyonHdR8+nW90vPzhd03bO98fnjGvfhBkoo8MeALne6sPHTu9TYyFA8988zyIHLwI83P/Plwfvr74CwkV8JDA2Xqiqp1lzWcr35/uRbpVEoctTF9bhHZJ83VpjfWyXRI4hyMc2euTmXYMDryi5E/sD7eqKaz5ny6XIKuRJZX7qzEMnHB9LnKupnQf7/8/PMe5Da2R3ukj1nmAZ73Z5jXuMbsEndARiGwnd009xwSu4zrXe6C5fbir0GVf9aIetI3VVnb+xYJRV5hsW7arH0PL1SrsKgcek5nA671yq1+s+zquI2HghGRscjaTaJ09Av/ne/oHnUbPpjHCsYIAAAAASUVORK5CYII=，耗时:2ms
+[2017-01-11 23:57:20.860] [INFO] info - REQUEST=======> 2017-1-11 23:57:20 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 23:57:46.552] [INFO] info - REQUEST=======> 2017-1-11 23:57:46 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 23:57:53.101] [INFO] info - REQUEST=======> 2017-1-11 23:57:53 [GET] /favicon.ico，耗时:1ms

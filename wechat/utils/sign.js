@@ -10,7 +10,7 @@ module.exports = function (params, key, signType) {
     let signStr = null;
     switch (signType) {
         case 'MD5':
-            signStr = sign.md5(strs).toUpperCase();
+            signStr = sign.md5(strs);
     }
-    return signStr;
+    return signStr.toUpperCase();
 }

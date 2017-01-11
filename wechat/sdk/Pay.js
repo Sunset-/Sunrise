@@ -1,62 +1,66 @@
-const httpkit = require('../../components/httpkit'),
+const request = require("request"),
+    httpkit = require('../../components/httpkit'),
     random = require('../../common/random'),
     config = require('../../config/wechatConfig'),
     logger = require('../../components/logger'),
     sign = require('../utils/sign'),
     payUrl = 'https://api.mch.weixin.qq.com/pay/unifiedorder';
-const https = require('https');
 
+function getXMLNodeValue(node_name, xml) {
+    try {
+        var tmp = xml.split("<" + node_name + ">");
+        var _tmp = tmp[1].split("</" + node_name + ">");
+        return _tmp[0];
+    } catch (e) {
+        return null;
+    }
+}
 
 function getPrepayId(appId, paySecret, openId, orderNo, params) {
-
     let signParams = {
         appid: appId,
         attach: params.attach || '',
         body: params.body || '',
         mch_id: params.mchId,
         nonce_str: params.nonceStr,
-        notify_url: params.notifyUrl || '',
+        notify_url: config.payNotifyUrl,
         openid: openId,
         out_trade_no: orderNo,
-        spbill_create_ip: '',
+        spbill_create_ip: '127.0.0.1',
         total_fee: params.totalFee,
         trade_type: 'JSAPI'
     };
 
     return new Promise((resolve) => {
         var formData = "<xml>";
-        formData += "<appid>" + appId + "</appid>"; //appid
-        formData += "<attach>" + params.attach + "</attach>"; //附加数据
-        formData += "<body>" + params.body + "</body>";
-        formData += "<mch_id>" + params.mchId + "</mch_id>"; //商户号
-        formData += "<nonce_str>" + params.nonceStr + "</nonce_str>"; //随机字符串，不长于32位。
-        formData += "<notify_url>" + params.notifyUrl + "</notify_url>";
-        formData += "<openid>" + openId + "</openid>";
-        formData += "<out_trade_no>" + orderNo + "</out_trade_no>";
-        formData += "<spbill_create_ip></spbill_create_ip>";
-        formData += "<total_fee>" + params.totalFee + "</total_fee>";
+        formData += "<appid>" + signParams.appid + "</appid>"; //appid
+        formData += "<attach>" + signParams.attach + "</attach>"; //附加数据
+        formData += "<body>" + signParams.body + "</body>";
+        formData += "<mch_id>" + signParams.mch_id + "</mch_id>"; //商户号
+        formData += "<nonce_str>" + signParams.nonce_str + "</nonce_str>"; //随机字符串，不长于32位。
+        formData += "<notify_url>" + signParams.notify_url + "</notify_url>";
+        formData += "<openid>" + signParams.openid + "</openid>";
+        formData += "<out_trade_no>" + signParams.out_trade_no + "</out_trade_no>";
+        formData += "<spbill_create_ip>" + signParams.spbill_create_ip + "</spbill_create_ip>";
+        formData += "<total_fee>" + signParams.total_fee + "</total_fee>";
         formData += "<trade_type>JSAPI</trade_type>";
         formData += "<sign>" + sign(signParams, paySecret, 'MD5') + "</sign>";
         formData += "</xml>";
-        https.request({
+        request({
             url: payUrl,
             method: 'POST',
             body: formData
         }, function (err, response, body) {
             if (!err && response.statusCode == 200) {
-                console.log(body);
-                var prepay_id = getXMLNodeValue('prepay_id', body.toString("utf-8"));
-                var tmp = prepay_id.split('[');
-                prepay_id = tmp[2].split(']')[0];
-                resolve(prepay_id);
-                //res.render('jsapipay',{rows:body});
-                //res.redirect(tmp3[0]);
-                //签名
-                // var _paySignjs = paysignjs(appid, params.nonceStr, 'prepay_id=' + tmp1[0], 'MD5', params.timeStamp);
-                // res.render('jsapipay', {
-                //     prepay_id: tmp1[0],
-                //     _paySignjs: _paySignjs
-                // });
+                try {
+                    logger.info(body.toString("utf-8"));
+                    var prepay_id = getXMLNodeValue('prepay_id', body.toString("utf-8"));
+                    var tmp = prepay_id.split('[');
+                    prepay_id = tmp[2].split(']')[0];
+                    resolve(prepay_id);
+                } catch (e) {
+                    reject(e);
+                }
             }
         });
     });
