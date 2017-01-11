@@ -11,6 +11,7 @@ module.exports = {
         '/hospital/saveWithAccount*'
     ],
     excludeAuthPaths : [
+        '/wechat/*',
         '/manage/sign/login',
         '/sign/login',
         '/system/dictionaryItem/use/all',

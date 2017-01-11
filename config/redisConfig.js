@@ -1,6 +1,6 @@
 
 module.exports = {
-    host : 'localhost',
-    port : 6379,
-    auth : false//'peaimage'
+    host : '192.168.0.148',
+    port : 6370,
+    auth : 'peaimage'
 };

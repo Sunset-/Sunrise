@@ -7,11 +7,11 @@
 	},
 	"tinypngapi": "Tinypng API KEY(所申请的api key)",
 	"sftp": {
-		"host": "192.168.0.148",
+		"host": "120.24.63.151",
 		"user": "root",
-		"pass": "123456",
+		"pass": "12604soft@@@###sangto",
 		"port": "22",
 		"key": "~/.ssh/sdfsfdsf",
-		"remotePath": "/home/referral/server"
+		"remotePath": "/home/maikaile/server"
 	}
 }

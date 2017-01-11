@@ -1,5 +1,6 @@
 const lang = require('../common/lang');
 const Router = require('koa-router');
+const wechatConfig = require('../config/wechatConfig');
 const rs = [
     './system/ManagerAccountRouter',
     './system/ManagerSignRouter',
@@ -8,6 +9,9 @@ const rs = [
     './system/FileUploadRouter',
     './PaymentRouter'
 ];
+if (wechatConfig.enable) {
+    rs.push('../wechat/WechatRouter');
+}
 
 module.exports = (app) => {
     rs.forEach(rPath => {

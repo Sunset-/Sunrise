@@ -11,6 +11,7 @@ var publishFileName;
 
 var buildDir = [
 	'assets*/**/*',
+	'page*/**/*',
 	'common*/**/*',
 	'components*/**/*',
 	'config*/**/*',
@@ -20,7 +21,11 @@ var buildDir = [
 	'model*/**/*',
 	'router*/**/*',
 	'service*/**/*',
-	'app.js'
+	'wechat*/**/*',
+	'logs*/**/*',
+	'app.js',
+	'package.json',
+	'process.json'
 ];
 
 

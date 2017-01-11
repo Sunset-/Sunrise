@@ -1,9 +1,22 @@
 
+// module.exports = {
+//     host : 'localhost',
+//     username : 'root',
+//     password : 'root',
+//     database : 'maikaile',
+//     dialect : 'mysql',
+//     pool : {
+//         min : 1,
+//         max : 20,
+//         idle : 10000
+//     }
+// }
+
 module.exports = {
     host : 'localhost',
     username : 'root',
     password : 'root',
-    database : 'maikaile',
+    database : 'sunset',
     dialect : 'mysql',
     pool : {
         min : 1,

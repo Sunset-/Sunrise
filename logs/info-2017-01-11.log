@@ -162,3 +162,124 @@
 [2017-01-11 00:33:45.421] [INFO] info - REQUEST=======> 2017-1-11 00:33:45 [GET] /manage/sign/currentUser，耗时:0ms
 [2017-01-11 00:33:45.685] [INFO] info - REQUEST=======> 2017-1-11 00:33:45 [GET] /business/payment?pageNumber=1&pageSize=10，耗时:10ms
 [2017-01-11 00:33:57.235] [INFO] info - REQUEST=======> 2017-1-11 00:33:57 [GET] /business/payment?startTime=Wed%20Jan%2011%202017%2000%3A00%3A00%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&endTime=Wed%20Jan%2011%202017%2023%3A59%3A59%20GMT%2B0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&pageNumber=1&pageSize=10，耗时:7ms
+[2017-01-11 10:12:11.062] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 10:12:11.765] [INFO] info - Redis connecting!
+[2017-01-11 10:12:42.353] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 10:12:42.428] [INFO] info - Redis connecting!
+[2017-01-11 10:12:42.440] [INFO] info - Redis auth pass!
+[2017-01-11 10:13:38.351] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 10:13:38.430] [INFO] info - Redis connecting!
+[2017-01-11 10:13:38.436] [INFO] info - Redis auth pass!
+[2017-01-11 10:14:01.546] [INFO] info - REQUEST=======> 2017-1-11 10:14:01 [GET] /wechat/getAccessToken，耗时:9ms
+[2017-01-11 10:14:01.587] [INFO] info - REQUEST=======> 2017-1-11 10:14:01 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 10:14:30.443] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 10:14:30.527] [INFO] info - Redis connecting!
+[2017-01-11 10:14:30.533] [INFO] info - Redis auth pass!
+[2017-01-11 10:14:37.030] [INFO] info - REQUEST=======> 2017-1-11 10:14:37 [GET] /wechat/getAccessToken，耗时:12ms
+[2017-01-11 10:14:37.042] [INFO] info - REQUEST=======> 2017-1-11 10:14:37 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 10:15:49.315] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 10:15:49.395] [INFO] info - Redis connecting!
+[2017-01-11 10:15:49.398] [INFO] info - Redis auth pass!
+[2017-01-11 10:15:50.186] [INFO] info - REQUEST=======> 2017-1-11 10:15:50 [GET] /wechat/getAccessToken，耗时:12ms
+[2017-01-11 10:15:50.198] [INFO] info - REQUEST=======> 2017-1-11 10:15:50 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 10:15:53.670] [INFO] info - REQUEST=======> 2017-1-11 10:15:53 [GET] /wechat/getAccessToken，耗时:3ms
+[2017-01-11 10:15:53.678] [INFO] info - REQUEST=======> 2017-1-11 10:15:53 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 10:18:09.127] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 10:18:09.211] [INFO] info - Redis connecting!
+[2017-01-11 10:18:09.214] [INFO] info - Redis auth pass!
+[2017-01-11 10:18:12.297] [INFO] info - REQUEST=======> 2017-1-11 10:18:12 [GET] /wechat/getAccessToken，耗时:13ms
+[2017-01-11 10:18:12.309] [INFO] info - REQUEST=======> 2017-1-11 10:18:12 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 10:18:25.452] [INFO] info - REQUEST=======> 2017-1-11 10:18:22 [GET] /wechat/getAccessToken，耗时:2728ms
+[2017-01-11 10:18:25.471] [INFO] info - REQUEST=======> 2017-1-11 10:18:25 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 10:19:08.490] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 10:19:08.596] [INFO] info - Redis connecting!
+[2017-01-11 10:19:08.604] [INFO] info - Redis auth pass!
+[2017-01-11 10:19:18.383] [INFO] info - REQUEST=======> 2017-1-11 10:19:11 [GET] /wechat/getAccessToken，耗时:6580ms
+[2017-01-11 10:19:18.406] [INFO] info - REQUEST=======> 2017-1-11 10:19:18 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 10:19:31.728] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 10:19:31.804] [INFO] info - Redis connecting!
+[2017-01-11 10:19:31.807] [INFO] info - Redis auth pass!
+[2017-01-11 10:19:34.483] [INFO] info - REQUEST=======> 2017-1-11 10:19:34 [GET] /wechat/getAccessToken，耗时:168ms
+[2017-01-11 10:19:34.498] [INFO] info - REQUEST=======> 2017-1-11 10:19:34 [GET] /favicon.ico，耗时:6ms
+[2017-01-11 10:20:26.708] [INFO] info - REQUEST=======> 2017-1-11 10:20:15 [GET] /wechat/getAccessToken，耗时:11081ms
+[2017-01-11 10:20:26.728] [INFO] info - REQUEST=======> 2017-1-11 10:20:26 [GET] /favicon.ico，耗时:5ms
+[2017-01-11 10:20:48.016] [INFO] info - REQUEST=======> 2017-1-11 10:20:46 [GET] /wechat/getAccessToken，耗时:1897ms
+[2017-01-11 10:20:48.030] [INFO] info - REQUEST=======> 2017-1-11 10:20:48 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 10:22:28.348] [INFO] info - REQUEST=======> 2017-1-11 10:21:39 [GET] /wechat/getAccessToken，耗时:48632ms
+[2017-01-11 10:22:36.615] [INFO] info - REQUEST=======> 2017-1-11 10:22:28 [GET] /favicon.ico，耗时:8248ms
+[2017-01-11 10:23:01.091] [INFO] info - REQUEST=======> 2017-1-11 10:22:47 [GET] /wechat/getAccessToken，耗时:13625ms
+[2017-01-11 10:23:01.108] [INFO] info - REQUEST=======> 2017-1-11 10:23:01 [GET] /favicon.ico，耗时:5ms
+[2017-01-11 10:23:56.971] [INFO] info - REQUEST=======> 2017-1-11 10:23:13 [GET] /wechat/getAccessToken，耗时:43542ms
+[2017-01-11 10:23:56.982] [INFO] info - REQUEST=======> 2017-1-11 10:23:56 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 10:24:13.688] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 10:24:13.756] [INFO] info - Redis connecting!
+[2017-01-11 10:24:13.772] [INFO] info - Redis auth pass!
+[2017-01-11 10:24:14.173] [INFO] info - REQUEST=======> 2017-1-11 10:24:14 [GET] /wechat/getAccessToken，耗时:115ms
+[2017-01-11 10:24:14.189] [INFO] info - REQUEST=======> 2017-1-11 10:24:14 [GET] /favicon.ico，耗时:5ms
+[2017-01-11 10:24:16.526] [INFO] info - REQUEST=======> 2017-1-11 10:24:16 [GET] /wechat/getAccessToken，耗时:91ms
+[2017-01-11 10:24:16.535] [INFO] info - REQUEST=======> 2017-1-11 10:24:16 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 10:24:17.470] [INFO] info - REQUEST=======> 2017-1-11 10:24:17 [GET] /wechat/getAccessToken，耗时:90ms
+[2017-01-11 10:24:17.480] [INFO] info - REQUEST=======> 2017-1-11 10:24:17 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 10:24:18.125] [INFO] info - REQUEST=======> 2017-1-11 10:24:18 [GET] /wechat/getAccessToken，耗时:89ms
+[2017-01-11 10:24:18.138] [INFO] info - REQUEST=======> 2017-1-11 10:24:18 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 10:24:22.932] [INFO] info - REQUEST=======> 2017-1-11 10:24:22 [GET] /wechat/getAccessToken，耗时:93ms
+[2017-01-11 10:24:22.941] [INFO] info - REQUEST=======> 2017-1-11 10:24:22 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 10:24:23.651] [INFO] info - REQUEST=======> 2017-1-11 10:24:23 [GET] /wechat/getAccessToken，耗时:96ms
+[2017-01-11 10:24:23.662] [INFO] info - REQUEST=======> 2017-1-11 10:24:23 [GET] /favicon.ico，耗时:3ms
+[2017-01-11 10:43:21.382] [INFO] info - REQUEST=======> 2017-1-11 10:43:21 [GET] /wechat/getAccessToken，耗时:116ms
+[2017-01-11 10:43:21.394] [INFO] info - REQUEST=======> 2017-1-11 10:43:21 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 10:43:22.055] [INFO] info - REQUEST=======> 2017-1-11 10:43:21 [GET] /wechat/getAccessToken，耗时:86ms
+[2017-01-11 10:43:22.065] [INFO] info - REQUEST=======> 2017-1-11 10:43:22 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 11:55:25.748] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 11:55:27.955] [INFO] info - Redis connecting!
+[2017-01-11 11:55:27.961] [INFO] info - Redis auth pass!
+[2017-01-11 11:56:25.756] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 11:56:54.426] [INFO] info - Redis connecting!
+[2017-01-11 11:56:54.426] [INFO] info - Redis auth pass!
+[2017-01-11 11:58:34.006] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 11:58:50.742] [INFO] info - Redis connecting!
+[2017-01-11 11:58:50.748] [INFO] info - Redis auth pass!
+[2017-01-11 11:59:42.134] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 11:59:44.480] [INFO] info - Redis connecting!
+[2017-01-11 11:59:44.484] [INFO] info - Redis auth pass!
+[2017-01-11 12:00:00.581] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-11 12:00:00.656] [INFO] info - Redis connecting!
+[2017-01-11 12:00:00.658] [INFO] info - Redis auth pass!
+[2017-01-11 12:00:19.045] [INFO] info - REQUEST=======> 2017-1-11 12:00:19 [GET] /page/index.html，耗时:9ms
+[2017-01-11 12:00:19.059] [INFO] info - REQUEST=======> 2017-1-11 12:00:19 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:00:23.694] [INFO] info - REQUEST=======> 2017-1-11 12:00:23 [GET] /page/index.html，耗时:1ms
+[2017-01-11 12:00:23.704] [INFO] info - REQUEST=======> 2017-1-11 12:00:23 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:00:38.962] [INFO] info - REQUEST=======> 2017-1-11 12:00:38 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:00:45.966] [INFO] info - REQUEST=======> 2017-1-11 12:00:45 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:00:52.292] [INFO] info - REQUEST=======> 2017-1-11 12:00:52 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:00:53.382] [INFO] info - REQUEST=======> 2017-1-11 12:00:53 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:17.824] [INFO] info - REQUEST=======> 2017-1-11 12:04:17 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 12:04:21.744] [INFO] info - REQUEST=======> 2017-1-11 12:04:21 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 12:04:24.423] [INFO] info - REQUEST=======> 2017-1-11 12:04:24 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 12:04:25.229] [INFO] info - REQUEST=======> 2017-1-11 12:04:25 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:25.764] [INFO] info - REQUEST=======> 2017-1-11 12:04:25 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 12:04:26.319] [INFO] info - REQUEST=======> 2017-1-11 12:04:26 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:26.891] [INFO] info - REQUEST=======> 2017-1-11 12:04:26 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:27.421] [INFO] info - REQUEST=======> 2017-1-11 12:04:27 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:27.932] [INFO] info - REQUEST=======> 2017-1-11 12:04:27 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:28.411] [INFO] info - REQUEST=======> 2017-1-11 12:04:28 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:28.874] [INFO] info - REQUEST=======> 2017-1-11 12:04:28 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:29.358] [INFO] info - REQUEST=======> 2017-1-11 12:04:29 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:29.756] [INFO] info - REQUEST=======> 2017-1-11 12:04:29 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:32.964] [INFO] info - REQUEST=======> 2017-1-11 12:04:32 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:33.339] [INFO] info - REQUEST=======> 2017-1-11 12:04:33 [GET] /favicon.ico，耗时:0ms
+[2017-01-11 12:04:33.663] [INFO] info - REQUEST=======> 2017-1-11 12:04:33 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:33.924] [INFO] info - REQUEST=======> 2017-1-11 12:04:33 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:34.177] [INFO] info - REQUEST=======> 2017-1-11 12:04:34 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:34.412] [INFO] info - REQUEST=======> 2017-1-11 12:04:34 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:04:34.647] [INFO] info - REQUEST=======> 2017-1-11 12:04:34 [GET] /favicon.ico，耗时:7ms
+[2017-01-11 12:04:45.297] [INFO] info - REQUEST=======> 2017-1-11 12:04:45 [GET] /favicon.ico，耗时:3ms
+[2017-01-11 12:04:49.007] [INFO] info - REQUEST=======> 2017-1-11 12:04:49 [GET] /favicon.ico，耗时:2ms
+[2017-01-11 12:05:41.360] [INFO] info - REQUEST=======> 2017-1-11 12:05:41 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:05:44.578] [INFO] info - REQUEST=======> 2017-1-11 12:05:44 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:05:52.088] [INFO] info - REQUEST=======> 2017-1-11 12:05:52 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:05:52.923] [INFO] info - REQUEST=======> 2017-1-11 12:05:52 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:05:59.144] [INFO] info - REQUEST=======> 2017-1-11 12:05:59 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:06:55.695] [INFO] info - REQUEST=======> 2017-1-11 12:06:55 [GET] /favicon.ico，耗时:1ms
+[2017-01-11 12:06:55.800] [INFO] info - REQUEST=======> 2017-1-11 12:06:55 [GET] /wechat/getAccessToken，耗时:114ms
+[2017-01-11 12:27:27.840] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
