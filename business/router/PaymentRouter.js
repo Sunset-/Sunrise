@@ -1,5 +1,5 @@
 const PaymentService = require('../service/PaymentService');
-const BaseRouter = require('./system/BaseRouter')(PaymentService, {
+const BaseRouter = require('../../base/BaseRouter')(PaymentService, {
     pageFilter(ctx) {
         let plateNumber = ctx.query.plateNumber,
             startTime = ctx.query.startTime,
@@ -25,8 +25,8 @@ const BaseRouter = require('./system/BaseRouter')(PaymentService, {
     }
 });
 
-const request = require('request');
-const businessConfig = require('../config/businessConfig');
+const request = require('request-promise');
+const businessConfig = require('../../config/businessConfig');
 
 
 module.exports = {
@@ -39,7 +39,7 @@ module.exports = {
             }
         },
         'GET/request/plateNumber': async function (ctx, next) {
-            request({
+            let res = await request({
                 url: businessConfig.requestPlateNumberUrl,
                 method: 'POST',
                 body: JSON.stringify({
@@ -57,10 +57,8 @@ module.exports = {
                     "sign_type": "MD5",
                     "timestamp": "20170106151406"
                 })
-            }, function (err, response, body) {
-                debugger;
             });
-            ctx.body = true;
+            ctx.body = res;
         }
     })
 };

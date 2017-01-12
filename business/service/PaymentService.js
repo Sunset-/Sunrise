@@ -1,4 +1,4 @@
-const BaseService = require('./system/BaseService');
+const BaseService = require('../../base/BaseService');
 const MODEL = 'Payment';
 const ACCOUNT_MODEL = 'WechatAccount';
 

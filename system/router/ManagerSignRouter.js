@@ -1,4 +1,4 @@
-const ManagerAccountService = require('../../service/system/ManagerAccountService');
+const ManagerAccountService = require('../service/ManagerAccountService');
 const sign = require('../../common/sign');
 const {
     MANAGER_SIGN_SALT

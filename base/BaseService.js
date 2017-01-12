@@ -2,15 +2,12 @@ const EventEmitter = require('events').EventEmitter;
 const {
     sequelize,
     Sequelize
-} = require('../../holder/SequelizeHolder');
+} = require('../holder/SequelizeHolder');
 
 module.exports = class BaseService extends EventEmitter {
-    constructor(modelName, ...modelNames) {
+    constructor(modelName) {
         super();
-        this.Model = require(`../../model/${modelName}`)(sequelize, Sequelize);
-        modelNames && modelNames.forEach(m => {
-            require(`../../model/${m}`)(sequelize, Sequelize);
-        });
+        this.Model = sequelize.model(modelName)
     }
     getConnection() {
         return sequelize;

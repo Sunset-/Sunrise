@@ -1,14 +1,21 @@
 const lang = require('../common/lang');
 const Router = require('koa-router');
 const wechatConfig = require('../config/wechatConfig');
-const rs = [
-    './system/ManagerAccountRouter',
-    './system/ManagerSignRouter',
-    './system/DictionaryTypeRouter',
-    './system/DictionaryItemRouter',
-    './system/FileUploadRouter',
-    './PaymentRouter'
+const ROUTER_MODULES = ['system', 'business'];
+var rs = [
+    // './system/ManagerAccountRouter',
+    // './system/ManagerSignRouter',
+    // './system/DictionaryTypeRouter',
+    // './system/DictionaryItemRouter',
+    // './system/SystemVariableRouter',
+    // './system/FileUploadRouter'
+    // ,
+    // './PaymentRouter'
 ];
+ROUTER_MODULES.forEach(m => {
+    let routers = require(`../${m}/routers`);
+    rs = rs.concat(routers.map(r => `../${m}/router/${r}`));
+});
 if (wechatConfig.enable) {
     rs.push('../wechat/WechatRouter');
 }

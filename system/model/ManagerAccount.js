@@ -1,5 +1,5 @@
-const sign = require('../common/sign');
-const {MANAGER_SIGN_SALT} = require('../common/salt');
+const sign = require('../../common/sign');
+const {MANAGER_SIGN_SALT} = require('../../common/salt');
 
 module.exports = (sequelize,DataTypes)=>{
     return sequelize.define('ManagerAccount',{

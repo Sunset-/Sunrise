@@ -7,9 +7,11 @@ const app = new Koa();
 require('./middlewares/middleware')(app);
 //异常捕获
 require('./components/errorCatch')(app);
-//路由
-require('./router/router')(app);
-
+//模型
+require('./loader/ModelLoader')().then(() => {
+    //路由
+    require('./loader/RouterLoader')(app);
+});
 
 app.listen(serverConfig.port, () => {
     console.log(`server is started , listen ${serverConfig.port}`);

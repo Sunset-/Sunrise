@@ -1,4 +1,4 @@
-const BaseService = require('./BaseService');
+const BaseService = require('../../base/BaseService');
 const MODEL = 'DictionaryType';
 const ITEM_MODEL = 'DictionaryItem';
 
