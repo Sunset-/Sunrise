@@ -1,0 +1,1 @@
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx27335df18c5a2b86&redirect_uri=http%3A%2F%2Fwww.stcl365.com%2F&response_type=code&scope=snsapi_userinfo&state=own%2C00

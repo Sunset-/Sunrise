@@ -1,108 +1,175 @@
-*{
-    padding:0px;
-    margin:0px;
+* {
+    padding: 0px;
+    margin: 0px;
 }
-body{
+
+body {
     background: #F4F4F4;
     font-size: 14px;
     font-family: 微软雅黑;
 }
 
-.wrap{
-    padding:15px;
+.platenumber-input-wrap {}
+
+.payment-desc-wrap {
+    display: none;
+}
+
+.error-wrap {
+    display: none;
+}
+
+.wrap {
+    padding: 15px;
     background: #FFF;
 }
-.title{
-    font-size:16px;
-    padding-bottom:20px;
+
+.title {
+    font-size: 16px;
+    padding-bottom: 20px;
 }
-.plateNumberInput{
-    position:relative;
+
+.plateNumberInput {
+    position: relative;
     height: 40px;
     line-height: 38px;
-    border:1px solid #DFDFDF;
-    font-size:18px;
+    border: 1px solid #DFDFDF;
+    font-size: 18px;
     border-radius: 3px;
 }
-.show-selector .plateNumberInput{
+
+.show-selector .plateNumberInput {
     border-radius: 3px 3px 0px 0px;
 }
-.plateNumberInput .prefix{
-    position:absolute;
-    top:0px;
-    bottom:0px;
-    width:40px;
-    padding-left:15px;
-    border-right:1px solid #DFDFDF;
+
+.plateNumberInput .prefix {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    border-right: 1px solid #DFDFDF;
 }
-.plateNumberInput .prefix:after{
-    content : '';
-    position:absolute;
-    right:10px;
-    top:50%;
-    margin-top:-2px;
-    width:0px;
-    height:0px;
+
+.plateNumberInput .prefix:after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -2px;
+    width: 0px;
+    height: 0px;
     border-style: solid;
-    border-width:8px 4px;
+    border-width: 8px 4px;
     border-color: #7F7F7F transparent transparent transparent;
 }
-.plateNumberInput .suffix{
-    position:absolute;
-    top:0px;
-    bottom:0px;
-    left:60px;
-    right:0px;
+
+.plateNumberInput .suffix {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 60px;
+    right: 0px;
 }
-.plateNumberInput .suffix input{
-    box-sizing:border-box;
+
+.plateNumberInput .suffix input {
+    box-sizing: border-box;
     width: 100%;
-    position:absolute;
-    top:0px;
-    bottom:0px;
-    left:0px;
-    right:0px;
-    font-size:18px;
-    padding-left:5px;
-    color:#3f3f3f;
-    border:none;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 18px;
+    padding-left: 5px;
+    color: #3f3f3f;
+    border: none;
 }
 
-.plateNumberPrefixSelector{
-    border-style:solid;
-    border-width:0px 1px 1px 1px;
+.plateNumberPrefixSelector {
+    display: none;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
     border-color: #DFDFDF;
-    padding:5px;
+    padding: 5px;
 }
 
-.plateNumberPrefixSelector span{
+.plateNumberPrefixSelector span {
     display: inline-block;
-    width:35px;
-    height:35px;
+    width: 35px;
+    height: 35px;
     text-align: center;
     line-height: 35px;
     border-radius: 50%;
-    border:1px solid #CDCDCD;
-    margin:3px;
+    border: 1px solid #CDCDCD;
+    margin: 3px;
 }
-.plateNumberPrefixSelector span.active{
+
+.plateNumberPrefixSelector span.active {
     background: #FF8500;
-    border:1px solid #FF8500;
+    border: 1px solid #FF8500;
     color: #FFF;
 }
 
-.long-btn{
+.long-btn {
     width: 100%;
     text-align: center;
-    padding:15px 0px;
+    padding: 15px 0px;
     border-radius: 5px;
     background: #FF8500;
-    color:#FFF;
+    color: #FFF;
     font-size: 16px;
 }
-.long-btn:active{
+
+.long-btn:active {
     background: #ff992a;
 }
-.m-t-sm{
-    margin-top:15px;
+
+.m-t-sm {
+    margin-top: 15px;
+}
+
+.info-group {
+    display: table;
+}
+
+.desc-table label {
+    display: table-cell;
+    text-align: right;
+    width: 100px;
+    padding: 5px 5px;
+}
+
+.desc-table span {
+    display: table-cell;
+    padding: 5px 15px;
+    word-break: break-all;
+    text-align: left;
+}
+
+.pay-btn {
+    width: 50px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pay-btn img {
+    display: block;
+    width: 100%;
+}
+
+.error-icon {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.error-icon img {
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 5px;
+    width: 60px;
 }

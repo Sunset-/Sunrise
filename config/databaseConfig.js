@@ -13,7 +13,7 @@ module.exports = {
 }
 
 // module.exports = {
-//     host : '120.24.63.151',
+//     host : 'localhost',
 //     username : 'sangto',
 //     password : 'sangto!@#',
 //     database : 'heb',

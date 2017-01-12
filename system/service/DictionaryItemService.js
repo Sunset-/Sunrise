@@ -21,7 +21,7 @@ class DictionaryItemService extends BaseService {
             },
             order: `orderField DESC`
         });
-        model.orderField = last && last.orderField ? (+last.orderField + 1) : 0;
+        model.orderField = last && (!isNaN(last.orderField)) ? (+last.orderField + 1) : 0;
         return this.validate(model).then(async instance => {
             let res = await instance.save();
             this.emit('afterAdd', res);
