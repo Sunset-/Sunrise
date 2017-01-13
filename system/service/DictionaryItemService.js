@@ -64,6 +64,7 @@ class DictionaryItemService extends BaseService {
                     ])
                 }
             }
+            this.emit('afterChange');
             return true;
         })
         this.getModel().findOne({

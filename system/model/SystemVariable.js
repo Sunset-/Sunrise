@@ -17,6 +17,11 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING(1000),
             allowNull: false
         },
+        type: {
+            field: 'type_',
+            type: DataTypes.INTEGER(1),
+            allowNull: false
+        },
         desc: {
             field: 'desc_',
             type: DataTypes.STRING(200),

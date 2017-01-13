@@ -4,66 +4,78 @@
 <head>
     <title></title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <link href="css/style.css" rel="stylesheet">
-</head>
-
-<body>
-    <div class="platenumber-input-wrap wrap show-selector page">
-        <div class="title">
-            请输入车牌号
-        </div>
-        <div class="plateNumberInput">
-            <div class="prefix">京</div>
-            <div class="suffix">
-                <input class="plateNumber" type="text" placeholder="输入格式：AHK121" maxlength="8">
-            </div>
-        </div>
-        <div class="plateNumberPrefixSelector">
-            <span class="active">陕</span>
-            <span>津</span>
-            <span>陕</span>
-            <span>陕</span>
-            <span>陕</span>
-            <span>陕</span>
-            <span>陕</span>
-            <span>陕</span>
-            <span>陕</span>
-            <span>陕</span>
-            <span>陕</span>
-            <span>陕</span>
-            <span>陕</span>
-        </div>
-        <div class="tip">若为学车牌号，车牌末尾的“学”用“#”号代替</div>
-        <div class="ensureBtn long-btn m-t-sm">确认</div>
-    </div>
-    <div class="payment-desc-wrap wrap page">
-        <div class="title">
-            费用明细
-        </div>
-        <div class="desc-table"></div>
-        <div class="pay-btn">
-            <img src="img/jf.jpg">
-            <span>缴费</span>
-        </div>
-    </div>
-    <div class="error-wrap page">
-        <div class="error-icon">
-            <img src="img/error.png">
-            <span class="error-msg"></span>
-        </div>
-    </div>
-    <div class="wrap m-t-sm">
-        <div class="title">缴费说明</div>
-        <p>
-            1.使用APP提前结算停车费，可享受30分钟免费停车，超出的时间需按停车场收费标准收取停车费用；
-            <br> 2.会员可在缴费页面选择积分支付停车费：璀璨卡-150积分/小时，缤纷卡-200积分/小时。积分不够抵扣停车费用hi，可选择现金支付。
-        </p>
-    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="js/jquery.min.js"></script>
     <script src="js/wx.js?v=2"></script>
     <script src="js/sunset-wechat.js"></script>
-    <script src="js/payment.js"></script>
+    <!--<link href="css/style.css" rel="stylesheet">-->
+</head>
+Sunset.Wechat
+
+<body>
+    <h1>Hello , Index !</h1>
+    <h3>CODE : <span id="accessToken"></span></h3>
+    <h3>CODE : <span id="code"></span></h3>
+    <h3>OPEN_ID : <span id="openId"></span></h3>
+    <p>订单号：<input id="orderNo" type="text" name="" /></p>
+    <p>金额：<input id="price" type="text" name="" /></p>
+    <button id="payBtn" type="button">支付</button>
+    <p id="params"></p>
+    <script>
+        var openId = null;
+
+        function getQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return unescape(r[2]);
+            return null;
+        }
+        var code = getQueryString('code');
+
+        $("#code").html(code);
+        $.ajax({
+            url: '/wechat/getAccessToken'
+        }).then(function (res) {
+            $("#accessToken").html(res.data);
+        })
+        $.ajax({
+            url: '/wechat/getOAuthAccessToken',
+            data: {
+                code: code
+            }
+        }).then(function (res) {
+            $("#openId").html(openId = res.data && res.data.openid);
+        });
+
+
+        $("#payBtn").click(function () {
+            $.ajax({
+                url: '/wechat/getPayParams',
+                type: 'POST',
+                data: {
+                    openId: 'osyLxsrsQYhWEH9U9LeTDbwruwLI', //openId,
+                    totalFee: $("#price").val(),
+                    orderNo: $("#orderNo").val(),
+                    body: 'wakaka',
+                    attach: JSON.stringify({
+                        topic: 'PAYMENT',
+                        orderId: 'fb021040d8dc11e69b7cc36dad2cb8bb',
+                        cacheId: 'fb021040d8dc11e69b7cc36dad2cb8bb'
+                    })
+                }
+            }).then(function (res) {
+                $("#params").html(JSON.stringify(res));
+                if (res && res.data) {
+                    Sunset.Wechat.pay(res.data).then(function (res) {
+
+                    }).catch(function (e) {
+                        alert('失败' + e);
+                    });
+                }
+
+            });
+        })
+    </script>
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 (function () {
 
     var PLATE_PREFIX_ENUM = 'PlateNumberPrefix';
+    var INDEX_PAYMENT_REMARK = 'IndexPaymentRemark';
 
     var DETAIL_INFOS = [{
         label: '车牌号',
@@ -52,6 +53,8 @@
             this.initEvent();
         },
         initData: function () {
+            var self = this;
+            //字典
             $.ajax({
                 url: '/system/dictionaryItem/use/all'
             }).then(function (res) {
@@ -59,10 +62,42 @@
                     var prefixs = [];
                     for (var i = 0, item; item = res.data[i++];) {
                         if (item.type == PLATE_PREFIX_ENUM) {
-                            prefixs.push('<span>' + item.value + '</span>');
+                            if (prefixs.length == 0) {
+                                self.$plateNumberPrefix.html(item.value);
+                                prefixs.push('<span class="active" data-value="' + item.value + '">' + item.value + '</span>');
+                                continue;
+                            }
+                            prefixs.push('<span data-value="' + item.value + '">' + item.value + '</span>');
                         }
                     }
                     $('.plateNumberPrefixSelector').html(prefixs.join(''));
+                }
+            }).then(function (res) {
+                $.ajax({
+                    url: '/business/payment/request/account/osyLxsrsQYhWEH9U9LeTDbwruwLI'
+                }).then(function (res) {
+                    var plateNumber = res && res.data && res.data.lastPlateNumber;
+                    if (plateNumber) {
+                        var prefix = plateNumber.substring(0, 1),
+                            suffix = plateNumber.substring(1);
+                        self.$plateNumberPrefix.html(prefix);
+                        $(".plateNumberPrefixSelector span").removeClass('active');
+                        $("[data-value='" + prefix + "']").addClass('active');
+                        self.$plate.val(suffix);
+                    }
+                });
+            });
+            //文本
+            $.ajax({
+                url: '/system/systemVariable/use/all'
+            }).then(function (res) {
+                if (res && res.data) {
+                    for (var i = 0, item; item = res.data[i++];) {
+                        if (item.name == INDEX_PAYMENT_REMARK) {
+                            $('.indexPaymentRemark').append(item.value);
+                            return;
+                        }
+                    }
                 }
             });
         },
@@ -107,7 +142,7 @@
                     url: '/business/payment/request/plateNumber',
                     type: 'POST',
                     data: {
-                        plateNumber: plateNumber
+                        plateNumber: plateNumber.toUpperCase()
                     }
                 }).then(function (res) {
                     if (res && res.data) {

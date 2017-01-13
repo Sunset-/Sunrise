@@ -1,6 +1,7 @@
 const random = require('../common/random')
 const koaBody = require('koa-body');
 const uploadConfig = require('../config/uploadConfig');
+const logger = require('../components/logger');
 
 module.exports = app => {
     app.use(koaBody({

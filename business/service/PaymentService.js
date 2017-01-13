@@ -53,6 +53,39 @@ class AccountService extends BaseService {
             return paymentInstance;
         });
     }
+    getPayAccount(accountId) {
+        return this.getModel(ACCOUNT_MODEL).findOne({
+            accountId: accountId
+        });
+    }
+    async paySuccess(attach, wechatMessage) {
+        //支付成功，修改状态
+        await this.getModel().update({
+            status: ORDERS_STATUS.PAYED
+        }, {
+            fields: ['status'],
+            where: {
+                orderId: attach.orderId
+            }
+        });
+        return this.findOne({
+            where: {
+                orderId: attach.orderId
+            }
+        });
+    }
+    async paymentNotify(id) {
+        //通知停车场成功
+        await this.getModel().update({
+            status: ORDERS_STATUS.NOTIFYED
+        }, {
+            fields: ['status'],
+            where: {
+                id: id
+            }
+        });
+        return true;
+    }
 }
 
 module.exports = new AccountService();

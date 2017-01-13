@@ -11,9 +11,11 @@ function wrapper(ctx, error) {
         }
     } else {
         if (ctx.status == RESPONSE_CODE.SUCCESS) {
-            res = {
-                code: RESPONSE_CODE.SUCCESS,
-                data: res
+            if (!ctx.useOriginResponseBody) {
+                res = {
+                    code: RESPONSE_CODE.SUCCESS,
+                    data: res
+                }
             }
         } else {
             res = {

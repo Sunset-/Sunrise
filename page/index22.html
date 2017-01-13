@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="platenumber-input-wrap wrap show-selector page">
+        <div class="title">
+            请输入车牌号
+        </div>
+        <div class="plateNumberInput">
+            <div class="prefix">京</div>
+            <div class="suffix">
+                <input class="plateNumber" type="text" placeholder="输入格式：AHK121" maxlength="8">
+            </div>
+        </div>
+        <div class="plateNumberPrefixSelector">
+            <span class="active">陕</span>
+            <span>津</span>
+            <span>陕</span>
+            <span>陕</span>
+            <span>陕</span>
+            <span>陕</span>
+            <span>陕</span>
+            <span>陕</span>
+            <span>陕</span>
+            <span>陕</span>
+            <span>陕</span>
+            <span>陕</span>
+            <span>陕</span>
+        </div>
+        <div class="tip">若为学车牌号，车牌末尾的“学”用“#”号代替</div>
+        <div class="ensureBtn long-btn m-t-sm">确认</div>
+    </div>
+    <div class="payment-desc-wrap wrap page">
+        <div class="title">
+            费用明细
+        </div>
+        <div class="desc-table"></div>
+        <div class="pay-btn">
+            <img src="img/jf.jpg">
+            <span>缴费</span>
+        </div>
+    </div>
+    <div class="error-wrap page">
+        <div class="error-icon">
+            <img src="img/error.png">
+            <span class="error-msg"></span>
+        </div>
+    </div>
+    <div class="indexPaymentRemark wrap m-t-sm">
+        <div class="title">缴费说明</div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/wx.js?v=2"></script>
+    <script src="js/sunset-wechat.js"></script>
+    <script src="js/payment.js"></script>
+</body>
+
+</html>
