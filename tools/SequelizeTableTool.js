@@ -5,7 +5,7 @@ const {
 const systemModels = ['DictionaryType', 'DictionaryItem', 'SystemVariable', 'ManagerAccount', 'WechatAccount'];
 const businessModels = ['Payment','PayAccount'];
 
-const reSync = false;
+const reSync = true;
 const reTables = ['../business/model/Payment.js'];
 
 

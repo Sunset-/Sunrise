@@ -67,6 +67,16 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.DATE,
             allowNull: false
         },
+        payTime: {
+            field: 'pay_time_',
+            type: DataTypes.DATE,
+            allowNull: false
+        },
+        notifyTime: {
+            field: 'notify_time_',
+            type: DataTypes.DATE,
+            allowNull: false
+        },
         status: {
             field: 'status_',
             type: DataTypes.INTEGER(1),

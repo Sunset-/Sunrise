@@ -1,5 +1,6 @@
 const random = require('../../common/random');
 const logger = require('../../components/logger');
+const schedule = require('../../components/schedule');
 const request = require('request-promise');
 const businessConfig = require('../../config/businessConfig');
 const PaymentService = require('../service/PaymentService');
@@ -39,90 +40,21 @@ const InfoCache = {};
 if (WechatConfig && WechatConfig.notifyCallbacks) {
     WechatConfig.notifyCallbacks.PAYMENT = async(attach, wechatMessage) => {
         delete InfoCache[attach.cacheId];
+        //订单支付成功
         let payment = await PaymentService.paySuccess(attach, wechatMessage);
+        //通知停车场
         if (payment) {
-            let originInfo = null;
-            try {
-                originInfo = JSON.parse(payment.get('originInfo'));
-            } catch (e) {
-                logger.fatal('缴费订单原始信息格式异常：' + payment.get('originInfo'));
-            }
-            if (originInfo != null) {
-                let now = moment().format('YYYY-MM-DD HH:mm:ss');
-                let res = await request({
-                    url: businessConfig.requestPlateNumberUrl,
-                    method: 'POST',
-                    body: JSON.stringify({
-                        "command": "PAYMENT",
-                        "message_id": "0000010",
-                        "device_id": "7427EA1D1AE17427EA1D1AE17427EA1D",
-                        "sign_type": "MD5",
-                        "sign": "f3AKCWksumTLzW5Pm38xiP9llqwHptZl9QJQxcm7zRvcXA4g",
-                        "charset": "UTF-8",
-                        "timestamp": "20150410144239",
-                        "biz_content": {
-                            "record_number": originInfo.record_number,
-                            "car_license_number": originInfo.car_license_number,
-                            "car_card_number": originInfo.car_card_number,
-                            "enter_time": originInfo.enter_time,
-                            "stopping_time": originInfo.stopping_time,
-                            "total_amount": originInfo.total_amount,
-                            "discount_validate_value": "",
-                            "discount_no": "",
-                            "discount_name": "",
-                            "discount_origin_type": "0",
-                            "amount_receivable": originInfo.current_receivable,
-                            "discount_amount": "",
-                            "actual_receivable": originInfo.current_receivable,
-                            "payment_mode": "4", //微信支付
-                            "pay_origin": "7", //微信服务号支付
-                            "pay_status": "0", //未支付
-                            "last_pay_time": now,
-                            "operator": businessConfig.operator,
-                            "operate_time": now
-                        }
-                    })
-                });
-                await PaymentService.paymentNotify(payment.id);
-            }
+            await PaymentService.paymentNotify([payment]);
         }
-        let res = await request({
-            url: businessConfig.requestPlateNumberUrl,
-            method: 'POST',
-            body: JSON.stringify({
-                "command": "PAYMENT",
-                "message_id": "0000010",
-                "device_id": "7427EA1D1AE17427EA1D1AE17427EA1D",
-                "sign_type": "MD5",
-                "sign": "f3AKCWksumTLzW5Pm38xiP9llqwHptZl9QJQxcm7zRvcXA4g",
-                "charset": "UTF-8",
-                "timestamp": "20150410144239",
-                "biz_content": {
-                    "record_number": "",
-                    "car_license_number": "粤YAK232",
-                    "car_card_number": "",
-                    "enter_time": "2016-09-30 09:53:40",
-                    "stopping_time": "0",
-                    "total_amount": 477,
-                    "discount_validate_value": "",
-                    "discount_no": "5DWIJTB562OG4K07LZWH",
-                    "discount_name": "",
-                    "discount_origin_type": "1",
-                    "amount_receivable": 477,
-                    "discount_amount": "476",
-                    "actual_receivable": 1,
-                    "payment_mode": "1",
-                    "pay_origin": "3",
-                    "pay_status": "1",
-                    "last_pay_time": "2015-04-10 14:42:39",
-                    "operator": "127.0.0.1",
-                    "operate_time": "2015-04-10 14:42:39"
-                }
-            })
-        });
         return true;
     }
 }
+
+//注册定时器任务，每1小时清理2小时前的订单
+schedule.startTask('PaymentClearTask', businessConfig.orderClearCron || '0 0 * * * ?', function () {
+    //清理未支付的订单,通知停车系统已支付的订单
+    PaymentService.clearOrders();
+});
 
 module.exports = {
     prefix: '/business/payment',

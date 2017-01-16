@@ -1,0 +1,67 @@
+[2017-01-16 09:08:48.230] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-16 09:08:48.265] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-01-16 09:09:48.067] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-16 09:09:48.075] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-01-16 09:24:17.858] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-16 09:24:17.867] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-01-16 09:25:05.670] [INFO] info - 2017-01-16T01:25:05.670Z
+[2017-01-16 09:26:05.671] [INFO] info - 2017-01-16T01:26:05.671Z
+[2017-01-16 09:29:43.011] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-16 09:29:43.021] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-01-16 09:30:00.831] [INFO] info - 2017-01-16T01:30:00.831Z
+[2017-01-16 09:31:00.833] [INFO] info - 2017-01-16T01:31:00.833Z
+[2017-01-16 09:33:27.344] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-16 09:33:27.352] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-01-16 09:34:00.008] [INFO] info - 2017-01-16T01:34:00.008Z
+[2017-01-16 09:34:05.008] [INFO] info - 2017-01-16T01:34:05.008Z
+[2017-01-16 09:34:10.008] [INFO] info - 2017-01-16T01:34:10.008Z
+[2017-01-16 09:34:15.007] [INFO] info - 2017-01-16T01:34:15.007Z
+[2017-01-16 09:34:20.008] [INFO] info - 2017-01-16T01:34:20.008Z
+[2017-01-16 09:34:53.772] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-16 09:34:53.780] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-01-16 09:35:00.432] [INFO] info - 2017-01-16T01:35:00.432Z
+[2017-01-16 09:36:00.436] [INFO] info - 2017-01-16T01:36:00.436Z
+[2017-01-16 09:36:26.686] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-16 09:36:26.696] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-01-16 09:36:30.496] [INFO] info - 2017-01-16T01:36:30.496Z
+[2017-01-16 09:36:35.498] [INFO] info - 2017-01-16T01:36:35.498Z
+[2017-01-16 09:36:40.498] [INFO] info - 2017-01-16T01:36:40.498Z
+[2017-01-16 09:36:45.497] [INFO] info - 2017-01-16T01:36:45.497Z
+[2017-01-16 09:36:50.496] [INFO] info - 2017-01-16T01:36:50.496Z
+[2017-01-16 09:36:55.496] [INFO] info - 2017-01-16T01:36:55.496Z
+[2017-01-16 09:37:00.496] [INFO] info - 2017-01-16T01:37:00.496Z
+[2017-01-16 09:37:05.496] [INFO] info - 2017-01-16T01:37:05.496Z
+[2017-01-16 09:43:11.448] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-16 09:43:25.838] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-16 09:43:25.848] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-01-16 09:45:19.802] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-16 09:45:19.811] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-01-16 10:21:03.208] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-16 10:21:03.218] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-01-16 10:21:14.530] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-16 10:21:14.540] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-01-16 10:21:37.731] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-16 10:21:37.749] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-01-16 10:31:23.250] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-01-16 10:31:23.260] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-01-16 10:31:24.013] [INFO] info - /business/payment/request/plateNumber
+[2017-01-16 10:31:24.013] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundaryLU56WKZA2CA9rRlP
+[2017-01-16 10:31:25.819] [INFO] info - REQUEST=======> 2017-1-16 10:31:24 [POST] /business/payment/request/plateNumber，耗时:1807ms
+[2017-01-16 10:31:55.643] [INFO] info - /business/payment/request/plateNumber
+[2017-01-16 10:31:55.644] [INFO] info - application/x-www-form-urlencoded
+[2017-01-16 10:31:58.982] [INFO] info - REQUEST=======> 2017-1-16 10:31:55 [POST] /business/payment/request/plateNumber，耗时:3339ms
+[2017-01-16 10:32:07.668] [INFO] info - /business/payment/request/plateNumber
+[2017-01-16 10:32:07.669] [INFO] info - application/x-www-form-urlencoded
+[2017-01-16 10:32:16.416] [INFO] info - REQUEST=======> 2017-1-16 10:32:07 [POST] /business/payment/request/plateNumber，耗时:8748ms
+[2017-01-16 10:32:33.617] [INFO] info - /business/payment/request/plateNumber
+[2017-01-16 10:32:33.618] [INFO] info - application/x-www-form-urlencoded
+[2017-01-16 10:32:36.150] [INFO] info - REQUEST=======> 2017-1-16 10:32:33 [POST] /business/payment/request/plateNumber，耗时:2533ms
+[2017-01-16 10:33:07.407] [INFO] info - /business/payment/request/plateNumber
+[2017-01-16 10:33:07.407] [INFO] info - application/x-www-form-urlencoded
+[2017-01-16 10:33:10.136] [INFO] info - REQUEST=======> 2017-1-16 10:33:07 [POST] /business/payment/request/plateNumber，耗时:2729ms
+[2017-01-16 10:33:50.119] [INFO] info - /business/payment/request/plateNumber
+[2017-01-16 10:33:50.119] [INFO] info - application/x-www-form-urlencoded
+[2017-01-16 10:33:53.890] [INFO] info - REQUEST=======> 2017-1-16 10:33:50 [POST] /business/payment/request/plateNumber，耗时:3771ms
+[2017-01-16 10:34:20.283] [INFO] info - /business/payment/request/plateNumber
+[2017-01-16 10:34:20.283] [INFO] info - application/x-www-form-urlencoded
+[2017-01-16 10:34:25.566] [INFO] info - REQUEST=======> 2017-1-16 10:34:20 [POST] /business/payment/request/plateNumber，耗时:5283ms
