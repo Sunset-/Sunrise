@@ -1,0 +1,262 @@
+[2017-01-17 09:33:36.861] [ERROR] error - { code: 500, message: 'orderField cannot be null' }
+[2017-01-17 09:33:36.862] [ERROR] error - { Error: orderField cannot be null
+    at validate.then.catch.e (d:\workspace\NodeJS\sunrise\base\BaseService.js:46:19)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-17 09:53:52.631] [ERROR] error - { code: 500, message: 'Validation error' }
+[2017-01-17 09:53:52.633] [ERROR] error - { Error: Validation error
+    at validate.then.catch.e (d:\workspace\NodeJS\sunrise\system\service\MenuService.js:32:19)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-17 09:55:24.023] [ERROR] error - { code: 500, message: 'Validation error' }
+[2017-01-17 09:55:24.023] [ERROR] error - { Error: Validation error
+    at validate.then.catch.e (d:\workspace\NodeJS\sunrise\system\service\MenuService.js:32:19)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-17 11:03:27.411] [ERROR] error - { code: 500, message: 'MemoryCache.order is not a function' }
+[2017-01-17 11:03:27.412] [ERROR] error - TypeError: MemoryCache.order is not a function
+    at PUT/order/change (d:\workspace\NodeJS\sunrise\system\router\MenuRouter.js:14:42)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+[2017-01-17 11:05:16.929] [ERROR] error - { code: 500, message: 'MemoryCache.order is not a function' }
+[2017-01-17 11:05:16.931] [ERROR] error - TypeError: MemoryCache.order is not a function
+    at PUT/order/change (d:\workspace\NodeJS\sunrise\system\router\MenuRouter.js:14:42)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+[2017-01-17 11:05:41.298] [ERROR] error - { code: 500, message: 'undefined is not a function' }
+[2017-01-17 11:05:41.299] [ERROR] error - TypeError: undefined is not a function
+    at Function.all (native)
+    at transaction (d:\workspace\NodeJS\sunrise\system\service\MenuService.js:109:31)
+[2017-01-17 11:30:44.514] [ERROR] error - { code: 500, message: 'changes is not defined' }
+[2017-01-17 11:30:44.516] [ERROR] error - ReferenceError: changes is not defined
+    at transaction (d:\workspace\NodeJS\sunrise\system\service\MenuService.js:39:27)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:1289:22
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2017-01-17 11:38:42.885] [ERROR] error - { code: 500, message: 'payment is not defined' }
+[2017-01-17 11:38:42.887] [ERROR] error - ReferenceError: payment is not defined
+    at POST/request/test/pay (d:\workspace\NodeJS\sunrise\business\router\PaymentRouter.js:148:46)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at propagateAslWrapper (d:\workspace\NodeJS\sunrise\node_modules\async-listener\index.js:421:23)
+    at d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31
+    at d:\workspace\NodeJS\sunrise\node_modules\async-listener\index.js:458:70
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-01-17 11:39:45.589] [ERROR] error - { code: 500, message: 'now is not defined' }
+[2017-01-17 11:39:45.591] [ERROR] error - ReferenceError: now is not defined
+    at POST/request/test/pay (d:\workspace\NodeJS\sunrise\business\router\PaymentRouter.js:150:45)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at propagateAslWrapper (d:\workspace\NodeJS\sunrise\node_modules\async-listener\index.js:421:23)
+    at d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31
+    at d:\workspace\NodeJS\sunrise\node_modules\async-listener\index.js:458:70
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-01-17 14:54:51.515] [ERROR] error - { code: 500,
+  message: 'ER_DATA_TOO_LONG: Data too long for column \'icon_\' at row 1' }
+[2017-01-17 14:54:51.516] [ERROR] error - { SequelizeBaseError: ER_DATA_TOO_LONG: Data too long for column 'icon_' at row 1
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_DATA_TOO_LONG: Data too long for column \'icon_\' at row 1',
+  parent: 
+   { Error: ER_DATA_TOO_LONG: Data too long for column 'icon_' at row 1
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_DATA_TOO_LONG',
+     errno: 1406,
+     sqlState: '22001',
+     index: 0,
+     sql: 'UPDATE `tb_menu` SET `parent_id_`=\'21\',`id_`=\'24\',`name_`=\'菜单配置\',`icon_`=\'/assets/tree-icons/attribute_item.png\' WHERE `id_` = \'24\'' },
+  original: 
+   { Error: ER_DATA_TOO_LONG: Data too long for column 'icon_' at row 1
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_DATA_TOO_LONG',
+     errno: 1406,
+     sqlState: '22001',
+     index: 0,
+     sql: 'UPDATE `tb_menu` SET `parent_id_`=\'21\',`id_`=\'24\',`name_`=\'菜单配置\',`icon_`=\'/assets/tree-icons/attribute_item.png\' WHERE `id_` = \'24\'' },
+  sql: 'UPDATE `tb_menu` SET `parent_id_`=\'21\',`id_`=\'24\',`name_`=\'菜单配置\',`icon_`=\'/assets/tree-icons/attribute_item.png\' WHERE `id_` = \'24\'' }

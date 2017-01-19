@@ -1,0 +1,1284 @@
+[2017-01-19 09:57:47.848] [ERROR] error - { code: 500, message: 'orderField cannot be null' }
+[2017-01-19 09:57:47.850] [ERROR] error - { Error: orderField cannot be null
+    at validate.then.catch.e (d:\workspace\NodeJS\sunrise\base\BaseService.js:46:19)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-19 09:58:02.448] [ERROR] error - { code: 500, message: 'orderField cannot be null' }
+[2017-01-19 09:58:02.449] [ERROR] error - { Error: orderField cannot be null
+    at validate.then.catch.e (d:\workspace\NodeJS\sunrise\base\BaseService.js:46:19)
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+    at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:687:18)
+    at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+    at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+    at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-01-19 16:05:01.819] [ERROR] error - { code: 500, message: 'this.getModal is not a function' }
+[2017-01-19 16:05:01.820] [ERROR] error - TypeError: this.getModal is not a function
+    at transaction (d:\workspace\NodeJS\sunrise\system\service\RoleService.js:19:28)
+[2017-01-19 16:33:03.603] [ERROR] error - { code: 500, message: '账户ID为空' }
+[2017-01-19 16:33:03.605] [ERROR] error - InternalServerError: 账户ID为空
+    at Object.throw (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa\2.0.0\koa\lib\context.js:91:23)
+    at GET/account/roles (d:\workspace\NodeJS\sunrise\system\router\RoleRouter.js:36:26)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+[2017-01-19 16:33:50.989] [ERROR] error - { code: 500, message: 'patientId is not defined' }
+[2017-01-19 16:33:50.991] [ERROR] error - ReferenceError: patientId is not defined
+    at RoleService.getRolesOfAccount (d:\workspace\NodeJS\sunrise\system\service\RoleService.js:44:41)
+    at GET/account/roles (d:\workspace\NodeJS\sunrise\system\router\RoleRouter.js:33:46)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:321:16
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:326:31)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:315:32)
+    at dispatch (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-compose\3.2.1\koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\NodeJS\sunrise\node_modules\.npminstall\koa-router\7.0.1\koa-router\lib\router.js:361:12)
+[2017-01-19 16:34:11.711] [ERROR] error - { code: 500,
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'desc\n                            FROM \n                            tb_account_ro\' at line 4' }
+[2017-01-19 16:34:11.712] [ERROR] error - { SequelizeBaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+                            FROM 
+                            tb_account_ro' at line 4
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'desc\n                            FROM \n                            tb_account_ro\' at line 4',
+  parent: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+                               FROM 
+                               tb_account_ro' at line 4
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at ConnectionManager.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17)
+       at ConnectionManager.tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                            tb_r.id_ AS id,\n                            tb_r.name_ AS name,\n                            tb_r.type_ AS type,\n                            tb_r.desc_ AS desc\n                            FROM \n                            tb_account_role_rel tb_arr\n                            JOIN tb_role tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=\'1\'\n                            ORDER BY tb_r.order_field ASC' },
+  original: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+                               FROM 
+                               tb_account_ro' at line 4
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at ConnectionManager.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17)
+       at ConnectionManager.tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                            tb_r.id_ AS id,\n                            tb_r.name_ AS name,\n                            tb_r.type_ AS type,\n                            tb_r.desc_ AS desc\n                            FROM \n                            tb_account_role_rel tb_arr\n                            JOIN tb_role tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=\'1\'\n                            ORDER BY tb_r.order_field ASC' },
+  sql: 'SELECT \n                            tb_r.id_ AS id,\n                            tb_r.name_ AS name,\n                            tb_r.type_ AS type,\n                            tb_r.desc_ AS desc\n                            FROM \n                            tb_account_role_rel tb_arr\n                            JOIN tb_role tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=\'1\'\n                            ORDER BY tb_r.order_field ASC' }
+[2017-01-19 16:35:20.095] [ERROR] error - { code: 500,
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'desc\n                            FROM \n                            tb_account_ro\' at line 4' }
+[2017-01-19 16:35:20.096] [ERROR] error - { SequelizeBaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+                            FROM 
+                            tb_account_ro' at line 4
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'desc\n                            FROM \n                            tb_account_ro\' at line 4',
+  parent: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+                               FROM 
+                               tb_account_ro' at line 4
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                            tb_r.id_ AS id,\n                            tb_r.name_ AS name,\n                            tb_r.type_ AS type,\n                            tb_r.desc_ AS desc\n                            FROM \n                            tb_account_role_rel tb_arr\n                            JOIN tb_role tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=\'1\'\n                            ORDER BY tb_r.order_field_ ASC' },
+  original: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+                               FROM 
+                               tb_account_ro' at line 4
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                            tb_r.id_ AS id,\n                            tb_r.name_ AS name,\n                            tb_r.type_ AS type,\n                            tb_r.desc_ AS desc\n                            FROM \n                            tb_account_role_rel tb_arr\n                            JOIN tb_role tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=\'1\'\n                            ORDER BY tb_r.order_field_ ASC' },
+  sql: 'SELECT \n                            tb_r.id_ AS id,\n                            tb_r.name_ AS name,\n                            tb_r.type_ AS type,\n                            tb_r.desc_ AS desc\n                            FROM \n                            tb_account_role_rel tb_arr\n                            JOIN tb_role tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=\'1\'\n                            ORDER BY tb_r.order_field_ ASC' }
+[2017-01-19 16:39:16.988] [ERROR] error - { code: 500,
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'desc_\' in \'field list\'' }
+[2017-01-19 16:39:16.990] [ERROR] error - { SequelizeBaseError: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'desc_\' in \'field list\'',
+  parent: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' },
+  original: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' },
+  sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' }
+[2017-01-19 16:39:53.770] [ERROR] error - { code: 500,
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'desc_\' in \'field list\'' }
+[2017-01-19 16:39:53.770] [ERROR] error - { SequelizeBaseError: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'desc_\' in \'field list\'',
+  parent: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' },
+  original: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' },
+  sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' }
+[2017-01-19 16:40:37.630] [ERROR] error - { code: 500,
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'desc_\' in \'field list\'' }
+[2017-01-19 16:40:37.631] [ERROR] error - { SequelizeBaseError: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'desc_\' in \'field list\'',
+  parent: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' },
+  original: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' },
+  sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' }
+[2017-01-19 16:41:03.776] [ERROR] error - { code: 500,
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'desc_\' in \'field list\'' }
+[2017-01-19 16:41:03.776] [ERROR] error - { SequelizeBaseError: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'desc_\' in \'field list\'',
+  parent: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' },
+  original: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' },
+  sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' }
+[2017-01-19 16:41:07.048] [ERROR] error - { code: 500,
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'desc_\' in \'field list\'' }
+[2017-01-19 16:41:07.049] [ERROR] error - { SequelizeBaseError: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_BAD_FIELD_ERROR: Unknown column \'desc_\' in \'field list\'',
+  parent: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' },
+  original: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'desc_' in 'field list'
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0,
+     sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' },
+  sql: 'SELECT `id_` AS `id`, `name_` AS `name`, `type_` AS `type`, `desc_` AS `desc`, `permissions_` AS `permissions`, `order_field_` AS `orderField` FROM `tb_role` AS `Role` ORDER BY orderField ASC LIMIT 0, 10000;' }
+[2017-01-19 16:52:39.158] [ERROR] error - { code: 500,
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'FROM \n                            tb_account_role_rel tb_arr\n                   \' at line 2' }
+[2017-01-19 16:52:39.159] [ERROR] error - { SequelizeBaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM 
+                            tb_account_role_rel tb_arr
+                   ' at line 2
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'FROM \n                            tb_account_role_rel tb_arr\n                   \' at line 2',
+  parent: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM 
+                               tb_account_role_rel tb_arr
+                      ' at line 2
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                            tb_r.permissions_ AS permissions,\n                            FROM \n                            tb_account_role_rel tb_arr\n                            JOIN tb_role tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=1\n                            ORDER BY tb_r.order_field_ ASC' },
+  original: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM 
+                               tb_account_role_rel tb_arr
+                      ' at line 2
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                            tb_r.permissions_ AS permissions,\n                            FROM \n                            tb_account_role_rel tb_arr\n                            JOIN tb_role tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=1\n                            ORDER BY tb_r.order_field_ ASC' },
+  sql: 'SELECT \n                            tb_r.permissions_ AS permissions,\n                            FROM \n                            tb_account_role_rel tb_arr\n                            JOIN tb_role tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=1\n                            ORDER BY tb_r.order_field_ ASC' }
+[2017-01-19 16:54:34.218] [ERROR] error - { code: 500,
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'FROM \n                            tb_account_role_rel tb_arr\n                   \' at line 2' }
+[2017-01-19 16:54:34.220] [ERROR] error - { SequelizeBaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM 
+                            tb_account_role_rel tb_arr
+                   ' at line 2
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'FROM \n                            tb_account_role_rel tb_arr\n                   \' at line 2',
+  parent: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM 
+                               tb_account_role_rel tb_arr
+                      ' at line 2
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                            tb_r.permissions_ AS permissions,\n                            FROM \n                            tb_account_role_rel tb_arr\n                            JOIN tb_role tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=1\n                            ORDER BY tb_r.order_field_ ASC' },
+  original: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM 
+                               tb_account_role_rel tb_arr
+                      ' at line 2
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                            tb_r.permissions_ AS permissions,\n                            FROM \n                            tb_account_role_rel tb_arr\n                            JOIN tb_role tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=1\n                            ORDER BY tb_r.order_field_ ASC' },
+  sql: 'SELECT \n                            tb_r.permissions_ AS permissions,\n                            FROM \n                            tb_account_role_rel tb_arr\n                            JOIN tb_role tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=1\n                            ORDER BY tb_r.order_field_ ASC' }
+[2017-01-19 16:54:59.927] [ERROR] error - { code: 500,
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'FROM \n                            tb_account_role_rel AS tb_arr\n                \' at line 2' }
+[2017-01-19 16:54:59.929] [ERROR] error - { SequelizeBaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM 
+                            tb_account_role_rel AS tb_arr
+                ' at line 2
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'FROM \n                            tb_account_role_rel AS tb_arr\n                \' at line 2',
+  parent: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM 
+                               tb_account_role_rel AS tb_arr
+                   ' at line 2
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                            tb_r.permissions_ AS permissions,\n                            FROM \n                            tb_account_role_rel AS tb_arr\n                            JOIN tb_role AS tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=1\n                            ORDER BY tb_r.order_field_ ASC' },
+  original: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM 
+                               tb_account_role_rel AS tb_arr
+                   ' at line 2
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                            tb_r.permissions_ AS permissions,\n                            FROM \n                            tb_account_role_rel AS tb_arr\n                            JOIN tb_role AS tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=1\n                            ORDER BY tb_r.order_field_ ASC' },
+  sql: 'SELECT \n                            tb_r.permissions_ AS permissions,\n                            FROM \n                            tb_account_role_rel AS tb_arr\n                            JOIN tb_role AS tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=1\n                            ORDER BY tb_r.order_field_ ASC' }
+[2017-01-19 17:35:04.434] [ERROR] error - { code: 500,
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'FROM \n                            tb_account_role_rel AS tb_arr\n                \' at line 2' }
+[2017-01-19 17:35:04.434] [ERROR] error - { SequelizeBaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM 
+                            tb_account_role_rel AS tb_arr
+                ' at line 2
+    at Query.formatError (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)
+    at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+    at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'FROM \n                            tb_account_role_rel AS tb_arr\n                \' at line 2',
+  parent: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM 
+                               tb_account_role_rel AS tb_arr
+                   ' at line 2
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                            tb_r.permissions_ AS permissions,\n                            FROM \n                            tb_account_role_rel AS tb_arr\n                            JOIN tb_role AS tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=1\n                            ORDER BY tb_r.order_field_ ASC' },
+  original: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM 
+                               tb_account_role_rel AS tb_arr
+                   ' at line 2
+       at Query.Sequence._packetToError (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+       at Protocol._parsePacket (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Parser.js:74:12)
+       at Protocol.write (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:109:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (d:\workspace\NodeJS\sunrise\node_modules\async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (d:\workspace\NodeJS\sunrise\node_modules\mysql\lib\Connection.js:214:25)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at Query.run (d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\dialects\mysql\query.js:39:17)
+       at d:\workspace\NodeJS\sunrise\node_modules\sequelize\lib\sequelize.js:849:20
+       at d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:40:21
+       at Promise._execute (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\debuggability.js:299:9)
+       at Promise._resolveFromExecutor (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:481:18)
+       at new Promise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:77:14)
+       at retryAsPromised (d:\workspace\NodeJS\sunrise\node_modules\retry-as-promised\index.js:30:10)
+       at d:\workspace\NodeJS\sunrise\node_modules\continuation-local-storage\context.js:84:17
+       at tryCatcher (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:510:31)
+       at Promise._settlePromise (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:567:18)
+       at Promise._settlePromise0 (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:612:10)
+       at Promise._settlePromises (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\promise.js:691:18)
+       at Async._drainQueue (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:138:16)
+       at Async._drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:148:10)
+       at Immediate.Async.drainQueues (d:\workspace\NodeJS\sunrise\node_modules\bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+       at processImmediate [as _immediateCallback] (timers.js:594:5)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0,
+     sql: 'SELECT \n                            tb_r.permissions_ AS permissions,\n                            FROM \n                            tb_account_role_rel AS tb_arr\n                            JOIN tb_role AS tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=1\n                            ORDER BY tb_r.order_field_ ASC' },
+  sql: 'SELECT \n                            tb_r.permissions_ AS permissions,\n                            FROM \n                            tb_account_role_rel AS tb_arr\n                            JOIN tb_role AS tb_r ON tb_arr.role_id_=tb_r.id_\n                            WHERE \n                            tb_arr.account_id_=1\n                            ORDER BY tb_r.order_field_ ASC' }

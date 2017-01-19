@@ -3,10 +3,10 @@ const {
     Sequelize
 } = require('../holder/SequelizeHolder');
 const systemModels = ['DictionaryType', 'DictionaryItem', 'SystemVariable', 'ManagerAccount', 'WechatAccount'];
-const businessModels = ['Payment','PayAccount'];
+const businessModels = ['Payment', 'PayAccount'];
 
 const reSync = true;
-const reTables = ['../business/model/Payment.js'];
+const reTables = ['../system/model/AccountRoleRel.js'];
 
 
 if (reSync) {

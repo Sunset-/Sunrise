@@ -56,6 +56,8 @@ schedule.startTask('PaymentClearTask', businessConfig.orderClearCron || '0 0 * *
     PaymentService.clearOrders();
 });
 
+const testCache = {};
+
 module.exports = {
     prefix: '/business/payment',
     routes: Object.assign(BaseRouter, {
@@ -100,12 +102,74 @@ module.exports = {
                             delete InfoCache[biz_content.cacheId];
                         }, (businessConfig.payTime || 600) * 1000);
                     }
+                    //TEST
+                    testCache[params.plateNumber] = biz_content;
                     ctx.body = biz_content;
                 } catch (e) {
                     ctx.throw('接口返回异常');
                 }
             } else {
                 ctx.throw('请输入车牌号');
+            }
+        },
+        'POST/request/test/pay': async function (ctx) {
+            let params = ctx.request.body;
+            if (params.plateNumber) {
+                //TEST
+                let originInfo = testCache[params.plateNumber];
+                let now = moment().format('YYYY-MM-DD HH:mm:ss');
+                let res = await request({
+                    url: businessConfig.requestPlateNumberUrl,
+                    method: 'POST',
+                    body: JSON.stringify({
+                        "command": "PAYMENT",
+                        "message_id": "0000010",
+                        "device_id": "7427EA1D1AE17427EA1D1AE17427EA1D",
+                        "sign_type": "MD5",
+                        "sign": "f3AKCWksumTLzW5Pm38xiP9llqwHptZl9QJQxcm7zRvcXA4g",
+                        "charset": "UTF-8",
+                        "timestamp": "20150410144239",
+                        "biz_content": {
+                            "record_number": originInfo.record_number,
+                            "car_license_number": originInfo.car_license_number,
+                            "car_card_number": originInfo.car_card_number + '1',
+                            "enter_time": originInfo.enter_time,
+                            "stopping_time": originInfo.stopping_time,
+                            "total_amount": originInfo.total_amount,
+                            "discount_validate_value": "",
+                            "discount_no": "",
+                            "discount_name": "",
+                            "discount_origin_type": "0",
+                            "amount_receivable": originInfo.current_receivable,
+                            "discount_amount": "",
+                            "actual_receivable": originInfo.current_receivable,
+                            "payment_mode": "4", //微信支付
+                            "pay_origin": "7", //微信服务号支付
+                            "pay_status": "0", //未支付
+                            "last_pay_time": now,
+                            "operator": businessConfig.operator,
+                            "operate_time": now
+                        }
+                    })
+                });
+                try {
+                    res = JSON.parse(res);
+                    if (res && res.biz_content) {
+                        if (res.biz_content.code == '0') {
+                            await this.getModel().update({
+                                status: ORDERS_STATUS.NOTIFYED,
+                                notifyTime: now
+                            }, {
+                                fields: ['status', 'notifyTime'],
+                                where: {
+                                    id: payment.id
+                                }
+                            });
+                        }
+                    }
+                } catch (e) {
+
+                }
             }
         },
         'POST/request/pay': async function (ctx) {

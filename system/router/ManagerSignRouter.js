@@ -1,4 +1,5 @@
 const ManagerAccountService = require('../service/ManagerAccountService');
+const PermissionService = require('../service/PermissionService');
 const sign = require('../../common/sign');
 const {
     MANAGER_SIGN_SALT
@@ -21,7 +22,8 @@ module.exports = {
                 if (accountModel) {
                     let json = accountModel.toJSON();
                     delete json.password;
-                    json.IS_MANAGER = true;
+                    //权限
+                    json.permissions = await PermissionService.authPermissions(json.id);
                     ctx.body = ctx.session.currentUser = json;
                 } else {
                     ctx.throw('用户名密码错误');

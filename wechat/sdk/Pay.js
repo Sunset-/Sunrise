@@ -9,8 +9,9 @@ const request = require("request"),
 function getXMLNodeValue(node_name, xml) {
     try {
         var tmp = xml.split("<" + node_name + ">");
-        var _tmp = tmp[1].split("</" + node_name + ">");
-        return _tmp[0];
+        if (tmp[1]) {
+            return tmp[1].split("</" + node_name + ">")[0];
+        }
     } catch (e) {
         return null;
     }
@@ -31,7 +32,7 @@ function getPrepayId(appId, paySecret, openId, orderNo, params) {
         trade_type: 'JSAPI'
     };
 
-    return new Promise((resolve) => {
+    return new Promise((resolve, reject) => {
         var formData = "<xml>";
         formData += "<appid>" + signParams.appid + "</appid>"; //appid
         formData += "<attach>" + signParams.attach + "</attach>"; //附加数据
@@ -55,9 +56,13 @@ function getPrepayId(appId, paySecret, openId, orderNo, params) {
                 try {
                     logger.info(body.toString("utf-8"));
                     var prepay_id = getXMLNodeValue('prepay_id', body.toString("utf-8"));
-                    var tmp = prepay_id.split('[');
-                    prepay_id = tmp[2].split(']')[0];
-                    resolve(prepay_id);
+                    if (prepay_id) {
+                        var tmp = prepay_id.split('[');
+                        prepay_id = tmp[2].split(']')[0];
+                        resolve(prepay_id);
+                    } else {
+                        reject(prepay_id);
+                    }
                 } catch (e) {
                     reject(e);
                 }

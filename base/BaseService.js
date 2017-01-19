@@ -7,7 +7,9 @@ const {
 module.exports = class BaseService extends EventEmitter {
     constructor(modelName) {
         super();
-        this.Model = sequelize.model(modelName)
+        if (modelName) {
+            this.Model = sequelize.model(modelName)
+        }
     }
     getConnection() {
         return sequelize;
