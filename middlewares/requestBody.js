@@ -6,6 +6,9 @@ const logger = require('../components/logger');
 module.exports = app => {
     app.use(koaBody({
         multipart: true,
+        jsonLimit: '5mb',
+        formLimit: '1mb',
+        textLimit: '1mb',
         formidable: {
             uploadDir: uploadConfig.uploadDir,
             onFileBegin(name, file) {

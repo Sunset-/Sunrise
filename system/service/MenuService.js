@@ -7,7 +7,7 @@ class MenuService extends BaseService {
         super(MODEL);
         this.on('afterChange', () => {
             MemoryCache.refresh('MENU_USE_ALL');
-        })
+        });
         MemoryCache.regist('MENU_USE_ALL', () => {
             return this.getModel().findAll({
                 order: 'orderField ASC'
@@ -28,11 +28,21 @@ class MenuService extends BaseService {
         return this.validate(model).then(async instance => {
             let res = await instance.save();
             this.emit('afterAdd', res);
-            this.emit('afterChange');
+            MemoryCache.refresh('MENU_USE_ALL');
             return instance.toJSON();
         }).catch(e => {
             throw new Error(e.message);
         });
+    }
+    async update(model, primaryKey) {
+        primaryKey = primaryKey || 'id';
+        let filter = {};
+        filter[primaryKey] = model[primaryKey];
+        let res = await this.getModel().update(model, {
+            where: filter
+        });
+        MemoryCache.refresh('MENU_USE_ALL');
+        return res;
     }
     async order(changes) {
         return this.transaction(async t => {

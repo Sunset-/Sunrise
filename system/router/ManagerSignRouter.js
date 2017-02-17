@@ -1,5 +1,6 @@
 const ManagerAccountService = require('../service/ManagerAccountService');
 const PermissionService = require('../service/PermissionService');
+const RESPONSE_STATUS = require('../../enum/responseCode');
 const sign = require('../../common/sign');
 const {
     MANAGER_SIGN_SALT
@@ -32,7 +33,11 @@ module.exports = {
         },
         '/currentUser': {
             middleware: async function (ctx, next) {
-                ctx.body = ctx.session.currentUser;
+                if (ctx.session.currentUser) {
+                    ctx.body = ctx.session.currentUser;
+                } else {
+                    ctx.throw('用户未登录',RESPONSE_STATUS.UNAUTHORIZED);
+                }
             }
         },
         '/logout': {

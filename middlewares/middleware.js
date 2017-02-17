@@ -1,4 +1,4 @@
-const mws = ['./static','./memorySession','./logger','./responseWrapper','./LoginedChecker','./wechatXml','./requestBody'];
+const mws = ['./static','./memorySession','./logger','./responseWrapper','./LoginedChecker','./wechatXml','./requestBody','./proxy'];
 //'./redisSession','
 
 module.exports = (app) => {
