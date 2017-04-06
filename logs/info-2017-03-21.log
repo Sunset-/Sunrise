@@ -1,0 +1,96 @@
+[2017-03-21 12:21:52.021] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-03-21 12:21:52.078] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-03-21 12:21:52.097] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-03-21 12:23:46.708] [INFO] info - /manage/account
+[2017-03-21 12:23:46.709] [INFO] info - undefined
+[2017-03-21 12:23:46.796] [INFO] info - REQUEST=======> 2017-3-21 12:23:46 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:88ms
+[2017-03-21 12:23:46.819] [INFO] info - /manage/account
+[2017-03-21 12:23:46.819] [INFO] info - undefined
+[2017-03-21 12:23:46.825] [INFO] info - REQUEST=======> 2017-3-21 12:23:46 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-03-21 12:23:49.144] [INFO] info - /manage/account
+[2017-03-21 12:23:49.144] [INFO] info - undefined
+[2017-03-21 12:23:49.149] [INFO] info - REQUEST=======> 2017-3-21 12:23:49 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-03-21 12:23:49.165] [INFO] info - /manage/account
+[2017-03-21 12:23:49.165] [INFO] info - undefined
+[2017-03-21 12:23:49.171] [INFO] info - REQUEST=======> 2017-3-21 12:23:49 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-03-21 12:25:15.262] [INFO] info - /manage/account
+[2017-03-21 12:25:15.262] [INFO] info - undefined
+[2017-03-21 12:25:15.269] [INFO] info - REQUEST=======> 2017-3-21 12:25:15 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:7ms
+[2017-03-21 12:25:16.197] [INFO] info - /manage/account
+[2017-03-21 12:25:16.198] [INFO] info - undefined
+[2017-03-21 12:25:16.204] [INFO] info - REQUEST=======> 2017-3-21 12:25:16 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:7ms
+[2017-03-21 12:25:19.120] [INFO] info - /manage/account
+[2017-03-21 12:25:19.120] [INFO] info - undefined
+[2017-03-21 12:25:19.125] [INFO] info - REQUEST=======> 2017-3-21 12:25:19 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-03-21 12:25:23.518] [INFO] info - /manage/account
+[2017-03-21 12:25:23.518] [INFO] info - undefined
+[2017-03-21 12:25:23.523] [INFO] info - REQUEST=======> 2017-3-21 12:25:23 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-03-21 12:26:15.312] [INFO] info - /manage/account
+[2017-03-21 12:26:15.312] [INFO] info - undefined
+[2017-03-21 12:26:15.316] [INFO] info - REQUEST=======> 2017-3-21 12:26:15 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-03-21 12:27:13.873] [INFO] info - /manage/account
+[2017-03-21 12:27:13.874] [INFO] info - undefined
+[2017-03-21 12:27:13.883] [INFO] info - REQUEST=======> 2017-3-21 12:27:13 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:10ms
+[2017-03-21 12:28:54.899] [INFO] info - /manage/account
+[2017-03-21 12:28:54.899] [INFO] info - undefined
+[2017-03-21 12:28:54.908] [INFO] info - REQUEST=======> 2017-3-21 12:28:54 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:9ms
+[2017-03-21 12:28:54.915] [INFO] info - /manage/account
+[2017-03-21 12:28:54.915] [INFO] info - undefined
+[2017-03-21 12:28:54.917] [INFO] info - REQUEST=======> 2017-3-21 12:28:54 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:2ms
+[2017-03-21 12:30:53.759] [INFO] info - /manage/account
+[2017-03-21 12:30:53.759] [INFO] info - undefined
+[2017-03-21 12:30:53.764] [INFO] info - REQUEST=======> 2017-3-21 12:30:53 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-03-21 12:30:54.071] [INFO] info - /manage/account
+[2017-03-21 12:30:54.071] [INFO] info - undefined
+[2017-03-21 12:30:54.076] [INFO] info - REQUEST=======> 2017-3-21 12:30:54 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-03-21 13:25:39.519] [INFO] info - /manage/account
+[2017-03-21 13:25:39.519] [INFO] info - undefined
+[2017-03-21 13:25:39.523] [INFO] info - REQUEST=======> 2017-3-21 13:25:39 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-03-21 13:25:39.765] [INFO] info - /manage/account
+[2017-03-21 13:25:39.766] [INFO] info - undefined
+[2017-03-21 13:25:39.769] [INFO] info - REQUEST=======> 2017-3-21 13:25:39 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-03-21 15:11:10.166] [INFO] info - /system/file/upload
+[2017-03-21 15:11:10.166] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundaryI7Ncqv5vGmh28ESG
+[2017-03-21 15:11:10.181] [INFO] info - REQUEST=======> 2017-3-21 15:11:10 [POST] /system/file/upload，耗时:15ms
+[2017-03-21 15:12:18.685] [INFO] info - /system/file/upload
+[2017-03-21 15:12:18.685] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundaryQCkTfF4AO5cmSXYU
+[2017-03-21 15:12:18.685] [INFO] info - REQUEST=======> 2017-3-21 15:12:18 [POST] /system/file/upload，耗时:0ms
+[2017-03-21 15:12:41.079] [INFO] info - /system/file/upload
+[2017-03-21 15:12:41.080] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundarykaqhkUSwHH6LldiK
+[2017-03-21 15:12:41.087] [INFO] info - REQUEST=======> 2017-3-21 15:12:41 [POST] /system/file/upload，耗时:8ms
+[2017-03-21 15:14:32.046] [INFO] info - /system/file/upload
+[2017-03-21 15:14:32.046] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundary5q0Je2g2p34AB7jY
+[2017-03-21 15:14:32.046] [INFO] info - REQUEST=======> 2017-3-21 15:14:32 [POST] /system/file/upload，耗时:0ms
+[2017-03-21 15:18:20.885] [INFO] info - /system/file/upload
+[2017-03-21 15:18:20.885] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundaryw9bshOMggyxh0reF
+[2017-03-21 15:18:20.918] [INFO] info - REQUEST=======> 2017-3-21 15:18:20 [POST] /system/file/upload，耗时:33ms
+[2017-03-21 15:19:45.791] [INFO] info - /system/file/upload
+[2017-03-21 15:19:45.791] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundary7TSWMwnfXOFA4DP5
+[2017-03-21 15:19:45.794] [INFO] info - REQUEST=======> 2017-3-21 15:19:45 [POST] /system/file/upload，耗时:3ms
+[2017-03-21 15:26:37.895] [INFO] info - /system/file/upload
+[2017-03-21 15:26:37.896] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundaryU4oCwqITNAIHBX5U
+[2017-03-21 15:26:37.900] [INFO] info - REQUEST=======> 2017-3-21 15:26:37 [POST] /system/file/upload，耗时:5ms
+[2017-03-21 15:27:06.391] [INFO] info - /system/file/upload
+[2017-03-21 15:27:06.391] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundaryBXNdczYY2DwXYN62
+[2017-03-21 15:27:06.394] [INFO] info - REQUEST=======> 2017-3-21 15:27:06 [POST] /system/file/upload，耗时:3ms
+[2017-03-21 15:28:14.944] [INFO] info - /system/file/upload
+[2017-03-21 15:28:14.944] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundary3QfPxNJLWNP4qelZ
+[2017-03-21 15:28:14.948] [INFO] info - REQUEST=======> 2017-3-21 15:28:14 [POST] /system/file/upload，耗时:4ms
+[2017-03-21 15:28:17.320] [INFO] info - /system/file/upload
+[2017-03-21 15:28:17.320] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundaryLsj9kPxo6bCHrtRb
+[2017-03-21 15:28:17.320] [INFO] info - REQUEST=======> 2017-3-21 15:28:17 [POST] /system/file/upload，耗时:0ms
+[2017-03-21 15:28:46.389] [INFO] info - /system/file/upload
+[2017-03-21 15:28:46.389] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundaryobmqReWWfAKclF6D
+[2017-03-21 15:28:46.393] [INFO] info - REQUEST=======> 2017-3-21 15:28:46 [POST] /system/file/upload，耗时:4ms
+[2017-03-21 15:31:08.091] [INFO] info - /system/file/upload
+[2017-03-21 15:31:08.091] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundaryALt7cUrWnIwmQXOJ
+[2017-03-21 15:31:08.091] [INFO] info - REQUEST=======> 2017-3-21 15:31:08 [POST] /system/file/upload，耗时:0ms
+[2017-03-21 15:34:26.525] [INFO] info - /system/file/upload
+[2017-03-21 15:34:26.525] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundarylTk5MjlRuZNbWiKO
+[2017-03-21 15:34:26.525] [INFO] info - REQUEST=======> 2017-3-21 15:34:26 [POST] /system/file/upload，耗时:0ms
+[2017-03-21 15:34:55.782] [INFO] info - /system/file/upload
+[2017-03-21 15:34:55.782] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundaryX1Kbc7KjZHzoeJyX
+[2017-03-21 15:34:55.787] [INFO] info - REQUEST=======> 2017-3-21 15:34:55 [POST] /system/file/upload，耗时:5ms
+[2017-03-21 15:35:05.237] [INFO] info - /system/file/upload
+[2017-03-21 15:35:05.237] [INFO] info - multipart/form-data; boundary=----WebKitFormBoundaryS6DAaGNlB7j1XgbQ
+[2017-03-21 15:35:05.241] [INFO] info - REQUEST=======> 2017-3-21 15:35:05 [POST] /system/file/upload，耗时:3ms

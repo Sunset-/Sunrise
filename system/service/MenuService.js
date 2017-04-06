@@ -44,6 +44,19 @@ class MenuService extends BaseService {
         MemoryCache.refresh('MENU_USE_ALL');
         return res;
     }
+    async removeById(id, colName) {
+        let filter = {};
+        let res = await this.getModel().destroy({
+            where: {
+                $or: {
+                    id: id,
+                    parentId: id
+                }
+            }
+        });
+        this.emit('afterChange');
+        return res;
+    }
     async order(changes) {
         return this.transaction(async t => {
             changes = changes && changes.split(',');

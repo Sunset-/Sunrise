@@ -1,0 +1,36 @@
+[2017-03-24 15:22:50.461] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-03-24 15:22:50.462] [ERROR] error - UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage2-manage-server\system\router\ManagerSignRouter.js:39:30)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:326:16
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:331:31)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+[2017-03-24 15:23:00.228] [ERROR] error - { code: 500, message: '用户名密码错误' }
+[2017-03-24 15:23:00.229] [ERROR] error - InternalServerError: 用户名密码错误
+    at Object.throw (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage2-manage-server\system\router\ManagerSignRouter.js:30:30)
+[2017-03-24 15:58:55.553] [ERROR] error - { code: 500, message: '用户名密码错误' }
+[2017-03-24 15:58:55.553] [ERROR] error - InternalServerError: 用户名密码错误
+    at Object.throw (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage2-manage-server\system\router\ManagerSignRouter.js:30:30)
+[2017-03-24 16:07:49.117] [ERROR] error - { code: 500, message: '用户名密码错误' }
+[2017-03-24 16:07:49.118] [ERROR] error - InternalServerError: 用户名密码错误
+    at Object.throw (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage2-manage-server\system\router\ManagerSignRouter.js:30:30)

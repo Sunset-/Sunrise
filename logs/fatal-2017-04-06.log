@@ -1,0 +1,62 @@
+[2017-04-06 14:30:30.252] [FATAL] fatal - Redis connect error!
+[2017-04-06 14:30:30.252] [FATAL] fatal - { Error: Redis connection to 192.168.0.148:6370 failed - connect ECONNREFUSED 192.168.0.148:6370
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.0.148',
+  port: 6370 }
+[2017-04-06 14:30:36.919] [FATAL] fatal - Redis connect error!
+[2017-04-06 14:30:36.919] [FATAL] fatal - { Error: Redis connection to 192.168.0.148:6370 failed - connect ECONNREFUSED 192.168.0.148:6370
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.0.148',
+  port: 6370 }
+[2017-04-06 14:30:50.039] [FATAL] fatal - Redis connect error!
+[2017-04-06 14:30:50.040] [FATAL] fatal - { Error: Redis connection to 192.168.0.148:6370 failed - connect ECONNREFUSED 192.168.0.148:6370
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.0.148',
+  port: 6370 }
+[2017-04-06 14:30:55.531] [FATAL] fatal - Redis connect error!
+[2017-04-06 15:13:46.957] [FATAL] fatal - Redis connect error!
+[2017-04-06 15:13:46.957] [FATAL] fatal - { Error: Redis connection to 192.168.0.148:6370 failed - connect ECONNREFUSED 192.168.0.148:6370
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.0.148',
+  port: 6370 }
+[2017-04-06 15:13:52.354] [FATAL] fatal - Redis connect error!
+[2017-04-06 15:13:52.355] [FATAL] fatal - { Error: Redis connection to 192.168.0.148:6370 failed - connect ECONNREFUSED 192.168.0.148:6370
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.0.148',
+  port: 6370 }
+[2017-04-06 15:13:58.532] [FATAL] fatal - Redis connect error!
+[2017-04-06 15:13:58.532] [FATAL] fatal - { Error: Redis connection to 192.168.0.148:6370 failed - connect ECONNREFUSED 192.168.0.148:6370
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.0.148',
+  port: 6370 }
+[2017-04-06 15:14:06.386] [FATAL] fatal - Redis connect error!

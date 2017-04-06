@@ -1,0 +1,513 @@
+[2017-02-17 15:31:50.770] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-02-17 15:31:50.815] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-02-17 15:31:50.833] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-02-17 15:32:36.433] [INFO] info - /system/dictionaryItem/use/all
+[2017-02-17 15:32:36.433] [INFO] info - undefined
+[2017-02-17 15:32:36.441] [INFO] info - REQUEST=======> 2017-2-17 15:32:36 [GET] /system/dictionaryItem/use/all，耗时:8ms
+[2017-02-17 15:32:36.469] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:32:36.470] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:32:36.623] [INFO] info - REQUEST=======> 2017-2-17 15:32:36 [POST] /proxy/hospital/find_hospital，耗时:154ms
+[2017-02-17 15:32:36.663] [INFO] info - /system/menu/use/all
+[2017-02-17 15:32:36.663] [INFO] info - undefined
+[2017-02-17 15:32:36.664] [INFO] info - REQUEST=======> 2017-2-17 15:32:36 [GET] /system/menu/use/all，耗时:1ms
+[2017-02-17 15:32:36.691] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:32:36.691] [INFO] info - undefined
+[2017-02-17 15:32:36.697] [INFO] info - REQUEST=======> 2017-2-17 15:32:36 [GET] /manage/sign/currentUser，耗时:6ms
+[2017-02-17 15:32:40.893] [INFO] info - /manage/sign/login
+[2017-02-17 15:32:40.895] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:32:40.963] [INFO] info - REQUEST=======> 2017-2-17 15:32:40 [POST] /manage/sign/login，耗时:70ms
+[2017-02-17 15:32:40.977] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:32:40.978] [INFO] info - undefined
+[2017-02-17 15:32:40.978] [INFO] info - REQUEST=======> 2017-2-17 15:32:40 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-02-17 15:32:43.539] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:32:43.539] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:32:43.544] [INFO] info - /proxy/doctor
+[2017-02-17 15:32:43.544] [INFO] info - undefined
+[2017-02-17 15:32:43.553] [INFO] info - REQUEST=======> 2017-2-17 15:32:43 [GET] /proxy/doctor?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:9ms
+[2017-02-17 15:32:43.555] [INFO] info - REQUEST=======> 2017-2-17 15:32:43 [POST] /proxy/hospital/find_hospital，耗时:16ms
+[2017-02-17 15:33:00.349] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:33:00.350] [INFO] info - undefined
+[2017-02-17 15:33:00.367] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:33:00.367] [INFO] info - undefined
+[2017-02-17 15:33:00.368] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:33:00.368] [INFO] info - undefined
+[2017-02-17 15:33:00.376] [INFO] info - REQUEST=======> 2017-2-17 15:33:00 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:9ms
+[2017-02-17 15:33:00.380] [INFO] info - REQUEST=======> 2017-2-17 15:33:00 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:12ms
+[2017-02-17 15:33:00.655] [INFO] info - REQUEST=======> 2017-2-17 15:33:00 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:306ms
+[2017-02-17 15:33:09.393] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:33:09.393] [INFO] info - undefined
+[2017-02-17 15:33:09.665] [INFO] info - REQUEST=======> 2017-2-17 15:33:09 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:272ms
+[2017-02-17 15:33:09.667] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:33:09.668] [INFO] info - undefined
+[2017-02-17 15:33:09.672] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:33:09.672] [INFO] info - undefined
+[2017-02-17 15:33:09.682] [INFO] info - REQUEST=======> 2017-2-17 15:33:09 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:15ms
+[2017-02-17 15:33:09.684] [INFO] info - REQUEST=======> 2017-2-17 15:33:09 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:12ms
+[2017-02-17 15:33:58.561] [INFO] info - /system/dictionaryItem/use/all
+[2017-02-17 15:33:58.561] [INFO] info - undefined
+[2017-02-17 15:33:58.562] [INFO] info - REQUEST=======> 2017-2-17 15:33:58 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-02-17 15:33:58.578] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:33:58.579] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:33:58.647] [INFO] info - REQUEST=======> 2017-2-17 15:33:58 [POST] /proxy/hospital/find_hospital，耗时:69ms
+[2017-02-17 15:33:58.680] [INFO] info - /system/menu/use/all
+[2017-02-17 15:33:58.681] [INFO] info - undefined
+[2017-02-17 15:33:58.681] [INFO] info - REQUEST=======> 2017-2-17 15:33:58 [GET] /system/menu/use/all，耗时:1ms
+[2017-02-17 15:33:58.726] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:33:58.726] [INFO] info - undefined
+[2017-02-17 15:33:58.727] [INFO] info - REQUEST=======> 2017-2-17 15:33:58 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-02-17 15:33:58.884] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:33:58.884] [INFO] info - undefined
+[2017-02-17 15:33:58.903] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:33:58.903] [INFO] info - undefined
+[2017-02-17 15:33:58.929] [INFO] info - REQUEST=======> 2017-2-17 15:33:58 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:26ms
+[2017-02-17 15:33:59.202] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:33:59.202] [INFO] info - undefined
+[2017-02-17 15:33:59.221] [INFO] info - REQUEST=======> 2017-2-17 15:33:59 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:19ms
+[2017-02-17 15:33:59.752] [INFO] info - REQUEST=======> 2017-2-17 15:33:58 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:868ms
+[2017-02-17 15:34:06.054] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:34:06.054] [INFO] info - undefined
+[2017-02-17 15:34:06.244] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:34:06.244] [INFO] info - undefined
+[2017-02-17 15:34:06.253] [INFO] info - REQUEST=======> 2017-2-17 15:34:06 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:9ms
+[2017-02-17 15:34:06.292] [INFO] info - REQUEST=======> 2017-2-17 15:34:06 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:238ms
+[2017-02-17 15:34:06.468] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:34:06.468] [INFO] info - undefined
+[2017-02-17 15:34:06.472] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:34:06.472] [INFO] info - undefined
+[2017-02-17 15:34:06.484] [INFO] info - REQUEST=======> 2017-2-17 15:34:06 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:16ms
+[2017-02-17 15:34:06.486] [INFO] info - REQUEST=======> 2017-2-17 15:34:06 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:14ms
+[2017-02-17 15:34:06.975] [INFO] info - /system/dictionaryItem/use/all
+[2017-02-17 15:34:06.976] [INFO] info - undefined
+[2017-02-17 15:34:06.977] [INFO] info - REQUEST=======> 2017-2-17 15:34:06 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-02-17 15:34:07.001] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:34:07.001] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:34:07.012] [INFO] info - REQUEST=======> 2017-2-17 15:34:07 [POST] /proxy/hospital/find_hospital，耗时:11ms
+[2017-02-17 15:34:07.047] [INFO] info - /system/menu/use/all
+[2017-02-17 15:34:07.047] [INFO] info - undefined
+[2017-02-17 15:34:07.047] [INFO] info - REQUEST=======> 2017-2-17 15:34:07 [GET] /system/menu/use/all，耗时:0ms
+[2017-02-17 15:34:07.069] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:34:07.069] [INFO] info - undefined
+[2017-02-17 15:34:07.070] [INFO] info - REQUEST=======> 2017-2-17 15:34:07 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-02-17 15:34:07.408] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:34:07.408] [INFO] info - undefined
+[2017-02-17 15:34:07.527] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:34:07.527] [INFO] info - undefined
+[2017-02-17 15:34:07.530] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:34:07.530] [INFO] info - undefined
+[2017-02-17 15:34:07.533] [INFO] info - REQUEST=======> 2017-2-17 15:34:07 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:6ms
+[2017-02-17 15:34:07.539] [INFO] info - REQUEST=======> 2017-2-17 15:34:07 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:9ms
+[2017-02-17 15:34:07.654] [INFO] info - REQUEST=======> 2017-2-17 15:34:07 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:246ms
+[2017-02-17 15:34:33.336] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:34:33.336] [INFO] info - undefined
+[2017-02-17 15:34:33.576] [INFO] info - REQUEST=======> 2017-2-17 15:34:33 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:240ms
+[2017-02-17 15:34:33.752] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:34:33.752] [INFO] info - undefined
+[2017-02-17 15:34:33.753] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:34:33.753] [INFO] info - undefined
+[2017-02-17 15:34:33.759] [INFO] info - REQUEST=======> 2017-2-17 15:34:33 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:7ms
+[2017-02-17 15:34:33.762] [INFO] info - REQUEST=======> 2017-2-17 15:34:33 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:9ms
+[2017-02-17 15:34:34.067] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:34:34.067] [INFO] info - undefined
+[2017-02-17 15:34:34.069] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:34:34.069] [INFO] info - undefined
+[2017-02-17 15:34:34.072] [INFO] info - REQUEST=======> 2017-2-17 15:34:34 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:5ms
+[2017-02-17 15:34:34.078] [INFO] info - REQUEST=======> 2017-2-17 15:34:34 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:9ms
+[2017-02-17 15:42:19.053] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:42:19.054] [INFO] info - undefined
+[2017-02-17 15:42:19.058] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:42:19.058] [INFO] info - undefined
+[2017-02-17 15:42:19.062] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:42:19.062] [INFO] info - undefined
+[2017-02-17 15:42:19.066] [INFO] info - REQUEST=======> 2017-2-17 15:42:19 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:8ms
+[2017-02-17 15:42:19.075] [INFO] info - REQUEST=======> 2017-2-17 15:42:19 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:13ms
+[2017-02-17 15:42:19.285] [INFO] info - REQUEST=======> 2017-2-17 15:42:19 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:232ms
+[2017-02-17 15:42:21.244] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:42:21.244] [INFO] info - undefined
+[2017-02-17 15:42:21.453] [INFO] info - REQUEST=======> 2017-2-17 15:42:21 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:209ms
+[2017-02-17 15:42:21.558] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:42:21.558] [INFO] info - undefined
+[2017-02-17 15:42:21.561] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:42:21.561] [INFO] info - undefined
+[2017-02-17 15:42:21.578] [INFO] info - REQUEST=======> 2017-2-17 15:42:21 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:20ms
+[2017-02-17 15:42:21.580] [INFO] info - REQUEST=======> 2017-2-17 15:42:21 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:19ms
+[2017-02-17 15:42:22.547] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:42:22.547] [INFO] info - undefined
+[2017-02-17 15:42:22.549] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:42:22.549] [INFO] info - undefined
+[2017-02-17 15:42:22.550] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:42:22.551] [INFO] info - undefined
+[2017-02-17 15:42:22.556] [INFO] info - REQUEST=======> 2017-2-17 15:42:22 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:7ms
+[2017-02-17 15:42:22.559] [INFO] info - REQUEST=======> 2017-2-17 15:42:22 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:9ms
+[2017-02-17 15:42:22.764] [INFO] info - REQUEST=======> 2017-2-17 15:42:22 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:216ms
+[2017-02-17 15:42:22.786] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:42:22.786] [INFO] info - undefined
+[2017-02-17 15:42:22.792] [INFO] info - REQUEST=======> 2017-2-17 15:42:22 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:6ms
+[2017-02-17 15:42:22.974] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:42:22.974] [INFO] info - undefined
+[2017-02-17 15:42:22.974] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:42:22.974] [INFO] info - undefined
+[2017-02-17 15:42:22.983] [INFO] info - REQUEST=======> 2017-2-17 15:42:22 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:9ms
+[2017-02-17 15:42:23.175] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:42:23.175] [INFO] info - undefined
+[2017-02-17 15:42:23.182] [INFO] info - REQUEST=======> 2017-2-17 15:42:23 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:7ms
+[2017-02-17 15:42:23.211] [INFO] info - REQUEST=======> 2017-2-17 15:42:22 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:237ms
+[2017-02-17 15:42:23.477] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:42:23.477] [INFO] info - undefined
+[2017-02-17 15:42:23.489] [INFO] info - REQUEST=======> 2017-2-17 15:42:23 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:12ms
+[2017-02-17 15:42:23.518] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:42:23.518] [INFO] info - undefined
+[2017-02-17 15:42:23.736] [INFO] info - REQUEST=======> 2017-2-17 15:42:23 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:218ms
+[2017-02-17 15:42:23.823] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:42:23.823] [INFO] info - undefined
+[2017-02-17 15:42:23.824] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:42:23.824] [INFO] info - undefined
+[2017-02-17 15:42:23.828] [INFO] info - REQUEST=======> 2017-2-17 15:42:23 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:5ms
+[2017-02-17 15:42:23.832] [INFO] info - REQUEST=======> 2017-2-17 15:42:23 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:8ms
+[2017-02-17 15:42:24.050] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:42:24.051] [INFO] info - undefined
+[2017-02-17 15:42:24.300] [INFO] info - REQUEST=======> 2017-2-17 15:42:24 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:250ms
+[2017-02-17 15:42:24.594] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:42:24.594] [INFO] info - undefined
+[2017-02-17 15:42:24.595] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:42:24.595] [INFO] info - undefined
+[2017-02-17 15:42:24.601] [INFO] info - REQUEST=======> 2017-2-17 15:42:24 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:7ms
+[2017-02-17 15:42:24.604] [INFO] info - REQUEST=======> 2017-2-17 15:42:24 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:9ms
+[2017-02-17 15:42:24.606] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:42:24.606] [INFO] info - undefined
+[2017-02-17 15:42:24.796] [INFO] info - REQUEST=======> 2017-2-17 15:42:24 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:190ms
+[2017-02-17 15:42:31.711] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:42:31.711] [INFO] info - undefined
+[2017-02-17 15:42:31.723] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:42:31.724] [INFO] info - undefined
+[2017-02-17 15:42:31.725] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:42:31.726] [INFO] info - undefined
+[2017-02-17 15:42:31.732] [INFO] info - REQUEST=======> 2017-2-17 15:42:31 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:9ms
+[2017-02-17 15:42:31.736] [INFO] info - REQUEST=======> 2017-2-17 15:42:31 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:11ms
+[2017-02-17 15:42:31.920] [INFO] info - REQUEST=======> 2017-2-17 15:42:31 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:209ms
+[2017-02-17 15:42:48.574] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:42:48.574] [INFO] info - undefined
+[2017-02-17 15:42:48.578] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:42:48.579] [INFO] info - undefined
+[2017-02-17 15:42:48.581] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:42:48.581] [INFO] info - undefined
+[2017-02-17 15:42:48.586] [INFO] info - REQUEST=======> 2017-2-17 15:42:48 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:8ms
+[2017-02-17 15:42:48.590] [INFO] info - REQUEST=======> 2017-2-17 15:42:48 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:9ms
+[2017-02-17 15:42:48.776] [INFO] info - REQUEST=======> 2017-2-17 15:42:48 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:202ms
+[2017-02-17 15:42:48.857] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:42:48.857] [INFO] info - undefined
+[2017-02-17 15:42:49.047] [INFO] info - REQUEST=======> 2017-2-17 15:42:48 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:190ms
+[2017-02-17 15:42:49.167] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:42:49.167] [INFO] info - undefined
+[2017-02-17 15:42:49.169] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:42:49.169] [INFO] info - undefined
+[2017-02-17 15:42:49.175] [INFO] info - REQUEST=======> 2017-2-17 15:42:49 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:8ms
+[2017-02-17 15:42:49.178] [INFO] info - REQUEST=======> 2017-2-17 15:42:49 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:9ms
+[2017-02-17 15:42:49.951] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:42:49.951] [INFO] info - undefined
+[2017-02-17 15:42:49.952] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:42:49.952] [INFO] info - undefined
+[2017-02-17 15:42:49.953] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:42:49.953] [INFO] info - undefined
+[2017-02-17 15:42:49.959] [INFO] info - REQUEST=======> 2017-2-17 15:42:49 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:7ms
+[2017-02-17 15:42:49.965] [INFO] info - REQUEST=======> 2017-2-17 15:42:49 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:12ms
+[2017-02-17 15:42:50.151] [INFO] info - REQUEST=======> 2017-2-17 15:42:49 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:200ms
+[2017-02-17 15:43:01.790] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:43:01.790] [INFO] info - undefined
+[2017-02-17 15:43:01.799] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:43:01.799] [INFO] info - undefined
+[2017-02-17 15:43:01.800] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:43:01.800] [INFO] info - undefined
+[2017-02-17 15:43:01.805] [INFO] info - REQUEST=======> 2017-2-17 15:43:01 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:6ms
+[2017-02-17 15:43:01.808] [INFO] info - REQUEST=======> 2017-2-17 15:43:01 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:8ms
+[2017-02-17 15:43:01.978] [INFO] info - REQUEST=======> 2017-2-17 15:43:01 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:188ms
+[2017-02-17 15:43:03.084] [INFO] info - /proxy/discoveries/list
+[2017-02-17 15:43:03.084] [INFO] info - undefined
+[2017-02-17 15:43:03.097] [INFO] info - REQUEST=======> 2017-2-17 15:43:03 [GET] /proxy/discoveries/list?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:13ms
+[2017-02-17 15:43:03.393] [INFO] info - /proxy/doctor
+[2017-02-17 15:43:03.393] [INFO] info - undefined
+[2017-02-17 15:43:03.400] [INFO] info - REQUEST=======> 2017-2-17 15:43:03 [GET] /proxy/doctor?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A8%7D，耗时:7ms
+[2017-02-17 15:43:03.401] [INFO] info - /resource/plugin/ueditor
+[2017-02-17 15:43:03.401] [INFO] info - undefined
+[2017-02-17 15:43:03.404] [INFO] info - REQUEST=======> 2017-2-17 15:43:03 [GET] /resource/plugin/ueditor?action=config&&noCache=1487317383132，耗时:3ms
+[2017-02-17 15:43:03.445] [INFO] info - /resource/plugin/ueditor
+[2017-02-17 15:43:03.445] [INFO] info - undefined
+[2017-02-17 15:43:03.446] [INFO] info - REQUEST=======> 2017-2-17 15:43:03 [GET] /resource/plugin/ueditor?action=config&&noCache=1487317383132，耗时:1ms
+[2017-02-17 15:43:04.565] [INFO] info - /proxy/workSearch/list
+[2017-02-17 15:43:04.565] [INFO] info - undefined
+[2017-02-17 15:43:04.573] [INFO] info - /proxy/relation/customers
+[2017-02-17 15:43:04.573] [INFO] info - undefined
+[2017-02-17 15:43:04.575] [INFO] info - /proxy/relation/teams
+[2017-02-17 15:43:04.575] [INFO] info - undefined
+[2017-02-17 15:43:04.580] [INFO] info - REQUEST=======> 2017-2-17 15:43:04 [GET] /proxy/relation/customers?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:7ms
+[2017-02-17 15:43:04.593] [INFO] info - REQUEST=======> 2017-2-17 15:43:04 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:18ms
+[2017-02-17 15:43:04.770] [INFO] info - REQUEST=======> 2017-2-17 15:43:04 [GET] /proxy/workSearch/list?applyAccId=&customerId=&deviceType=&expertId=&patientName=&reportStatus=&select=%7B%22like%22%3A%22%22%2C%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22order%22%3A%22createTime%20Desc%22%2C%22between%22%3A%7B%22col%22%3A%22createTime%22%2C%22range%22%3A%5B1485878400000%2C1487174399999%5D%7D%2C%22condition%22%3A%7B%22delFlag%22%3A%22false%22%7D%7D&taskProperty=&taskStatus=1%2C2%2C3%2C4&teamId=&tellWRstatus=，耗时:205ms
+[2017-02-17 15:43:14.879] [INFO] info - /manage/account
+[2017-02-17 15:43:14.879] [INFO] info - undefined
+[2017-02-17 15:43:14.885] [INFO] info - REQUEST=======> 2017-2-17 15:43:14 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-02-17 15:43:15.121] [INFO] info - /manage/account
+[2017-02-17 15:43:15.121] [INFO] info - undefined
+[2017-02-17 15:43:15.129] [INFO] info - REQUEST=======> 2017-2-17 15:43:15 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-02-17 15:43:18.266] [INFO] info - /manage/account
+[2017-02-17 15:43:18.266] [INFO] info - undefined
+[2017-02-17 15:43:18.272] [INFO] info - REQUEST=======> 2017-2-17 15:43:18 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-02-17 15:43:19.817] [INFO] info - /proxy/discoveries/list
+[2017-02-17 15:43:19.818] [INFO] info - undefined
+[2017-02-17 15:43:19.818] [INFO] info - /proxy/doctor
+[2017-02-17 15:43:19.819] [INFO] info - undefined
+[2017-02-17 15:43:19.826] [INFO] info - REQUEST=======> 2017-2-17 15:43:19 [GET] /proxy/doctor?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A8%7D，耗时:8ms
+[2017-02-17 15:43:19.831] [INFO] info - REQUEST=======> 2017-2-17 15:43:19 [GET] /proxy/discoveries/list?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:14ms
+[2017-02-17 15:43:19.865] [INFO] info - /resource/plugin/ueditor
+[2017-02-17 15:43:19.865] [INFO] info - undefined
+[2017-02-17 15:43:19.867] [INFO] info - REQUEST=======> 2017-2-17 15:43:19 [GET] /resource/plugin/ueditor?action=config&&noCache=1487317399628，耗时:2ms
+[2017-02-17 15:43:19.933] [INFO] info - /resource/plugin/ueditor
+[2017-02-17 15:43:19.933] [INFO] info - undefined
+[2017-02-17 15:43:19.934] [INFO] info - REQUEST=======> 2017-2-17 15:43:19 [GET] /resource/plugin/ueditor?action=config&&noCache=1487317399629，耗时:1ms
+[2017-02-17 15:43:21.741] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:43:21.741] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:43:21.753] [INFO] info - REQUEST=======> 2017-2-17 15:43:21 [POST] /proxy/hospital/find_hospital，耗时:12ms
+[2017-02-17 15:43:22.667] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:43:22.667] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:43:22.668] [INFO] info - /proxy/doctor
+[2017-02-17 15:43:22.668] [INFO] info - undefined
+[2017-02-17 15:43:22.673] [INFO] info - REQUEST=======> 2017-2-17 15:43:22 [GET] /proxy/doctor?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:5ms
+[2017-02-17 15:43:22.680] [INFO] info - REQUEST=======> 2017-2-17 15:43:22 [POST] /proxy/hospital/find_hospital，耗时:13ms
+[2017-02-17 15:43:22.909] [INFO] info - /proxy/team
+[2017-02-17 15:43:22.909] [INFO] info - undefined
+[2017-02-17 15:43:22.914] [INFO] info - REQUEST=======> 2017-2-17 15:43:22 [GET] /proxy/team?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:5ms
+[2017-02-17 15:43:23.127] [INFO] info - /proxy/doctor
+[2017-02-17 15:43:23.128] [INFO] info - undefined
+[2017-02-17 15:43:23.137] [INFO] info - REQUEST=======> 2017-2-17 15:43:23 [GET] /proxy/doctor?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A5%7D，耗时:10ms
+[2017-02-17 15:43:32.387] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:43:32.388] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:43:32.402] [INFO] info - REQUEST=======> 2017-2-17 15:43:32 [POST] /proxy/hospital/find_hospital，耗时:15ms
+[2017-02-17 15:43:32.703] [INFO] info - /proxy/customer
+[2017-02-17 15:43:32.703] [INFO] info - undefined
+[2017-02-17 15:43:32.708] [INFO] info - REQUEST=======> 2017-2-17 15:43:32 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%2C%22like%22%3A%22%22%7D，耗时:5ms
+[2017-02-17 15:43:45.183] [INFO] info - /system/dictionaryType
+[2017-02-17 15:43:45.183] [INFO] info - undefined
+[2017-02-17 15:43:45.211] [INFO] info - REQUEST=======> 2017-2-17 15:43:45 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:28ms
+[2017-02-17 15:43:48.930] [INFO] info - /system/systemVariable
+[2017-02-17 15:43:48.931] [INFO] info - undefined
+[2017-02-17 15:43:48.936] [INFO] info - REQUEST=======> 2017-2-17 15:43:48 [GET] /system/systemVariable?pageNumber=1&pageSize=10，耗时:6ms
+[2017-02-17 15:43:53.545] [INFO] info - /system/role
+[2017-02-17 15:43:53.546] [INFO] info - undefined
+[2017-02-17 15:43:53.554] [INFO] info - REQUEST=======> 2017-2-17 15:43:53 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:9ms
+[2017-02-17 15:44:28.417] [INFO] info - /system/dictionaryType
+[2017-02-17 15:44:28.417] [INFO] info - undefined
+[2017-02-17 15:44:28.422] [INFO] info - REQUEST=======> 2017-2-17 15:44:28 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:5ms
+[2017-02-17 15:44:32.062] [INFO] info - /system/systemVariable
+[2017-02-17 15:44:32.062] [INFO] info - undefined
+[2017-02-17 15:44:32.068] [INFO] info - REQUEST=======> 2017-2-17 15:44:32 [GET] /system/systemVariable?pageNumber=1&pageSize=10，耗时:6ms
+[2017-02-17 15:45:07.886] [INFO] info - /system/dictionaryType
+[2017-02-17 15:45:07.886] [INFO] info - undefined
+[2017-02-17 15:45:07.899] [INFO] info - REQUEST=======> 2017-2-17 15:45:07 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:13ms
+[2017-02-17 15:45:09.477] [INFO] info - /system/menu/use/all
+[2017-02-17 15:45:09.477] [INFO] info - undefined
+[2017-02-17 15:45:09.479] [INFO] info - REQUEST=======> 2017-2-17 15:45:09 [GET] /system/menu/use/all，耗时:2ms
+[2017-02-17 15:46:18.075] [INFO] info - /system/dictionaryItem/use/all
+[2017-02-17 15:46:18.075] [INFO] info - undefined
+[2017-02-17 15:46:18.075] [INFO] info - REQUEST=======> 2017-2-17 15:46:18 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-02-17 15:46:18.092] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:46:18.092] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:46:18.107] [INFO] info - REQUEST=======> 2017-2-17 15:46:18 [POST] /proxy/hospital/find_hospital，耗时:15ms
+[2017-02-17 15:46:18.457] [INFO] info - /system/menu/use/all
+[2017-02-17 15:46:18.457] [INFO] info - undefined
+[2017-02-17 15:46:18.458] [INFO] info - REQUEST=======> 2017-2-17 15:46:18 [GET] /system/menu/use/all，耗时:1ms
+[2017-02-17 15:46:18.479] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:46:18.479] [INFO] info - undefined
+[2017-02-17 15:46:18.480] [INFO] info - REQUEST=======> 2017-2-17 15:46:18 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-02-17 15:46:18.979] [INFO] info - /system/menu/use/all
+[2017-02-17 15:46:18.979] [INFO] info - undefined
+[2017-02-17 15:46:18.980] [INFO] info - REQUEST=======> 2017-2-17 15:46:18 [GET] /system/menu/use/all，耗时:1ms
+[2017-02-17 15:47:07.580] [INFO] info - /system/dictionaryType
+[2017-02-17 15:47:07.580] [INFO] info - undefined
+[2017-02-17 15:47:07.584] [INFO] info - REQUEST=======> 2017-2-17 15:47:07 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
+[2017-02-17 15:47:08.645] [INFO] info - /system/systemVariable
+[2017-02-17 15:47:08.645] [INFO] info - undefined
+[2017-02-17 15:47:08.650] [INFO] info - REQUEST=======> 2017-2-17 15:47:08 [GET] /system/systemVariable?pageNumber=1&pageSize=10，耗时:5ms
+[2017-02-17 15:47:12.273] [INFO] info - /system/role
+[2017-02-17 15:47:12.273] [INFO] info - undefined
+[2017-02-17 15:47:12.278] [INFO] info - REQUEST=======> 2017-2-17 15:47:12 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:5ms
+[2017-02-17 15:47:18.884] [INFO] info - /system/dictionaryItem/use/all
+[2017-02-17 15:47:18.884] [INFO] info - undefined
+[2017-02-17 15:47:18.884] [INFO] info - REQUEST=======> 2017-2-17 15:47:18 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-02-17 15:47:18.906] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:47:18.906] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:47:18.919] [INFO] info - REQUEST=======> 2017-2-17 15:47:18 [POST] /proxy/hospital/find_hospital，耗时:13ms
+[2017-02-17 15:47:19.276] [INFO] info - /system/menu/use/all
+[2017-02-17 15:47:19.276] [INFO] info - undefined
+[2017-02-17 15:47:19.276] [INFO] info - REQUEST=======> 2017-2-17 15:47:19 [GET] /system/menu/use/all，耗时:0ms
+[2017-02-17 15:47:19.300] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:47:19.300] [INFO] info - undefined
+[2017-02-17 15:47:19.301] [INFO] info - REQUEST=======> 2017-2-17 15:47:19 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-02-17 15:47:20.488] [INFO] info - /system/role
+[2017-02-17 15:47:20.488] [INFO] info - undefined
+[2017-02-17 15:47:20.491] [INFO] info - REQUEST=======> 2017-2-17 15:47:20 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:3ms
+[2017-02-17 15:48:27.135] [INFO] info - /system/systemVariable
+[2017-02-17 15:48:27.135] [INFO] info - undefined
+[2017-02-17 15:48:27.143] [INFO] info - REQUEST=======> 2017-2-17 15:48:27 [GET] /system/systemVariable?pageNumber=1&pageSize=10，耗时:8ms
+[2017-02-17 15:48:27.732] [INFO] info - /system/dictionaryItem/use/all
+[2017-02-17 15:48:27.732] [INFO] info - undefined
+[2017-02-17 15:48:27.733] [INFO] info - REQUEST=======> 2017-2-17 15:48:27 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-02-17 15:48:28.049] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:48:28.049] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:48:28.061] [INFO] info - REQUEST=======> 2017-2-17 15:48:28 [POST] /proxy/hospital/find_hospital，耗时:12ms
+[2017-02-17 15:48:28.302] [INFO] info - /system/menu/use/all
+[2017-02-17 15:48:28.302] [INFO] info - undefined
+[2017-02-17 15:48:28.303] [INFO] info - REQUEST=======> 2017-2-17 15:48:28 [GET] /system/menu/use/all，耗时:1ms
+[2017-02-17 15:48:28.409] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:48:28.410] [INFO] info - undefined
+[2017-02-17 15:48:28.410] [INFO] info - REQUEST=======> 2017-2-17 15:48:28 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-02-17 15:48:28.534] [INFO] info - /system/systemVariable
+[2017-02-17 15:48:28.534] [INFO] info - undefined
+[2017-02-17 15:48:28.537] [INFO] info - REQUEST=======> 2017-2-17 15:48:28 [GET] /system/systemVariable?pageNumber=1&pageSize=10，耗时:3ms
+[2017-02-17 15:48:31.956] [INFO] info - /system/dictionaryItem/use/all
+[2017-02-17 15:48:31.956] [INFO] info - undefined
+[2017-02-17 15:48:31.957] [INFO] info - REQUEST=======> 2017-2-17 15:48:31 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-02-17 15:48:31.977] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:48:31.977] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:48:31.991] [INFO] info - REQUEST=======> 2017-2-17 15:48:31 [POST] /proxy/hospital/find_hospital，耗时:14ms
+[2017-02-17 15:48:32.037] [INFO] info - /system/menu/use/all
+[2017-02-17 15:48:32.037] [INFO] info - undefined
+[2017-02-17 15:48:32.037] [INFO] info - REQUEST=======> 2017-2-17 15:48:32 [GET] /system/menu/use/all，耗时:0ms
+[2017-02-17 15:48:32.353] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:48:32.354] [INFO] info - undefined
+[2017-02-17 15:48:32.355] [INFO] info - REQUEST=======> 2017-2-17 15:48:32 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-02-17 15:48:32.469] [INFO] info - /system/systemVariable
+[2017-02-17 15:48:32.469] [INFO] info - undefined
+[2017-02-17 15:48:32.474] [INFO] info - REQUEST=======> 2017-2-17 15:48:32 [GET] /system/systemVariable?pageNumber=1&pageSize=10，耗时:5ms
+[2017-02-17 15:49:10.041] [INFO] info - /system/dictionaryItem/use/all
+[2017-02-17 15:49:10.041] [INFO] info - undefined
+[2017-02-17 15:49:10.042] [INFO] info - REQUEST=======> 2017-2-17 15:49:10 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-02-17 15:49:10.364] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:49:10.364] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:49:10.377] [INFO] info - REQUEST=======> 2017-2-17 15:49:10 [POST] /proxy/hospital/find_hospital，耗时:13ms
+[2017-02-17 15:49:10.618] [INFO] info - /system/menu/use/all
+[2017-02-17 15:49:10.619] [INFO] info - undefined
+[2017-02-17 15:49:10.619] [INFO] info - REQUEST=======> 2017-2-17 15:49:10 [GET] /system/menu/use/all，耗时:1ms
+[2017-02-17 15:49:10.724] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:49:10.724] [INFO] info - undefined
+[2017-02-17 15:49:10.725] [INFO] info - REQUEST=======> 2017-2-17 15:49:10 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-02-17 15:49:10.850] [INFO] info - /system/systemVariable
+[2017-02-17 15:49:10.850] [INFO] info - undefined
+[2017-02-17 15:49:10.854] [INFO] info - REQUEST=======> 2017-2-17 15:49:10 [GET] /system/systemVariable?pageNumber=1&pageSize=10，耗时:4ms
+[2017-02-17 15:49:13.918] [INFO] info - /system/dictionaryType
+[2017-02-17 15:49:13.918] [INFO] info - undefined
+[2017-02-17 15:49:13.922] [INFO] info - REQUEST=======> 2017-2-17 15:49:13 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
+[2017-02-17 15:49:27.439] [INFO] info - /system/dictionaryItem/use/all
+[2017-02-17 15:49:27.439] [INFO] info - undefined
+[2017-02-17 15:49:27.440] [INFO] info - REQUEST=======> 2017-2-17 15:49:27 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-02-17 15:49:27.459] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:49:27.459] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:49:27.471] [INFO] info - REQUEST=======> 2017-2-17 15:49:27 [POST] /proxy/hospital/find_hospital，耗时:12ms
+[2017-02-17 15:49:27.512] [INFO] info - /system/menu/use/all
+[2017-02-17 15:49:27.513] [INFO] info - undefined
+[2017-02-17 15:49:27.513] [INFO] info - REQUEST=======> 2017-2-17 15:49:27 [GET] /system/menu/use/all，耗时:1ms
+[2017-02-17 15:49:27.830] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:49:27.830] [INFO] info - undefined
+[2017-02-17 15:49:27.830] [INFO] info - REQUEST=======> 2017-2-17 15:49:27 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-02-17 15:49:27.996] [INFO] info - /system/dictionaryType
+[2017-02-17 15:49:27.996] [INFO] info - undefined
+[2017-02-17 15:49:28.000] [INFO] info - REQUEST=======> 2017-2-17 15:49:27 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
+[2017-02-17 15:50:15.367] [INFO] info - /system/menu/use/all
+[2017-02-17 15:50:15.367] [INFO] info - undefined
+[2017-02-17 15:50:15.368] [INFO] info - REQUEST=======> 2017-2-17 15:50:15 [GET] /system/menu/use/all，耗时:1ms
+[2017-02-17 15:50:18.252] [INFO] info - /system/dictionaryItem/use/all
+[2017-02-17 15:50:18.252] [INFO] info - undefined
+[2017-02-17 15:50:18.253] [INFO] info - REQUEST=======> 2017-2-17 15:50:18 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-02-17 15:50:18.267] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:50:18.267] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:50:18.281] [INFO] info - REQUEST=======> 2017-2-17 15:50:18 [POST] /proxy/hospital/find_hospital，耗时:14ms
+[2017-02-17 15:50:18.324] [INFO] info - /system/menu/use/all
+[2017-02-17 15:50:18.324] [INFO] info - undefined
+[2017-02-17 15:50:18.325] [INFO] info - REQUEST=======> 2017-2-17 15:50:18 [GET] /system/menu/use/all，耗时:1ms
+[2017-02-17 15:50:18.361] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:50:18.361] [INFO] info - undefined
+[2017-02-17 15:50:18.361] [INFO] info - REQUEST=======> 2017-2-17 15:50:18 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-02-17 15:50:18.881] [INFO] info - /system/menu/use/all
+[2017-02-17 15:50:18.882] [INFO] info - undefined
+[2017-02-17 15:50:18.882] [INFO] info - REQUEST=======> 2017-2-17 15:50:18 [GET] /system/menu/use/all，耗时:1ms
+[2017-02-17 15:50:35.072] [INFO] info - /system/systemVariable
+[2017-02-17 15:50:35.072] [INFO] info - undefined
+[2017-02-17 15:50:35.076] [INFO] info - REQUEST=======> 2017-2-17 15:50:35 [GET] /system/systemVariable?pageNumber=1&pageSize=10，耗时:4ms
+[2017-02-17 15:51:45.300] [INFO] info - /system/dictionaryItem/use/all
+[2017-02-17 15:51:45.300] [INFO] info - undefined
+[2017-02-17 15:51:45.301] [INFO] info - REQUEST=======> 2017-2-17 15:51:45 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-02-17 15:51:45.617] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:51:45.617] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:51:45.629] [INFO] info - REQUEST=======> 2017-2-17 15:51:45 [POST] /proxy/hospital/find_hospital，耗时:12ms
+[2017-02-17 15:51:45.868] [INFO] info - /system/menu/use/all
+[2017-02-17 15:51:45.868] [INFO] info - undefined
+[2017-02-17 15:51:45.869] [INFO] info - REQUEST=======> 2017-2-17 15:51:45 [GET] /system/menu/use/all，耗时:1ms
+[2017-02-17 15:51:45.975] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:51:45.975] [INFO] info - undefined
+[2017-02-17 15:51:45.976] [INFO] info - REQUEST=======> 2017-2-17 15:51:45 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-02-17 15:51:46.103] [INFO] info - /system/systemVariable
+[2017-02-17 15:51:46.103] [INFO] info - undefined
+[2017-02-17 15:51:46.109] [INFO] info - REQUEST=======> 2017-2-17 15:51:46 [GET] /system/systemVariable?pageNumber=1&pageSize=10，耗时:6ms
+[2017-02-17 15:52:27.804] [INFO] info - /system/dictionaryItem/use/all
+[2017-02-17 15:52:27.804] [INFO] info - undefined
+[2017-02-17 15:52:27.805] [INFO] info - REQUEST=======> 2017-2-17 15:52:27 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-02-17 15:52:28.126] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:52:28.126] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:52:28.138] [INFO] info - REQUEST=======> 2017-2-17 15:52:28 [POST] /proxy/hospital/find_hospital，耗时:12ms
+[2017-02-17 15:52:28.377] [INFO] info - /system/menu/use/all
+[2017-02-17 15:52:28.377] [INFO] info - undefined
+[2017-02-17 15:52:28.378] [INFO] info - REQUEST=======> 2017-2-17 15:52:28 [GET] /system/menu/use/all，耗时:1ms
+[2017-02-17 15:52:28.488] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:52:28.488] [INFO] info - undefined
+[2017-02-17 15:52:28.489] [INFO] info - REQUEST=======> 2017-2-17 15:52:28 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-02-17 15:52:28.611] [INFO] info - /system/systemVariable
+[2017-02-17 15:52:28.611] [INFO] info - undefined
+[2017-02-17 15:52:28.618] [INFO] info - REQUEST=======> 2017-2-17 15:52:28 [GET] /system/systemVariable?pageNumber=1&pageSize=10，耗时:7ms
+[2017-02-17 15:52:31.351] [INFO] info - /manage/account
+[2017-02-17 15:52:31.351] [INFO] info - undefined
+[2017-02-17 15:52:31.355] [INFO] info - REQUEST=======> 2017-2-17 15:52:31 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-02-17 15:52:31.358] [INFO] info - /system/role
+[2017-02-17 15:52:31.358] [INFO] info - undefined
+[2017-02-17 15:52:31.360] [INFO] info - REQUEST=======> 2017-2-17 15:52:31 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:2ms
+[2017-02-17 15:53:22.309] [INFO] info - /system/dictionaryItem/use/all
+[2017-02-17 15:53:22.309] [INFO] info - undefined
+[2017-02-17 15:53:22.310] [INFO] info - REQUEST=======> 2017-2-17 15:53:22 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-02-17 15:53:22.327] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:53:22.327] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:53:22.339] [INFO] info - REQUEST=======> 2017-2-17 15:53:22 [POST] /proxy/hospital/find_hospital，耗时:12ms
+[2017-02-17 15:53:22.410] [INFO] info - /system/menu/use/all
+[2017-02-17 15:53:22.411] [INFO] info - undefined
+[2017-02-17 15:53:22.412] [INFO] info - REQUEST=======> 2017-2-17 15:53:22 [GET] /system/menu/use/all，耗时:2ms
+[2017-02-17 15:53:22.734] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:53:22.734] [INFO] info - undefined
+[2017-02-17 15:53:22.735] [INFO] info - REQUEST=======> 2017-2-17 15:53:22 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-02-17 15:53:22.898] [INFO] info - /manage/account
+[2017-02-17 15:53:22.899] [INFO] info - undefined
+[2017-02-17 15:53:22.901] [INFO] info - REQUEST=======> 2017-2-17 15:53:22 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:3ms
+[2017-02-17 15:53:22.988] [INFO] info - /system/role
+[2017-02-17 15:53:22.989] [INFO] info - undefined
+[2017-02-17 15:53:22.991] [INFO] info - REQUEST=======> 2017-2-17 15:53:22 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:3ms
+[2017-02-17 15:53:46.264] [INFO] info - /system/systemVariable
+[2017-02-17 15:53:46.264] [INFO] info - undefined
+[2017-02-17 15:53:46.272] [INFO] info - REQUEST=======> 2017-2-17 15:53:46 [GET] /system/systemVariable?pageNumber=1&pageSize=10，耗时:8ms
+[2017-02-17 15:53:55.723] [INFO] info - /system/dictionaryItem/use/all
+[2017-02-17 15:53:55.723] [INFO] info - undefined
+[2017-02-17 15:53:55.723] [INFO] info - REQUEST=======> 2017-2-17 15:53:55 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-02-17 15:53:55.739] [INFO] info - /proxy/hospital/find_hospital
+[2017-02-17 15:53:55.739] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-02-17 15:53:55.751] [INFO] info - REQUEST=======> 2017-2-17 15:53:55 [POST] /proxy/hospital/find_hospital，耗时:12ms
+[2017-02-17 15:53:56.101] [INFO] info - /system/menu/use/all
+[2017-02-17 15:53:56.101] [INFO] info - undefined
+[2017-02-17 15:53:56.101] [INFO] info - REQUEST=======> 2017-2-17 15:53:56 [GET] /system/menu/use/all，耗时:0ms
+[2017-02-17 15:53:56.123] [INFO] info - /manage/sign/currentUser
+[2017-02-17 15:53:56.123] [INFO] info - undefined
+[2017-02-17 15:53:56.124] [INFO] info - REQUEST=======> 2017-2-17 15:53:56 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-02-17 15:53:56.356] [INFO] info - /system/systemVariable
+[2017-02-17 15:53:56.356] [INFO] info - undefined
+[2017-02-17 15:53:56.358] [INFO] info - REQUEST=======> 2017-2-17 15:53:56 [GET] /system/systemVariable?pageNumber=1&pageSize=10，耗时:3ms
+[2017-02-17 15:54:00.006] [INFO] info - /system/menu/use/all
+[2017-02-17 15:54:00.006] [INFO] info - undefined
+[2017-02-17 15:54:00.006] [INFO] info - REQUEST=======> 2017-2-17 15:54:00 [GET] /system/menu/use/all，耗时:0ms
+[2017-02-17 15:54:03.276] [INFO] info - /manage/account
+[2017-02-17 15:54:03.276] [INFO] info - undefined
+[2017-02-17 15:54:03.280] [INFO] info - REQUEST=======> 2017-2-17 15:54:03 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-02-17 15:54:03.282] [INFO] info - /system/role
+[2017-02-17 15:54:03.282] [INFO] info - undefined
+[2017-02-17 15:54:03.285] [INFO] info - REQUEST=======> 2017-2-17 15:54:03 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:3ms

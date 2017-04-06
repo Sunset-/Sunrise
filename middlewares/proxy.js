@@ -1,6 +1,6 @@
 const lang = require('../common/lang');
 const logger = require('../components/logger');
-const request = require('request-promise');
+const request = require('request');
 const proxyConfig = require('../config/proxyConfig');
 
 const PREFIX = proxyConfig.prefix;
@@ -11,21 +11,27 @@ module.exports = app => {
         let path = ctx.path;
         if (~path.indexOf(PREFIX)) {
             let req = ctx.req;
-            let res = await request({
+            // let res = await request({
+            //     method: ctx.req.method,
+            //     uri: proxyConfig.target + ctx.req.url.substring(PL),
+            //     resolveWithFullResponse: true,
+            //     headers: ctx.req.headers,
+            //     form: ctx.request.body
+            // });
+            // ctx.set(res.headers);
+            // ctx.useOriginResponseBody = true;
+            // ctx.body = res.body;
+
+            // ctx.request.header['accept-encoding'] = 'deflate'; // 取消gzip压缩
+            // ctx.request.header['connection'] = 'close'; // 取消keep-alive
+            //ctx.request.header['proxy-connection'] = 'close'; // 代理
+            ctx.useOriginResponseBody = true;
+            ctx.body = request({
                 method: ctx.req.method,
-                uri: proxyConfig.target + ctx.req.url.substring(PL),
-                headers: {
-                    'Content-Type': ctx.req.headers['Content-Type']
-                },
+                uri: proxyConfig.target + ctx.req.url.substring(PL), 
+                headers: ctx.req.headers,
                 form: ctx.request.body
             });
-            ctx.useOriginResponseBody = true;
-            try {
-                res = JSON.parse(res);
-            } catch (e) {
-
-            }
-            ctx.body = res;
         } else {
             await next();
         }

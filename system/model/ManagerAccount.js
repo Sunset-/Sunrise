@@ -10,6 +10,11 @@ module.exports = (sequelize,DataTypes)=>{
             primaryKey : true,
             autoIncrement : true
         },
+        businessId : {
+            field : 'business_id_',
+            type : DataTypes.STRING(32),
+            allowNull : true
+        },
         account : {
             field : 'account_',
             type : DataTypes.STRING(32),

@@ -43,6 +43,7 @@ class DictionaryItemService extends BaseService {
                 }
                 let dest = await this.getModel().findOne({
                     where: {
+                        type,
                         orderField
                     },
                     order: `orderField ${arrow=='UP'?'DESC':'ASC'}`

@@ -1,0 +1,759 @@
+[2017-04-01 09:30:10.459] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-04-01 09:30:10.461] [ERROR] error - UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage2-manage-server\system\router\ManagerSignRouter.js:39:30)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:326:16
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:331:31)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+[2017-04-01 09:32:01.897] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-04-01 09:32:01.899] [ERROR] error - UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage2-manage-server\system\router\ManagerSignRouter.js:39:30)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:326:16
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:331:31)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+[2017-04-01 12:16:35.535] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'pipe\' of undefined' }
+[2017-04-01 12:16:35.537] [ERROR] error - TypeError: Cannot read property 'pipe' of undefined
+    at module.exports.app.use (d:\workspace\JS\git\peaimage2-manage-server\middlewares\proxy.js:25:21)
+[2017-04-01 12:16:35.940] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-04-01 12:16:35.941] [ERROR] error - UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage2-manage-server\system\router\ManagerSignRouter.js:39:30)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:326:16
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:331:31)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+[2017-04-01 12:16:40.907] [ERROR] error - { code: 500, message: '用户名密码错误' }
+[2017-04-01 12:16:40.907] [ERROR] error - InternalServerError: 用户名密码错误
+    at Object.throw (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage2-manage-server\system\router\ManagerSignRouter.js:30:30)
+[2017-04-01 12:17:00.283] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'pipe\' of undefined' }
+[2017-04-01 12:17:00.284] [ERROR] error - TypeError: Cannot read property 'pipe' of undefined
+    at module.exports.app.use (d:\workspace\JS\git\peaimage2-manage-server\middlewares\proxy.js:25:21)
+[2017-04-01 12:20:36.598] [ERROR] error - { code: 500, message: 'res is not defined' }
+[2017-04-01 12:20:36.600] [ERROR] error - ReferenceError: res is not defined
+    at module.exports.app.use (d:\workspace\JS\git\peaimage2-manage-server\middlewares\proxy.js:16:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at propagateAslWrapper (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\index.js:421:23)
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\glue.js:188:31
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\index.js:458:70
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-04-01 12:20:48.183] [ERROR] error - { code: 500, message: 'res is not defined' }
+[2017-04-01 12:20:48.183] [ERROR] error - ReferenceError: res is not defined
+    at module.exports.app.use (d:\workspace\JS\git\peaimage2-manage-server\middlewares\proxy.js:16:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at propagateAslWrapper (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\index.js:421:23)
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\glue.js:188:31
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\index.js:458:70
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-04-01 12:20:58.143] [ERROR] error - { code: 500, message: 'res is not defined' }
+[2017-04-01 12:20:58.143] [ERROR] error - ReferenceError: res is not defined
+    at module.exports.app.use (d:\workspace\JS\git\peaimage2-manage-server\middlewares\proxy.js:16:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at propagateAslWrapper (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\index.js:421:23)
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\glue.js:188:31
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\index.js:458:70
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-04-01 12:20:58.699] [ERROR] error - { code: 500, message: 'res is not defined' }
+[2017-04-01 12:20:58.699] [ERROR] error - ReferenceError: res is not defined
+    at module.exports.app.use (d:\workspace\JS\git\peaimage2-manage-server\middlewares\proxy.js:16:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at propagateAslWrapper (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\index.js:421:23)
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\glue.js:188:31
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\index.js:458:70
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-04-01 13:57:00.423] [ERROR] error - { code: 500, message: 'crx is not defined' }
+[2017-04-01 13:57:00.424] [ERROR] error - ReferenceError: crx is not defined
+    at module.exports.app.use (d:\workspace\JS\git\peaimage2-manage-server\middlewares\proxy.js:23:13)
+[2017-04-01 14:13:38.472] [ERROR] error - { code: 500, message: 'res is not defined' }
+[2017-04-01 14:13:38.473] [ERROR] error - ReferenceError: res is not defined
+    at app.use (d:\workspace\JS\git\peaimage2-manage-server\middlewares\proxy.js:27:21)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at propagateAslWrapper (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\index.js:421:23)
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\glue.js:188:31
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\index.js:458:70
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-04-01 15:42:27.191] [ERROR] error - { code: 500, message: '304 - ""' }
+[2017-04-01 15:42:27.192] [ERROR] error - { StatusCodeError: 304 - ""
+    at new StatusCodeError (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.1.1.1@request-promise-core\lib\errors.js:32:15)
+    at Request.plumbing.callback (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.1.1.1@request-promise-core\lib\plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.1.1.1@request-promise-core\lib\plumbing.js:46:31)
+    at Request.self.callback (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.79.0@request\request.js:186:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.79.0@request\request.js:1081:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.79.0@request\request.js:1001:12)
+    at IncomingMessage.g (events.js:292:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\glue.js:188:31
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'StatusCodeError',
+  statusCode: 304,
+  message: '304 - ""',
+  error: '',
+  options: 
+   { method: 'GET',
+     uri: 'http://192.168.0.148:40000/assets/img/doctor-default.png',
+     resolveWithFullResponse: true,
+     headers: 
+      { 'x-real-ip': '127.0.0.1',
+        'x-forwarded-host': 'localhost:20000',
+        'x-forwarded-server': 'localhost:20000',
+        'x-forwarded-for': '127.0.0.1',
+        'request-api-uri': '/service',
+        host: 'localhost:9090',
+        connection: 'close',
+        'if-modified-since': 'Wed, 15 Mar 2017 06:06:22 GMT',
+        'if-none-match': '"58c8d9de-1d47"',
+        cookie: 'yunsuo_session_verify=4661daa5261b4ef1676c1c9ad66c0bbd; PeaID=41A3740F47145CA5BD787089D01EC598; JSESSIONID=6903576290989092987; SUNRISESESSIONID=F3218A20169111E78DB959A5036B6981',
+        'accept-language': 'zh-CN,zh;q=0.8',
+        'accept-encoding': 'gzip, deflate, sdch, br',
+        referer: 'http://localhost:3002/',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+        'upgrade-insecure-requests': '1',
+        'cache-control': 'max-age=0' },
+     form: {},
+     callback: [Function: RP$callback],
+     transform: undefined,
+     simple: true,
+     transform2xxOnly: false },
+  response: 
+   IncomingMessage {
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: true,
+        endEmitted: true,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        close: [Object],
+        data: [Function],
+        error: [Function] },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        destroyed: true,
+        _bytesDispatched: 927,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Object],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1 },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        destroyed: true,
+        _bytesDispatched: 927,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Object],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1 },
+     httpVersionMajor: 1,
+     httpVersionMinor: 1,
+     httpVersion: '1.1',
+     complete: true,
+     headers: 
+      { server: 'nginx/1.9.5',
+        date: 'Sat, 01 Apr 2017 07:38:34 GMT',
+        'last-modified': 'Wed, 15 Mar 2017 06:06:22 GMT',
+        connection: 'close',
+        etag: '"58c8d9de-1d47"' },
+     rawHeaders: 
+      [ 'Server',
+        'nginx/1.9.5',
+        'Date',
+        'Sat, 01 Apr 2017 07:38:34 GMT',
+        'Last-Modified',
+        'Wed, 15 Mar 2017 06:06:22 GMT',
+        'Connection',
+        'close',
+        'ETag',
+        '"58c8d9de-1d47"' ],
+     trailers: {},
+     rawTrailers: [],
+     upgrade: false,
+     url: '',
+     method: null,
+     statusCode: 304,
+     statusMessage: 'Not Modified',
+     client: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        destroyed: true,
+        _bytesDispatched: 927,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Object],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1 },
+     _consuming: true,
+     _dumped: false,
+     req: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedHeader: [Object],
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /assets/img/doctor-default.png HTTP/1.1\r\nx-real-ip: 127.0.0.1\r\nx-forwarded-host: localhost:20000\r\nx-forwarded-server: localhost:20000\r\nx-forwarded-for: 127.0.0.1\r\nrequest-api-uri: /service\r\nhost: localhost:9090\r\nconnection: close\r\nif-modified-since: Wed, 15 Mar 2017 06:06:22 GMT\r\nif-none-match: "58c8d9de-1d47"\r\ncookie: yunsuo_session_verify=4661daa5261b4ef1676c1c9ad66c0bbd; PeaID=41A3740F47145CA5BD787089D01EC598; JSESSIONID=6903576290989092987; SUNRISESESSIONID=F3218A20169111E78DB959A5036B6981\r\naccept-language: zh-CN,zh;q=0.8\r\naccept-encoding: gzip, deflate, sdch, br\r\nreferer: http://localhost:3002/\r\naccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\r\nuser-agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36\r\nupgrade-insecure-requests: 1\r\ncache-control: max-age=0\r\ncontent-type: application/x-www-form-urlencoded\r\n\r\n',
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: null,
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/assets/img/doctor-default.png',
+        onSocket: [Function],
+        _ended: true,
+        parser: null,
+        res: [Circular] },
+     request: 
+      Request {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        method: 'GET',
+        uri: [Object],
+        resolveWithFullResponse: true,
+        headers: [Object],
+        readable: true,
+        writable: true,
+        explicitMethod: true,
+        _qs: [Object],
+        _auth: [Object],
+        _oauth: [Object],
+        _multipart: [Object],
+        _redirect: [Object],
+        _tunnel: [Object],
+        _rp_resolve: [Function],
+        _rp_reject: [Function],
+        _rp_promise: [Object],
+        _rp_callbackOrig: undefined,
+        callback: [Function],
+        _rp_options: [Object],
+        setHeader: [Function],
+        hasHeader: [Function],
+        getHeader: [Function],
+        removeHeader: [Function],
+        localAddress: undefined,
+        pool: {},
+        dests: [],
+        __isRequestRequest: true,
+        _callback: [Function: RP$callback],
+        proxy: null,
+        tunnel: false,
+        setHost: false,
+        originalCookieHeader: 'yunsuo_session_verify=4661daa5261b4ef1676c1c9ad66c0bbd; PeaID=41A3740F47145CA5BD787089D01EC598; JSESSIONID=6903576290989092987; SUNRISESESSIONID=F3218A20169111E78DB959A5036B6981',
+        _disableCookies: true,
+        _jar: undefined,
+        port: '40000',
+        host: '192.168.0.148',
+        body: '',
+        path: '/assets/img/doctor-default.png',
+        httpModule: [Object],
+        agentClass: [Object],
+        agent: [Object],
+        _started: true,
+        href: 'http://192.168.0.148:40000/assets/img/doctor-default.png',
+        req: [Object],
+        ntick: true,
+        response: [Circular],
+        originalHost: 'localhost:9090',
+        originalHostHeaderName: 'host',
+        responseContent: [Circular],
+        _ended: true,
+        _callbackCalled: true },
+     toJSON: [Function: responseToJSON],
+     caseless: Caseless { dict: [Object] },
+     read: [Function],
+     body: '' } }
+[2017-04-01 15:42:33.123] [ERROR] error - { code: 500,
+  message: '405 - "<html>\\r\\n<head><title>405 Not Allowed</title></head>\\r\\n<body bgcolor=\\"white\\">\\r\\n<center><h1>405 Not Allowed</h1></center>\\r\\n<hr><center>nginx/1.9.5</center>\\r\\n</body>\\r\\n</html>\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n"' }
+[2017-04-01 15:42:33.124] [ERROR] error - { StatusCodeError: 405 - "<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.9.5</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    at new StatusCodeError (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.1.1.1@request-promise-core\lib\errors.js:32:15)
+    at Request.plumbing.callback (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.1.1.1@request-promise-core\lib\plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.1.1.1@request-promise-core\lib\plumbing.js:46:31)
+    at Request.self.callback (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.79.0@request\request.js:186:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.79.0@request\request.js:1081:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.79.0@request\request.js:1001:12)
+    at IncomingMessage.g (events.js:292:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.0.6.3@async-listener\glue.js:188:31
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'StatusCodeError',
+  statusCode: 405,
+  message: '405 - "<html>\\r\\n<head><title>405 Not Allowed</title></head>\\r\\n<body bgcolor=\\"white\\">\\r\\n<center><h1>405 Not Allowed</h1></center>\\r\\n<hr><center>nginx/1.9.5</center>\\r\\n</body>\\r\\n</html>\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n"',
+  error: '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body bgcolor="white">\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.9.5</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n',
+  options: 
+   { method: 'POST',
+     uri: 'http://192.168.0.148:40000/assets/img/doctor-default.png',
+     resolveWithFullResponse: true,
+     headers: 
+      { 'x-real-ip': '127.0.0.1',
+        'x-forwarded-host': 'localhost:20000',
+        'x-forwarded-server': 'localhost:20000',
+        'x-forwarded-for': '127.0.0.1',
+        'request-api-uri': '/service',
+        host: 'localhost:9090',
+        connection: 'close',
+        'content-length': '43',
+        cookie: 'yunsuo_session_verify=4661daa5261b4ef1676c1c9ad66c0bbd; PeaID=41A3740F47145CA5BD787089D01EC598; JSESSIONID=6903576290989092987; SUNRISESESSIONID=F3218A20169111E78DB959A5036B6981',
+        'accept-language': 'zh-CN,zh;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        referer: 'http://localhost:3002/',
+        'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+        'x-requested-with': 'XMLHttpRequest',
+        origin: 'http://localhost:3002',
+        accept: '*/*' },
+     form: { pageNumber: '0', pageSize: '9999', parameter: '{}' },
+     callback: [Function: RP$callback],
+     transform: undefined,
+     simple: true,
+     transform2xxOnly: false },
+  response: 
+   IncomingMessage {
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: true,
+        endEmitted: true,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        close: [Object],
+        data: [Function],
+        error: [Function] },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        destroyed: true,
+        _bytesDispatched: 856,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Object],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1 },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        destroyed: true,
+        _bytesDispatched: 856,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Object],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1 },
+     httpVersionMajor: 1,
+     httpVersionMinor: 1,
+     httpVersion: '1.1',
+     complete: true,
+     headers: 
+      { server: 'nginx/1.9.5',
+        date: 'Sat, 01 Apr 2017 07:38:40 GMT',
+        'content-type': 'text/html; charset=utf-8',
+        'content-length': '574',
+        connection: 'close' },
+     rawHeaders: 
+      [ 'Server',
+        'nginx/1.9.5',
+        'Date',
+        'Sat, 01 Apr 2017 07:38:40 GMT',
+        'Content-Type',
+        'text/html; charset=utf-8',
+        'Content-Length',
+        '574',
+        'Connection',
+        'close' ],
+     trailers: {},
+     rawTrailers: [],
+     upgrade: false,
+     url: '',
+     method: null,
+     statusCode: 405,
+     statusMessage: 'Not Allowed',
+     client: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        destroyed: true,
+        _bytesDispatched: 856,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Object],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1 },
+     _consuming: true,
+     _dumped: false,
+     req: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: true,
+        sendDate: false,
+        _removedHeader: [Object],
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'POST /assets/img/doctor-default.png HTTP/1.1\r\nx-real-ip: 127.0.0.1\r\nx-forwarded-host: localhost:20000\r\nx-forwarded-server: localhost:20000\r\nx-forwarded-for: 127.0.0.1\r\nrequest-api-uri: /service\r\nhost: localhost:9090\r\nconnection: close\r\ncontent-length: 43\r\ncookie: yunsuo_session_verify=4661daa5261b4ef1676c1c9ad66c0bbd; PeaID=41A3740F47145CA5BD787089D01EC598; JSESSIONID=6903576290989092987; SUNRISESESSIONID=F3218A20169111E78DB959A5036B6981\r\naccept-language: zh-CN,zh;q=0.8\r\naccept-encoding: gzip, deflate, br\r\nreferer: http://localhost:3002/\r\ncontent-type: application/x-www-form-urlencoded; charset=UTF-8\r\nuser-agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36\r\nx-requested-with: XMLHttpRequest\r\norigin: http://localhost:3002\r\naccept: */*\r\n\r\n',
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: null,
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'POST',
+        path: '/assets/img/doctor-default.png',
+        onSocket: [Function],
+        _ended: true,
+        parser: null,
+        res: [Circular] },
+     request: 
+      Request {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        method: 'POST',
+        uri: [Object],
+        resolveWithFullResponse: true,
+        headers: [Object],
+        readable: true,
+        writable: true,
+        explicitMethod: true,
+        _qs: [Object],
+        _auth: [Object],
+        _oauth: [Object],
+        _multipart: [Object],
+        _redirect: [Object],
+        _tunnel: [Object],
+        _rp_resolve: [Function],
+        _rp_reject: [Function],
+        _rp_promise: [Object],
+        _rp_callbackOrig: undefined,
+        callback: [Function],
+        _rp_options: [Object],
+        setHeader: [Function],
+        hasHeader: [Function],
+        getHeader: [Function],
+        removeHeader: [Function],
+        localAddress: undefined,
+        pool: {},
+        dests: [],
+        __isRequestRequest: true,
+        _callback: [Function: RP$callback],
+        proxy: null,
+        tunnel: false,
+        setHost: false,
+        originalCookieHeader: 'yunsuo_session_verify=4661daa5261b4ef1676c1c9ad66c0bbd; PeaID=41A3740F47145CA5BD787089D01EC598; JSESSIONID=6903576290989092987; SUNRISESESSIONID=F3218A20169111E78DB959A5036B6981',
+        _disableCookies: true,
+        _jar: undefined,
+        port: '40000',
+        host: '192.168.0.148',
+        body: 'pageNumber=0&pageSize=9999&parameter=%7B%7D',
+        path: '/assets/img/doctor-default.png',
+        httpModule: [Object],
+        agentClass: [Object],
+        agent: [Object],
+        _started: true,
+        href: 'http://192.168.0.148:40000/assets/img/doctor-default.png',
+        req: [Object],
+        ntick: true,
+        response: [Circular],
+        originalHost: 'localhost:9090',
+        originalHostHeaderName: 'host',
+        responseContent: [Circular],
+        _destdata: true,
+        _ended: true,
+        _callbackCalled: true },
+     toJSON: [Function: responseToJSON],
+     caseless: Caseless { dict: [Object] },
+     read: [Function],
+     body: '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body bgcolor="white">\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.9.5</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n' } }
+[2017-04-01 16:32:09.563] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-04-01 16:32:09.565] [ERROR] error - UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.2.0.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage2-manage-server\system\router\ManagerSignRouter.js:39:30)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:326:16
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:331:31)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage2-manage-server\node_modules\.7.1.0@koa-router\lib\router.js:317:32)

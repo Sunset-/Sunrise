@@ -21,11 +21,17 @@ module.exports = {
                     }
                 });
                 if (accountModel) {
-                    let json = accountModel.toJSON();
-                    delete json.password;
+                    let accountInstance = accountModel.toJSON();
+                    delete accountInstance.password;
                     //权限
-                    json.permissions = await PermissionService.authPermissions(json.id);
-                    ctx.body = ctx.session.currentUser = json;
+                    accountInstance.permissions = await PermissionService.authPermissions(accountInstance.id);
+                    if (accountInstance.permissions) {
+                        var map = accountInstance.permissionMap = {};
+                        accountInstance.permissions.split(',').forEach(key => {
+                            map[key] = true;
+                        });
+                    }
+                    ctx.body = ctx.session.currentUser = accountInstance;
                 } else {
                     ctx.throw('用户名密码错误');
                 }
@@ -36,7 +42,7 @@ module.exports = {
                 if (ctx.session.currentUser) {
                     ctx.body = ctx.session.currentUser;
                 } else {
-                    ctx.throw('用户未登录',RESPONSE_STATUS.UNAUTHORIZED);
+                    ctx.throw('用户未登录', RESPONSE_STATUS.UNAUTHORIZED);
                 }
             }
         },
